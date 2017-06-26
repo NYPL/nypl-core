@@ -1,0 +1,38 @@
+code,id,rdf:type,skos:prefLabel,skos:altLabel,org:unitOf
+NYPL,0001,org:Organization,New York Public Library,,
+CUL,0002,org:Organization,Columbia University Libraries,,
+PUL,0003,org:Organization,Princeton University Library,,
+,1000,org:OrganizationalUnit,Stephen A. Schwarzman Building,,http://data.nypl.org/orgs/0001
+,1001,org:OrganizationalUnit,Schomburg Center for Research in Black Culture,,http://data.nypl.org/orgs/0001
+,1002,org:OrganizationalUnit,"New York Public Library for the Performing Arts, Dorothy and Lewis B. Cullman Center",,http://data.nypl.org/orgs/0001
+NYPLA,1100,org:OrganizationalUnit,New York Public Library Archives,NYPL Archives,http://data.nypl.org/orgs/1000
+GRD,1101,org:OrganizationalUnit,General Research Division,General Research Division,http://data.nypl.org/orgs/1000
+CPS,1102,org:OrganizationalUnit,Carl H. Pforzheimer Collection of Shelley and His Circle,Pforzheimer Collection,http://data.nypl.org/orgs/1000
+JWS,1103,org:OrganizationalUnit,Dorot Jewish Division,Dorot Jewish Division,http://data.nypl.org/orgs/1000
+BRG,1104,org:OrganizationalUnit,Henry W. and Albert A. Berg Collection of English and American Literature,Berg Collection,http://data.nypl.org/orgs/1000
+LHG,1105,org:OrganizationalUnit,"Irma and Paul Milstein Division of United States History, Local History and Genealogy",Milstein Division,http://data.nypl.org/orgs/1000
+MAP,1106,org:OrganizationalUnit,Lionel Pincus and Princess Firyal Map Division,Map Division,http://data.nypl.org/orgs/1000
+MSS,1107,org:OrganizationalUnit,Manuscripts and Archives Division,Manuscripts and Archives Division,http://data.nypl.org/orgs/1000
+RBK,1108,org:OrganizationalUnit,Rare Book Division,Rare Book Division,http://data.nypl.org/orgs/1000
+ARN,1109,org:OrganizationalUnit,George Arents Collection,George Arents Collection,"http://data.nypl.org/orgs/1000, http://data.nypl.org/orgs/1108"
+ART,1110,org:OrganizationalUnit,"The Miriam and Ira D. Wallach Division of Art, Prints and Photographs: Art & Architecture Collection",Wallach Division: Art & Architecture Collection,"http://data.nypl.org/orgs/1000, http://data.nypl.org/orgs/1130"
+PHG,1111,org:OrganizationalUnit,"The Miriam and Ira D. Wallach Division of Art, Prints and Photographs: Photography Collection",Wallach Division: Photography Collection,"http://data.nypl.org/orgs/1000, http://data.nypl.org/orgs/1130"
+PRN,1112,org:OrganizationalUnit,"The Miriam and Ira D. Wallach Division of Art, Prints and Photographs: Print Collection",Wallach Division: Print Collection,"http://data.nypl.org/orgs/1000, http://data.nypl.org/orgs/1130"
+SPN,1113,org:OrganizationalUnit,Spencer Collection,Spencer Collection,"http://data.nypl.org/orgs/1000, http://data.nypl.org/orgs/1130"
+SCR,1114,org:OrganizationalUnit,"Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division",Schomburg Jean Blackwell Hutson Research and Reference Division,http://data.nypl.org/orgs/1001
+SCF,1115,org:OrganizationalUnit,"Schomburg Center for Research in Black Culture, Art and Artifacts Division",Schomburg Art and Artifacts Division,http://data.nypl.org/orgs/1001
+SCM,1116,org:OrganizationalUnit,"Schomburg Center for Research in Black Culture, Manuscripts, Archives and Rare Books Division","Schomburg Manuscripts, Archives and Rare Books Division",http://data.nypl.org/orgs/1001
+SCL,1117,org:OrganizationalUnit,"Schomburg Center for Research in Black Culture, Moving Image and Recorded Sound Division",Schomburg Moving Image and Recorded Sound Division,http://data.nypl.org/orgs/1001
+SCG,1118,org:OrganizationalUnit,"Schomburg Center for Research in Black Culture, Photographs and Prints Division",Schomburg Photographs and Prints Division,http://data.nypl.org/orgs/1001
+THE,1119,org:OrganizationalUnit,Billy Rose Theatre Division,Billy Rose Theatre Division,http://data.nypl.org/orgs/1002
+TOFT,1120,org:OrganizationalUnit,Theatre on Film and Tape Archive,Theatre on Film and Tape Archive,http://data.nypl.org/orgs/1002
+DAN,1121,org:OrganizationalUnit,Jerome Robbins Dance Division,Jerome Robbins Dance Division,http://data.nypl.org/orgs/1002
+MUS,1123,org:OrganizationalUnit,Music Division,Music Division,http://data.nypl.org/orgs/1002
+RHA,1124,org:OrganizationalUnit,Rodgers and Hammerstein Archives of Recorded Sound,Rodgers and Hammerstein Archives of Recorded Sound,http://data.nypl.org/orgs/1002
+BG,1125,org:OrganizationalUnit,"Science, Industry and Business Library: General Collection ",SIBL: General collection,
+CHILDCTR,1126,org:OrganizationalUnit,Children's Center at 42nd St,Children's Center at 42nd St,http://data.nypl.org/orgs/1002
+EPE/CSW,1127,org:OrganizationalUnit,Dorothy and Lewis B. Cullman Center for Scholars & Writers,Dorothy and Lewis B. Cullman Center for Scholars & Writers,http://data.nypl.org/orgs/1002
+MMPC,1128,org:OrganizationalUnit,Art and Picture Collection,Art and Picture Collection,http://data.nypl.org/orgs/1500
+[HV],1129,org:OrganizationalUnit,Slavic and East European Collections,Slavic and East European Collections,
+,1130,org:OrganizationalUnit,"The Miriam and Ira D. Wallach Division of Art, Prints and Photographs",,http://data.nypl.org/orgs/1000
+,1500,org:OrganizationalUnit,Mid-Manhattan Library,,

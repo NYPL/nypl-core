@@ -1,0 +1,373 @@
+{
+  "@context": {
+    "nyplOrg": "http://data.nypl.org/orgs/",
+    "org": "http://www.w3.org/ns/org#",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@graph": [
+    {
+      "@id": "nyplOrg:1109",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": [
+        {
+          "@id": "nyplOrg:1108"
+        },
+        {
+          "@id": "nyplOrg:1000"
+        }
+      ],
+      "skos:altLabel": "George Arents Collection",
+      "skos:notation": "ARN",
+      "skos:prefLabel": "George Arents Collection"
+    },
+    {
+      "@id": "nyplOrg:0001",
+      "@type": "org:OrganizationalUnit",
+      "skos:notation": "NYPL",
+      "skos:prefLabel": "New York Public Library"
+    },
+    {
+      "@id": "nyplOrg:1500",
+      "@type": "org:OrganizationalUnit",
+      "skos:prefLabel": "Mid-Manhattan Library"
+    },
+    {
+      "@id": "nyplOrg:1105",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1000"
+      },
+      "skos:altLabel": "Milstein Division",
+      "skos:notation": "LHG",
+      "skos:prefLabel": "Irma and Paul Milstein Division of United States History, Local History and Genealogy"
+    },
+    {
+      "@id": "nyplOrg:1104",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1000"
+      },
+      "skos:altLabel": "Berg Collection",
+      "skos:notation": "BRG",
+      "skos:prefLabel": "Henry W. and Albert A. Berg Collection of English and American Literature"
+    },
+    {
+      "@id": "nyplOrg:1107",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1000"
+      },
+      "skos:altLabel": "Manuscripts and Archives Division",
+      "skos:notation": "MSS",
+      "skos:prefLabel": "Manuscripts and Archives Division"
+    },
+    {
+      "@id": "nyplOrg:1106",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1000"
+      },
+      "skos:altLabel": "Map Division",
+      "skos:notation": "MAP",
+      "skos:prefLabel": "Lionel Pincus and Princess Firyal Map Division"
+    },
+    {
+      "@id": "nyplOrg:1101",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1000"
+      },
+      "skos:altLabel": "General Research Division",
+      "skos:notation": "GRD",
+      "skos:prefLabel": "General Research Division"
+    },
+    {
+      "@id": "nyplOrg:1100",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1000"
+      },
+      "skos:altLabel": "NYPL Archives",
+      "skos:notation": "NYPLA",
+      "skos:prefLabel": "New York Public Library Archives"
+    },
+    {
+      "@id": "nyplOrg:1103",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1000"
+      },
+      "skos:altLabel": "Dorot Jewish Division",
+      "skos:notation": "JWS",
+      "skos:prefLabel": "Dorot Jewish Division"
+    },
+    {
+      "@id": "nyplOrg:1102",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1000"
+      },
+      "skos:altLabel": "Pforzheimer Collection",
+      "skos:notation": "CPS",
+      "skos:prefLabel": "Carl H. Pforzheimer Collection of Shelley and His Circle"
+    },
+    {
+      "@id": "nyplOrg:1127",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1002"
+      },
+      "skos:altLabel": "Dorothy and Lewis B. Cullman Center for Scholars & Writers",
+      "skos:notation": "EPE/CSW",
+      "skos:prefLabel": "Dorothy and Lewis B. Cullman Center for Scholars & Writers"
+    },
+    {
+      "@id": "nyplOrg:1126",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1002"
+      },
+      "skos:altLabel": "Children's Center at 42nd St",
+      "skos:notation": "CHILDCTR",
+      "skos:prefLabel": "Children's Center at 42nd St"
+    },
+    {
+      "@id": "nyplOrg:1125",
+      "@type": "org:OrganizationalUnit",
+      "skos:altLabel": "SIBL: General collection",
+      "skos:notation": "BG",
+      "skos:prefLabel": "Science, Industry and Business Library: General Collection "
+    },
+    {
+      "@id": "nyplOrg:1124",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1002"
+      },
+      "skos:altLabel": "Rodgers and Hammerstein Archives of Recorded Sound",
+      "skos:notation": "RHA",
+      "skos:prefLabel": "Rodgers and Hammerstein Archives of Recorded Sound"
+    },
+    {
+      "@id": "nyplOrg:1123",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1002"
+      },
+      "skos:altLabel": "Music Division",
+      "skos:notation": "MUS",
+      "skos:prefLabel": "Music Division"
+    },
+    {
+      "@id": "nyplOrg:1001",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:prefLabel": "Schomburg Center for Research in Black Culture"
+    },
+    {
+      "@id": "nyplOrg:1121",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1002"
+      },
+      "skos:altLabel": "Jerome Robbins Dance Division",
+      "skos:notation": "DAN",
+      "skos:prefLabel": "Jerome Robbins Dance Division"
+    },
+    {
+      "@id": "nyplOrg:1120",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1002"
+      },
+      "skos:altLabel": "Theatre on Film and Tape Archive",
+      "skos:notation": "TOFT",
+      "skos:prefLabel": "Theatre on Film and Tape Archive"
+    },
+    {
+      "@id": "nyplOrg:0003",
+      "@type": "org:OrganizationalUnit",
+      "skos:notation": "PUL",
+      "skos:prefLabel": "Princeton University Library"
+    },
+    {
+      "@id": "nyplOrg:0002",
+      "@type": "org:OrganizationalUnit",
+      "skos:notation": "CUL",
+      "skos:prefLabel": "Columbia University Libraries"
+    },
+    {
+      "@id": "nyplOrg:1129",
+      "@type": "org:OrganizationalUnit",
+      "skos:altLabel": "Slavic and East European Collections",
+      "skos:notation": "[HV]",
+      "skos:prefLabel": "Slavic and East European Collections"
+    },
+    {
+      "@id": "nyplOrg:1128",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1500"
+      },
+      "skos:altLabel": "Art and Picture Collection",
+      "skos:notation": "MMPC",
+      "skos:prefLabel": "Art and Picture Collection"
+    },
+    {
+      "@id": "nyplOrg:1000",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:prefLabel": "Stephen A. Schwarzman Building"
+    },
+    {
+      "@id": "nyplOrg:1130",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1000"
+      },
+      "skos:prefLabel": "The Miriam and Ira D. Wallach Division of Art, Prints and Photographs"
+    },
+    {
+      "@id": "nyplOrg:1117",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1001"
+      },
+      "skos:altLabel": "Schomburg Moving Image and Recorded Sound Division",
+      "skos:notation": "SCL",
+      "skos:prefLabel": "Schomburg Center for Research in Black Culture, Moving Image and Recorded Sound Division"
+    },
+    {
+      "@id": "nyplOrg:1112",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": [
+        {
+          "@id": "nyplOrg:1130"
+        },
+        {
+          "@id": "nyplOrg:1000"
+        }
+      ],
+      "skos:altLabel": "Wallach Division: Print Collection",
+      "skos:notation": "PRN",
+      "skos:prefLabel": "The Miriam and Ira D. Wallach Division of Art, Prints and Photographs: Print Collection"
+    },
+    {
+      "@id": "nyplOrg:1113",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": [
+        {
+          "@id": "nyplOrg:1130"
+        },
+        {
+          "@id": "nyplOrg:1000"
+        }
+      ],
+      "skos:altLabel": "Spencer Collection",
+      "skos:notation": "SPN",
+      "skos:prefLabel": "Spencer Collection"
+    },
+    {
+      "@id": "nyplOrg:1110",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": [
+        {
+          "@id": "nyplOrg:1130"
+        },
+        {
+          "@id": "nyplOrg:1000"
+        }
+      ],
+      "skos:altLabel": "Wallach Division: Art & Architecture Collection",
+      "skos:notation": "ART",
+      "skos:prefLabel": "The Miriam and Ira D. Wallach Division of Art, Prints and Photographs: Art & Architecture Collection"
+    },
+    {
+      "@id": "nyplOrg:1111",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": [
+        {
+          "@id": "nyplOrg:1130"
+        },
+        {
+          "@id": "nyplOrg:1000"
+        }
+      ],
+      "skos:altLabel": "Wallach Division: Photography Collection",
+      "skos:notation": "PHG",
+      "skos:prefLabel": "The Miriam and Ira D. Wallach Division of Art, Prints and Photographs: Photography Collection"
+    },
+    {
+      "@id": "nyplOrg:1116",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1001"
+      },
+      "skos:altLabel": "Schomburg Manuscripts, Archives and Rare Books Division",
+      "skos:notation": "SCM",
+      "skos:prefLabel": "Schomburg Center for Research in Black Culture, Manuscripts, Archives and Rare Books Division"
+    },
+    {
+      "@id": "nyplOrg:1002",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:prefLabel": "New York Public Library for the Performing Arts, Dorothy and Lewis B. Cullman Center"
+    },
+    {
+      "@id": "nyplOrg:1114",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1001"
+      },
+      "skos:altLabel": "Schomburg Jean Blackwell Hutson Research and Reference Division",
+      "skos:notation": "SCR",
+      "skos:prefLabel": "Schomburg Center for Research in Black Culture, Jean Blackwell Hutson Research and Reference Division"
+    },
+    {
+      "@id": "nyplOrg:1115",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1001"
+      },
+      "skos:altLabel": "Schomburg Art and Artifacts Division",
+      "skos:notation": "SCF",
+      "skos:prefLabel": "Schomburg Center for Research in Black Culture, Art and Artifacts Division"
+    },
+    {
+      "@id": "nyplOrg:1118",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1001"
+      },
+      "skos:altLabel": "Schomburg Photographs and Prints Division",
+      "skos:notation": "SCG",
+      "skos:prefLabel": "Schomburg Center for Research in Black Culture, Photographs and Prints Division"
+    },
+    {
+      "@id": "nyplOrg:1119",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1002"
+      },
+      "skos:altLabel": "Billy Rose Theatre Division",
+      "skos:notation": "THE",
+      "skos:prefLabel": "Billy Rose Theatre Division"
+    },
+    {
+      "@id": "nyplOrg:1108",
+      "@type": "org:OrganizationalUnit",
+      "org:unitOf": {
+        "@id": "nyplOrg:1000"
+      },
+      "skos:altLabel": "Rare Book Division",
+      "skos:notation": "RBK",
+      "skos:prefLabel": "Rare Book Division"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "nypl": "http://data.nypl.org/nypl-core/",
+    "nyplAccessMessage": "http://data.nypl.org/accessMessages/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@graph": [
+    {
+      "@id": "nyplAccessMessage:o",
+      "@type": "nypl:Location",
+      "nypl:locationType": [
+        "Branch",
+        "Research"
+      ],
+      "skos:notation": "o",
+      "skos:prefLabel": "OVERSIZE"
+    },
+    {
+      "@id": "nyplAccessMessage:-",
+      "@type": "nypl:Location",
+      "nypl:locationType": [
+        "Branch",
+        "Research"
+      ],
+      "skos:notation": "-",
+      "skos:prefLabel": "NO RESTRICTIONS"
+    },
+    {
+      "@id": "nyplAccessMessage:a",
+      "@type": "nypl:Location",
+      "nypl:locationType": "Research",
+      "skos:notation": "a",
+      "skos:prefLabel": "BY APPT ONLY"
+    },
+    {
+      "@id": "nyplAccessMessage:2",
+      "@type": "nypl:Location",
+      "nypl:locationType": "Research",
+      "skos:notation": "2",
+      "skos:prefLabel": "ADV REQUEST"
+    },
+    {
+      "@id": "nyplAccessMessage:1",
+      "@type": "nypl:Location",
+      "nypl:locationType": [
+        "Research",
+        "Branch"
+      ],
+      "skos:notation": "1",
+      "skos:prefLabel": "USE IN LIBRARY"
+    },
+    {
+      "@id": "nyplAccessMessage:p",
+      "@type": "nypl:Location",
+      "nypl:locationType": "Research",
+      "skos:notation": "p",
+      "skos:prefLabel": "PERMIT NEEDED"
+    },
+    {
+      "@id": "nyplAccessMessage:u",
+      "@type": "nypl:Location",
+      "nypl:locationType": "Research",
+      "skos:notation": "u",
+      "skos:prefLabel": "SUPERVISED USE"
+    },
+    {
+      "@id": "nyplAccessMessage:4",
+      "@type": "nypl:Location",
+      "nypl:locationType": "Research",
+      "skos:notation": "4",
+      "skos:prefLabel": "RESTRICTED USE"
+    }
+  ]
+}

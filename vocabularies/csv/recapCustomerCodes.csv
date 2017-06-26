@@ -1,0 +1,122 @@
+id,skos:notation,skos:prefLabel,nypl:deliverableTo,nypl:owner
+NA,NA,NA,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,0001
+NB,NB,SIBL,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,0001
+NC,NC,LSC BookOps Cataloging,,0001
+ND,ND,SASB Map Division,ND,0001
+NE,NE,ILL,,0001
+NF,NF,SASB Microforms,,0001
+NG,NG,SASB Art Division,,0001
+NH,NH,SASB Rose Main Reading Room,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,0001
+NI,NI,LSC Special Formats Processing,,0001
+NJ,NJ,SASB Jewish Division,,0001
+NK,NK,BKOPS Barcoding/Special Projects,,0001
+NL,NL,SASB Restricted,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,0001
+NM,NM,SASB Milstein Division,,0001
+NN,NN,LPA Reserve Film and Video,NP,0001
+NO,NO,SASB Manuscripts and Archives,NO,0001
+NP,NP,LPA,NP,0001
+NQ,NQ,SASB Restricted,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,0001
+NR,NR,SASB Rare Book Division,,0001
+NS,NS,Schomburg Center MARBI,,0001
+NT,NT,Photo Services and Permissions,,0001
+NU,NU,LBL Restricted,,0001
+NV,NV,LPA TOFT,NP,0001
+NW,NW,Donnell Children's Room,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,0001
+NX,NX,Preservation,,0001
+NY,NY,LSC ARCHV,,0001
+NZ,NZ,SASB Pforzheimer,,0001
+SA,SA,Schomburg Art & Artifacts,,0001
+SM,SM,Schomburg MIRS,,0001
+SP,SP,Schomburg Prints & Photographs,,0001
+SR,SR,Schomburg General Research,,0001
+GN,GN,Government Documents,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,0001
+ID,ID,NYPL Interlibrary Loan,,0001
+JN,JN,JSTOR Standard,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,0001
+JO,JO,JSTOR Restricted,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,0001
+GO,GO,Google Project,,0001
+JS,JS,SIBL De-duping candidates,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,0001
+OA,OA,SASB Allen Room*,,0001
+OC,OC,SASB Cullman Center*,,0001
+ON,ON,SASB Noma Scholar Room*,,0001
+OW,OW,SASB Wertheim Study*,,0001
+AC,AC,Avery Cold Vault,,0002
+AD,AD,Avery Drawings & Archives,,0002
+AR,AR,Avery Library,NH,0002
+AV,AV,Avery Classics,,0002
+BC,BC,Bibliographic Control Division,,0002
+BL,BL,Barnard Library,,0002
+BR,BR,BR,,0002
+BS,BS,Business/Econ Library,,0002
+BT,BT,Butler Preservation,,0002
+BU,BU,Butler Library,,0002
+BZ,BZ,Preservation Project,,0002
+CA,CA,Science & Engineering Lib (NWC),,0002
+CF,CF,Cold Storage Film,,0002
+CH,CH,CH,,0002
+CI,CI,Interlibary Loan,,0002
+CJ,CJ,Journalism Library,,0002
+CM,CM,Master Microfilm,,0002
+CP,CP,CP,,0002
+CR,CR,CR,NH,0002
+CS,CS,Shipping & Receiving,,0002
+CU,CU,CU,NH,0002
+CV,CV,Butler Media Collection,,0002
+EA,EA,EA,,0002
+EN,EN,EN,,0002
+EV,EV,EV,NH,0002
+GC,GC,GC,NH,0002
+GE,GE,Geology Library,,0002
+GS,GS,Geoscience Library ,,0002
+HR,HR,HR,,0002
+HS,HS,Health Sciences Library,NH,0002
+HX,HX,HX,,0002
+JC,JC,JC,,0002
+JD,JD,JD,,0002
+LD,LD,LD,,0002
+LE,LE,Lehman Library,,0002
+ML,ML,Mathematics Library,,0002
+MP,MP,Monographic Processing,,0002
+MR,MR,Music & Arts Library,NP,0002
+MZ,MZ,ReCAP Coordinator,,0002
+OH,OH,Oral History,,0002
+RH,RH,Human Rights Watch,,0002
+RS,RS,Rare Books & Manuscripts,,0002
+SW,SW,Social Work Library,,0002
+UA,UA,UA,,0002
+UT,UT,Burke Library (UTS),,0002
+CD,CD,CD,,0002
+CL,CL,CL,,0002
+CX,CX,CX,,0002
+JL,JL,JL,,0002
+JM,JM,JM,,0002
+PA,PA,Firestone LIbrary,NH,0003
+PB,PB,Firestone Library Use Only,,0003
+PE,PE,Princeton Dark Storage,,0003
+PF,PF,"Firestone Library, Microforms",NF,0003
+PG,PG,Rare Books,,0003
+PH,PH,Mudd Manuscript Library,,0003
+PJ,PJ,Marquand Library,,0003
+PK,PK,Mendel Music Library,,0003
+PL,PL,East Asian Library,,0003
+PM,PM,Stokes Library,,0003
+PN,PN,Lewis Library,,0003
+PQ,PQ,Plasma Physics Library,,0003
+PS,PS,Lewis Library Rare,,0003
+PT,PT,Engineering Library,,0003
+PV,PV,PV,,0003
+PW,PW,Architecture Library,,0003
+PZ,PZ,Marquand Library Rare,,0003
+QA,QA,Firestone Library Resource Sharing (Staff only),,0003
+QB,QB,QB,,0003
+QC,QC,"Technical Services, Holdings Management (staff only)",,0003
+QD,QD,QD,,0003
+QK,QK,QK,NP,0003
+QL,QL,QL,,0003
+QN,QN,QN,,0003
+QP,QP,Preservation,,0003
+QT,QT,Technical Services. 693 (Staff Only),,0003
+QV,QV,QV,,0003
+GP,GP,GP,NH,0003
+JP,JP,JP,,0003
+JQ,JQ,Princeton Dark Storage,,0003
+QX,QX,Firestone Library. Shared,,0003

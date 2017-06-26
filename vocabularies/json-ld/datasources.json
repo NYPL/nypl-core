@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "nyplOrg": "http://data.nypl.org/orgs/",
+    "resourceType": "http://id.loc.gov/vocabulary/resourceTypes",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@graph": [
+    {
+      "@id": "data:10000",
+      "@type": "resourceType:dat",
+      "skos:prefLabel": "Shadowcat"
+    },
+    {
+      "@id": "data:10001",
+      "@type": "resourceType:dat",
+      "skos:prefLabel": "Archives Portal"
+    },
+    {
+      "@id": "data:10002",
+      "@type": "resourceType:dat",
+      "skos:prefLabel": "MMS"
+    },
+    {
+      "@id": "data:10003",
+      "@type": "resourceType:dat",
+      "skos:prefLabel": "TMS"
+    },
+    {
+      "@id": "data:10004",
+      "@type": "resourceType:dat",
+      "skos:prefLabel": "Sierra"
+    },
+    {
+      "@id": "data:10005",
+      "@type": "resourceType:dat",
+      "skos:prefLabel": "Recap"
+    }
+  ]
+}

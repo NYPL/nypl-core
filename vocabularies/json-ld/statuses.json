@@ -1,0 +1,183 @@
+{
+  "@context": {
+    "nypl": "http://data.nypl.org/nypl-core/",
+    "nyplStatus": "http://data.nypl.org/statuses/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@graph": [
+    {
+      "@id": "nyplStatus:c",
+      "@type": "nypl:Status",
+      "skos:notation": "c",
+      "skos:prefLabel": "Closed branch"
+    },
+    {
+      "@id": "nyplStatus:b",
+      "@type": "nypl:Status",
+      "skos:notation": "b",
+      "skos:prefLabel": "New-in process"
+    },
+    {
+      "@id": "nyplStatus:a",
+      "@type": "nypl:Status",
+      "skos:notation": "-",
+      "skos:prefLabel": "Available"
+    },
+    {
+      "@id": "nyplStatus:g",
+      "@type": "nypl:Status",
+      "skos:notation": "g",
+      "skos:prefLabel": "Storage"
+    },
+    {
+      "@id": "nyplStatus:f",
+      "@type": "nypl:Status",
+      "skos:notation": "f",
+      "skos:prefLabel": "Being filmed"
+    },
+    {
+      "@id": "nyplStatus:e",
+      "@type": "nypl:Status",
+      "skos:notation": "e",
+      "skos:prefLabel": "On exhibit"
+    },
+    {
+      "@id": "nyplStatus:d",
+      "@type": "nypl:Status",
+      "skos:notation": "d",
+      "skos:prefLabel": "Damaged"
+    },
+    {
+      "@id": "nyplStatus:k",
+      "@type": "nypl:Status",
+      "skos:notation": "k",
+      "skos:prefLabel": "Check with staff"
+    },
+    {
+      "@id": "nyplStatus:j",
+      "@type": "nypl:Status",
+      "skos:notation": "j",
+      "skos:prefLabel": "Overflow"
+    },
+    {
+      "@id": "nyplStatus:i",
+      "@type": "nypl:Status",
+      "skos:notation": "i",
+      "skos:prefLabel": "At bindery"
+    },
+    {
+      "@id": "nyplStatus:h",
+      "@type": "nypl:Status",
+      "skos:notation": "h",
+      "skos:prefLabel": "Phone request"
+    },
+    {
+      "@id": "nyplStatus:o",
+      "@type": "nypl:Status",
+      "skos:notation": "o",
+      "skos:prefLabel": "Use in library"
+    },
+    {
+      "@id": "nyplStatus:n",
+      "@type": "nypl:Status",
+      "skos:notation": "n",
+      "skos:prefLabel": "Billed "
+    },
+    {
+      "@id": "nyplStatus:m",
+      "@type": "nypl:Status",
+      "skos:notation": "m",
+      "skos:prefLabel": "Missing"
+    },
+    {
+      "@id": "nyplStatus:l",
+      "@type": "nypl:Status",
+      "skos:notation": "l",
+      "skos:prefLabel": "Lost in inventory"
+    },
+    {
+      "@id": "nyplStatus:s",
+      "@type": "nypl:Status",
+      "skos:notation": "~",
+      "skos:prefLabel": "Staff use"
+    },
+    {
+      "@id": "nyplStatus:r",
+      "@type": "nypl:Status",
+      "skos:notation": "r",
+      "skos:prefLabel": "Loaned (ReCAP)"
+    },
+    {
+      "@id": "nyplStatus:p",
+      "@type": "nypl:Status",
+      "skos:notation": "p",
+      "skos:prefLabel": "Noncirculating"
+    },
+    {
+      "@id": "nyplStatus:w",
+      "@type": "nypl:Status",
+      "skos:notation": "w",
+      "skos:prefLabel": "Withdrawn"
+    },
+    {
+      "@id": "nyplStatus:v",
+      "@type": "nypl:Status",
+      "skos:notation": "v",
+      "skos:prefLabel": "Preservation"
+    },
+    {
+      "@id": "nyplStatus:u",
+      "@type": "nypl:Status",
+      "skos:notation": "u",
+      "skos:prefLabel": "Temporarily unavailable"
+    },
+    {
+      "@id": "nyplStatus:t",
+      "@type": "nypl:Status",
+      "skos:notation": "t",
+      "skos:prefLabel": "In transit"
+    },
+    {
+      "@id": "nyplStatus:z",
+      "@type": "nypl:Status",
+      "skos:notation": "z",
+      "skos:prefLabel": "Disputed Item"
+    },
+    {
+      "@id": "nyplStatus:na",
+      "@type": "nypl:Status",
+      "skos:notation": "na",
+      "skos:prefLabel": "Not available (ReCAP)"
+    },
+    {
+      "@id": "nyplStatus:lp",
+      "@type": "nypl:Status",
+      "skos:notation": "$",
+      "skos:prefLabel": "Lost and paid"
+    },
+    {
+      "@id": "nyplStatus:co",
+      "@type": "nypl:Status",
+      "skos:notation": "-",
+      "skos:prefLabel": "Loaned"
+    },
+    {
+      "@id": "nyplStatus:oh",
+      "@type": "nypl:Status",
+      "skos:notation": "!",
+      "skos:prefLabel": "On Holdshelf"
+    },
+    {
+      "@id": "nyplStatus:il",
+      "@type": "nypl:Status",
+      "skos:notation": "%",
+      "skos:prefLabel": "ILL returned"
+    },
+    {
+      "@id": "nyplStatus:mt",
+      "@type": "nypl:Status",
+      "skos:notation": "?",
+      "skos:prefLabel": "Missing in transit"
+    }
+  ]
+}

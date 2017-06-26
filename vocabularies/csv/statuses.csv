@@ -1,0 +1,30 @@
+id,skos:notation,skos:prefLabel
+a,-,Available 
+oh,!,On Holdshelf
+mt,?,Missing in transit
+il,%,ILL returned
+s,~,Staff use
+lp,$,Lost and paid
+b,b,New-in process
+c,c,Closed branch
+d,d,Damaged
+e,e,On exhibit
+f,f,Being filmed
+g,g,Storage
+h,h,Phone request
+i,i,At bindery
+j,j,Overflow
+k,k,Check with staff
+l,l,Lost in inventory
+m,m,Missing
+co,-,Loaned
+n,n,Billed 
+o,o,Use in library
+p,p,Noncirculating
+t,t,In transit
+u,u,Temporarily unavailable
+v,v,Preservation
+w,w,Withdrawn
+z,z,Disputed Item
+na,na,Not available (ReCAP)
+r,r,Loaned (ReCAP)

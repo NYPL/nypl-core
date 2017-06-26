@@ -1,0 +1,9 @@
+skos:notation,skos:prefLabel,nypl:locationType
+1,USE IN LIBRARY,Research;Branch
+2,ADV REQUEST,Research
+4,RESTRICTED USE,Research
+o,OVERSIZE,Research;Branch
+a,BY APPT ONLY,Research
+p,PERMIT NEEDED,Research
+u,SUPERVISED USE,Research
+-,NO RESTRICTIONS,Research;Branch
