@@ -1,0 +1,12 @@
+**Partner-owned record suppression (or deletion from Discvoery)**
+If a partner-owned item's collection group designation (aka CGD, found in 900$a) changes from Shared or Open to Private, or if the item's customer code changes to a code without NYPL delivery locations assigned, the item is not available to NYPL and should be suppressed or deleted from Discovery. 
+
+**TBD: implementation of this logic in Discovery may not be for MVP; ReCAP may offer a separate suppression/deletion flag.**
+
+A full rundown of partner-owned record suppression logic will be moved to this file once finalized.
+
+In the meantime, please see the following working doc for an in-progress draft (also contains NYPL bib/item suppression logic): 
+https://docs.google.com/document/d/1iswn3DSe96Hy5cw8Sauql9OB88r6OUoBFzRsdx34Xb0/edit
+
+The above doc is also linked to this JIRA ticket (also contains NYPL bib/item mapping):
+https://jira.nypl.org/browse/DIS-57
