@@ -1,5 +1,5 @@
-**Partner-owned record suppression (or deletion from Discvoery)**
-If a partner-owned item's collection group designation (aka CGD) changes from Shared or Open to Private, the item is not available to NYPL and should be suppressed or deleted from Discovery.
+**Partner-owned record suppression (or deletion from Discovery):**
+Currently, Discovery is only ingesting/indexing Shared and Open partner-owned items. If a partner-owned item's collection group designation (aka CGD) changes from Shared or Open to Private, the item is not available to NYPL and should be suppressed or deleted from Discovery.
 
 Collection group designation is recorded in MARCXML field 876$x or SCSBXML field 900$a. SCSB can export either of these schemas -- see [https://htcrecap.atlassian.net/wiki/pages/viewpage.action?pageId=18939906].
 
