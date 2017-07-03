@@ -7,7 +7,7 @@ Collection group designation is recorded in MARCXML field 876$x or SCSBXML field
 **TBD: implementation of this logic in Discovery may not be for MVP; ReCAP may offer a separate suppression/deletion flag.**
 
 Once finalized, **Partner-owned** record suppression logic will be documented in this file (partnerBibAndItemSuppression.md).
-**NYPL-owned** record suppression logic will be documented in [nyplBibAndItemSuppression] (../nyplBibAndItemSuppression.md)
+**NYPL-owned** record suppression logic will be documented in [nyplBibAndItemSuppression] (../blob/vocabularies/business logic/nyplBibAndItemSuppression.md)
 
 In the meantime, please see the following doc for additional details (also contains NYPL bib/item suppression logic): 
 https://docs.google.com/document/d/1iswn3DSe96Hy5cw8Sauql9OB88r6OUoBFzRsdx34Xb0/edit
