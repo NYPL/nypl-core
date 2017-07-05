@@ -36,5 +36,5 @@ For more examples, see the testing [Google Sheet](https://docs.google.com/spread
 
 ## Mappings
 
-- [masterHideLocations.json](matchingLocations.json): locations in WebPAC and Encore will be matched against the `text` value in this list and hidden if found. 
-- [encoreHideLocations.json](encoreMatchingLocations.json): in addition to the "master" list, locations in Encore will be substring matched against the `text` value in this list and hidden if found. 
+- [masterHideLocations.json](masterHideLocations.json): locations in WebPAC and Encore will be matched against the `text` value in this list and hidden if found. 
+- [encoreHideLocations.json](encoreHideLocations.json): in addition to the "master" list, locations in Encore will be substring matched against the `text` value in this list and hidden if found. 
