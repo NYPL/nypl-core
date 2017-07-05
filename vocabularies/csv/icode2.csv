@@ -1,0 +1,9 @@
+skos:notation,skos:prefLabel,nypl:requestable,nypl:suppressed,skos:note
+-,---,false,false,this is the only one that is requestable and is not suppressed
+s,SUPPRESS,false,true,
+w,WITHDRAWN,false,true,
+d,CLOSED BRANCH,false,true,
+o,TSD TO MILSTEIN 2,false,false,just not requestable
+p,ARCHIVAL SUPPRESS,false,true,
+n,ANALYSIS,false,false,"just not requestable - various use cases for this, it's a gray area code"
+m,M2 MOD,false,false,just not requestable
