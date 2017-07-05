@@ -8,9 +8,9 @@ Currently, Discovery is only ingesting/indexing Shared and Open partner-owned it
 
 Collection group designation is recorded in MARCXML field 876$x or SCSBXML field 900$a. SCSB can export either of these schemas -- see [https://htcrecap.atlassian.net/wiki/pages/viewpage.action?pageId=18939906].
 
-**TBD: implementation of this logic in Discovery may not be MVP; ReCAP SCSB may offer a separate suppression/deletion flag.**
+**If 876$x or 900$a = "Private", the partner-owned item should be suppressed or deleted from Discovery.**
 
-Once finalized, **Partner-owned** record suppression logic will be documented in this file (partnerBibAndItemSuppression.md).
+TBD: Does ReCAP SCSB  offer a separate suppression/deletion flag?
 
 ** Related documentation**
 
