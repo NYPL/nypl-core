@@ -2,12 +2,27 @@
 
 **NYPL-owned bib/item suppression**
 
-This suppression logic is based on NYPL's local implementation of suppression codes/mapping in Sierra/WebPAC/Encore. A full rundown of NYPL bib and item suppression logic will be moved to this file once the related mapping is available in nypl-core.
+This suppression logic is based on NYPL's local implementation of suppression codes/mapping in Sierra/WebPAC/Encore.
 
-In the meantime, please see the following doc for additional details: 
-https://docs.google.com/document/d/1iswn3DSe96Hy5cw8Sauql9OB88r6OUoBFzRsdx34Xb0/edit
+**Order of operations for determining NYPL-owned bib/item suppression:**
 
-The above doc is also linked to this JIRA ticket:
+* Sierra bib record suppression
+  * Sierra bib "suppressed" convenience field value
+    * If "suppressed" value = "true", suppress bib and all attached items from display.
+    * If "suppressed" value = "false", display bib and apply item suppression rules for each attached item:
+* Sierra item record suppression
+  * Sierra item record "icode2" fixed field value (aka "item code 2" or fixed field "60" in API response)
+    * If icode2 value is mapped to nypl:suppressed=true, suppress item from display.
+    * If icode2 value is mapped to nypl:suppressed=false, display item
+    * icode2 mapping to nypl:suppressed=true/false: https://github.com/NYPL/nypl-core/blob/master/vocabularies/csv/icode2.csv
+* If item is determined as NOT suppressed, apply NYPL-owned item requestability logic (link TBA)
+
+** Related documentation** 
+
+JIRA ticket:
 https://jira.nypl.org/browse/SRCH-87
 
-Only NYPL-owned items (both ReCAP and locally-stored) items will be subject to suppression logic, unless we need to suppress (rather than wholesale-delete) partner-owned ReCAP items that have been removed from the open/shared ReCAP collection or otherwise marked by ReCAP/SCSB as deleted/deaccessioned or permanently unavailable to NYPL. Potential suppression/deletion logic for partner-owned items is in [partnerBibAndItemSuppression](../partnerBibAndItemSuppression)
+This file (nyplBibAndItemSuppression) supersedes the earlier Google doc: 
+https://docs.google.com/document/d/1iswn3DSe96Hy5cw8Sauql9OB88r6OUoBFzRsdx34Xb0/edit
+
+Potential suppression/deletion logic for partner-owned items is in [partnerBibAndItemSuppression](https://github.com/NYPL/nypl-core/blob/master/vocabularies/business%20logic/partnerBibAndItemSuppression.md)
