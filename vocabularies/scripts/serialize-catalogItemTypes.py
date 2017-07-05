@@ -40,7 +40,7 @@ for r in reader:
             l = rdflib.Literal(l)
             g.add( (catalogItemType, nypl.locationType, l))
 
-z = open(catalogItemTypes.json', 'wb')
+z = open('catalogItemTypes.json', 'wb')
 
 context = {"nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#",

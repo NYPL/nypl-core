@@ -1,59 +1,59 @@
 skos:notation,skos:prefLabel,skos:note,nypl:locationType,nypl:requestable
-0,default,Do Not Use,Research,n
-1,non-circ,General Materials,Research,n
-2,book non-circ,General Bound Book,Research,y
-3,serial,Periodicals etc.,Research,y
-4,"serial, loose",Periodicals etc.,Research,y
-5,"serial, loose, 1 hour",Periodicals etc.,Research,y
-6,microfilm service copy,,Research,y
-7,"printed music, non-circ",,Research,y
-8,manuscript music,,Research,y
-9,map,,Research,y
-10,"map, manuscript",,Research,y
-11,"videorecording, non-circ",Service Copy,Research,n
-12,musical sound recording,Service Copy,Research,n
-13,spoken sound recording,Service Copy,Research,n
-14,moving image,Service Copy,Research,n
-15,flat graphic,,Research,y
-16,computer file,,Research,n
-17,kit,,Research,y
-18,mixed medium collection,,Research,y
-19,3-D object,,Research,n
-20,manuscript,,Research,n
-21,archival material,Print,Research,n
-22,clipping files,,Research,n
-23,archival sound recording,Preservation Copy,Research,n
-24,archival video recording,Preservation Copy,Research,n
-25,atlas,,Research,y
-26,microfiche,,Research,y
-27,preservation master negative,A.O. (archival original),Research,n
-28,printing master negative,P.M.,Research,n
-29,bundled materials (vols.),,Research,y
-30,loose newspaper,,Research,n
-31,"google project, non-circ",Public Domain,Research,n
-32,"google project, book",Public Domain,Research,y
-33,"google project, serial",Public Domain,Research,y
-34,micro-opaque,,Research,y
-35,"cd-rom, dvd-rom",,Research,n
-36,www based,,Research,n
-37,master recording,A.O. ???,Research,n
-38,art and artifacts,,Research,n
-41,"internet archive, non-circ",Public Domain,Research,n
-42,"internet archive, book",Public Domain,Research,y
-43,"internet archive, serial",Public Domain,Research,y
-50,offsite requesting (ncip),temporary item - ReCAP request,Research,n
-51,i-archive/google non-circ,Public Domain,Research,n
-52,i-archive/google monograph,Public Domain,Research,y
-53,i-archive/google serial,Public Domain,Research,y
-55,"book, limited circ, MaRLI",Leaves SASB,Research,y
-57,printed music limited circ MaRLI,Leaves SASB,Research,y
-60,"pamphlets, singles, 1-50 pages",,Research,y
-61,"pamphlet volumes, bound with",,Research,y
-65,"book, good condition, non-MaRLI",Conservation Candidate,Research,y
-66,"book, poor condition, non-MaRLI",Conservation Candidate,Research,y
-67,"printed music, good, non-MaRLI",Conservation Candidate,Research,y
-68,"printed music, poor, non-MaRLI",Conservation Candidate,Research,y
-79,Interlibrary Loan - Research,,Research,n
+0,default,Do Not Use,Research,false
+1,non-circ,General Materials,Research,true
+2,book non-circ,General Bound Book,Research,true
+3,serial,Periodicals etc.,Research,true
+4,"serial, loose",Periodicals etc.,Research,true
+5,"serial, loose, 1 hour",Periodicals etc.,Research,true
+6,microfilm service copy,,Research,true
+7,"printed music, non-circ",,Research,true
+8,manuscript music,,Research,true
+9,map,,Research,true
+10,"map, manuscript",,Research,true
+11,"videorecording, non-circ",Service Copy,Research,false
+12,musical sound recording,Service Copy,Research,false
+13,spoken sound recording,Service Copy,Research,false
+14,moving image,Service Copy,Research,false
+15,flat graphic,,Research,true
+16,computer file,,Research,false
+17,kit,,Research,true
+18,mixed medium collection,,Research,true
+19,3-D object,,Research,false
+20,manuscript,,Research,false
+21,archival material,Print,Research,false
+22,clipping files,,Research,false
+23,archival sound recording,Preservation Copy,Research,false
+24,archival video recording,Preservation Copy,Research,false
+25,atlas,,Research,true
+26,microfiche,,Research,true
+27,preservation master negative,A.O. (archival original),Research,false
+28,printing master negative,P.M.,Research,false
+29,bundled materials (vols.),,Research,true
+30,loose newspaper,,Research,false
+31,"google project, non-circ",Public Domain,Research,true
+32,"google project, book",Public Domain,Research,true
+33,"google project, serial",Public Domain,Research,true
+34,micro-opaque,,Research,true
+35,"cd-rom, dvd-rom",,Research,true
+36,www based,,Research,false
+37,master recording,A.O. ???,Research,false
+38,art and artifacts,,Research,false
+41,"internet archive, non-circ",Public Domain,Research,false
+42,"internet archive, book",Public Domain,Research,true
+43,"internet archive, serial",Public Domain,Research,true
+50,offsite requesting (ncip),temporary item - ReCAP request,Research,false
+51,i-archive/google non-circ,Public Domain,Research,false
+52,i-archive/google monograph,Public Domain,Research,true
+53,i-archive/google serial,Public Domain,Research,true
+55,"book, limited circ, MaRLI",Leaves SASB,Research,true
+57,printed music limited circ MaRLI,Leaves SASB,Research,true
+60,"pamphlets, singles, 1-50 pages",,Research,true
+61,"pamphlet volumes, bound with",,Research,true
+65,"book, good condition, non-MaRLI",Conservation Candidate,Research,true
+66,"book, poor condition, non-MaRLI",Conservation Candidate,Research,true
+67,"printed music, good, non-MaRLI",Conservation Candidate,Research,true
+68,"printed music, poor, non-MaRLI",Conservation Candidate,Research,true
+79,Interlibrary Loan - Research,,Research,false
 101,"Book, circ",Adult,Branch,
 102,"Book, paperback",Adult,Branch,
 103,"Book, express",Adult,Branch,

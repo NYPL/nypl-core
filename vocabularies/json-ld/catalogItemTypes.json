@@ -11,7 +11,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "28",
       "skos:note": "P.M.",
@@ -39,7 +39,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "41",
       "skos:note": "Public Domain",
@@ -51,7 +51,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "43",
       "skos:note": "Public Domain",
@@ -63,7 +63,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "42",
       "skos:note": "Public Domain",
@@ -75,7 +75,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "8",
       "skos:prefLabel": "manuscript music"
@@ -86,7 +86,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "9",
       "skos:prefLabel": "map"
@@ -97,7 +97,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "4",
       "skos:note": "Periodicals etc.",
@@ -109,7 +109,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "5",
       "skos:note": "Periodicals etc.",
@@ -121,7 +121,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "6",
       "skos:prefLabel": "microfilm service copy"
@@ -132,7 +132,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "7",
       "skos:prefLabel": "printed music, non-circ"
@@ -140,6 +140,11 @@
     {
       "@id": "nyplCatalogItemTypes:0",
       "@type": "nypl:CatalogItemType",
+      "nypl:locationType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
       "skos:notation": "0",
       "skos:note": "Do Not Use",
       "skos:prefLabel": "default"
@@ -150,7 +155,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "true"
       },
       "skos:notation": "1",
       "skos:note": "General Materials",
@@ -162,7 +167,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "2",
       "skos:note": "General Bound Book",
@@ -174,7 +179,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "3",
       "skos:note": "Periodicals etc.",
@@ -186,7 +191,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "29",
       "skos:prefLabel": "bundled materials (vols.)"
@@ -205,7 +210,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "27",
       "skos:note": "A.O. (archival original)",
@@ -217,7 +222,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "26",
       "skos:prefLabel": "microfiche"
@@ -228,7 +233,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "25",
       "skos:prefLabel": "atlas"
@@ -239,7 +244,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "24",
       "skos:note": "Preservation Copy",
@@ -251,7 +256,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "23",
       "skos:note": "Preservation Copy",
@@ -263,7 +268,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "22",
       "skos:prefLabel": "clipping files"
@@ -274,7 +279,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "21",
       "skos:note": "Print",
@@ -286,7 +291,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "20",
       "skos:prefLabel": "manuscript"
@@ -297,7 +302,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "52",
       "skos:note": "Public Domain",
@@ -309,11 +314,23 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "53",
       "skos:note": "Public Domain",
       "skos:prefLabel": "i-archive/google serial"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:50",
+      "@type": "nypl:CatalogItemType",
+      "nypl:locationType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "50",
+      "skos:note": "temporary item - ReCAP request",
+      "skos:prefLabel": "offsite requesting (ncip)"
     },
     {
       "@id": "nyplCatalogItemTypes:51",
@@ -321,7 +338,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "51",
       "skos:note": "Public Domain",
@@ -333,7 +350,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "57",
       "skos:note": "Leaves SASB",
@@ -345,7 +362,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "55",
       "skos:note": "Leaves SASB",
@@ -437,7 +454,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "38",
       "skos:prefLabel": "art and artifacts"
@@ -448,7 +465,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "34",
       "skos:prefLabel": "micro-opaque"
@@ -459,7 +476,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "true"
       },
       "skos:notation": "35",
       "skos:prefLabel": "cd-rom, dvd-rom"
@@ -470,7 +487,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "36",
       "skos:prefLabel": "www based"
@@ -481,7 +498,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "37",
       "skos:note": "A.O. ???",
@@ -493,7 +510,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "30",
       "skos:prefLabel": "loose newspaper"
@@ -504,7 +521,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "true"
       },
       "skos:notation": "31",
       "skos:note": "Public Domain",
@@ -516,7 +533,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "32",
       "skos:note": "Public Domain",
@@ -528,7 +545,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "33",
       "skos:note": "Public Domain",
@@ -734,12 +751,12 @@
       "skos:prefLabel": "Mixed media set"
     },
     {
-      "@id": "nyplCatalogItemTypes:212",
+      "@id": "nyplCatalogItemTypes:120",
       "@type": "nypl:CatalogItemType",
       "nypl:locationType": "Branch",
-      "skos:notation": "212",
-      "skos:note": "Juvenile",
-      "skos:prefLabel": "J periodical"
+      "skos:notation": "120",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Picture"
     },
     {
       "@id": "nyplCatalogItemTypes:123",
@@ -758,12 +775,12 @@
       "skos:prefLabel": "J reference"
     },
     {
-      "@id": "nyplCatalogItemTypes:120",
+      "@id": "nyplCatalogItemTypes:212",
       "@type": "nypl:CatalogItemType",
       "nypl:locationType": "Branch",
-      "skos:notation": "120",
-      "skos:note": "Adult",
-      "skos:prefLabel": "Picture"
+      "skos:notation": "212",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J periodical"
     },
     {
       "@id": "nyplCatalogItemTypes:211",
@@ -877,7 +894,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "16",
       "skos:prefLabel": "computer file"
@@ -888,7 +905,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "17",
       "skos:prefLabel": "kit"
@@ -899,7 +916,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "14",
       "skos:note": "Service Copy",
@@ -911,7 +928,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "15",
       "skos:prefLabel": "flat graphic"
@@ -922,7 +939,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "12",
       "skos:note": "Service Copy",
@@ -934,7 +951,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "13",
       "skos:note": "Service Copy",
@@ -946,7 +963,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "10",
       "skos:prefLabel": "map, manuscript"
@@ -957,7 +974,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "11",
       "skos:note": "Service Copy",
@@ -969,7 +986,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "18",
       "skos:prefLabel": "mixed medium collection"
@@ -980,7 +997,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "19",
       "skos:prefLabel": "3-D object"
@@ -1085,7 +1102,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "61",
       "skos:prefLabel": "pamphlet volumes, bound with"
@@ -1096,7 +1113,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "60",
       "skos:prefLabel": "pamphlets, singles, 1-50 pages"
@@ -1107,7 +1124,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "67",
       "skos:note": "Conservation Candidate",
@@ -1119,7 +1136,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "66",
       "skos:note": "Conservation Candidate",
@@ -1131,7 +1148,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "65",
       "skos:note": "Conservation Candidate",
@@ -1143,7 +1160,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "y"
+        "@value": "true"
       },
       "skos:notation": "68",
       "skos:note": "Conservation Candidate",
@@ -1246,7 +1263,7 @@
       "nypl:locationType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "n"
+        "@value": "false"
       },
       "skos:notation": "79",
       "skos:prefLabel": "Interlibrary Loan - Research"
