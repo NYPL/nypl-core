@@ -7,6 +7,7 @@ In order to implement item-level holds in Sierra, we were required to change exi
 After contacting Innovative and confirming:
 
 > there is no way to have the system suppress the request button unless the item/bib is not requestable
+> ~ Jun 12, 2017 -  Priscilla Borquez <pborquez@iii.com> -  
 
 We decided to pursue hiding the _Request_ button via JavaScript. This repo contains the mappings used to hide the button.
 
