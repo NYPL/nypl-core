@@ -17,19 +17,19 @@ For more information, see JIRA ticket [DIS-79](https://jira.nypl.org/browse/DIS-
 These bibs are examples where the _Request_ button should be hidden:
 
 - https://nypl-sierra-test.iii.com/record=b10087932
-  https://nypl-encore-test.iii.com/iii/encore/record/C__Rb10087932
+  - https://nypl-encore-test.iii.com/iii/encore/record/C__Rb10087932
 - https://nypl-sierra-test.iii.com/record=b10114570
-  https://nypl-encore-test.iii.com/iii/encore/record/C__Rb10114570
+  - https://nypl-encore-test.iii.com/iii/encore/record/C__Rb10114570
 - https://nypl-sierra-test.iii.com/record=b10128739
-  https://nypl-encore-test.iii.com/iii/encore/record/C__Rb10128739
+  - https://nypl-encore-test.iii.com/iii/encore/record/C__Rb10128739
 - https://nypl-sierra-test.iii.com/record=b10139869
-  https://nypl-encore-test.iii.com/iii/encore/record/C__Rb10139869
+  - https://nypl-encore-test.iii.com/iii/encore/record/C__Rb10139869
 - https://nypl-sierra-test.iii.com/record=b101515480
-  https://nypl-encore-test.iii.com/iii/encore/record/C__Rb101515480
+  - https://nypl-encore-test.iii.com/iii/encore/record/C__Rb101515480
 - https://nypl-sierra-test.iii.com/record=b10040821
-  https://nypl-encore-test.iii.com/iii/encore/record/C__Rb10040821
+  - https://nypl-encore-test.iii.com/iii/encore/record/C__Rb10040821
 - https://nypl-sierra-test.iii.com/record=b10032439
-  https://nypl-encore-test.iii.com/iii/encore/record/C__Rb10032439
+  - https://nypl-encore-test.iii.com/iii/encore/record/C__Rb10032439
 
 For more examples, see the testing [Google Sheet](https://docs.google.com/spreadsheets/d/1tKlxQCIBhwHfZI-A_v3aZGO3bHfo4Al6S_gxtty0zIE/edit#gid=412932731).
 
