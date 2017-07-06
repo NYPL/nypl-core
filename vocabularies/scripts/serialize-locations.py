@@ -15,7 +15,7 @@ skos = Namespace('http://www.w3.org/2004/02/skos/core#')
 dcterms = Namespace('http://purl.org/dc/terms/')
 nyplLocation = rdflib.URIRef('http://data.nypl.org/locations/')
 nyplOrg = rdflib.URIRef('http://data.nypl.org/orgs/')
-nyplLocation = rdflib.URIRef('http://data.nypl.org/locations/')
+recapCustomerCode = rdflib.URIRef('http://data.nypl.org/recapCustomerCodes/')
 
 g = Graph()
 
