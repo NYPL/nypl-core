@@ -1,0 +1,39 @@
+skos:notation,skos:prefLabel,nypl:deliveryLocationAccess
+0,Undefined (Do Not Use),Research
+1,Web Applicant (No Borrowing),Research
+2,SimplyE Metro,Research
+3,SimplyE Non-Metro,Research
+10,Adult 18-64 Metro (3 Year),Research
+11,Adult 18-64 NY State (3 Year),Research
+30,"Senior, 65+, Metro (3 Year)",Research
+31,"Senior, 65+, NY State (3 Year)",Research
+50,Teen 13-17 Metro,Research
+51,Teen 13-17 NY State,Research
+60,Child 0-12 Juv Only Metro,Research
+61,Child 0-12 All Access Metro,Research
+62,Child 0-12 Juv Only NY State,Research
+63,Child 0-12 All Access NY State,Research
+70,Disabled Metro NY (3 Year),Research
+72,Homebound NYC (3 Year),Research
+73,Homebound Juv Only NYC (3 Year),Research
+78,Short Term Scholar,Research;Scholar
+80,CUNY Graduate Center (9/30),Research
+81,MaRLI (9/30),Research
+82,Scholar,Research;Scholar
+83,Temporary (3 Day Research Only),Research
+84,Visitor (3 Month Limited Use),Research
+85,ILL - Research,Research
+86,Wertheim Scholar,Research;Scholar
+87,Allen Scholar,Research;Scholar
+88,Shoichi Noma Scholar,Research;Scholar
+90,Organization (1 Year Only),Research
+91,(Non-MyLibraryNYC) NYC Educator,Research
+100,INACTIVE PATRON,Research
+101,PENDING DISPUTE,Research
+106,NYPL Department,Research;Scholar
+116,"NYPL Retiree, Non-NYS (3 Year)",Research
+149,MyLibraryNYC Educator Queens,Research
+150,MyLibNYC Child 0-12 All Access,Research
+151,MyLibraryNYC Educator,Research
+152,MyLibNYC Child 0-12 JuvItem Only,Research
+153,MyLibraryNYC 13-17 Teen,Research
