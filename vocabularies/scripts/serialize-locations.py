@@ -24,7 +24,8 @@ for r in reader:
     type = 'nypl:Location'
     preflabel = rdflib.Literal(r['skos:prefLabel'])
     notation = rdflib.Literal(r['skos:notation'])
-    locationType = r['nypl:locationType'].split(';')
+    collectionType = r['nypl:collectionType'].split(';')
+    deliveryLocationType = r['nypl:deliveryLocationType'].split(';')
     actualLocation = r['nypl:actualLocation']
     location = nyplLocation + str(id)
     deliverableTo = r['nypl:deliverableTo'].split(';')
@@ -42,10 +43,14 @@ for r in reader:
     if actualLocation != '':
         actualLocation = rdflib.Literal(actualLocation)
         g.add ( (location, nypl.actualLocation, actualLocation) )
-    for l in locationType:
-        if l != '':
-            l = rdflib.Literal(l)
-            g.add( (location, nypl.locationType, l))
+    for c in collectionType:
+        if c != '':
+            c = rdflib.Literal(c)
+            g.add( (location, nypl.collectionType, c))
+    for d in deliveryLocationType:
+        if d != '':
+            d = rdflib.Literal(d)
+            g.add( (location, nypl.deliveryLocationType, d))
     if requestable != '':
         requestable = rdflib.Literal(requestable, datatype="XSD:boolean")
         g.add ( (location, nypl.requestable, requestable) )
