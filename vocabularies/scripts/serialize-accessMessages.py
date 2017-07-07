@@ -22,18 +22,20 @@ for r in reader:
     type = 'nypl:AccessMessage'
     preflabel = rdflib.Literal(r['skos:prefLabel'])
     notation = rdflib.Literal(r['skos:notation'])
-    locationType = r['nypl:locationType'].split(';')
+#    locationType = r['nypl:locationType'].split(';')
+    requestable = rdflib.Literal(r['nypl:requestable'], datatype="XSD:boolean")
     accessMessage = nyplAccessMessage + str(id)
     
-    g.add( (accessMessage, RDF.type, nypl.Location))
+    g.add( (accessMessage, RDF.type, nypl.AccessMessage))
     g.add( (accessMessage, SKOS.prefLabel, preflabel))
     g.add( (accessMessage, SKOS.notation, notation))
-    for l in locationType:
-        if l != '':
-            l = rdflib.Literal(l)
-            g.add( (accessMessage, nypl.locationType, l))
+    g.add( (accessMessage, nypl.requestable, requestable))
+#    for l in locationType:
+#        if l != '':
+#            loc = rdflib.Literal(l)
+#            g.add( (accessMessage, nypl.locationType, loc))
 
-z = open('sierra-codes-accessMessages.json', 'wb')
+z = open('accessMessages.json', 'wb')
 
 context = {"nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#", 

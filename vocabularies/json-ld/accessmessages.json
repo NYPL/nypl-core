@@ -7,66 +7,81 @@
   "@graph": [
     {
       "@id": "nyplAccessMessage:o",
-      "@type": "nypl:Location",
-      "nypl:locationType": [
-        "Branch",
-        "Research"
-      ],
+      "@type": "nypl:AccessMessage",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
       "skos:notation": "o",
       "skos:prefLabel": "OVERSIZE"
     },
     {
       "@id": "nyplAccessMessage:-",
-      "@type": "nypl:Location",
-      "nypl:locationType": [
-        "Branch",
-        "Research"
-      ],
+      "@type": "nypl:AccessMessage",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
       "skos:notation": "-",
       "skos:prefLabel": "NO RESTRICTIONS"
     },
     {
       "@id": "nyplAccessMessage:a",
-      "@type": "nypl:Location",
-      "nypl:locationType": "Research",
+      "@type": "nypl:AccessMessage",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
       "skos:notation": "a",
       "skos:prefLabel": "BY APPT ONLY"
     },
     {
       "@id": "nyplAccessMessage:2",
-      "@type": "nypl:Location",
-      "nypl:locationType": "Research",
+      "@type": "nypl:AccessMessage",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
       "skos:notation": "2",
       "skos:prefLabel": "ADV REQUEST"
     },
     {
       "@id": "nyplAccessMessage:1",
-      "@type": "nypl:Location",
-      "nypl:locationType": [
-        "Research",
-        "Branch"
-      ],
+      "@type": "nypl:AccessMessage",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
       "skos:notation": "1",
       "skos:prefLabel": "USE IN LIBRARY"
     },
     {
       "@id": "nyplAccessMessage:p",
-      "@type": "nypl:Location",
-      "nypl:locationType": "Research",
+      "@type": "nypl:AccessMessage",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
       "skos:notation": "p",
       "skos:prefLabel": "PERMIT NEEDED"
     },
     {
       "@id": "nyplAccessMessage:u",
-      "@type": "nypl:Location",
-      "nypl:locationType": "Research",
+      "@type": "nypl:AccessMessage",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
       "skos:notation": "u",
       "skos:prefLabel": "SUPERVISED USE"
     },
     {
       "@id": "nyplAccessMessage:4",
-      "@type": "nypl:Location",
-      "nypl:locationType": "Research",
+      "@type": "nypl:AccessMessage",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
       "skos:notation": "4",
       "skos:prefLabel": "RESTRICTED USE"
     }

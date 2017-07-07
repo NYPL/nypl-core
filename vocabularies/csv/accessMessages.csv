@@ -1,9 +1,9 @@
-skos:notation,skos:prefLabel,nypl:locationType
-1,USE IN LIBRARY,Research;Branch
-2,ADV REQUEST,Research
-4,RESTRICTED USE,Research
-o,OVERSIZE,Research;Branch
-a,BY APPT ONLY,Research
-p,PERMIT NEEDED,Research
-u,SUPERVISED USE,Research
--,NO RESTRICTIONS,Research;Branch
+skos:notation,skos:prefLabel,nypl:requestable,
+1,USE IN LIBRARY,true,
+2,ADV REQUEST,true,
+4,RESTRICTED USE,false,
+o,OVERSIZE,true,local items may have different policy; may need to update requestability logic upon implementing local item holds
+a,BY APPT ONLY,false,
+p,PERMIT NEEDED,false,
+u,SUPERVISED USE,true,local items may have different policy; may need to update requestability logic upon implementing local item holds
+-,NO RESTRICTIONS,true,
