@@ -9,10 +9,6 @@
     {
       "@id": "icode2:w",
       "@type": "nypl:Icode2",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "nypl:suppressed": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -23,25 +19,16 @@
     {
       "@id": "icode2:m",
       "@type": "nypl:Icode2",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "nypl:suppressed": {
         "@type": "XSD:boolean",
         "@value": "false"
       },
       "skos:notation": "m",
-      "skos:note": "just not requestable",
       "skos:prefLabel": "M2 MOD"
     },
     {
       "@id": "icode2:s",
       "@type": "nypl:Icode2",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "nypl:suppressed": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -52,10 +39,6 @@
     {
       "@id": "icode2:p",
       "@type": "nypl:Icode2",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "nypl:suppressed": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -66,10 +49,6 @@
     {
       "@id": "icode2:d",
       "@type": "nypl:Icode2",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "nypl:suppressed": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -80,40 +59,26 @@
     {
       "@id": "icode2:n",
       "@type": "nypl:Icode2",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "nypl:suppressed": {
         "@type": "XSD:boolean",
         "@value": "false"
       },
       "skos:notation": "n",
-      "skos:note": "just not requestable - various use cases for this, it's a gray area code",
       "skos:prefLabel": "ANALYSIS"
     },
     {
       "@id": "icode2:o",
       "@type": "nypl:Icode2",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "nypl:suppressed": {
         "@type": "XSD:boolean",
         "@value": "false"
       },
       "skos:notation": "o",
-      "skos:note": "just not requestable",
       "skos:prefLabel": "TSD TO MILSTEIN 2"
     },
     {
       "@id": "icode2:-",
       "@type": "nypl:Icode2",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "nypl:suppressed": {
         "@type": "XSD:boolean",
         "@value": "false"

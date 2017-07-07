@@ -22,14 +22,12 @@ for r in reader:
     type = 'nypl:Icode2'
     preflabel = rdflib.Literal(r['skos:prefLabel'])
     notation = rdflib.Literal(r['skos:notation'])
-    requestable = rdflib.Literal(r['nypl:requestable'], datatype="XSD:boolean")
     suppressed = rdflib.Literal(r['nypl:suppressed'], datatype="XSD:boolean")
     icode2 = nyplIcode2 + str(id)
     
     g.add( (icode2, RDF.type, nypl.Icode2))
     g.add( (icode2, SKOS.prefLabel, preflabel))
     g.add( (icode2, SKOS.notation, notation))
-    g.add( (icode2, nypl.requestable, requestable))
     g.add( (icode2, nypl.suppressed, suppressed))
     if r['skos:note'] != '':
         note = rdflib.Literal(r['skos:note'])
