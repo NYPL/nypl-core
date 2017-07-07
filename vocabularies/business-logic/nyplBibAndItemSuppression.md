@@ -12,9 +12,13 @@ This suppression logic is based on NYPL's local implementation of suppression co
     * If "suppressed" value = "false", display bib and apply item suppression rules for each attached item:
 * Sierra item record suppression
   * Sierra item record "icode2" fixed field value (aka "item code 2" or fixed field "60" in API response)
-    * If icode2 value is mapped to nypl:suppressed=true, suppress item from display.
-    * If icode2 value is mapped to nypl:suppressed=false, display item
     * icode2 mapping to nypl:suppressed=true/false: https://github.com/NYPL/nypl-core/blob/master/vocabularies/csv/icode2.csv
+    * If icode2 value is mapped to nypl:suppressed=true, suppress item from display.
+    * If icode2 value is mapped to nypl:suppressed=false, go to next:
+  * Sierra item record "itype" fixed field value (aka item type or fixed field "61" in API response)
+    * If type value is mapped to nypl:suppressed=true, suppress item from display.
+      * (generally only itype=50 is suppressed -- represents temporary NCIP item records)
+    * If itype value is mapped to nypl:suppressed=false, display item record.
 * If item is determined as NOT suppressed, apply NYPL-owned item requestability logic (link TBA)
 
 ** Related documentation** 
