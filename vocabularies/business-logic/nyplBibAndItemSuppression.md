@@ -21,7 +21,7 @@ This suppression logic is based on NYPL's local implementation of suppression co
     * If itype value is mapped to nypl:suppressed=false, display item record.
 * If item is determined as NOT suppressed, apply NYPL-owned item requestability logic (link TBA)
 
-** Related documentation** 
+**Related documentation** 
 
 JIRA ticket:
 https://jira.nypl.org/browse/SRCH-87
