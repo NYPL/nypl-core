@@ -16,6 +16,6 @@ TBD: Does ReCAP SCSB  offer a separate suppression/deletion flag?
 
 JIRA ticket: https://jira.nypl.org/browse/SRCH-87
 
-NYPL-owned record suppression logic is documented in [nyplBibAndItemSuppression] (https://github.com/NYPL/nypl-core/blob/master/vocabularies/business%20logic/nyplBibAndItemSuppression.md)
+NYPL-owned record suppression logic is documented in [nyplBibAndItemSuppression] (https://github.com/NYPL/nypl-core/blob/master/vocabularies/business-logic/nyplBibAndItemSuppression.md)
 
 This file (partnerBibAndItemSuppression) and nyplBibAndItemSuppression supersede the earlier Google doc: https://docs.google.com/document/d/1iswn3DSe96Hy5cw8Sauql9OB88r6OUoBFzRsdx34Xb0/edit

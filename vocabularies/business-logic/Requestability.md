@@ -1,6 +1,6 @@
 ### Order of operations for determining partner-owned ReCAP item requestability
 
-*Item must not be suppressed - unless superseded by another suppression/deletion method, apply partner-owned bib/item suppression logic first: [partnerBibAndItemSuppression.md](https://github.com/NYPL/nypl-core/blob/master/vocabularies/business%20logic/partnerBibAndItemSuppression.md)*
+*Item must not be suppressed - unless superseded by another suppression/deletion method, apply partner-owned bib/item suppression logic first: [partnerBibAndItemSuppression.md](https://github.com/NYPL/nypl-core/blob/master/vocabularies/business-logic/partnerBibAndItemSuppression.md)*
 
 * ReCAP SCSB item status
   * If "not available," item is not requestable (do not display "place request" button).
@@ -9,7 +9,7 @@
  
 ### Order of operations for determining NYPL-owned ReCAP item requestability
 
-*Item must not be suppressed - apply NYPL-owned bib/item suppression logic first: [nyplBibAndItemSuppression.md](https://github.com/NYPL/nypl-core/blob/master/vocabularies/business%20logic/nyplBibAndItemSuppression.md)*
+*Item must not be suppressed - apply NYPL-owned bib/item suppression logic first: [nyplBibAndItemSuppression.md](https://github.com/NYPL/nypl-core/blob/master/vocabularies/business-logic/nyplBibAndItemSuppression.md)*
 
 * ReCAP SCSB item status
   * If "not available," item is not requestable (do not display "place request" button).

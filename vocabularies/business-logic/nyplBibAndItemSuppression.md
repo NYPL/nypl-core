@@ -25,4 +25,4 @@ https://jira.nypl.org/browse/SRCH-87
 This file (nyplBibAndItemSuppression) supersedes the earlier Google doc: 
 https://docs.google.com/document/d/1iswn3DSe96Hy5cw8Sauql9OB88r6OUoBFzRsdx34Xb0/edit
 
-Potential suppression/deletion logic for partner-owned items is in [partnerBibAndItemSuppression](https://github.com/NYPL/nypl-core/blob/master/vocabularies/business%20logic/partnerBibAndItemSuppression.md)
+Potential suppression/deletion logic for partner-owned items is in [partnerBibAndItemSuppression](https://github.com/NYPL/nypl-core/blob/master/vocabularies/business-logic/partnerBibAndItemSuppression.md)
