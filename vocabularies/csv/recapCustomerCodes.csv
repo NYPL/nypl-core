@@ -1,27 +1,27 @@
 id,skos:notation,skos:prefLabel,nypl:deliverableTo,nypl:eddRequestable,nypl:owner
-NA,NA,NA,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,true,0001
-NB,NB,SIBL,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,true,0001
+NA,NA,NA,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR;OA;OC;ON;OW,true,0001
+NB,NB,SIBL,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR;OA;OC;ON;OW,true,0001
 NC,NC,LSC BookOps Cataloging,,false,0001
 ND,ND,SASB Map Division,ND,false,0001
 NE,NE,ILL,,false,0001
 NF,NF,SASB Microforms,,false,0001
 NG,NG,SASB Art Division,,false,0001
-NH,NH,SASB Rose Main Reading Room,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,true,0001
+NH,NH,SASB Rose Main Reading Room,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR;OA;OC;ON;OW,true,0001
 NI,NI,LSC Special Formats Processing,,false,0001
 NJ,NJ,SASB Jewish Division,,false,0001
 NK,NK,BKOPS Barcoding/Special Projects,,false,0001
-NL,NL,SASB Restricted,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,true,0001
+NL,NL,SASB Restricted,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR;OA;OC;ON;OW,true,0001
 NM,NM,SASB Milstein Division,,false,0001
 NN,NN,LPA Reserve Film and Video,NP,false,0001
 NO,NO,SASB Manuscripts and Archives,NO,false,0001
 NP,NP,LPA,NP,true,0001
-NQ,NQ,SASB Restricted,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,true,0001
+NQ,NQ,SASB Restricted,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR;OA;OC;ON;OW,true,0001
 NR,NR,SASB Rare Book Division,,false,0001
 NS,NS,Schomburg Center MARBI,,true,0001
 NT,NT,Photo Services and Permissions,,false,0001
 NU,NU,LBL Restricted,,false,0001
 NV,NV,LPA TOFT,NP,false,0001
-NW,NW,Donnell Children's Room,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,true,0001
+NW,NW,Donnell Children's Room,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR;OA;OC;ON;OW,true,0001
 NX,NX,Preservation,,false,0001
 NY,NY,LSC ARCHV,,false,0001
 NZ,NZ,SASB Pforzheimer,,false,0001
@@ -29,15 +29,15 @@ SA,SA,Schomburg Art & Artifacts,,false,0001
 SM,SM,Schomburg MIRS,,false,0001
 SP,SP,Schomburg Prints & Photographs,,false,0001
 SR,SR,Schomburg General Research,,false,0001
-GN,GN,Government Documents,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,true,0001
+GN,GN,Government Documents,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR;OA;OC;ON;OW,true,0001
 ID,ID,NYPL Interlibrary Loan,,false,0001
-JN,JN,JSTOR Standard,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,true,0001
-JO,JO,JSTOR Restricted,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,true,0001
+JN,JN,JSTOR Standard,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR;OA;OC;ON;OW,true,0001
+JO,JO,JSTOR Restricted,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR;OA;OC;ON;OW,true,0001
 GO,GO,Google Project,,false,0001
-JS,JS,SIBL De-duping candidates,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR,false,0001
+JS,JS,SIBL De-duping candidates,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR;OA;OC;ON;OW,false,0001
 OA,OA,SASB Allen Room*,,false,0001
 OC,OC,SASB Cullman Center*,,false,0001
-ON,ON,SASB Noma Scholar Room*,,false,0001
+ON,ON,SASB Shoichi Noma Scholar Room*,,false,0001
 OW,OW,SASB Wertheim Study*,,false,0001
 AC,AC,Avery Cold Vault,,false,0002
 AD,AD,Avery Drawings & Archives,,false,0002
