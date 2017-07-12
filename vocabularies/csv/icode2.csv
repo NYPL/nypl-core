@@ -1,5 +1,5 @@
 skos:notation,skos:prefLabel,nypl:suppressed,skos:note
--,---,false,this is the only one that is requestable and is not suppressed
+-,---,false,
 s,SUPPRESS,true,
 w,WITHDRAWN,true,
 d,CLOSED BRANCH,true,

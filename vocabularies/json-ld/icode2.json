@@ -84,7 +84,6 @@
         "@value": "false"
       },
       "skos:notation": "-",
-      "skos:note": "this is the only one that is requestable and is not suppressed",
       "skos:prefLabel": "---"
     }
   ]
