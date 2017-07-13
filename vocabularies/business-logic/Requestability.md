@@ -17,15 +17,13 @@
 * Sierra item location code [(locations.csv -- warning: large file)](https://github.com/NYPL/nypl-core/blob/master/vocabularies/csv/locations.csv)
   * If nypl:requestable=false, item is not requestable (do not display "place request" button).
   * If nypl:requestable=true, item might be requestable -- go to next determiner:
-* Sierra item type [(catalogItemTypes.csv)](https://github.com/NYPL/nypl-core/blob/master/vocabularies/csv/catalogItemTypes.csv)
-  * If nypl:requestable=false, item is not requestable (do not display "place request" button).
-  * If nypl:requestable=true, item might be requestable -- go to next determiner:
-* Sierra item OPAC/Access Message [(accessMessages.csv)](https://github.com/NYPL/nypl-core/blob/master/vocabularies/csv/accessMessages.csv)
+* Sierra item status (fixed field "88") [(statuses.csv)](https://github.com/NYPL/nypl-core/blob/master/vocabularies/csv/statuses.csv)
   * If nypl:requestable=false, item is not requestable (do not display "place request" button).
   * If nypl:requestable=true, item is requestable -- show "place request" button.
  
+Change notes: current MVP directive for NYPL-owned ReCAP items is to mirror WebPAC requestability, which is based on an item's Sierra item location code and Sierra item status code.
  
 ### Post-MVP requestability logic
 
 [Not MVP but logic TBA soon: Order of operations for determining NYPL-owned, locally-stored item requestability] 
-
+ 
