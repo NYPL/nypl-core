@@ -19,7 +19,7 @@ NQ,NQ,SASB Restricted,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR;OA;OC;ON;OW,true,0001
 NR,NR,SASB Rare Book Division,,false,0001
 NS,NS,Schomburg Center MARBI,,true,0001
 NT,NT,Photo Services and Permissions,,false,0001
-NU,NU,LBL Restricted,,false,0001
+NU,NU,LBL Restricted,NO,false,0001
 NV,NV,LPA TOFT,NP,false,0001
 NW,NW,Donnell Children's Room,NB;ND;NF;NG;NH;NJ;NM;NO;NP;NR;SR;OA;OC;ON;OW,true,0001
 NX,NX,Preservation,,false,0001
