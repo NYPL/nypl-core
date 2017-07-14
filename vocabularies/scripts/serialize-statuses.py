@@ -26,8 +26,11 @@ for r in reader:
     g.add( (status, RDF.type, nypl.Status))
     g.add( (status, SKOS.prefLabel, preflabel))
     g.add( (status, SKOS.notation, notation))
+    if r['skos:note'] != '':
+        note = rdflib.Literal(r['skos:note'])
+        g.add( (status, SKOS.note, note))
 
-z = open('sierra-status-codes.json', 'wb')
+z = open('statuses.json', 'wb')
 
 context = {"nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#", 

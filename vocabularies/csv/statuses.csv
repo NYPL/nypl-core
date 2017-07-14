@@ -1,30 +1,31 @@
-id,skos:notation,skos:prefLabel
-a,-,Available 
-oh,!,On Holdshelf
-mt,?,Missing in transit
-il,%,ILL returned
-s,~,Staff use
-lp,$,Lost and paid
-b,b,New-in process
-c,c,Closed branch
-d,d,Damaged
-e,e,On exhibit
-f,f,Being filmed
-g,g,Storage
-h,h,Phone request
-i,i,At bindery
-j,j,Overflow
-k,k,Check with staff
-l,l,Lost in inventory
-m,m,Missing
-co,-,Loaned
-n,n,Billed 
-o,o,Use in library
-p,p,Noncirculating
-t,t,In transit
-u,u,Temporarily unavailable
-v,v,Preservation
-w,w,Withdrawn
-z,z,Disputed Item
-na,na,Not available (ReCAP)
-r,r,Loaned (ReCAP)
+id,skos:notation,skos:prefLabel,nypl:requestable,skos:note
+a,-,Available ,true,"for Sierra code ""-"", if hold present or if due date present, then requestable=false"
+oh,!,On Holdshelf,false,
+mt,?,Missing in transit,false,
+il,%,ILL returned,false,
+s,~,Staff use,false,
+lp,$,Lost and paid,false,
+b,b,New-in process,false,
+c,c,Closed branch,false,
+d,d,Damaged,false,
+e,e,On exhibit,false,
+f,f,Being filmed,false,
+g,g,Storage,false,
+h,h,Phone request,false,
+i,i,At bindery,false,
+j,j,Overflow,false,
+k,k,Check with staff,false,
+l,l,Lost in inventory,false,
+m,m,Missing,false,
+co,-,Loaned,true,"determine id=co how? for Sierra code ""-"", if hold present or if due date present, then requestable=false"
+n,n,Billed ,false,
+o,o,Use in library,true,
+p,p,Noncirculating,false,
+t,t,In transit,false,
+u,u,Temporarily unavailable,false,
+v,v,Preservation,false,
+w,w,Withdrawn,false,
+z,z,Disputed Item,false,
+na,na,Not available (ReCAP),false,
+r,r,Loaned (ReCAP),false,
+s,s,Supervised use,false,This code is only present in test Sierra right now. Not to be confused with OPAC Message (accessMessage) of same label

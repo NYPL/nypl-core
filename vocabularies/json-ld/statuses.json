@@ -21,7 +21,8 @@
       "@id": "nyplStatus:a",
       "@type": "nypl:Status",
       "skos:notation": "-",
-      "skos:prefLabel": "Available"
+      "skos:note": "for Sierra code \"-\", if hold present or if due date present, then requestable=false",
+      "skos:prefLabel": "Available "
     },
     {
       "@id": "nyplStatus:g",
@@ -98,8 +99,15 @@
     {
       "@id": "nyplStatus:s",
       "@type": "nypl:Status",
-      "skos:notation": "~",
-      "skos:prefLabel": "Staff use"
+      "skos:notation": [
+        "~",
+        "s"
+      ],
+      "skos:note": "This code is only present in test Sierra right now. Not to be confused with OPAC Message (accessMessage) of same label",
+      "skos:prefLabel": [
+        "Staff use",
+        "Supervised use"
+      ]
     },
     {
       "@id": "nyplStatus:r",
@@ -159,6 +167,7 @@
       "@id": "nyplStatus:co",
       "@type": "nypl:Status",
       "skos:notation": "-",
+      "skos:note": "determine id=co how? for Sierra code \"-\", if hold present or if due date present, then requestable=false",
       "skos:prefLabel": "Loaned"
     },
     {
