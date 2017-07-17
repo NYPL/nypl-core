@@ -30,6 +30,7 @@ for r in reader:
     location = nyplLocation + str(id)
     deliverableTo = r['nypl:deliverableTo'].split(';')
     requestable = r['nypl:requestable']
+    slug = r['nypl:locationsSlug']
     
     g.add( (location, RDF.type, nypl.Location))
     g.add( (location, SKOS.prefLabel, preflabel))
@@ -43,6 +44,9 @@ for r in reader:
     if actualLocation != '':
         actualLocation = rdflib.Literal(actualLocation)
         g.add ( (location, nypl.actualLocation, actualLocation) )
+    if slug != '':
+        slug = rdflib.Literal(slug)
+        g.add ( (location, nypl.locationsSlug, slug) )
     for c in collectionType:
         if c != '':
             c = rdflib.Literal(c)
