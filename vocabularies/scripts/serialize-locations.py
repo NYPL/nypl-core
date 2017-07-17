@@ -31,6 +31,7 @@ for r in reader:
     deliverableTo = r['nypl:deliverableTo'].split(';')
     requestable = r['nypl:requestable']
     slug = r['nypl:locationsSlug']
+    allowSierraHold = r['nypl:allowSierraHold']
     
     g.add( (location, RDF.type, nypl.Location))
     g.add( (location, SKOS.prefLabel, preflabel))
@@ -58,6 +59,9 @@ for r in reader:
     if requestable != '':
         requestable = rdflib.Literal(requestable, datatype="XSD:boolean")
         g.add ( (location, nypl.requestable, requestable) )
+    if allowSierraHold != '':
+        allowSierraHold = rdflib.Literal(allowSierraHold, datatype="XSD:boolean")
+        g.add ( (location, nypl.allowSierraHold, allowSierraHold) )
     if r['nypl:deliverableTo'] != '':
         for d in deliverableTo:
             if d != '':
