@@ -22,6 +22,7 @@ for r in reader:
     preflabel = rdflib.Literal(r['skos:prefLabel'])
     notation = rdflib.Literal(r['skos:notation'])
     status = nyplStatus + str(id)
+    requestable = r['nypl:requestable']
     
     g.add( (status, RDF.type, nypl.Status))
     g.add( (status, SKOS.prefLabel, preflabel))
@@ -29,6 +30,9 @@ for r in reader:
     if r['skos:note'] != '':
         note = rdflib.Literal(r['skos:note'])
         g.add( (status, SKOS.note, note))
+    if requestable != '':
+        requestable = rdflib.Literal(requestable, datatype="XSD:boolean")
+        g.add ( (status, nypl.requestable, requestable) )
 
 z = open('statuses.json', 'wb')
 

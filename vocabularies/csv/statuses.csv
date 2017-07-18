@@ -1,6 +1,6 @@
 id,skos:notation,skos:prefLabel,nypl:requestable,skos:note
 a,-,Available ,true,"for Sierra code ""-"", if hold present or if due date present, then requestable=false"
-oh,!,On Holdshelf,false,
+oh,!,On Holdshelf,true,
 mt,?,Missing in transit,false,
 il,%,ILL returned,false,
 s,~,Staff use,false,
@@ -21,7 +21,7 @@ co,-,Loaned,true,"determine id=co how? for Sierra code ""-"", if hold present or
 n,n,Billed ,false,
 o,o,Use in library,true,
 p,p,Noncirculating,false,
-t,t,In transit,false,
+t,t,In transit,true,
 u,u,Temporarily unavailable,false,
 v,v,Preservation,false,
 w,w,Withdrawn,false,
