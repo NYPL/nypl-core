@@ -1,0 +1,769 @@
+{
+  "Type": {
+    "pred": "rdfs:type",
+    "jsonLdKey": "@type",
+    "paths": [
+      {
+        "marc": "LDR/07"
+      }
+    ]
+  },
+  "Alternative title": {
+    "pred": "dcterms:alternative",
+    "jsonLdKey": "titleAlt",
+    "paths": [
+      {
+        "marc": "130",
+        "subfields": [ "a", "b", "f", "n", "p" ],
+        "description": "Varying Form of Title"
+      },
+      {
+        "marc": "210",
+        "subfields": [ "a", "b", "f", "n", "p" ],
+        "description": "Varying Form of Title"
+      },
+      {
+        "marc": "222",
+        "subfields": [ "a", "b", "f", "n", "p" ],
+        "description": "Varying Form of Title"
+      },
+      {
+        "marc": "240",
+        "subfields": [ "a", "b", "f", "n", "p" ],
+        "description": "Varying Form of Title"
+      },
+      {
+        "marc": "246",
+        "subfields": [ "a", "b", "f", "n", "p" ],
+        "description": "Varying Form of Title"
+      }
+    ]
+  },
+  "Call number": {
+    "pred": "nypl:shelfMark",
+    "jsonLdKey": "shelfMark",
+    "paths": [
+      {
+        "marc": "852",
+        "subfields": [
+          "h"
+        ]
+      }
+    ]
+  },
+  "Carrier type": {
+    "pred": "bf:carrier",
+    "jsonLdKey": "carrier",
+    "paths": [
+      {
+        "notes": "see mapping tab \"Media and Carrier type mappings\"",
+        "description": "Specific Material Designation"
+      },
+      {
+        "marc": "338",
+        "subfields": ["b"],
+        "description": "Specific Material Designation",
+        "nyplSources": ["recap-pul", "recap-col"]
+      }
+    ]
+  },
+  "Contributor literal": {
+    "pred": "dc:contributor",
+    "jsonLdKey": "contributorLiteral",
+    "paths": [
+      {
+        "marc": "700",
+        "subfields": [ "a", "b", "c", "q", "d", "j" ]
+      },
+      {
+        "marc": "710"
+      },
+      {
+        "marc": "711"
+      }
+    ]
+  },
+  "Contributor literal by role": {
+    "pred": "based on mapping rules (see Notes)",
+    "paths": [
+      {
+        "marc": "700",
+        "subfields": [ "a", "b", "c", "q", "d", "j" ]
+      },
+      {
+        "marc": "710"
+      },
+      {
+        "marc": "711"
+      }
+    ]
+  },
+  "Creator literal": {
+    "pred": "dc:creator",
+    "jsonLdKey": "creatorLiteral",
+    "paths": [
+      {
+        "marc": "100",
+        "subfields": [ "a", "b", "c", "q", "d", "j" ]
+      },
+      {
+        "marc": "110"
+      },
+      {
+        "marc": "111"
+      }
+    ]
+  },
+  "Date": {
+    "pred": "dc:date",
+    "jsonLdKey": "date",
+    "paths": [
+      {
+        "marc": "publishYear"
+      },
+      {
+        "marc": "008/7-10",
+        "nyplSources": ["recap-pul", "recap-col"]
+      }
+    ]
+  },
+  "Date created": {
+    "pred": "dcterms:created",
+    "jsonLdKey": "created",
+    "paths": [
+      {
+        "marc": "publishYear"
+      },
+      {
+        "marc": "008/7-10",
+        "nyplSources": ["recap-pul", "recap-col"]
+      }
+    ]
+  },
+  "Date end": {
+    "pred": "dbo:endDate",
+    "jsonLdKey": "endYear",
+    "paths": [
+      {
+        "marc": "008/11-14"
+      }
+    ]
+  },
+  "Date start": {
+    "pred": "dbo:startDate",
+    "jsonLdKey": "startYear",
+    "paths": [
+      {
+        "marc": "008/7-10"
+      }
+    ]
+  },
+  "Description": {
+    "pred": "dcterms:description",
+    "jsonLdKey": "description",
+    "paths": [
+      {
+        "marc": "520",
+        "subfields": [
+          "a"
+        ],
+        "description": "Summary, Etc."
+      }
+    ]
+  },
+  "Dimensions": {
+    "pred": "bf:dimensions",
+    "jsonLdKey": "dimensions",
+    "paths": [
+      {
+        "marc": "300",
+        "subfields": [
+          "c"
+        ]
+      }
+    ]
+  },
+  "Electronic location": {
+    "pred": "bf:electronicLocator",
+    "jsonLdKey": "electronicLocator",
+    "paths": [
+      {
+        "notes": "856 (see notes)"
+      }
+    ]
+  },
+  "Extent": {
+    "pred": "nypl:extent",
+    "jsonLdKey": "extent",
+    "paths": [
+      {
+        "marc": "300",
+        "subfields": [ "a", "b" ]
+      }
+    ]
+  },
+  "Identifier": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "notes": "There are many mapped identifiers"
+      }
+    ]
+  },
+  "ISBN": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "marc": "020",
+        "subfields": [ "a" ]
+      }
+    ]
+  },
+  "ISSN": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "marc": "022",
+        "subfields": [
+          "a"
+        ]
+      }
+    ]
+  },
+  "Issuance": {
+    "pred": "bf:issuance",
+    "jsonLdKey": "issuance",
+    "paths": [
+      {
+        "notes": "bibLevel.code (bibLevel.value for prefLabel)"
+      },
+      {
+        "marc": "LDR/07",
+        "nyplSources": ["recap-pul", "recap-col"]
+      }
+    ]
+  },
+  "Label": {
+    "pred": "skos:prefLabel",
+    "jsonLdKey": "prefLabel"
+  },
+  "Language": {
+    "pred": "dcterms:language",
+    "jsonLdKey": "language",
+    "paths": [
+      {
+        "marc": "lang",
+        "description": "Language  "
+      },
+      {
+        "marc": "OR 008/35-37",
+        "description": "Language  "
+      },
+      {
+        "marc": "OR 041",
+        "subfields": [ "a" ],
+        "description": "Language  "
+      }
+    ]
+  },
+  "LCC classification": {
+    "pred": "nypl:lccClassification",
+    "jsonLdKey": "lccClassification",
+    "paths": [
+      {
+        "marc": "050",
+        "subfields": [ "a", "b", "c" ]
+      }
+    ]
+  },
+  "LCCN": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "marc": "010",
+        "subfields": [ "a" ]
+      }
+    ]
+  },
+  "Media type": {
+    "pred": "bf:media",
+    "jsonLdKey": "media",
+    "paths": [
+      {
+        "notes": "337 $b ($a for prefLabel)"
+      },
+      {
+        "marc": "337",
+        "subfields": [ "b" ],
+        "description": "Category of Material",
+        "nyplSources": ["recap-pul", "recap-col"]
+      }
+    ]
+  },
+  "Note": {
+    "pred": "skos:note",
+    "jsonLdKey": "note",
+    "paths": [
+      {
+        "marc": "500",
+        "subfields": [ "a" ],
+        "description": "General Note"
+      },
+      {
+        "marc": "501",
+        "subfields": [ "a" ],
+        "description": "With Note"
+      },
+      {
+        "marc": "502",
+        "subfields": [ "a" ],
+        "description": "Dissertation Note"
+      },
+      {
+        "marc": "504",
+        "subfields": [ "a" ],
+        "description": "Bibliography, Etc. Note"
+      },
+      {
+        "marc": "505",
+        "subfields": [ "a" ],
+        "description": "Formatted Contents Note"
+      },
+      {
+        "marc": "506",
+        "subfields": [ "a" ],
+        "description": "Restrictions on Access Note"
+      },
+      {
+        "marc": "507",
+        "subfields": [ "a" ],
+        "description": "Scale Note for Graphic Material"
+      },
+      {
+        "marc": "508",
+        "subfields": [ "a" ],
+        "description": "Creation/Production Credits Note"
+      },
+      {
+        "marc": "509",
+        "subfields": [ "a" ],
+        "description": "Unknown"
+      },
+      {
+        "marc": "510",
+        "subfields": [ "a" ],
+        "description": "Citation/References Note"
+      },
+      {
+        "marc": "511",
+        "subfields": [ "a" ],
+        "description": "Participant or Performer Note"
+      },
+      {
+        "marc": "513",
+        "subfields": [ "a" ],
+        "description": "Type of Report and Period Covered Note"
+      },
+      {
+        "marc": "514",
+        "subfields": [ "a" ],
+        "description": "Data Quality Note"
+      },
+      {
+        "marc": "515",
+        "subfields": [ "a" ],
+        "description": "Numbering Peculiarities Note"
+      },
+      {
+        "marc": "516",
+        "subfields": [ "a" ],
+        "description": "Type of Computer File or Data Note"
+      },
+      {
+        "marc": "518",
+        "subfields": [ "a" ],
+        "description": "Date/Time and Place of an Event Note"
+      },
+      {
+        "marc": "521",
+        "subfields": [ "a" ],
+        "description": "Target Audience Note"
+      },
+      {
+        "marc": "522",
+        "subfields": [ "a" ],
+        "description": "Geographic Coverage Note"
+      },
+      {
+        "marc": "524",
+        "subfields": [ "a" ],
+        "description": "Preferred Citation of Described Materials Note"
+      },
+      {
+        "marc": "525",
+        "subfields": [ "a" ],
+        "description": "Supplement Note"
+      },
+      {
+        "marc": "526",
+        "subfields": [ "a" ],
+        "description": "Study Program Information Note"
+      },
+      {
+        "marc": "530",
+        "subfields": [ "a" ],
+        "description": "Additional Physical Form Available Note"
+      },
+      {
+        "marc": "533",
+        "subfields": [ "a" ],
+        "description": "Reproduction Note"
+      },
+      {
+        "marc": "534",
+        "subfields": [ "a" ],
+        "description": "Original Version Note"
+      },
+      {
+        "marc": "535",
+        "subfields": [ "a" ],
+        "description": "Location of Originals/Duplicates Note"
+      },
+      {
+        "marc": "536",
+        "subfields": [ "a" ],
+        "description": "Funding Information Note"
+      },
+      {
+        "marc": "538",
+        "subfields": [ "a" ],
+        "description": "System Details Note"
+      },
+      {
+        "marc": "539",
+        "subfields": [ "a" ],
+        "description": "Unknown"
+      },
+      {
+        "marc": "540",
+        "subfields": [ "a" ],
+        "description": "Terms Governing Use and Reproduction Note"
+      },
+      {
+        "marc": "541",
+        "notes": "If ind1==0, this note should be private--do not index or publish",
+        "subfields": [ "a" ],
+        "description": "Immediate Source of Acquisition Note"
+      },
+      {
+        "marc": "542",
+        "subfields": [ "a" ],
+        "description": "Information Relating to Copyright Status"
+      },
+      {
+        "marc": "544",
+        "subfields": [ "a" ],
+        "description": "Location of Other Archival Materials Note"
+      },
+      {
+        "marc": "545",
+        "subfields": [ "a" ],
+        "description": "Biographical or Historical Data"
+      },
+      {
+        "marc": "546",
+        "subfields": [ "a" ],
+        "description": "Language Note"
+      },
+      {
+        "marc": "547",
+        "subfields": [ "a" ],
+        "description": "Former Title Complexity Note"
+      },
+      {
+        "marc": "550",
+        "subfields": [ "a" ],
+        "description": "Issuing Body Note"
+      },
+      {
+        "marc": "555",
+        "subfields": [ "a" ],
+        "description": "Cumulative Index/Finding Aids Note"
+      },
+      {
+        "marc": "556",
+        "subfields": [ "a" ],
+        "description": "Information About Documentation Note"
+      },
+      {
+        "marc": "560",
+        "subfields": [ "a" ],
+        "description": "Unknown"
+      },
+      {
+        "marc": "561",
+        "notes": "If ind1==0, this note should be private--do not index or publish",
+        "subfields": [ "a" ],
+        "description": "Ownership and Custodial History"
+      },
+      {
+        "marc": "562",
+        "subfields": [ "a" ],
+        "description": "Copy and Version Identification Note"
+      },
+      {
+        "marc": "563",
+        "subfields": [ "a" ],
+        "description": "Binding Information"
+      },
+      {
+        "marc": "580",
+        "subfields": [ "a" ],
+        "description": "Linking Entry Complexity Note"
+      },
+      {
+        "marc": "581",
+        "subfields": [ "a" ],
+        "description": "Publications About Described Materials Note"
+      },
+      {
+        "marc": "583",
+        "subfields": [ "a" ],
+        "description": "Action Note"
+      },
+      {
+        "marc": "585",
+        "subfields": [ "a" ],
+        "description": "Exhibitions Note"
+      },
+      {
+        "marc": "586",
+        "subfields": [ "a" ],
+        "description": "Awards Note"
+      },
+      {
+        "marc": "588",
+        "subfields": [ "a" ],
+        "description": "Source of Description Note"
+      },
+      {
+        "marc": "590",
+        "subfields": [ "a" ],
+        "description": "Unknown"
+      },
+      {
+        "marc": "591",
+        "subfields": [ "a" ],
+        "description": "Unknown"
+      },
+      {
+        "marc": "599",
+        "subfields": [ "a" ],
+        "description": "Unknown"
+      }
+    ]
+  },
+  "OCLC number": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "idOclc",
+    "paths": [
+      {
+        "marc": "991",
+        "subfields": [ "y" ]
+      },
+      {
+        "notes": "OR 001 if 003 == 'OCoLC' OR 035 if 'OCoLC' in 035 $a"
+      }
+    ]
+  },
+  "Place of publication": {
+    "pred": "nypl:placeOfPublication",
+    "jsonLdKey": "placeOfPublication",
+    "paths": [
+      {
+        "marc": "260",
+        "subfields": [
+          "a"
+        ]
+      }
+    ]
+  },
+  "Publisher": {
+    "pred": "roles:pbl",
+    "jsonLdKey": "pbl",
+    "paths": [
+      {
+        "marc": "260",
+        "subfields": [
+          "b"
+        ],
+        "nyplSources": []
+      }
+    ]
+  },
+  "Publisher literal": {
+    "pred": "nypl:role-publisher",
+    "jsonLdKey": "publisherLiteral",
+    "paths": [
+      {
+        "marc": "260",
+        "subfields": [
+          "b"
+        ]
+      }
+    ]
+  },
+  "Resource type": {
+    "pred": "dcterms:type",
+    "jsonLdKey": "type",
+    "paths": [
+      {
+        "marc": "fixedFields.label = \"Material type\""
+      },
+      {
+        "marc": "LDR/06 -- map to values in 'Resource type mappings' tab",
+        "nyplSources": ["recap-pul", "recap-col"]
+      }
+    ]
+  },
+  "Series statement": {
+    "pred": "bf:seriesStatement",
+    "jsonLdKey": "seriesStatement",
+    "paths": [
+      {
+        "marc": "490",
+        "subfields": ["3","a","x","v","l"]
+      }
+    ]
+  },
+  "Subject literal": {
+    "pred": "dc:subject",
+    "jsonLdKey": "subjectLiteral",
+    "paths": [
+      {
+        "marc": "600",
+        "description": "Subject Added Entry-Personal Name"
+      },
+      {
+        "marc": "610",
+        "description": "Subject Added Entry-Personal Name"
+      },
+      {
+        "marc": "611",
+        "description": "Subject Added Entry-Personal Name"
+      },
+      {
+        "marc": "630",
+        "description": "Subject Added Entry-Personal Name"
+      },
+      {
+        "marc": "648",
+        "description": "Subject Added Entry-Personal Name"
+      },
+      {
+        "marc": "650",
+        "description": "Subject Added Entry-Personal Name"
+      },
+      {
+        "marc": "651",
+        "description": "Subject Added Entry-Personal Name"
+      },
+      {
+        "marc": "653",
+        "description": "Subject Added Entry-Personal Name"
+      },
+      {
+        "marc": "655",
+        "description": "Subject Added Entry-Personal Name"
+      }
+    ]
+  },
+  "Supplementary content": {
+    "pred": "bf:supplementaryContent",
+    "jsonLdKey": "supplementaryContent",
+    "paths": [
+      {
+        "marc": "856 (see notes)"
+      }
+    ]
+  },
+  "Suppressed": {
+    "pred": "nypl:suppressed",
+    "jsonLdKey": "suppressed",
+    "paths": [
+      {
+        "marc": "suppressed"
+      }
+    ]
+  },
+  "Title": {
+    "pred": "dcterms:title",
+    "jsonLdKey": "title",
+    "paths": [
+      {
+        "marc": "title"
+      },
+      {
+        "marc": "245",
+        "subfields": [
+          "a",
+          "b"
+        ],
+        "nyplSources": ["recap-pul", "recap-col"]
+      }
+    ]
+  },
+  "Uniform title": {
+    "pred": "nypl:uniformTitle",
+    "jsonLdKey": "uniformTitle",
+    "paths": [
+      {
+        "marc": "130",
+        "subfields": ["a","d","f","g","k","l","m","n","o","p","r","s","t"]
+      },
+      {
+        "marc": "240",
+        "subfields": ["a","d","f","g","k","l","m","n","o","p","r","s"]
+      }
+    ]
+  },
+  "Title display": {
+    "pred": "nypl:titleDisplay",
+    "jsonLdKey": "titleDisplay",
+    "paths": [
+      {
+        "marc": "245"
+      }
+    ]
+  },
+  "Has reproduction": {
+    "pred": "bf:reproduction",
+    "jsonLdKey": "reproduction",
+    "paths": [
+      {
+        "marc": "533",
+        "description": "Reproduction Note"
+      }
+    ]
+  },
+  "Reproduction of": {
+    "pred": "bf:originalVersion",
+    "jsonLdKey": "originalVersion",
+    "paths": [
+      {
+        "marc": "534",
+        "description": "Original Version Note",
+        "nyplSources": ["*"]
+      },
+      {
+        "marc": "534",
+        "description": "Original Version Note",
+        "nyplSources": ["recap-pul", "recap-col"]
+      }
+    ]
+  }
+}
