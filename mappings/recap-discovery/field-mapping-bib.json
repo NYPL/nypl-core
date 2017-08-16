@@ -585,7 +585,7 @@
     "jsonLdKey": "partOf",
     "paths": [
       {
-        "marc": 773",
+        "marc": "773",
         "subfields": ["i", "a", "s", "t", "b", "m", "d", "h", "k", "n", "g", "r", "u", "x", "y", "z", "w", "3", "7"]
       }
     ]
