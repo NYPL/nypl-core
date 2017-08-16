@@ -98,6 +98,10 @@
     "paths": [
       {
         "marc": "location.code"
+      },
+      {
+        "marc": "852",
+        "subfields": [ "b" ]
       }
     ]
   },
