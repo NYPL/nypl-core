@@ -23,6 +23,7 @@ for r in reader:
     id = r['skos:notation']
     type = 'nypl:Location'
     preflabel = rdflib.Literal(r['skos:prefLabel'])
+    altlabel = rdflib.Literal(r['skos:altLabel'])
     notation = rdflib.Literal(r['skos:notation'])
     collectionType = r['nypl:collectionType'].split(';')
     deliveryLocationType = r['nypl:deliveryLocationType'].split(';')
@@ -35,6 +36,7 @@ for r in reader:
     
     g.add( (location, RDF.type, nypl.Location))
     g.add( (location, SKOS.prefLabel, preflabel))
+    g.add( (location, SKOS.altLabel, altlabel))
     g.add( (location, SKOS.notation, notation))
     if r['dcterms:isPartOf'] != '':
         sublocationOf = nyplLocation + r['dcterms:isPartOf']
