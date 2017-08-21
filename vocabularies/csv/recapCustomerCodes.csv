@@ -67,7 +67,7 @@ EV,EV,EV,NH;OA;OC;ON;OW,true,0002
 GC,GC,GC,NH;OA;OC;ON;OW,true,0002
 GE,GE,Geology Library,,false,0002
 GS,GS,Geoscience Library ,,false,0002
-HR,HR,HR,,true,0002
+HR,HR,HR,NH;OA;OC;ON;OW,true,0002
 HS,HS,Health Sciences Library,NH;OA;OC;ON;OW,true,0002
 HX,HX,HX,,false,0002
 JC,JC,JC,,false,0002
@@ -92,19 +92,19 @@ JM,JM,JM,,false,0002
 PA,PA,Firestone LIbrary,NH;OA;OC;ON;OW,true,0003
 PB,PB,Firestone Library Use Only,,true,0003
 PE,PE,Princeton Dark Storage,,false,0003
-PF,PF,"Firestone Library, Microforms",NF,false,0003
+PF,PF,"Firestone Library, Microforms",NF,true,0003
 PG,PG,Rare Books,,false,0003
 PH,PH,Mudd Manuscript Library,,false,0003
-PJ,PJ,Marquand Library,,false,0003
-PK,PK,Mendel Music Library,,false,0003
+PJ,PJ,Marquand Library,,true,0003
+PK,PK,Mendel Music Library,,true,0003
 PL,PL,East Asian Library,,false,0003
-PM,PM,Stokes Library,,false,0003
+PM,PM,Stokes Library,,true,0003
 PN,PN,Lewis Library,,true,0003
-PQ,PQ,Plasma Physics Library,,false,0003
+PQ,PQ,Plasma Physics Library,,true,0003
 PS,PS,Lewis Library Rare,,false,0003
-PT,PT,Engineering Library,,false,0003
+PT,PT,Engineering Library,,true,0003
 PV,PV,PV,,false,0003
-PW,PW,Architecture Library,,false,0003
+PW,PW,Architecture Library,,true,0003
 PZ,PZ,Marquand Library Rare,,false,0003
 QA,QA,Firestone Library Resource Sharing (Staff only),,false,0003
 QB,QB,QB,,false,0003
