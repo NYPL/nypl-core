@@ -21,15 +21,15 @@ for r in reader:
     id = r['skos:notation']
     type = 'nypl:AccessMessage'
     preflabel = rdflib.Literal(r['skos:prefLabel'])
+    altlabel = rdflib.Literal(r['skos:altLabel'])
     notation = rdflib.Literal(r['skos:notation'])
 #    locationType = r['nypl:locationType'].split(';')
-    requestable = rdflib.Literal(r['nypl:requestable'], datatype="XSD:boolean")
     accessMessage = nyplAccessMessage + str(id)
     
     g.add( (accessMessage, RDF.type, nypl.AccessMessage))
     g.add( (accessMessage, SKOS.prefLabel, preflabel))
+    g.add( (accessMessage, SKOS.altLabel, altlabel))
     g.add( (accessMessage, SKOS.notation, notation))
-    g.add( (accessMessage, nypl.requestable, requestable))
 #    for l in locationType:
 #        if l != '':
 #            loc = rdflib.Literal(l)

@@ -6,84 +6,193 @@
   },
   "@graph": [
     {
-      "@id": "nyplAccessMessage:o",
+      "@id": "nyplAccessMessage:k",
       "@type": "nypl:AccessMessage",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
-      "skos:notation": "o",
-      "skos:prefLabel": "OVERSIZE"
+      "skos:altLabel": "NEW AMERICANS CORNER",
+      "skos:notation": "k",
+      "skos:prefLabel": "New Americans Corner"
     },
     {
-      "@id": "nyplAccessMessage:-",
+      "@id": "nyplAccessMessage:j",
       "@type": "nypl:AccessMessage",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
-      "skos:notation": "-",
-      "skos:prefLabel": "NO RESTRICTIONS"
+      "skos:altLabel": "JUV READING ROOM",
+      "skos:notation": "j",
+      "skos:prefLabel": "Juvenile reading room"
+    },
+    {
+      "@id": "nyplAccessMessage:i",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "LOCAL INTEREST",
+      "skos:notation": "i",
+      "skos:prefLabel": "Local interest"
+    },
+    {
+      "@id": "nyplAccessMessage:h",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "HERITAGE",
+      "skos:notation": "h",
+      "skos:prefLabel": "Heritage"
+    },
+    {
+      "@id": "nyplAccessMessage:o",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "OVERSIZE",
+      "skos:notation": "o",
+      "skos:prefLabel": "Oversize"
+    },
+    {
+      "@id": "nyplAccessMessage:n",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "NEW",
+      "skos:notation": "n",
+      "skos:prefLabel": "New"
+    },
+    {
+      "@id": "nyplAccessMessage:m",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "MyLibraryNYC",
+      "skos:notation": "m",
+      "skos:prefLabel": "MyLibraryNYC"
+    },
+    {
+      "@id": "nyplAccessMessage:l",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "CLASSICS",
+      "skos:notation": "l",
+      "skos:prefLabel": "Classics"
+    },
+    {
+      "@id": "nyplAccessMessage:c",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "CRW",
+      "skos:notation": "c",
+      "skos:prefLabel": "CRW"
+    },
+    {
+      "@id": "nyplAccessMessage:b",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "BOARD BOOK",
+      "skos:notation": "b",
+      "skos:prefLabel": "Board book"
     },
     {
       "@id": "nyplAccessMessage:a",
       "@type": "nypl:AccessMessage",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
+      "skos:altLabel": "BY APPT ONLY",
       "skos:notation": "a",
-      "skos:prefLabel": "BY APPT ONLY"
+      "skos:prefLabel": "By appointment only"
     },
     {
-      "@id": "nyplAccessMessage:2",
+      "@id": "nyplAccessMessage:g",
       "@type": "nypl:AccessMessage",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
-      "skos:notation": "2",
-      "skos:prefLabel": "ADV REQUEST"
+      "skos:altLabel": "PARENTING",
+      "skos:notation": "g",
+      "skos:prefLabel": "Parenting"
     },
     {
-      "@id": "nyplAccessMessage:1",
+      "@id": "nyplAccessMessage:f",
       "@type": "nypl:AccessMessage",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
-      "skos:notation": "1",
-      "skos:prefLabel": "USE IN LIBRARY"
+      "skos:altLabel": "FEATURED",
+      "skos:notation": "f",
+      "skos:prefLabel": "Featured"
+    },
+    {
+      "@id": "nyplAccessMessage:e",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "EXPRESS",
+      "skos:notation": "e",
+      "skos:prefLabel": "Express"
+    },
+    {
+      "@id": "nyplAccessMessage:d",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "LIFELONG LEARN",
+      "skos:notation": "d",
+      "skos:prefLabel": "Lifelong Learning"
+    },
+    {
+      "@id": "nyplAccessMessage:y",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "IN ADULT NON F",
+      "skos:notation": "y",
+      "skos:prefLabel": "In Adult Bio Nonfiction"
+    },
+    {
+      "@id": "nyplAccessMessage:x",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "IN ADULT BIO",
+      "skos:notation": "x",
+      "skos:prefLabel": "In Adult Bio"
+    },
+    {
+      "@id": "nyplAccessMessage:r",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "RENTAL",
+      "skos:notation": "r",
+      "skos:prefLabel": "Rental"
+    },
+    {
+      "@id": "nyplAccessMessage:q",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "Bronx Collection",
+      "skos:notation": "q",
+      "skos:prefLabel": "Bronx Collection"
     },
     {
       "@id": "nyplAccessMessage:p",
       "@type": "nypl:AccessMessage",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
+      "skos:altLabel": "PERMIT NEEDED",
       "skos:notation": "p",
-      "skos:prefLabel": "PERMIT NEEDED"
+      "skos:prefLabel": "Permit needed"
+    },
+    {
+      "@id": "nyplAccessMessage:w",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "BILINGUAL BOOK",
+      "skos:notation": "w",
+      "skos:prefLabel": "Bilingual book"
     },
     {
       "@id": "nyplAccessMessage:u",
       "@type": "nypl:AccessMessage",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
+      "skos:altLabel": "SUPERVISED USE",
       "skos:notation": "u",
-      "skos:prefLabel": "SUPERVISED USE"
+      "skos:prefLabel": "Supervised use"
+    },
+    {
+      "@id": "nyplAccessMessage:-",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "NO RESTRICTIONS",
+      "skos:notation": "-",
+      "skos:prefLabel": "No restrictions"
+    },
+    {
+      "@id": "nyplAccessMessage:2",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "ADV REQUEST",
+      "skos:notation": "2",
+      "skos:prefLabel": "Request in advance"
+    },
+    {
+      "@id": "nyplAccessMessage:1",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "USE IN LIBRARY",
+      "skos:notation": "1",
+      "skos:prefLabel": "Use in library"
+    },
+    {
+      "@id": "nyplAccessMessage:5",
+      "@type": "nypl:AccessMessage",
+      "skos:altLabel": "PRE-K",
+      "skos:notation": "5",
+      "skos:prefLabel": "Pre-K"
     },
     {
       "@id": "nyplAccessMessage:4",
       "@type": "nypl:AccessMessage",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
+      "skos:altLabel": "RESTRICTED USE",
       "skos:notation": "4",
-      "skos:prefLabel": "RESTRICTED USE"
+      "skos:prefLabel": "Restricted use"
     }
   ]
 }
