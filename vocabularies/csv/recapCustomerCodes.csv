@@ -3,7 +3,7 @@ NA,NA,NA,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW,true,0001
 NB,NB,SIBL,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW,true,0001
 NC,NC,LSC BookOps Cataloging,,false,0001
 ND,ND,SASB Map Division,ND,false,0001
-NE,NE,ILL,,false,0001
+NE,NE,NYPL Inter-Library Loan,,false,0001
 NF,NF,SASB Microforms,,false,0001
 NG,NG,SASB Art Division,,false,0001
 NH,NH,SASB Rose Main Reading Room,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW,true,0001
@@ -30,10 +30,10 @@ SM,SM,Schomburg MIRS,,false,0001
 SP,SP,Schomburg Prints & Photographs,,false,0001
 SR,SR,Schomburg General Research,,false,0001
 GN,GN,Government Documents,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW,true,0001
-ID,ID,NYPL Interlibrary Loan,,false,0001
+ID,ID,Inter-Library Loan (deprecated),,false,0001
 JN,JN,JSTOR Standard,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW,true,0001
 JO,JO,JSTOR Restricted,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW,true,0001
-GO,GO,Google Project,,false,0001
+GO,GO,Google Project (deprecated),,false,0001
 JS,JS,SIBL De-duping candidates,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW,false,0001
 OA,OA,SASB Allen Room*,,false,0001
 OC,OC,SASB Cullman Center*,,false,0001
@@ -113,10 +113,13 @@ QD,QD,QD,,false,0003
 QK,QK,QK,NP,false,0003
 QL,QL,QL,,false,0003
 QN,QN,QN,,false,0003
-QP,QP,Preservation,,false,0003
+QP,QP,ReCAP/Princeton Preservation,,false,0003
 QT,QT,Technical Services. 693 (Staff Only),,false,0003
 QV,QV,QV,,false,0003
 GP,GP,GP,NH;OA;OC;ON;OW,true,0003
 JP,JP,JP,,false,0003
 JQ,JQ,Princeton Dark Storage,,true,0003
 QX,QX,Firestone Library. Shared,,false,0003
+RR,RR,ReCAP Reading Room,,false,0003
+BD,BD,ReCAP BorrowDirect,,false,0003
+IN,IN,ReCAP Inter-Library Loan,,false,0003
