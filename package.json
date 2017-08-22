@@ -1,0 +1,26 @@
+{
+  "name": "nypl-core",
+  "version": "1.0.0",
+  "description": "Models, mappings, and vocabularies for the NYPL Core ontology.",
+  "main": "n/a",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NYPL/nypl-core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NYPL/nypl-core/issues"
+  },
+  "homepage": "https://github.com/NYPL/nypl-core#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
