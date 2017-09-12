@@ -8,7 +8,7 @@
     {
       "@id": "nyplCatalogItemTypes:28",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -20,7 +20,7 @@
     {
       "@id": "nyplCatalogItemTypes:253",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "253",
       "skos:note": "DOE Only",
       "skos:prefLabel": "Teacher Set Playaway"
@@ -28,7 +28,7 @@
     {
       "@id": "nyplCatalogItemTypes:252",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "252",
       "skos:note": "DOE Only",
       "skos:prefLabel": "Teacher Set (DOE EDUCATOR ONLY)"
@@ -36,7 +36,7 @@
     {
       "@id": "nyplCatalogItemTypes:41",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -48,7 +48,7 @@
     {
       "@id": "nyplCatalogItemTypes:43",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -60,7 +60,7 @@
     {
       "@id": "nyplCatalogItemTypes:42",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -72,7 +72,7 @@
     {
       "@id": "nyplCatalogItemTypes:8",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -83,7 +83,7 @@
     {
       "@id": "nyplCatalogItemTypes:9",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -94,7 +94,7 @@
     {
       "@id": "nyplCatalogItemTypes:4",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -106,7 +106,7 @@
     {
       "@id": "nyplCatalogItemTypes:5",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -118,7 +118,7 @@
     {
       "@id": "nyplCatalogItemTypes:6",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -129,7 +129,7 @@
     {
       "@id": "nyplCatalogItemTypes:7",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -140,7 +140,7 @@
     {
       "@id": "nyplCatalogItemTypes:0",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -152,7 +152,7 @@
     {
       "@id": "nyplCatalogItemTypes:1",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -164,7 +164,7 @@
     {
       "@id": "nyplCatalogItemTypes:2",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -176,7 +176,7 @@
     {
       "@id": "nyplCatalogItemTypes:3",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -188,7 +188,7 @@
     {
       "@id": "nyplCatalogItemTypes:29",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -199,7 +199,7 @@
     {
       "@id": "nyplCatalogItemTypes:217",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "217",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J Blu-ray"
@@ -207,7 +207,7 @@
     {
       "@id": "nyplCatalogItemTypes:27",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -219,7 +219,7 @@
     {
       "@id": "nyplCatalogItemTypes:26",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -230,7 +230,7 @@
     {
       "@id": "nyplCatalogItemTypes:25",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -241,7 +241,7 @@
     {
       "@id": "nyplCatalogItemTypes:24",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -253,7 +253,7 @@
     {
       "@id": "nyplCatalogItemTypes:23",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -265,7 +265,7 @@
     {
       "@id": "nyplCatalogItemTypes:22",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -276,7 +276,7 @@
     {
       "@id": "nyplCatalogItemTypes:21",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -288,7 +288,7 @@
     {
       "@id": "nyplCatalogItemTypes:20",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -299,7 +299,7 @@
     {
       "@id": "nyplCatalogItemTypes:52",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -311,7 +311,7 @@
     {
       "@id": "nyplCatalogItemTypes:53",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -323,7 +323,7 @@
     {
       "@id": "nyplCatalogItemTypes:50",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -335,7 +335,7 @@
     {
       "@id": "nyplCatalogItemTypes:51",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -347,7 +347,7 @@
     {
       "@id": "nyplCatalogItemTypes:57",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -359,7 +359,7 @@
     {
       "@id": "nyplCatalogItemTypes:55",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -371,7 +371,7 @@
     {
       "@id": "nyplCatalogItemTypes:118",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "118",
       "skos:note": "Adult",
       "skos:prefLabel": "Recorded book"
@@ -379,7 +379,7 @@
     {
       "@id": "nyplCatalogItemTypes:119",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "119",
       "skos:note": "Adult",
       "skos:prefLabel": "Software"
@@ -387,7 +387,7 @@
     {
       "@id": "nyplCatalogItemTypes:110",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "110",
       "skos:note": "Adult",
       "skos:prefLabel": "VHS"
@@ -395,7 +395,7 @@
     {
       "@id": "nyplCatalogItemTypes:111",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "111",
       "skos:note": "Adult",
       "skos:prefLabel": "DVD"
@@ -403,7 +403,7 @@
     {
       "@id": "nyplCatalogItemTypes:112",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "112",
       "skos:note": "Adult",
       "skos:prefLabel": "DVD express"
@@ -411,7 +411,7 @@
     {
       "@id": "nyplCatalogItemTypes:113",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "113",
       "skos:note": "Adult",
       "skos:prefLabel": "VCD"
@@ -419,7 +419,7 @@
     {
       "@id": "nyplCatalogItemTypes:114",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "114",
       "skos:note": "Adult",
       "skos:prefLabel": "Compact disc"
@@ -427,7 +427,7 @@
     {
       "@id": "nyplCatalogItemTypes:115",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "115",
       "skos:note": "Adult",
       "skos:prefLabel": "Cd express"
@@ -435,7 +435,7 @@
     {
       "@id": "nyplCatalogItemTypes:116",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "116",
       "skos:note": "Adult",
       "skos:prefLabel": "Audiocassette"
@@ -443,7 +443,7 @@
     {
       "@id": "nyplCatalogItemTypes:117",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "117",
       "skos:note": "Adult",
       "skos:prefLabel": "Book, circ, 2-Week, New"
@@ -451,7 +451,7 @@
     {
       "@id": "nyplCatalogItemTypes:38",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -462,7 +462,7 @@
     {
       "@id": "nyplCatalogItemTypes:34",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -473,7 +473,7 @@
     {
       "@id": "nyplCatalogItemTypes:35",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -484,7 +484,7 @@
     {
       "@id": "nyplCatalogItemTypes:36",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -495,7 +495,7 @@
     {
       "@id": "nyplCatalogItemTypes:37",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -507,10 +507,10 @@
     {
       "@id": "nyplCatalogItemTypes:30",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "false"
+        "@value": "true"
       },
       "skos:notation": "30",
       "skos:prefLabel": "loose newspaper"
@@ -518,7 +518,7 @@
     {
       "@id": "nyplCatalogItemTypes:31",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -530,7 +530,7 @@
     {
       "@id": "nyplCatalogItemTypes:32",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -542,7 +542,7 @@
     {
       "@id": "nyplCatalogItemTypes:33",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -554,7 +554,7 @@
     {
       "@id": "nyplCatalogItemTypes:109",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "109",
       "skos:note": "Adult",
       "skos:prefLabel": "Lpa song index score"
@@ -562,7 +562,7 @@
     {
       "@id": "nyplCatalogItemTypes:108",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "108",
       "skos:note": "Adult",
       "skos:prefLabel": "Lpa score"
@@ -570,7 +570,7 @@
     {
       "@id": "nyplCatalogItemTypes:103",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "103",
       "skos:note": "Adult",
       "skos:prefLabel": "Book, express"
@@ -578,7 +578,7 @@
     {
       "@id": "nyplCatalogItemTypes:102",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "102",
       "skos:note": "Adult",
       "skos:prefLabel": "Book, paperback"
@@ -586,7 +586,7 @@
     {
       "@id": "nyplCatalogItemTypes:101",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "101",
       "skos:note": "Adult",
       "skos:prefLabel": "Book, circ"
@@ -594,7 +594,7 @@
     {
       "@id": "nyplCatalogItemTypes:107",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "107",
       "skos:note": "Adult",
       "skos:prefLabel": "Periodical, circ, serial"
@@ -602,7 +602,7 @@
     {
       "@id": "nyplCatalogItemTypes:106",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "106",
       "skos:note": "Adult",
       "skos:prefLabel": "Center for reading/writing"
@@ -610,7 +610,7 @@
     {
       "@id": "nyplCatalogItemTypes:105",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "105",
       "skos:note": "Adult",
       "skos:prefLabel": "Pamphlet"
@@ -618,7 +618,7 @@
     {
       "@id": "nyplCatalogItemTypes:104",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "104",
       "skos:note": "Adult",
       "skos:prefLabel": "Reference non-circ Book,PER,etc."
@@ -626,7 +626,7 @@
     {
       "@id": "nyplCatalogItemTypes:201",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "201",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J book"
@@ -634,7 +634,7 @@
     {
       "@id": "nyplCatalogItemTypes:202",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "202",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J recorded book"
@@ -642,7 +642,7 @@
     {
       "@id": "nyplCatalogItemTypes:203",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "203",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J compact disc"
@@ -650,7 +650,7 @@
     {
       "@id": "nyplCatalogItemTypes:204",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "204",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J cd-rom"
@@ -658,7 +658,7 @@
     {
       "@id": "nyplCatalogItemTypes:205",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "205",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J audiocassette"
@@ -666,7 +666,7 @@
     {
       "@id": "nyplCatalogItemTypes:206",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "206",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J DVD"
@@ -674,7 +674,7 @@
     {
       "@id": "nyplCatalogItemTypes:207",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "207",
       "skos:note": "Juvenile, ON-THE-FLY",
       "skos:prefLabel": "J fast add item"
@@ -682,7 +682,7 @@
     {
       "@id": "nyplCatalogItemTypes:208",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "208",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J game express"
@@ -690,7 +690,7 @@
     {
       "@id": "nyplCatalogItemTypes:209",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "209",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J mixed media set"
@@ -698,7 +698,10 @@
     {
       "@id": "nyplCatalogItemTypes:134",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": [
+        "Branch",
+        "Research"
+      ],
       "skos:notation": "134",
       "skos:note": "LPA Only",
       "skos:prefLabel": "RFVC - VHS"
@@ -706,7 +709,10 @@
     {
       "@id": "nyplCatalogItemTypes:135",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": [
+        "Research",
+        "Branch"
+      ],
       "skos:notation": "135",
       "skos:note": "LPA Only",
       "skos:prefLabel": "RFVC - DVD"
@@ -714,7 +720,10 @@
     {
       "@id": "nyplCatalogItemTypes:132",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": [
+        "Branch",
+        "Research"
+      ],
       "skos:notation": "132",
       "skos:note": "LPA Only",
       "skos:prefLabel": "RFVC - FILM"
@@ -722,7 +731,10 @@
     {
       "@id": "nyplCatalogItemTypes:133",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": [
+        "Research",
+        "Branch"
+      ],
       "skos:notation": "133",
       "skos:note": "LPA Only",
       "skos:prefLabel": "RFVC - FILM PRESERVATION"
@@ -730,14 +742,14 @@
     {
       "@id": "nyplCatalogItemTypes:130",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "130",
       "skos:prefLabel": "Equipment"
     },
     {
       "@id": "nyplCatalogItemTypes:131",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "131",
       "skos:note": "On-The-Fly",
       "skos:prefLabel": "Adult fast add item"
@@ -745,7 +757,7 @@
     {
       "@id": "nyplCatalogItemTypes:121",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "121",
       "skos:note": "Adult",
       "skos:prefLabel": "Mixed media set"
@@ -753,7 +765,7 @@
     {
       "@id": "nyplCatalogItemTypes:120",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "120",
       "skos:note": "Adult",
       "skos:prefLabel": "Picture"
@@ -761,7 +773,7 @@
     {
       "@id": "nyplCatalogItemTypes:123",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "123",
       "skos:note": "Adult",
       "skos:prefLabel": "Game express"
@@ -769,7 +781,7 @@
     {
       "@id": "nyplCatalogItemTypes:213",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "213",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J reference"
@@ -777,7 +789,7 @@
     {
       "@id": "nyplCatalogItemTypes:212",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "212",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J periodical"
@@ -785,7 +797,7 @@
     {
       "@id": "nyplCatalogItemTypes:211",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "211",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J paperback"
@@ -793,7 +805,7 @@
     {
       "@id": "nyplCatalogItemTypes:122",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "122",
       "skos:note": "Adult",
       "skos:prefLabel": "Cd-rom"
@@ -801,49 +813,49 @@
     {
       "@id": "nyplCatalogItemTypes:125",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "125",
       "skos:prefLabel": "E-nypl audio book"
     },
     {
       "@id": "nyplCatalogItemTypes:124",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "124",
       "skos:prefLabel": "E-nypl book"
     },
     {
       "@id": "nyplCatalogItemTypes:127",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "127",
       "skos:prefLabel": "E-nypl video"
     },
     {
       "@id": "nyplCatalogItemTypes:126",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "126",
       "skos:prefLabel": "E-nypl music"
     },
     {
       "@id": "nyplCatalogItemTypes:129",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "129",
       "skos:prefLabel": "Borrowed ILL"
     },
     {
       "@id": "nyplCatalogItemTypes:128",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "128",
       "skos:prefLabel": "Wireless laptop"
     },
     {
       "@id": "nyplCatalogItemTypes:219",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "219",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J ELL book at AG IN MH SE"
@@ -851,7 +863,7 @@
     {
       "@id": "nyplCatalogItemTypes:218",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "218",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J Blu-ray express"
@@ -859,7 +871,7 @@
     {
       "@id": "nyplCatalogItemTypes:216",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "216",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J DVD express"
@@ -867,7 +879,7 @@
     {
       "@id": "nyplCatalogItemTypes:215",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "215",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J videocassette"
@@ -875,7 +887,7 @@
     {
       "@id": "nyplCatalogItemTypes:214",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "214",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J software"
@@ -883,7 +895,7 @@
     {
       "@id": "nyplCatalogItemTypes:210",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "210",
       "skos:note": "Juvenile",
       "skos:prefLabel": "J long playing record"
@@ -891,10 +903,10 @@
     {
       "@id": "nyplCatalogItemTypes:16",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "false"
+        "@value": "true"
       },
       "skos:notation": "16",
       "skos:prefLabel": "computer file"
@@ -902,7 +914,7 @@
     {
       "@id": "nyplCatalogItemTypes:17",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -913,7 +925,7 @@
     {
       "@id": "nyplCatalogItemTypes:14",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -925,7 +937,7 @@
     {
       "@id": "nyplCatalogItemTypes:15",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -936,7 +948,7 @@
     {
       "@id": "nyplCatalogItemTypes:12",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -948,7 +960,7 @@
     {
       "@id": "nyplCatalogItemTypes:13",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -960,7 +972,7 @@
     {
       "@id": "nyplCatalogItemTypes:10",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -971,7 +983,7 @@
     {
       "@id": "nyplCatalogItemTypes:11",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -983,7 +995,7 @@
     {
       "@id": "nyplCatalogItemTypes:18",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -994,7 +1006,7 @@
     {
       "@id": "nyplCatalogItemTypes:19",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -1005,21 +1017,21 @@
     {
       "@id": "nyplCatalogItemTypes:150",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "150",
       "skos:prefLabel": "Clear WiFi Access Point"
     },
     {
       "@id": "nyplCatalogItemTypes:220",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "220",
       "skos:prefLabel": "J pre-k book"
     },
     {
       "@id": "nyplCatalogItemTypes:239",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "239",
       "skos:note": "Young Adult",
       "skos:prefLabel": "YA periodical"
@@ -1027,7 +1039,7 @@
     {
       "@id": "nyplCatalogItemTypes:238",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "238",
       "skos:note": "Young Adult",
       "skos:prefLabel": "YA paperback"
@@ -1035,7 +1047,7 @@
     {
       "@id": "nyplCatalogItemTypes:231",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "231",
       "skos:note": "Young Adult",
       "skos:prefLabel": "YA book"
@@ -1043,7 +1055,7 @@
     {
       "@id": "nyplCatalogItemTypes:230",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "230",
       "skos:note": "Young Adult",
       "skos:prefLabel": "YA DVD express"
@@ -1051,7 +1063,7 @@
     {
       "@id": "nyplCatalogItemTypes:233",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "233",
       "skos:note": "Young Adult",
       "skos:prefLabel": "YA CD"
@@ -1059,7 +1071,7 @@
     {
       "@id": "nyplCatalogItemTypes:232",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "232",
       "skos:note": "Young Adult",
       "skos:prefLabel": "YA recorded book"
@@ -1067,7 +1079,7 @@
     {
       "@id": "nyplCatalogItemTypes:235",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "235",
       "skos:note": "Young Adult",
       "skos:prefLabel": "YA DVD"
@@ -1075,7 +1087,7 @@
     {
       "@id": "nyplCatalogItemTypes:234",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "234",
       "skos:note": "Young Adult",
       "skos:prefLabel": "YA CD express"
@@ -1083,7 +1095,7 @@
     {
       "@id": "nyplCatalogItemTypes:237",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "237",
       "skos:note": "Young Adult",
       "skos:prefLabel": "YA pamphlet"
@@ -1091,7 +1103,7 @@
     {
       "@id": "nyplCatalogItemTypes:236",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "236",
       "skos:note": "Young Adult",
       "skos:prefLabel": "YA game express"
@@ -1099,7 +1111,7 @@
     {
       "@id": "nyplCatalogItemTypes:61",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -1110,7 +1122,7 @@
     {
       "@id": "nyplCatalogItemTypes:60",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -1121,7 +1133,7 @@
     {
       "@id": "nyplCatalogItemTypes:67",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -1133,7 +1145,7 @@
     {
       "@id": "nyplCatalogItemTypes:66",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -1145,7 +1157,7 @@
     {
       "@id": "nyplCatalogItemTypes:65",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -1157,7 +1169,7 @@
     {
       "@id": "nyplCatalogItemTypes:68",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -1169,7 +1181,7 @@
     {
       "@id": "nyplCatalogItemTypes:144",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "144",
       "skos:note": "LPA Only",
       "skos:prefLabel": "Lpa orchestra collection"
@@ -1177,35 +1189,38 @@
     {
       "@id": "nyplCatalogItemTypes:143",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "143",
       "skos:prefLabel": "ELL book, iZone at AG,IN,MH,SE"
     },
     {
       "@id": "nyplCatalogItemTypes:142",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": [
+        "Research",
+        "Branch"
+      ],
       "skos:notation": "142",
       "skos:prefLabel": "RFVC - LPA Blu-ray"
     },
     {
       "@id": "nyplCatalogItemTypes:141",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "141",
       "skos:prefLabel": "Blu-ray express"
     },
     {
       "@id": "nyplCatalogItemTypes:140",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "140",
       "skos:prefLabel": "Blu-ray"
     },
     {
       "@id": "nyplCatalogItemTypes:138",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "138",
       "skos:note": "Adult",
       "skos:prefLabel": "Leased book, 3-week"
@@ -1213,14 +1228,14 @@
     {
       "@id": "nyplCatalogItemTypes:139",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "139",
       "skos:prefLabel": "Chrome book"
     },
     {
       "@id": "nyplCatalogItemTypes:240",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "240",
       "skos:note": "Young Adult",
       "skos:prefLabel": "YA Blu-ray"
@@ -1228,7 +1243,7 @@
     {
       "@id": "nyplCatalogItemTypes:241",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "241",
       "skos:note": "Young Adult",
       "skos:prefLabel": "YA Blu-ray express"
@@ -1236,7 +1251,7 @@
     {
       "@id": "nyplCatalogItemTypes:242",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "242",
       "skos:note": "Young Adult",
       "skos:prefLabel": "YA ELL book at AG IN MH SE"
@@ -1244,7 +1259,7 @@
     {
       "@id": "nyplCatalogItemTypes:136",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "136",
       "skos:note": "Adult",
       "skos:prefLabel": "Leased book 2-Week, New"
@@ -1252,7 +1267,7 @@
     {
       "@id": "nyplCatalogItemTypes:137",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Branch",
+      "nypl:collectionType": "Branch",
       "skos:notation": "137",
       "skos:note": "Adult",
       "skos:prefLabel": "Leased book, express"
@@ -1260,7 +1275,7 @@
     {
       "@id": "nyplCatalogItemTypes:79",
       "@type": "nypl:CatalogItemType",
-      "nypl:locationType": "Research",
+      "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"

@@ -1,4 +1,4 @@
-# script to convert locations.csv to json-ld
+# script to convert catalogItemTypes.csv to json-ld
 # requires libraries/plugins: rdflib, rdflib-jsonld
 
 from rdflib.namespace import RDF, SKOS
@@ -21,7 +21,7 @@ for r in reader:
     type = 'nypl:CatalogItemType'
     preflabel = rdflib.Literal(r['skos:prefLabel'])
     notation = rdflib.Literal(r['skos:notation'])
-    locationType = r['nypl:locationType'].split(';')
+    collectionType = r['nypl:collectionType'].split(';')
     note = r['skos:note']
     requestable = r['nypl:requestable']
     catalogItemType = nyplCatalogItemType + str(id)
@@ -35,10 +35,10 @@ for r in reader:
     if requestable != '':
         requestable = rdflib.Literal(requestable, datatype="XSD:boolean")
         g.add ( (catalogItemType, nypl.requestable, requestable) )
-    for l in locationType:
+    for l in collectionType:
         if l != '':
             l = rdflib.Literal(l)
-            g.add( (catalogItemType, nypl.locationType, l))
+            g.add( (catalogItemType, nypl.collectionType, l))
 
 z = open('catalogItemTypes.json', 'wb')
 

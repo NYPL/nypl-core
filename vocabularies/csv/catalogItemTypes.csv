@@ -1,136 +1,136 @@
-skos:notation,skos:prefLabel,skos:note,nypl:locationType,nypl:requestable
-0,default,Do Not Use,Research,false
-1,non-circ,General Materials,Research,true
-2,book non-circ,General Bound Book,Research,true
-3,serial,Periodicals etc.,Research,true
-4,"serial, loose",Periodicals etc.,Research,true
-5,"serial, loose, 1 hour",Periodicals etc.,Research,true
-6,microfilm service copy,,Research,true
-7,"printed music, non-circ",,Research,true
-8,manuscript music,,Research,true
-9,map,,Research,true
-10,"map, manuscript",,Research,true
-11,"videorecording, non-circ",Service Copy,Research,false
-12,musical sound recording,Service Copy,Research,false
-13,spoken sound recording,Service Copy,Research,false
-14,moving image,Service Copy,Research,false
-15,flat graphic,,Research,true
-16,computer file,,Research,false
-17,kit,,Research,true
-18,mixed medium collection,,Research,true
-19,3-D object,,Research,false
-20,manuscript,,Research,false
-21,archival material,Print,Research,false
-22,clipping files,,Research,false
-23,archival sound recording,Preservation Copy,Research,false
-24,archival video recording,Preservation Copy,Research,false
-25,atlas,,Research,true
-26,microfiche,,Research,true
-27,preservation master negative,A.O. (archival original),Research,false
-28,printing master negative,P.M.,Research,false
-29,bundled materials (vols.),,Research,true
-30,loose newspaper,,Research,false
-31,"google project, non-circ",Public Domain,Research,true
-32,"google project, book",Public Domain,Research,true
-33,"google project, serial",Public Domain,Research,true
-34,micro-opaque,,Research,true
-35,"cd-rom, dvd-rom",,Research,true
-36,www based,,Research,false
-37,master recording,A.O. ???,Research,false
-38,art and artifacts,,Research,false
-41,"internet archive, non-circ",Public Domain,Research,false
-42,"internet archive, book",Public Domain,Research,true
-43,"internet archive, serial",Public Domain,Research,true
-50,offsite requesting (ncip),temporary item - ReCAP request,Research,false
-51,i-archive/google non-circ,Public Domain,Research,false
-52,i-archive/google monograph,Public Domain,Research,true
-53,i-archive/google serial,Public Domain,Research,true
-55,"book, limited circ, MaRLI",Leaves SASB,Research,true
-57,printed music limited circ MaRLI,Leaves SASB,Research,true
-60,"pamphlets, singles, 1-50 pages",,Research,true
-61,"pamphlet volumes, bound with",,Research,true
-65,"book, good condition, non-MaRLI",Conservation Candidate,Research,true
-66,"book, poor condition, non-MaRLI",Conservation Candidate,Research,true
-67,"printed music, good, non-MaRLI",Conservation Candidate,Research,true
-68,"printed music, poor, non-MaRLI",Conservation Candidate,Research,true
-79,Interlibrary Loan - Research,,Research,false
-101,"Book, circ",Adult,Branch,
-102,"Book, paperback",Adult,Branch,
-103,"Book, express",Adult,Branch,
-104,"Reference non-circ Book,PER,etc.",Adult,Branch,
-105,Pamphlet,Adult,Branch,
-106,Center for reading/writing,Adult,Branch,
-107,"Periodical, circ, serial",Adult,Branch,
-108,Lpa score,Adult,Branch,
-109,Lpa song index score,Adult,Branch,
-110,VHS,Adult,Branch,
-111,DVD,Adult,Branch,
-112,DVD express,Adult,Branch,
-113,VCD,Adult,Branch,
-114,Compact disc,Adult,Branch,
-115,Cd express,Adult,Branch,
-116,Audiocassette,Adult,Branch,
-117,"Book, circ, 2-Week, New",Adult,Branch,
-118,Recorded book,Adult,Branch,
-119,Software,Adult,Branch,
-120,Picture,Adult,Branch,
-121,Mixed media set,Adult,Branch,
-122,Cd-rom,Adult,Branch,
-123,Game express,Adult,Branch,
-124,E-nypl book,,Branch,
-125,E-nypl audio book,,Branch,
-126,E-nypl music,,Branch,
-127,E-nypl video,,Branch,
-128,Wireless laptop,,Branch,
-129,Borrowed ILL,,Branch,
-130,Equipment,,Branch,
-131,Adult fast add item,On-The-Fly,Branch,
-132,RFVC - FILM,LPA Only,Branch,
-133,RFVC - FILM PRESERVATION,LPA Only,Branch,
-134,RFVC - VHS,LPA Only,Branch,
-135,RFVC - DVD,LPA Only,Branch,
-136,"Leased book 2-Week, New",Adult,Branch,
-137,"Leased book, express",Adult,Branch,
-138,"Leased book, 3-week",Adult,Branch,
-139,Chrome book,,Branch,
-140,Blu-ray,,Branch,
-141,Blu-ray express,,Branch,
-142,RFVC - LPA Blu-ray,,Branch,
-143,"ELL book, iZone at AG,IN,MH,SE",,Branch,
-144,Lpa orchestra collection,LPA Only,Branch,
-150,Clear WiFi Access Point,,Branch,
-201,J book,Juvenile,Branch,
-202,J recorded book,Juvenile,Branch,
-203,J compact disc,Juvenile,Branch,
-204,J cd-rom,Juvenile,Branch,
-205,J audiocassette,Juvenile,Branch,
-206,J DVD,Juvenile,Branch,
-207,J fast add item,"Juvenile, ON-THE-FLY",Branch,
-208,J game express,Juvenile,Branch,
-209,J mixed media set,Juvenile,Branch,
-210,J long playing record,Juvenile,Branch,
-211,J paperback,Juvenile,Branch,
-212,J periodical,Juvenile,Branch,
-213,J reference,Juvenile,Branch,
-214,J software,Juvenile,Branch,
-215,J videocassette,Juvenile,Branch,
-216,J DVD express,Juvenile,Branch,
-217,J Blu-ray,Juvenile,Branch,
-218,J Blu-ray express,Juvenile,Branch,
-219,J ELL book at AG IN MH SE,Juvenile,Branch,
-220,J pre-k book,,Branch,
-230,YA DVD express,Young Adult,Branch,
-231,YA book,Young Adult,Branch,
-232,YA recorded book,Young Adult,Branch,
-233,YA CD,Young Adult,Branch,
-234,YA CD express,Young Adult,Branch,
-235,YA DVD,Young Adult,Branch,
-236,YA game express,Young Adult,Branch,
-237,YA pamphlet,Young Adult,Branch,
-238,YA paperback,Young Adult,Branch,
-239,YA periodical,Young Adult,Branch,
-240,YA Blu-ray,Young Adult,Branch,
-241,YA Blu-ray express,Young Adult,Branch,
-242,YA ELL book at AG IN MH SE,Young Adult,Branch,
-252,Teacher Set (DOE EDUCATOR ONLY),DOE Only,Branch,
-253,Teacher Set Playaway,DOE Only,Branch,
+skos:notation,skos:prefLabel,skos:note,nypl:collectionType,nypl:requestable,
+0,default,Do Not Use,Research,false,
+1,non-circ,General Materials,Research,true,
+2,book non-circ,General Bound Book,Research,true,
+3,serial,Periodicals etc.,Research,true,
+4,"serial, loose",Periodicals etc.,Research,true,
+5,"serial, loose, 1 hour",Periodicals etc.,Research,true,
+6,microfilm service copy,,Research,true,
+7,"printed music, non-circ",,Research,true,
+8,manuscript music,,Research,true,
+9,map,,Research,true,
+10,"map, manuscript",,Research,true,
+11,"videorecording, non-circ",Service Copy,Research,false,
+12,musical sound recording,Service Copy,Research,false,
+13,spoken sound recording,Service Copy,Research,false,
+14,moving image,Service Copy,Research,false,
+15,flat graphic,,Research,true,
+16,computer file,,Research,true,
+17,kit,,Research,true,
+18,mixed medium collection,,Research,true,
+19,3-D object,,Research,false,
+20,manuscript,,Research,false,
+21,archival material,Print,Research,false,"**question for LPA, Schomburg"
+22,clipping files,,Research,false,
+23,archival sound recording,Preservation Copy,Research,false,
+24,archival video recording,Preservation Copy,Research,false,
+25,atlas,,Research,true,
+26,microfiche,,Research,true,
+27,preservation master negative,A.O. (archival original),Research,false,
+28,printing master negative,P.M.,Research,false,
+29,bundled materials (vols.),,Research,true,
+30,loose newspaper,,Research,true,
+31,"google project, non-circ",Public Domain,Research,true,
+32,"google project, book",Public Domain,Research,true,
+33,"google project, serial",Public Domain,Research,true,
+34,micro-opaque,,Research,true,
+35,"cd-rom, dvd-rom",,Research,true,
+36,www based,,Research,false,Jason will check
+37,master recording,A.O. ???,Research,false,
+38,art and artifacts,,Research,false,
+41,"internet archive, non-circ",Public Domain,Research,false,confirm with heide
+42,"internet archive, book",Public Domain,Research,true,
+43,"internet archive, serial",Public Domain,Research,true,
+50,offsite requesting (ncip),temporary item - ReCAP request,Research,false,
+51,i-archive/google non-circ,Public Domain,Research,false,confirm with heide
+52,i-archive/google monograph,Public Domain,Research,true,
+53,i-archive/google serial,Public Domain,Research,true,
+55,"book, limited circ, MaRLI",Leaves SASB,Research,true,
+57,printed music limited circ MaRLI,Leaves SASB,Research,true,
+60,"pamphlets, singles, 1-50 pages",,Research,true,
+61,"pamphlet volumes, bound with",,Research,true,
+65,"book, good condition, non-MaRLI",Conservation Candidate,Research,true,
+66,"book, poor condition, non-MaRLI",Conservation Candidate,Research,true,
+67,"printed music, good, non-MaRLI",Conservation Candidate,Research,true,
+68,"printed music, poor, non-MaRLI",Conservation Candidate,Research,true,
+79,Interlibrary Loan - Research,,Research,false,
+101,"Book, circ",Adult,Branch,,
+102,"Book, paperback",Adult,Branch,,
+103,"Book, express",Adult,Branch,,
+104,"Reference non-circ Book,PER,etc.",Adult,Branch,,
+105,Pamphlet,Adult,Branch,,
+106,Center for reading/writing,Adult,Branch,,
+107,"Periodical, circ, serial",Adult,Branch,,
+108,Lpa score,Adult,Branch,,
+109,Lpa song index score,Adult,Branch,,
+110,VHS,Adult,Branch,,
+111,DVD,Adult,Branch,,
+112,DVD express,Adult,Branch,,
+113,VCD,Adult,Branch,,
+114,Compact disc,Adult,Branch,,
+115,Cd express,Adult,Branch,,
+116,Audiocassette,Adult,Branch,,
+117,"Book, circ, 2-Week, New",Adult,Branch,,
+118,Recorded book,Adult,Branch,,
+119,Software,Adult,Branch,,
+120,Picture,Adult,Branch,,
+121,Mixed media set,Adult,Branch,,
+122,Cd-rom,Adult,Branch,,
+123,Game express,Adult,Branch,,
+124,E-nypl book,,Branch,,
+125,E-nypl audio book,,Branch,,
+126,E-nypl music,,Branch,,
+127,E-nypl video,,Branch,,
+128,Wireless laptop,,Branch,,
+129,Borrowed ILL,,Branch,,
+130,Equipment,,Branch,,
+131,Adult fast add item,On-The-Fly,Branch,,
+132,RFVC - FILM,LPA Only,Research;Branch,,
+133,RFVC - FILM PRESERVATION,LPA Only,Research;Branch,,
+134,RFVC - VHS,LPA Only,Research;Branch,,
+135,RFVC - DVD,LPA Only,Research;Branch,,
+136,"Leased book 2-Week, New",Adult,Branch,,
+137,"Leased book, express",Adult,Branch,,
+138,"Leased book, 3-week",Adult,Branch,,
+139,Chrome book,,Branch,,
+140,Blu-ray,,Branch,,
+141,Blu-ray express,,Branch,,
+142,RFVC - LPA Blu-ray,,Research;Branch,,
+143,"ELL book, iZone at AG,IN,MH,SE",,Branch,,
+144,Lpa orchestra collection,LPA Only,Branch,,
+150,Clear WiFi Access Point,,Branch,,
+201,J book,Juvenile,Branch,,
+202,J recorded book,Juvenile,Branch,,
+203,J compact disc,Juvenile,Branch,,
+204,J cd-rom,Juvenile,Branch,,
+205,J audiocassette,Juvenile,Branch,,
+206,J DVD,Juvenile,Branch,,
+207,J fast add item,"Juvenile, ON-THE-FLY",Branch,,
+208,J game express,Juvenile,Branch,,
+209,J mixed media set,Juvenile,Branch,,
+210,J long playing record,Juvenile,Branch,,
+211,J paperback,Juvenile,Branch,,
+212,J periodical,Juvenile,Branch,,
+213,J reference,Juvenile,Branch,,
+214,J software,Juvenile,Branch,,
+215,J videocassette,Juvenile,Branch,,
+216,J DVD express,Juvenile,Branch,,
+217,J Blu-ray,Juvenile,Branch,,
+218,J Blu-ray express,Juvenile,Branch,,
+219,J ELL book at AG IN MH SE,Juvenile,Branch,,
+220,J pre-k book,,Branch,,
+230,YA DVD express,Young Adult,Branch,,
+231,YA book,Young Adult,Branch,,
+232,YA recorded book,Young Adult,Branch,,
+233,YA CD,Young Adult,Branch,,
+234,YA CD express,Young Adult,Branch,,
+235,YA DVD,Young Adult,Branch,,
+236,YA game express,Young Adult,Branch,,
+237,YA pamphlet,Young Adult,Branch,,
+238,YA paperback,Young Adult,Branch,,
+239,YA periodical,Young Adult,Branch,,
+240,YA Blu-ray,Young Adult,Branch,,
+241,YA Blu-ray express,Young Adult,Branch,,
+242,YA ELL book at AG IN MH SE,Young Adult,Branch,,
+252,Teacher Set (DOE EDUCATOR ONLY),DOE Only,Branch,,
+253,Teacher Set Playaway,DOE Only,Branch,,
