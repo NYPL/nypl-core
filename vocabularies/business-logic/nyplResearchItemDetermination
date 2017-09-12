@@ -1,0 +1,8 @@
+The following boolean OR logic determines whether a given item record will be ingested into Discovery (SCC).
+
+An item is determined to be Research and is ingested into Discovery (SCC) if:
+* itype <= 100 (or, as an exception, has an RFVC itype: 132, 133, 134, 135, 142) OR
+* it's a partner record OR
+* it's an e-resource OR
+* it holding-location collectionType is 'Research'
+Non-research items are suppressed.
