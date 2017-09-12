@@ -8,7 +8,7 @@
 *Item must not be suppressed - unless superseded by another suppression/deletion method, apply partner-owned bib/item suppression logic first: [partnerBibAndItemSuppression.md](https://github.com/NYPL/nypl-core/blob/master/vocabularies/business-logic/partnerBibAndItemSuppression.md)*
 
 * ReCAP SCSB item status
-  * If "not available," item is not requestable (do not display "place request" button).
+  * If item is "not available" in SCSB, item is not requestable (do not display "place request" button).
   * If "available," item is requestable -- show "place request" button.
  
  
@@ -17,6 +17,7 @@
 *Item must not be suppressed - apply NYPL-owned bib/item suppression logic first: [nyplBibAndItemSuppression.md](https://github.com/NYPL/nypl-core/blob/master/vocabularies/business-logic/nyplBibAndItemSuppression.md)*
 
 * ReCAP SCSB item status
+  * If item is not found in SCSB, item is not requestable (do not display "place request" button).
   * If "not available," item is not requestable (do not display "place request" button).
   * If "available," item might be requestable -- go to next determiner:
 * Sierra item location code [(locations.csv -- warning: large file)](https://github.com/NYPL/nypl-core/blob/master/vocabularies/csv/locations.csv)
