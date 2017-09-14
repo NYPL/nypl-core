@@ -656,38 +656,47 @@
     "paths": [
       {
         "marc": "600",
+        "subfields": ["a", "b", "c", "d", "e", "g", "4", "v", "x", "y", "z"],
         "description": "Subject Added Entry-Personal Name"
       },
       {
         "marc": "610",
+        "subfields": ["a", "b", "c", "d", "e", "g", "4", "v", "x", "y", "z"],
         "description": "Subject Added Entry-Personal Name"
       },
       {
         "marc": "611",
+        "subfields": ["a", "b", "c", "d", "e", "g", "4", "v", "x", "y", "z"],
         "description": "Subject Added Entry-Personal Name"
       },
       {
         "marc": "630",
+        "subfields": ["a", "b", "c", "d", "e", "g", "4", "v", "x", "y", "z"],
         "description": "Subject Added Entry-Personal Name"
       },
       {
         "marc": "648",
+        "subfields": ["a", "b", "c", "d", "e", "g", "4", "v", "x", "y", "z"],
         "description": "Subject Added Entry-Personal Name"
       },
       {
         "marc": "650",
+        "subfields": ["a", "b", "c", "d", "e", "g", "4", "v", "x", "y", "z"],
         "description": "Subject Added Entry-Personal Name"
       },
       {
         "marc": "651",
+        "subfields": ["a", "b", "c", "d", "e", "g", "4", "v", "x", "y", "z"],
         "description": "Subject Added Entry-Personal Name"
       },
       {
         "marc": "653",
+        "subfields": ["a", "b", "c", "d", "e", "g", "4", "v", "x", "y", "z"],
         "description": "Subject Added Entry-Personal Name"
       },
       {
         "marc": "655",
+        "subfields": ["a", "b", "c", "d", "e", "g", "4", "v", "x", "y", "z"],
         "description": "Subject Added Entry-Personal Name"
       }
     ]
