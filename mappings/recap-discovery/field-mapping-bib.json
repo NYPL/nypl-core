@@ -755,7 +755,19 @@
     "jsonLdKey": "titleDisplay",
     "paths": [
       {
-        "marc": "245"
+        "marc": "245",
+        "subfields": [
+          "a",
+          "b",
+          "c",
+          "f",
+          "g",
+          "h",
+          "k",
+          "n",
+          "p",
+          "s"
+        ]
       }
     ]
   },
