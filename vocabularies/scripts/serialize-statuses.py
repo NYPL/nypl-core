@@ -20,12 +20,14 @@ for r in reader:
     id = r['id']
     type = 'nypl:Status'
     preflabel = rdflib.Literal(r['skos:prefLabel'])
+    altlabel = rdflib.Literal(r['skos:altLabel'])
     notation = rdflib.Literal(r['skos:notation'])
     status = nyplStatus + str(id)
     requestable = r['nypl:requestable']
     
     g.add( (status, RDF.type, nypl.Status))
     g.add( (status, SKOS.prefLabel, preflabel))
+    g.add( (status, SKOS.altLabel, altlabel))
     g.add( (status, SKOS.notation, notation))
     if r['skos:note'] != '':
         note = rdflib.Literal(r['skos:note'])

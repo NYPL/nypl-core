@@ -12,6 +12,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Closed branch",
       "skos:notation": "c",
       "skos:prefLabel": "Closed branch"
     },
@@ -22,6 +23,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "New-in process",
       "skos:notation": "b",
       "skos:prefLabel": "New-in process"
     },
@@ -32,6 +34,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "skos:altLabel": "AVAILABLE",
       "skos:notation": "-",
       "skos:note": "for Sierra code \"-\", if hold present or if due date present, then requestable=false",
       "skos:prefLabel": "Available "
@@ -43,6 +46,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Storage",
       "skos:notation": "g",
       "skos:prefLabel": "Storage"
     },
@@ -53,6 +57,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Being filmed",
       "skos:notation": "f",
       "skos:prefLabel": "Being filmed"
     },
@@ -63,6 +68,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "On exhibit",
       "skos:notation": "e",
       "skos:prefLabel": "On exhibit"
     },
@@ -73,6 +79,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Damaged",
       "skos:notation": "d",
       "skos:prefLabel": "Damaged"
     },
@@ -83,6 +90,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Check with staff",
       "skos:notation": "k",
       "skos:prefLabel": "Check with staff"
     },
@@ -93,6 +101,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Overflow",
       "skos:notation": "j",
       "skos:prefLabel": "Overflow"
     },
@@ -103,6 +112,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "At bindery",
       "skos:notation": "i",
       "skos:prefLabel": "At bindery"
     },
@@ -113,6 +123,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Phone request",
       "skos:notation": "h",
       "skos:prefLabel": "Phone request"
     },
@@ -121,9 +132,11 @@
       "@type": "nypl:Status",
       "nypl:requestable": {
         "@type": "XSD:boolean",
-        "@value": "true"
+        "@value": "false"
       },
+      "skos:altLabel": "USE IN LIBRARY",
       "skos:notation": "o",
+      "skos:note": "updated 20171001",
       "skos:prefLabel": "Use in library"
     },
     {
@@ -133,6 +146,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "BILLED",
       "skos:notation": "n",
       "skos:prefLabel": "Billed "
     },
@@ -143,6 +157,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "MISSING",
       "skos:notation": "m",
       "skos:prefLabel": "Missing"
     },
@@ -153,6 +168,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Lost in inventory",
       "skos:notation": "l",
       "skos:prefLabel": "Lost in inventory"
     },
@@ -163,6 +179,10 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": [
+        "Supervised use",
+        "Staff use"
+      ],
       "skos:notation": [
         "~",
         "s"
@@ -180,6 +200,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Loaned (ReCAP)",
       "skos:notation": "r",
       "skos:prefLabel": "Loaned (ReCAP)"
     },
@@ -190,6 +211,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Noncirculating",
       "skos:notation": "p",
       "skos:prefLabel": "Noncirculating"
     },
@@ -200,6 +222,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Withdrawn",
       "skos:notation": "w",
       "skos:prefLabel": "Withdrawn"
     },
@@ -210,6 +233,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Preservation",
       "skos:notation": "v",
       "skos:prefLabel": "Preservation"
     },
@@ -220,6 +244,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Temporarily unavailable",
       "skos:notation": "u",
       "skos:prefLabel": "Temporarily unavailable"
     },
@@ -230,6 +255,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "skos:altLabel": "IN TRANSIT",
       "skos:notation": "t",
       "skos:prefLabel": "In transit"
     },
@@ -240,8 +266,16 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "DISPUTED ITEM",
       "skos:notation": "z",
       "skos:prefLabel": "Disputed Item"
+    },
+    {
+      "@id": "nyplStatus:x",
+      "@type": "nypl:Status",
+      "skos:altLabel": "MML REQUEST",
+      "skos:notation": "x",
+      "skos:prefLabel": "Mid-Manhattan request"
     },
     {
       "@id": "nyplStatus:na",
@@ -250,6 +284,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Not available (ReCAP)",
       "skos:notation": "na",
       "skos:prefLabel": "Not available (ReCAP)"
     },
@@ -260,6 +295,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "Lost and paid",
       "skos:notation": "$",
       "skos:prefLabel": "Lost and paid"
     },
@@ -270,6 +306,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "skos:altLabel": "Loaned",
       "skos:notation": "-",
       "skos:note": "determine id=co how? for Sierra code \"-\", if hold present or if due date present, then requestable=false",
       "skos:prefLabel": "Loaned"
@@ -281,6 +318,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "skos:altLabel": "ON HOLDSHELF",
       "skos:notation": "!",
       "skos:prefLabel": "On Holdshelf"
     },
@@ -291,6 +329,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "ILL RETURNED",
       "skos:notation": "%",
       "skos:prefLabel": "ILL returned"
     },
@@ -301,6 +340,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "skos:altLabel": "MISSING IN TRANSIT",
       "skos:notation": "?",
       "skos:prefLabel": "Missing in transit"
     }
