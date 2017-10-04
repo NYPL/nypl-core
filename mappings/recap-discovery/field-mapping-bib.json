@@ -618,6 +618,13 @@
           "b"
         ],
         "nyplSources": []
+      },
+      {
+        "marc": "264",
+        "subfields": [
+          "b"
+        ],
+        "nyplSources": []
       }
     ]
   },
@@ -627,6 +634,12 @@
     "paths": [
       {
         "marc": "260",
+        "subfields": [
+          "b"
+        ]
+      },
+      {
+        "marc": "264",
         "subfields": [
           "b"
         ]
