@@ -1,5 +1,7 @@
-## ReCAP CGD/Use Restriction Rules for Accessioning NYPL Items
-### Ordered Logic to Support NYPL's Sierra MARC-in-JSON to SCSBXML Translation Module [(Jira SRCH-302)](https://jira.nypl.org/browse/SRCH-302)  
+## ReCAP CGD/Use Restriction Rules
+### Ordered Logic to Support NYPL's Sierra MARC-in-JSON to SCSBXML Translation Module [(Jira SRCH-302)](https://jira.nypl.org/browse/SRCH-302)
+
+*The below CGD/Use Restriction Rules are applied via the MARC-in-JSON to SCSBXML translation module when NYPL items are newly-accessioned at ReCAP.*  
   
 **(0) Default CGD/Use Restriction Profile**  
 
