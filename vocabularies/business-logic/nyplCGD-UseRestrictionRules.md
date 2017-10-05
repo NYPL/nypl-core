@@ -1,11 +1,16 @@
-## ReCAP CGD/Use Restriction Check for Accessioning NYPL Items
-### Ordered Logic to Support NYPL's Sierra MARC-in-JSON to SCSBXML Translation Module [(Jira SRCH-302)](https://jira.nypl.org/browse/SRCH-302)
+## ReCAP CGD/Use Restriction Rules for Accessioning NYPL Items
+### Ordered Logic to Support NYPL's Sierra MARC-in-JSON to SCSBXML Translation Module [(Jira SRCH-302)](https://jira.nypl.org/browse/SRCH-302)  
+  
+**(0) Default CGD/Use Restriction Profile**  
 
+* *The default profile should be applied to items that are eligible for Accession into ReCAP but cannot derive a CGD/Use Restriction profile from the rules below.*  
+* *The default profile is: CGD="Private" and Use Restriction="In Library Use"*  
+  
 **(I) Determine ReCAP Accession eligibility.**  
 1. Check for ReCAP location code in item record  
 ⋅⋅⋅a. ReCAP item location codes always start with rc. The inverse is true; location codes that start with rc are always ReCAP location codes.  
 ⋅⋅⋅b. If the item's location code is not a ReCAP location code, do not process the item.  
-⋅⋅⋅⋅⋅⋅i. (Probably best to "error out" here because every ReCAP item physically accessioned at ReCAP should already have a ReCAP location code -- presence of a non-ReCAP location code may indicate a larger issue with the item or record. Additionally, the resulting error/exception report could help Heide's team troubleshoot metadata issues or issues with preparatory batch processing.)  
+⋅⋅⋅⋅⋅⋅i. (Probably best to "error out" instead of applying the default profile because every ReCAP item physically accessioned at ReCAP should already have a ReCAP location code -- presence of a non-ReCAP location code may indicate a larger issue with the item or record. Additionally, the resulting error/exception report could help Heide's team troubleshoot metadata issues or issues with preparatory batch processing.)  
 ⋅⋅⋅c. If the item's location code is a ReCAP location code, proceed to (II) Determine the item's CGD.  
 
 **(II) Determine the item's CGD.**  
@@ -27,18 +32,18 @@
 
 **(III) After determining CGD is shareable (Open or Shared), determine Use Restriction.**  
   
-5. Check for "supervised use" OPAC message  
-⋅⋅⋅a. Currently, the only "supervised use" OPAC message code = u  
-⋅⋅⋅b. If item has a "supervised use" OPAC Message, the item's Use Restriction="Supervised Use" -- **check is complete for this item.**  
-⋅⋅⋅c. If item does not have a "supervised use" OPAC message, then:  
-6. Check for "in library use" item type aka itype  
+5. Check for "Supervised Use" OPAC message  
+⋅⋅⋅a. Currently, the only "Supervised Use" OPAC message code = u  
+⋅⋅⋅b. If item has a "Supervised use" OPAC Message, the item's Use Restriction="Supervised Use" -- **check is complete for this item.**  
+⋅⋅⋅c. If item does not have a "Supervised Use" OPAC message, then:  
+6. Check for "In Library Use" item type aka itype  
 ⋅⋅⋅a. "In Library Use" itypes = 2, 3, 4, 5, 6, 7, 25, 26, 32, 33, 34, 35, 42, 43, 52, 53, 60, 61, 65, 67  
 ⋅⋅⋅b. If item has an "In Library Use" itype, the item's Use Restriction="In Library Use" -- **check is complete for this item.**  
-⋅⋅⋅c. If item does not have a "supervised use" OPAC Message and does not have an "In Library Use" itype, then:  
+⋅⋅⋅c. If item does not have a "Supervised Use" OPAC Message and does not have an "In Library Use" itype, then:  
 7. Check for "no restrictions" item type aka itype  
 ⋅⋅⋅a. "No restrictions" itypes = 55, 57  
-⋅⋅⋅b. If item has a "no restrictions" itype, the item's Use Restriction field should be blank (conveys absence of any use restrictions) -- **check is complete for this item.**  
-⋅⋅⋅c. If item has neither a "supervised use" OPAC Message, nor an "In Library Use" itype, nor a "No restrictions" itype, assign the default profile: CGD="Private" and Use Restriction="In Library Use"  
+⋅⋅⋅b. If item has a "no restrictions" itype, the item's Use Restriction field should be blank (conveys absence of use restrictions) -- **check is complete for this item.**  
+⋅⋅⋅c. If item has neither a "Supervised Use" OPAC Message, nor an "In Library Use" itype, nor a "no restrictions" itype, assign the default profile: CGD="Private" and Use Restriction="In Library Use"  
   
 ### Accepted ReCAP CGD and Use Restriction values  
 
