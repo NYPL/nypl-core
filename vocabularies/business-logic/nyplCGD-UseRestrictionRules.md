@@ -17,10 +17,10 @@
 
 **(II) Determine the item's CGD.**  
   
-1. Check for private icode2 (determines whether item is suppressed from public view)
-⋅⋅⋅a. Private icode2 values = p, s
-⋅⋅⋅b. If icode2 is private, then item's  CGD="Private" -- **Go to (III) Determine the item's Use Restriction**
-⋅⋅⋅c. If icode2 is not private, then:
+1. Check for private icode2 (determines whether item is suppressed from public view)  
+⋅⋅⋅a. Private icode2 values = p, s  
+⋅⋅⋅b. If icode2 is private, then item's  CGD="Private" -- **Go to (III) Determine the item's Use Restriction**  
+⋅⋅⋅c. If icode2 is not private, then:  
 2. Check for private Customer Code (use SCSB customer code, not Sierra item agency)  
 ⋅⋅⋅a. Private customer codes = JO, ND, NL, NN, NO, NP, NQ, NR, NS, NU, NV, NX, NZ  
 ⋅⋅⋅b. If Customer Code is private, then item's  CGD="Private" -- **Go to (III) Determine the item's Use Restriction**  
