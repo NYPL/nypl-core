@@ -21,6 +21,7 @@
   * If "not available," item is not requestable (do not display "place request" button).
   * If "available," item might be requestable -- go to next determiner:
 * Sierra item location code [(locations.csv -- warning: large file)](https://github.com/NYPL/nypl-core/blob/master/vocabularies/csv/locations.csv)
+  * If item location code is not found in locations.csv, item is not requestable (do not display "place request" button).
   * If nypl:requestable=false, item is not requestable (do not display "place request" button).
   * If nypl:requestable=true, item might be requestable -- go to next determiner:
 * Sierra item status (fixed field "88") [(statuses.csv)](https://github.com/NYPL/nypl-core/blob/master/vocabularies/csv/statuses.csv)
