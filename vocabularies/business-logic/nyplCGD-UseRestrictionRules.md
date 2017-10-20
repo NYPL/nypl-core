@@ -62,7 +62,7 @@
   * **In Library Use**: item must be used inside the receiving library; it cannot be lent to patrons for use outside the library.  
   * **[blank value]**: item has no restrictions on use; it can be lent to patrons for use outside the receiving library. Partner items with no restrictions on use are labeled "[Standard NYPL Restrictions Apply]" in Sierra and patron-facing account interfaces.  
   
-###Why determine Use Restriction before CGD?  
+### Why determine Use Restriction before CGD?  
 
 * The CGD check is guaranteed to return one of two acceptable results. However, the CGD in finalized only upon completion of the Use Restriction check. A failed use Restriction Check will determine a default CGD/Use Restriction combination.  
 * A failed Use Restriction check automatically assigns an item the default profile [CGD=Private and Use Restriction=In Library Use"]. The previous directive to [first determine CGD, then determine Use Restriction] could initially assign the item CGD=Shareable only to ultimately revert this to the default CGD=Private upon failure of the final Use Restriction check. The (potential) inefficiency of the earlier flow is corrected by checking Use Restriction before checking CGD, as a failed Use Restriction check will determine the default CGD=Private -- thereby negating the need to run a CGD check at all.  
