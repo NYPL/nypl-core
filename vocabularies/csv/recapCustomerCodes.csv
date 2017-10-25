@@ -17,7 +17,7 @@ NO,NO,SASB Manuscripts and Archives,,false,0001
 NP,NP,LPA,NP,true,0001
 NQ,NQ,SASB Restricted,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW,true,0001
 NR,NR,SASB Rare Book Division,,false,0001
-NS,NS,Schomburg Center MARBI,,true,0001
+NS,NS,Schomburg Center MARB,,false,0001
 NT,NT,Photo Services and Permissions,,false,0001
 NU,NU,LBL Restricted,,false,0001
 NV,NV,LPA TOFT,NP,false,0001
@@ -35,10 +35,14 @@ JN,JN,JSTOR Standard,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW,true,0001
 JO,JO,JSTOR Restricted,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW,true,0001
 GO,GO,Google Project (deprecated),,false,0001
 JS,JS,SIBL De-duping candidates,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW,false,0001
-OA,OA,SASB Allen Room*,,false,0001
-OC,OC,SASB Cullman Center*,,false,0001
-ON,ON,SASB Shoichi Noma Scholar Room*,,false,0001
-OW,OW,SASB Wertheim Study*,,false,0001
+OA,OA,SASB Allen Room,,false,0001
+OC,OC,SASB Cullman Center,,false,0001
+ON,ON,SASB Shoichi Noma Scholar Room,,false,0001
+OW,OW,SASB Wertheim Study,,false,0001
+OS,OS,SASB no Sierra holds,,false,0001
+OP,OP,LPA no Sierra holds,,false,0001
+OB,OB,SIBL no Sierra holds,,false,0001
+OM,OM,Schomburg Gen. no Sierra holds,,false,0001
 AC,AC,Avery Cold Vault,,false,0002
 AD,AD,Avery Drawings & Archives,,false,0002
 AR,AR,Avery Library,NH;OA;OC;ON;OW,true,0002
