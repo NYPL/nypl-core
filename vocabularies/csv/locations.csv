@@ -1398,7 +1398,7 @@ map92,Schwarzman Building M2 - Map Division - Room 117,SASB M2 - Map Division - 
 mapp1,Schwarzman Building - Map Division Reference - Room 117,SASB - Map Division Reference - Rm 117,Research,,,ma,1106,false,map,,true,
 mapp2,Schwarzman Building - Map Division - Room 117,SASB - Map Division - Rm 117,Research,,,ma,1106,false,map,,true,
 mapp3,Schwarzman Building - Map Division - Desk - Room 117,SASB - Map Division - Desk - Rm 117,Research,,,ma,1106,false,map,,true,
-maq,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,Research,,ma,1102,false,maq,NZ,true,pforzheimer-collection-shelley-and-his-circle
+maq,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,Research,,ma,1102,false,maq,NZ,false,pforzheimer-collection-shelley-and-his-circle
 maqq2,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,,,ma,1102,false,maq,,true,
 mar,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Collection Rm 328,Research,Research,,ma,1108,false,mar,NR,false,rare-books-division
 mar62,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Collection Rm 328,Research,,,Ma,1108,false,mar,,true,
