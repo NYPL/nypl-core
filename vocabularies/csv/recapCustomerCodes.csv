@@ -39,7 +39,8 @@ OA,OA,SASB Allen Room,,false,0001
 OC,OC,SASB Cullman Center,,false,0001
 ON,ON,SASB Shoichi Noma Scholar Room,,false,0001
 OW,OW,SASB Wertheim Study,,false,0001
-OS,OS,SASB no Sierra holds,,false,0001
+OS,OS,SASB no Sierra holds (discontinued),,false,0001
+OZ,OZ,SASB no Sierra holds,,false,0001
 OP,OP,LPA no Sierra holds,,false,0001
 OB,OB,SIBL no Sierra holds,,false,0001
 OM,OM,Schomburg Gen. no Sierra holds,,false,0001
