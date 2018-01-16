@@ -46,7 +46,7 @@ OB,OB,SIBL no Sierra holds,,false,0001
 OM,OM,Schomburg Gen. no Sierra holds,,false,0001
 AC,AC,Avery Cold Vault,,false,0002
 AD,AD,Avery Drawings & Archives,,false,0002
-AR,AR,Avery Library,NH;OA;OC;ON;OW,true,0002
+AR,AR,Avery Library,ND;NF;NG;NJ;NM;NH;OA;OC;ON;OW,true,0002
 AV,AV,Avery Classics,,false,0002
 BC,BC,Bibliographic Control Division,,false,0002
 BL,BL,Barnard Library,,false,0002
@@ -62,18 +62,18 @@ CI,CI,Interlibary Loan,,false,0002
 CJ,CJ,Journalism Library,,false,0002
 CM,CM,Master Microfilm,,false,0002
 CP,CP,CP,,false,0002
-CR,CR,CR,NH;OA;OC;ON;OW,true,0002
+CR,CR,CR,ND;NF;NG;NJ;NM;NH;OA;OC;ON;OW,true,0002
 CS,CS,Shipping & Receiving,,false,0002
-CU,CU,CU,NH;OA;OC;ON;OW,true,0002
+CU,CU,CU,ND;NF;NG;NJ;NM;NH;OA;OC;ON;OW,true,0002
 CV,CV,Butler Media Collection,,false,0002
 EA,EA,EA,,false,0002
 EN,EN,EN,,false,0002
-EV,EV,EV,NH;OA;OC;ON;OW,true,0002
-GC,GC,GC,NH;OA;OC;ON;OW,true,0002
+EV,EV,EV,ND;NF;NG;NJ;NM;NH;OA;OC;ON;OW,true,0002
+GC,GC,GC,ND;NF;NG;NJ;NM;NH;OA;OC;ON;OW,true,0002
 GE,GE,Geology Library,,false,0002
 GS,GS,Geoscience Library ,,false,0002
-HR,HR,HR,NH;OA;OC;ON;OW,true,0002
-HS,HS,Health Sciences Library,NH;OA;OC;ON;OW,true,0002
+HR,HR,HR,ND;NF;NG;NJ;NM;NH;OA;OC;ON;OW,true,0002
+HS,HS,Health Sciences Library,ND;NF;NG;NJ;NM;NH;OA;OC;ON;OW,true,0002
 HX,HX,HX,,false,0002
 JC,JC,JC,,false,0002
 JD,JD,JD,,false,0002
@@ -94,7 +94,7 @@ CL,CL,CL,,false,0002
 CX,CX,CX,,false,0002
 JL,JL,JL,,false,0002
 JM,JM,JM,,false,0002
-PA,PA,Firestone LIbrary,NH;OA;OC;ON;OW,true,0003
+PA,PA,Firestone LIbrary,ND;NF;NG;NJ;NM;NH;OA;OC;ON;OW,true,0003
 PB,PB,Firestone Library Use Only,,true,0003
 PE,PE,Princeton Dark Storage,,false,0003
 PF,PF,"Firestone Library, Microforms",NF,true,0003
@@ -121,7 +121,7 @@ QN,QN,QN,,false,0003
 QP,QP,ReCAP/Princeton Preservation,,false,0003
 QT,QT,Technical Services. 693 (Staff Only),,false,0003
 QV,QV,QV,,false,0003
-GP,GP,GP,NH;OA;OC;ON;OW,true,0003
+GP,GP,GP,ND;NF;NG;NJ;NM;NH;OA;OC;ON;OW,true,0003
 JP,JP,JP,,false,0003
 JQ,JQ,Princeton Dark Storage,,true,0003
 QX,QX,Firestone Library. Shared,,false,0003
