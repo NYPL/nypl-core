@@ -203,8 +203,8 @@
     ]
   },
   "Genre/Form literal": {
-    "pred": "",
-    "jsonLdKey": "",
+    "pred": "nypl:genreForm",
+    "jsonLdKey": "genreForm",
     "paths": [
       {
         "marc": "655",
