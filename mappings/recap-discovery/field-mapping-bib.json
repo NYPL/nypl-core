@@ -202,6 +202,17 @@
       }
     ]
   },
+  "Genre/Form literal": {
+    "pred": "nypl:genreForm",
+    "jsonLdKey": "genreForm",
+    "paths": [
+      {
+        "marc": "655",
+        "subfields": ["a", "b", "c", "v", "x", "y", "z"],
+        "description": "Genre/Form literal"
+      }
+    ]
+  },
   "Identifier": {
     "pred": "dcterms:identifier",
     "jsonLdKey": "identifier",
@@ -710,11 +721,6 @@
       },
       {
         "marc": "653",
-        "subfields": ["a", "b", "c", "d", "e", "g", "4", "v", "x", "y", "z"],
-        "description": "Subject Added Entry-Personal Name"
-      },
-      {
-        "marc": "655",
         "subfields": ["a", "b", "c", "d", "e", "g", "4", "v", "x", "y", "z"],
         "description": "Subject Added Entry-Personal Name"
       }
