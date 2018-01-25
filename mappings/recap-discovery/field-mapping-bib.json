@@ -51,6 +51,16 @@
       }
     ]
   },
+  "Contents": {
+    "pred": "dcterms:tableOfContents",
+    "jsonLdKey": "tableOfContents",
+    "paths": [
+      {
+        "marc": "505",
+        "subfields": ["a"]
+      }
+    ]
+  },
   "Carrier type": {
     "pred": "bf:carrier",
     "jsonLdKey": "carrier",
