@@ -51,6 +51,16 @@
       }
     ]
   },
+  "Contents": {
+    "pred": "dcterms:tableOfContents",
+    "jsonLdKey": "tableOfContents",
+    "paths": [
+      {
+        "marc": "505",
+        "subfields": ["a"]
+      }
+    ]
+  },
   "Carrier type": {
     "pred": "bf:carrier",
     "jsonLdKey": "carrier",
@@ -321,260 +331,353 @@
     "paths": [
       {
         "marc": "500",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "General Note"
       },
       {
         "marc": "501",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "With Note"
       },
       {
         "marc": "502",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Dissertation Note"
       },
       {
         "marc": "504",
-        "subfields": [ "a" ],
-        "description": "Bibliography, Etc. Note"
-      },
-      {
-        "marc": "505",
-        "subfields": [ "a" ],
-        "description": "Formatted Contents Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Bibliography, etc. Note"
       },
       {
         "marc": "506",
-        "subfields": [ "a" ],
-        "description": "Restrictions on Access Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Formatted Contents Note"
       },
       {
         "marc": "507",
-        "subfields": [ "a" ],
-        "description": "Scale Note for Graphic Material"
+        "subfields": [
+          "a"
+        ],
+        "description": "Restrictions on Access Note"
       },
       {
         "marc": "508",
-        "subfields": [ "a" ],
-        "description": "Creation/Production Credits Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Scale Note for Graphic Material"
       },
       {
         "marc": "509",
-        "subfields": [ "a" ],
-        "description": "Unknown"
+        "subfields": [
+          "a"
+        ],
+        "description": "Creation/Production Credits Note"
       },
       {
         "marc": "510",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Citation/References Note"
       },
       {
         "marc": "511",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Participant or Performer Note"
       },
       {
         "marc": "513",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Type of Report and Period Covered Note"
       },
       {
         "marc": "514",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Data Quality Note"
       },
       {
         "marc": "515",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Numbering Peculiarities Note"
       },
       {
         "marc": "516",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Type of Computer File or Data Note"
       },
       {
         "marc": "518",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Date/Time and Place of an Event Note"
       },
       {
         "marc": "521",
-        "subfields": [ "a" ],
-        "description": "Target Audience Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Summary, etc."
       },
       {
         "marc": "522",
-        "subfields": [ "a" ],
-        "description": "Geographic Coverage Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Target Audience Note"
       },
       {
         "marc": "524",
-        "subfields": [ "a" ],
-        "description": "Preferred Citation of Described Materials Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Geographic Coverage Note"
       },
       {
         "marc": "525",
-        "subfields": [ "a" ],
-        "description": "Supplement Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Preferred Citation of Described Materials Note"
       },
       {
         "marc": "526",
-        "subfields": [ "a" ],
-        "description": "Study Program Information Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Supplement Note"
       },
       {
         "marc": "530",
-        "subfields": [ "a" ],
-        "description": "Additional Physical Form Available Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Study Program Information Note"
       },
       {
         "marc": "533",
-        "subfields": [ "a" ],
-        "description": "Reproduction Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Additional Physical Form available Note"
       },
       {
         "marc": "534",
-        "subfields": [ "a" ],
-        "description": "Original Version Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Reproduction Note"
       },
       {
         "marc": "535",
-        "subfields": [ "a" ],
-        "description": "Location of Originals/Duplicates Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Original Version Note"
       },
       {
         "marc": "536",
-        "subfields": [ "a" ],
-        "description": "Funding Information Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Location of Originals/Duplicates Note"
       },
       {
         "marc": "538",
-        "subfields": [ "a" ],
-        "description": "System Details Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Funding Information Note"
       },
       {
         "marc": "539",
-        "subfields": [ "a" ],
-        "description": "Unknown"
+        "subfields": [
+          "a"
+        ],
+        "description": "System Details Note"
       },
       {
         "marc": "540",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Terms Governing Use and Reproduction Note"
       },
       {
         "marc": "541",
-        "notes": "If ind1==0, this note should be private--do not index or publish",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Immediate Source of Acquisition Note"
       },
       {
         "marc": "542",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Information Relating to Copyright Status"
       },
       {
         "marc": "544",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Location of Other Archival Materials Note"
       },
       {
         "marc": "545",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Biographical or Historical Data"
       },
       {
         "marc": "546",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Language Note"
       },
       {
         "marc": "547",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Former Title Complexity Note"
       },
       {
         "marc": "550",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Issuing Body Note"
       },
       {
         "marc": "555",
-        "subfields": [ "a" ],
-        "description": "Cumulative Index/Finding Aids Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Entity and Attribute Information Note"
       },
       {
         "marc": "556",
-        "subfields": [ "a" ],
-        "description": "Information About Documentation Note"
+        "subfields": [
+          "a"
+        ],
+        "description": "Cumulative Index/Finding Aids Note"
       },
       {
         "marc": "560",
-        "subfields": [ "a" ],
-        "description": "Unknown"
+        "subfields": [
+          "a"
+        ],
+        "description": "Information About Documentation Note"
       },
       {
         "marc": "561",
-        "notes": "If ind1==0, this note should be private--do not index or publish",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Ownership and Custodial History"
       },
       {
         "marc": "562",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Copy and Version Identification Note"
       },
       {
         "marc": "563",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Binding Information"
       },
       {
         "marc": "580",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Linking Entry Complexity Note"
       },
       {
         "marc": "581",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Publications About Described Materials Note"
       },
       {
         "marc": "583",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Action Note"
       },
       {
         "marc": "585",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Exhibitions Note"
       },
       {
         "marc": "586",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Awards Note"
       },
       {
         "marc": "588",
-        "subfields": [ "a" ],
+        "subfields": [
+          "a"
+        ],
         "description": "Source of Description Note"
       },
       {
         "marc": "590",
-        "subfields": [ "a" ],
-        "description": "Unknown"
+        "subfields": [
+          "a"
+        ],
+        "description": ""
       },
       {
         "marc": "591",
-        "subfields": [ "a" ],
-        "description": "Unknown"
+        "subfields": [
+          "a"
+        ],
+        "description": ""
       },
       {
         "marc": "599",
-        "subfields": [ "a" ],
-        "description": "Unknown"
+        "subfields": [
+          "a"
+        ],
+        "description": ""
       }
     ]
   },
