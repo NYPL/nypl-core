@@ -562,11 +562,6 @@
         "description": "Source of Description Note"
       },
       {
-        "marc": "590",
-        "subfields": [ "a" ],
-        "description": "Unknown"
-      },
-      {
         "marc": "591",
         "subfields": [ "a" ],
         "description": "Unknown"
