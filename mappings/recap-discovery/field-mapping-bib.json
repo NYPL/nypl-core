@@ -326,7 +326,7 @@
     ]
   },
   "Note": {
-    "pred": "skos:note",
+    "pred": "bf:note",
     "jsonLdKey": "note",
     "paths": [
       {
