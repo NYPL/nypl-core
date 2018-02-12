@@ -659,13 +659,6 @@
         "description": "Source of Description Note"
       },
       {
-        "marc": "590",
-        "subfields": [
-          "a"
-        ],
-        "description": ""
-      },
-      {
         "marc": "591",
         "subfields": [
           "a"
