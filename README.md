@@ -17,25 +17,35 @@ Models, mappings, and vocabularies for the NYPL Core ontology.
 * Test the pre-release tag on AWS nypl-sandbox by setting the
   NYPL_CORE_VERSION variable to vX.Xa for applications that need to test
   the changes
-* Change environment variables for discovery-api (Elastic Beanstalk)
+* Change environment variables for `discovery-api-dev` (Elastic Beanstalk)
 * Apply the changes which will trigger an application restart
 * If no changes to variables are detected, a restart will not take
-  place. One must force a restart to clear caches and pull in changes
+  place. One must force a restart to clear caches and pull in changes.
+  For discovery-api, use the 'Restart App Server(s)' option in the Actions
+  dropdown.
 * Test the changes on our QA server
 * Make adjustments to the mapping as needed
-* Create a new tag vX.Xb
-* Change the NYPL_CORE_VERSION variaable
-* Restart the applications
+* Force update the tag via `git tag -f vX.Xa`
+* Restart the `discovery-api-dev` application
 * Re-test
+
+#### Multiple Pre-release Tags:
+If so desired, pre-release tags could be incremented by their trailing letter
+when working with multiple features for the same release.
+* Create a new pre-release tag vX.Xb when incorporating a secondary feature
+  for the same release
+* Follow the same restart, re-test, update loop for changes
 
 #### For Production:
 
 * Create a pull request against master for your branch's changes
 * Submit for approval
 * Once approved, merge changes to master
-* Add a release tag vX.X (without the trailing letter) and commit
-* Restart discovery-api application to clear the cache and pick up the
-  changes
+* Delete working branch
+* Add a release tag vX.X (without the trailing letter) based on the new
+  merge and commit
+* Restart the `discovery-api` application to clear the cache and pick up the
+  changes via the 'Restart App Server(s)' option in the Actions dropdown.
 
 
 ### Responsibilities
