@@ -4,6 +4,10 @@ Models, mappings, and vocabularies for the NYPL Core ontology.
 
 ## Deployment Process
 
+A suggested workflow for the `discovery-api` Beanstalk application.
+Deploying other apps that depend on `nypl-core` will resemble
+these steps in spirit.
+
 ### General Workflow for Changes
 
 * Create a new branch from master
