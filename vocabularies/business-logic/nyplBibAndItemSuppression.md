@@ -9,7 +9,10 @@ This suppression logic is based on NYPL's local implementation of suppression co
 * Sierra bib record suppression
   * Sierra bib "suppressed" convenience field value
     * If "suppressed" value = "true", suppress bib and all attached items from display.
-    * If "suppressed" value = "false", display bib and apply item suppression rules for each attached item:
+    * If "suppressed" value = "false", and only Branch or non-Research items are attached to the bib, suppress bib and all attached items from display.
+    * If "suppressed" value = "false", and only Research items are attached to the bib, and all attached Research items are suppressed=true according to the below item record suppression logic, suppress bib and all attached items from display.
+    * If "suppressed" value = "false", and both Branch and Research items are attached to the bib, and all attached Research items are suppressed=true according to the below item record suppression logic, suppress bib and all attached items from display.
+    * NOTE: SCC automatically generates a shadow "item record" to represent the existence of an electronic resource link: if a bib has only suppressed=true/non-Research items attached, but also has an 856 field/electronic resource link, SCC will display the bib by virtue of the shadow electronic resource item record.
 * Sierra item record suppression
   * Sierra item record "icode2" fixed field value (aka "item code 2" or fixed field "60" in API response)
     * icode2 mapping to nypl:suppressed=true/false: https://github.com/NYPL/nypl-core/blob/master/vocabularies/csv/icode2.csv
@@ -19,7 +22,7 @@ This suppression logic is based on NYPL's local implementation of suppression co
     * If type value is mapped to nypl:suppressed=true, suppress item from display.
       * (generally only itype=50 is suppressed -- represents temporary NCIP item records)
     * If itype value is mapped to nypl:suppressed=false, display item record.
-* If item is determined as NOT suppressed, apply NYPL-owned item requestability logic (link TBA)
+* If item is determined as NOT suppressed, apply NYPL-owned item requestability logic: https://github.com/NYPL/nypl-core/blob/master/vocabularies/business-logic/Requestability.md
 
 **Related documentation** 
 
