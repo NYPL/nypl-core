@@ -326,8 +326,7 @@
     ]
   },
   "Note": {
-    "pred": "bf:note",
-    "indexPropertyName": "noteV2",
+    "pred": "skos:note",
     "jsonLdKey": "note",
     "paths": [
       {
@@ -658,6 +657,13 @@
           "a"
         ],
         "description": "Source of Description Note"
+      },
+      {
+        "marc": "590",
+        "subfields": [
+          "a"
+        ],
+        "description": ""
       },
       {
         "marc": "591",
