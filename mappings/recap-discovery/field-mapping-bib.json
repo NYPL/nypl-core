@@ -168,6 +168,19 @@
       }
     ]
   },
+  "Dates of serial publication": {
+    "pred": "nypl:serialPublicationDates",
+    "jsonLdKey": "serialPublicationDates",
+    "paths": [
+      {
+        "marc": "362",
+        "subfields": [
+          "a",
+          "z"
+        ]
+      }
+    ]
+  },
   "Description": {
     "pred": "dcterms:description",
     "jsonLdKey": "description",
