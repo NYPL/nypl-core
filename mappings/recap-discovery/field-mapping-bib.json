@@ -722,6 +722,28 @@
       }
     ]
   },
+  "Publication statement": {
+    "pred": "nypl:publicationStatement",
+    "jsonLdKey": "publicationStatement",
+    "paths": [
+      {
+        "marc": "260",
+        "subfields": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      {
+        "marc": "264",
+        "subfields": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    ]
+  },
   "Publisher": {
     "pred": "roles:pbl",
     "jsonLdKey": "pbl",
