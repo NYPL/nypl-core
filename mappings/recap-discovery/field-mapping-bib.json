@@ -13,29 +13,24 @@
     "jsonLdKey": "titleAlt",
     "paths": [
       {
-        "marc": "130",
-        "subfields": [ "a", "b", "f", "n", "p" ],
-        "description": "Varying Form of Title"
-      },
-      {
         "marc": "210",
-        "subfields": [ "a", "b", "f", "n", "p" ],
-        "description": "Varying Form of Title"
+        "subfields": [ "a", "b", "f", "n", "p" ]
       },
       {
         "marc": "222",
-        "subfields": [ "a", "b", "f", "n", "p" ],
-        "description": "Varying Form of Title"
+        "subfields": [ "a", "b", "f", "n", "p" ]
       },
       {
         "marc": "240",
-        "subfields": [ "a", "b", "f", "n", "p" ],
-        "description": "Varying Form of Title"
+        "subfields": [ "a", "b", "f", "n", "p" ]
       },
       {
         "marc": "246",
-        "subfields": [ "a", "b", "f", "n", "p" ],
-        "description": "Varying Form of Title"
+        "subfields": [ "a", "b", "f", "n", "p" ]
+      },
+      {
+        "marc": "740",
+        "subfields": [ "a", "n", "p" ]
       }
     ]
   },
@@ -222,6 +217,16 @@
       {
         "marc": "300",
         "subfields": [ "a", "b" ]
+      }
+    ]
+  },
+  "Former title": {
+    "pred": "nypl:formerTitle",
+    "jsonLdKey": "formerTitle",
+    "paths": [
+      {
+        "marc": "247",
+        "subfields": [ "a", "b", "f", "g", "n", "p" ]
       }
     ]
   },
@@ -807,8 +812,24 @@
     "jsonLdKey": "seriesStatement",
     "paths": [
       {
+        "marc": "440",
+        "subfields": ["3","a","x","v","l"]
+      },
+      {
         "marc": "490",
         "subfields": ["3","a","x","v","l"]
+      },
+      {
+        "marc": "800",
+        "subfields": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v" ]
+      },
+      {
+        "marc": "810",
+        "subfields": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v" ]
+      },
+      {
+        "marc": "811",
+        "subfields": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v" ]
       }
     ]
   },
@@ -904,6 +925,14 @@
       {
         "marc": "240",
         "subfields": ["a","d","f","g","k","l","m","n","o","p","r","s"]
+      },
+      {
+        "marc": "730",
+        "subfields": ["a","d","f","g","k","l","m","n","o","p","r","s", "t"]
+      },
+      {
+        "marc": "830",
+        "subfields": ["a","d","f","g","k","l","m","n","o","p","r","s", "t", "v"]
       }
     ]
   },
