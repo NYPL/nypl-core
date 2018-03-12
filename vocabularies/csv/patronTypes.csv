@@ -31,6 +31,8 @@ skos:notation,skos:prefLabel,nypl:deliveryLocationAccess
 100,INACTIVE PATRON,Research
 101,PENDING DISPUTE,Research
 106,NYPL Department,Research;Scholar
+107,Partner Card - Columbia,Research
+108,Partner Card - Princeton,Research
 116,"NYPL Retiree, Non-NYS (3 Year)",Research
 149,MyLibraryNYC Educator Queens,Research
 150,MyLibNYC Child 0-12 All Access,Research
