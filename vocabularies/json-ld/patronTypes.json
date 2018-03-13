@@ -117,8 +117,8 @@
       "@id": "ptype:87",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": [
-        "Scholar",
-        "Research"
+        "Research",
+        "Scholar"
       ],
       "skos:notation": "87",
       "skos:prefLabel": "Allen Scholar"
@@ -148,6 +148,13 @@
       "skos:prefLabel": "Shoichi Noma Scholar"
     },
     {
+      "@id": "ptype:108",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "108",
+      "skos:prefLabel": "Partner Card - Princeton"
+    },
+    {
       "@id": "ptype:101",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": "Research",
@@ -163,6 +170,13 @@
       ],
       "skos:notation": "106",
       "skos:prefLabel": "NYPL Department"
+    },
+    {
+      "@id": "ptype:107",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "107",
+      "skos:prefLabel": "Partner Card - Columbia"
     },
     {
       "@id": "ptype:60",
