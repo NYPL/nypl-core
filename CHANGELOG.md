@@ -1,5 +1,15 @@
 # CHANGELOG
 
+### v1.15
+ - Updates to bib mapping, including:
+   - Remove 590
+   - Change Note predicate from skos:note to bf:note
+   - First use of indexPropertyName in bib field mapping to support
+     divergent index properties and json-ld keys (for re-mapped note
+     field)
+   - New mappings/recap-discovery/README.md to document rationale and
+     usage of bib and item field mapping documents
+
 ### v1.12
  - Updates to `recapCustomerCodes` to allow delivery to Schomburg for partner items.
 
