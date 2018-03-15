@@ -33,11 +33,17 @@ csvParse(content, {
   if (err) throw err
 
   const result = data.reduce((mappings, row) => {
+    // Make sure mapping defines subfields:
+    if (!/\d+ .+/.test(row[0])) return mappings
+
     let [ , marc, subfields ] = row[0].match(/(\d+) (.*)/)
     subfields = subfields
       .split(/[, ]+/)
       .map((c) => c.replace(/^\$/, ''))
     const description = row[2]
+
+    // Make sure not 'Local Note':
+    if (description === 'Local Note') return mappings
 
     const mapping = {
       marc,
