@@ -1,0 +1,15 @@
+{
+  "name": "parse-bib-notes-mappings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^2.0.4",
+    "minimist": "^1.2.0"
+  }
+}
