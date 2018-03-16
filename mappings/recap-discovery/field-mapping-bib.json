@@ -46,6 +46,15 @@
       }
     ]
   },
+  "Catalog bib location code": {
+    "pred": "nypl:catalogBibLocation",
+    "jsonLdKey": "catalogBibLocation",
+    "paths": [
+      {
+        "marc": "locations.code"
+      }
+    ]
+  },
   "Contents": {
     "pred": "dcterms:tableOfContents",
     "jsonLdKey": "tableOfContents",
