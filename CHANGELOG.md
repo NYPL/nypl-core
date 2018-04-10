@@ -1,5 +1,18 @@
 # CHANGELOG
 
+### v1.19
+ - Updates to `recapCustomerCodes` for Schomburg
+ - Field-mapper-bib change: Retires temporary noteV2 field
+
+### v1.18
+ - Field-mapper-bib change: Adds catalogBibLocation prop to bib mapping
+
+### v1.17
+ - Adds rebuilt Bib Notes mappings with updated types
+
+### v1.16
+ - Field-mapper-bib change: add 720 to "Contributor literal"
+
 ### v1.15
  - Updates to bib mapping, including:
    - Remove 590
