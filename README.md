@@ -48,6 +48,7 @@ when working with multiple features for the same release.
 * Delete working branch
 * Add a release tag vX.X (without the trailing letter) based on the new
   merge and commit
+* Add an entry to [CHANGELOG.md](CHANGELOG.md) summarizing the changes and push to master. Add release notes at https://github.com/NYPL/nypl-core/tags .
 * Restart the `discovery-api` application to clear the cache and pick up the
   changes via the 'Restart App Server(s)' option in the Actions dropdown.
 
