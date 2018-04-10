@@ -357,7 +357,6 @@
   },
   "Note": {
     "pred": "bf:note",
-    "indexPropertyName": "noteV2",
     "jsonLdKey": "note",
     "paths": [
       {
