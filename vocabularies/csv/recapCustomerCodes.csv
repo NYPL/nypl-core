@@ -17,7 +17,7 @@ NO,NO,SASB Manuscripts and Archives,,false,0001
 NP,NP,LPA,NP,true,0001
 NQ,NQ,SASB Restricted,ND;NF;NG;NH;NJ;NM;OA;OC;ON;OW,true,0001
 NR,NR,SASB Rare Book Division,,false,0001
-NS,NS,Schomburg Center MARB,,true,0001
+NS,NS,Schomburg Center MARB,SR,true,0001
 NT,NT,Permissions & Reproduction Services (SASB),,false,0001
 NU,NU,LBL Restricted,,false,0001
 NV,NV,LPA TOFT,NP,false,0001
@@ -28,7 +28,7 @@ NZ,NZ,SASB Pforzheimer,,false,0001
 SA,SA,Schomburg Art & Artifacts,,false,0001
 SM,SM,Schomburg MIRS,,false,0001
 SP,SP,Schomburg Prints & Photographs,,false,0001
-SR,SR,Schomburg General Research,,false,0001
+SR,SR,Schomburg Center - Research and Reference Division,,false,0001
 GN,GN,Government Documents,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW,true,0001
 ID,ID,Inter-Library Loan (deprecated),,false,0001
 JN,JN,JSTOR Standard,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW,true,0001
