@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.20
+ - Adds parallel field mappings to field-mapping-bib.json
+
 ### v1.19
  - Updates to `recapCustomerCodes` for Schomburg
  - Field-mapper-bib change: Retires temporary noteV2 field
