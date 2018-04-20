@@ -682,6 +682,44 @@
       }
     ]
   },
+  "Parallel series statement": {
+    "pred": "nypl:parallelSeriesStatement",
+    "jsonLdKey": "parallelSeriesStatement",
+    "paths": [
+      {
+        "marc": "880",
+        "subfields": ["3","a","x","v","l"],
+        "isParallelFor": "440"
+      },
+      {
+        "marc": "880",
+        "subfields": ["3","a","x","v","l"],
+        "isParallelFor": "490"
+      }
+    ]
+  },
+  "Parallel title": {
+    "pred": "nypl:parallelTitle",
+    "jsonLdKey": "parallelTitle",
+    "paths": [
+      {
+        "marc": "880",
+        "subfields": [ "a", "b" ],
+        "isParallelFor": "245"
+      }
+    ]
+  },
+  "Parallel title display": {
+    "pred": "nypl:parallelTitleDisplay",
+    "jsonLdKey": "parallelTitleDisplay",
+    "paths": [
+      {
+        "marc": "880",
+        "subfields": [ "a", "b", "c", "f", "g", "h", "k", "n", "p", "s" ],
+        "isParallelFor": "245"
+      }
+    ]
+  },
   "Part of": {
     "pred": "nypl:partOf",
     "jsonLdKey": "partOf",
