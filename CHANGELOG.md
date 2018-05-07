@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.21
+ - Adds updated field-mapping-bib mapping for 'Contents', new mapping for 'Contents title'
+
 ### v1.20
  - Adds parallel field mappings to field-mapping-bib.json
 
