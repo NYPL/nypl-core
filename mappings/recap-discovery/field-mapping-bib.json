@@ -61,7 +61,17 @@
     "paths": [
       {
         "marc": "505",
-        "subfields": ["a"]
+        "subfields": ["a", "g", "r", "t"]
+      }
+    ]
+  },
+  "Contents title": {
+    "pred": "nypl:contentsTitle",
+    "jsonLdKey": "contentsTitle",
+    "paths": [
+      {
+        "marc": "505",
+        "subfields": ["t"]
       }
     ]
   },
