@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.22
+ - Removes Shoichi Noma room, as it is being shutdown due to SASB renovation. 
+
 ### v1.21
  - Adds updated field-mapping-bib mapping for 'Contents', new mapping for 'Contents title'
 
