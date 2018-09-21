@@ -11,3 +11,12 @@ cd vocabularies/scripts
 python setup.py develop
 ```
 
+## Running
+
+Serialize scripts expect to be run from within this directory.
+
+For example, this will rebuild ../json-ld/accessMessages.json from ../csv/accessMessages.csv:
+
+```
+python serialize-accessMessages.py
+```
