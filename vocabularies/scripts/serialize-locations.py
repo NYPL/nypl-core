@@ -7,7 +7,7 @@ from rdflib.serializer import Serializer
 import rdflib
 import csv
 
-f = open('locations.csv')
+f = open('../csv/locations.csv')
 reader = csv.DictReader(f)
 
 nypl = Namespace('http://data.nypl.org/nypl-core/')
@@ -73,7 +73,7 @@ for r in reader:
         custcode = recapCustomerCode + str(r['nypl:recapCustomerCode'])
         g.add( (location, nypl.recapCustomerCode, custcode))
 
-z = open('locations.json', 'wb')
+z = open('../json-ld/locations.json', 'wb')
 
 context = {"dcterms": "http://purl.org/dc/terms/",
            "nypl": "http://data.nypl.org/nypl-core/",

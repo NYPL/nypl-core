@@ -7,7 +7,7 @@ from rdflib.serializer import Serializer
 import rdflib
 import csv
 
-f = open('catalogItemTypes.csv')
+f = open('../csv/catalogItemTypes.csv')
 reader = csv.DictReader(f)
 
 nypl = Namespace('http://data.nypl.org/nypl-core/')
@@ -40,7 +40,7 @@ for r in reader:
             l = rdflib.Literal(l)
             g.add( (catalogItemType, nypl.collectionType, l))
 
-z = open('catalogItemTypes.json', 'wb')
+z = open('../json-ld/catalogItemTypes.json', 'wb')
 
 context = {"nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#",

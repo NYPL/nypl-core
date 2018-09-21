@@ -7,7 +7,7 @@ from rdflib.serializer import Serializer
 import rdflib
 import csv
 
-f = open('accessMessages.csv')
+f = open('../csv/accessMessages.csv')
 reader = csv.DictReader(f)
 
 nypl = Namespace('http://data.nypl.org/nypl-core/')
@@ -35,7 +35,7 @@ for r in reader:
 #            loc = rdflib.Literal(l)
 #            g.add( (accessMessage, nypl.locationType, loc))
 
-z = open('accessMessages.json', 'wb')
+z = open('../json-ld/accessMessages.json', 'wb')
 
 context = {"nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#", 

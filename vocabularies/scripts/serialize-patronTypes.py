@@ -7,7 +7,7 @@ from rdflib.serializer import Serializer
 import rdflib
 import csv
 
-f = open('patronTypes.csv')
+f = open('../csv/patronTypes.csv')
 reader = csv.DictReader(f)
 
 nypl = Namespace('http://data.nypl.org/nypl-core/')
@@ -33,7 +33,7 @@ for r in reader:
             if a != '':
                 g.add( (ptype, nypl.deliveryLocationAccess, rdflib.Literal(a)))
 
-z = open('patronTypes.json', 'wb')
+z = open('../json-ld/patronTypes.json', 'wb')
 
 context = {"nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#", 

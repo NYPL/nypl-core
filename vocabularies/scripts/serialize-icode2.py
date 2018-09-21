@@ -7,7 +7,7 @@ from rdflib.serializer import Serializer
 import rdflib
 import csv
 
-f = open('icode2.csv')
+f = open('../csv/icode2.csv')
 reader = csv.DictReader(f)
 
 nypl = Namespace('http://data.nypl.org/nypl-core/')
@@ -33,7 +33,7 @@ for r in reader:
         note = rdflib.Literal(r['skos:note'])
         g.add( (icode2, SKOS.note, note))
 
-z = open('icode2.json', 'wb')
+z = open('../json-ld/icode2.json', 'wb')
 
 context = {"nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#", 
