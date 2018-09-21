@@ -1,1 +1,2 @@
 mappings/scripts/*/node_modules
+vocabularies/scripts/*.egg-info
