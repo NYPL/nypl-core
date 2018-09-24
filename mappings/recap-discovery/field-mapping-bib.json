@@ -263,12 +263,87 @@
       }
     ]
   },
+  "Government Document Classification Number": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "marc": "086",
+        "subfields": [ "a" ]
+      }
+    ]
+  },
+  "Government Document Classification Number (Canceled)": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "marc": "086",
+        "subfields": [ "z" ]
+      }
+    ]
+  },
+  "GPO Item Number": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "marc": "074",
+        "subfields": [ "a" ]
+      }
+    ]
+  },
+  "GPO Item Number (Canceled)": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "marc": "074",
+        "subfields": [ "z" ]
+      }
+    ]
+  },
   "Identifier": {
     "pred": "dcterms:identifier",
     "jsonLdKey": "identifier",
     "paths": [
       {
         "notes": "There are many mapped identifiers"
+      },
+      {
+        "notes": "Other Standard Identifier",
+        "marc": "024",
+        "subfields": [ "a" ]
+      },
+      {
+        "notes": "Other Standard Identifier (Canceled)",
+        "marc": "024",
+        "subfields": [ "z" ]
+      },
+      {
+        "notes": "Report No.",
+        "marc": "027",
+        "subfields": [ "a" ]
+      },
+      {
+        "notes": "Report No. (Canceled)",
+        "marc": "027",
+        "subfields": [ "z" ]
+      },
+      {
+        "notes": "Publisher No.",
+        "marc": "028",
+        "subfields": [ "a", "b" ]
+      },
+      {
+        "notes": "System Control Number",
+        "marc": "035",
+        "subfields": [ "a" ]
+      },
+      {
+        "notes": "System Control Number (Canceled)",
+        "marc": "035",
+        "subfields": [ "z" ]
       }
     ]
   },
@@ -282,6 +357,16 @@
       }
     ]
   },
+  "ISBN (Canceled/invalid)": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "marc": "020",
+        "subfields": [ "z" ]
+      }
+    ]
+  },
   "ISSN": {
     "pred": "dcterms:identifier",
     "jsonLdKey": "identifier",
@@ -291,6 +376,26 @@
         "subfields": [
           "a"
         ]
+      }
+    ]
+  },
+  "ISSN (Incorrect)": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "marc": "022",
+        "subfields": [ "y" ]
+      }
+    ]
+  },
+  "ISSN (Canceled)": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "marc": "022",
+        "subfields": [ "z" ]
       }
     ]
   },
@@ -346,6 +451,10 @@
     "paths": [
       {
         "marc": "010",
+        "subfields": [ "a" ]
+      },
+      {
+        "marc": "024",
         "subfields": [ "a" ]
       }
     ]
