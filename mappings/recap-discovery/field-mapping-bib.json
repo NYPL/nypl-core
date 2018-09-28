@@ -316,21 +316,6 @@
         "marc": "074",
         "notes": "GPO Item Number (Canceled)",
         "subfields": [ "z" ]
-      },
-      {
-        "notes": "ISBN (Canceled/invalid)",
-        "marc": "020",
-        "subfields": [ "z" ]
-      },
-      {
-        "notes": "ISSN (Incorrect)",
-        "marc": "022",
-        "subfields": [ "y" ]
-      },
-      {
-        "notes": "ISSN (Canceled)",
-        "marc": "022",
-        "subfields": [ "z" ]
       }
     ]
   },
@@ -344,6 +329,16 @@
       }
     ]
   },
+  "ISBN (Canceled/Invalid)": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "marc": "020",
+        "subfields": [ "z" ]
+      }
+    ]
+  },
   "ISSN": {
     "pred": "dcterms:identifier",
     "jsonLdKey": "identifier",
@@ -353,6 +348,26 @@
         "subfields": [
           "a"
         ]
+      }
+    ]
+  },
+  "ISSN (Canceled)": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "marc": "022",
+        "subfields": [ "z" ]
+      }
+    ]
+  },
+  "ISSN (Incorrect)": {
+    "pred": "dcterms:identifier",
+    "jsonLdKey": "identifier",
+    "paths": [
+      {
+        "marc": "022",
+        "subfields": [ "y" ]
       }
     ]
   },
