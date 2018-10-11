@@ -7,7 +7,7 @@ from rdflib.serializer import Serializer
 import rdflib
 import csv
 
-f = open('organizations.csv')
+f = open('../csv/organizations.csv')
 reader = csv.DictReader(f)
 
 org = Namespace('http://www.w3.org/ns/org#')
@@ -38,7 +38,7 @@ for r in reader:
             unit = nyplorg + u.strip()
             g.add( (orgunit, org.unitOf, unit))
 
-z = open('organizations.json', 'wb')
+z = open('../json-ld/organizations.json', 'wb')
 
 context = {"org": "http://www.w3.org/ns/org#",
            "skos": "http://www.w3.org/2004/02/skos/core#", 

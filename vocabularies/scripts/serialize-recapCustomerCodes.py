@@ -4,7 +4,7 @@ from rdflib.serializer import Serializer
 import rdflib
 import csv
 
-f = open('recapCustomerCodes.csv')
+f = open('../csv/recapCustomerCodes.csv')
 reader = csv.DictReader(f)
 
 nypl = Namespace('http://data.nypl.org/nypl-core/')
@@ -38,7 +38,7 @@ for r in reader:
                 d = custCode + d.strip()
                 g.add( (recapCustomerCode, nypl.deliverableTo, d))
 
-z = open('recapCustomerCodes.json', 'wb')
+z = open('../json-ld/recapCustomerCodes.json', 'wb')
 
 context = {"nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#", 

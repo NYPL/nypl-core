@@ -107,8 +107,8 @@
       "@id": "ptype:86",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": [
-        "Scholar",
-        "Research"
+        "Research",
+        "Scholar"
       ],
       "skos:notation": "86",
       "skos:prefLabel": "Wertheim Scholar"
@@ -148,6 +148,16 @@
       "skos:prefLabel": "Shoichi Noma Scholar"
     },
     {
+      "@id": "ptype:89",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": [
+        "Research",
+        "Scholar"
+      ],
+      "skos:notation": "89",
+      "skos:prefLabel": "Cullman Scholar"
+    },
+    {
       "@id": "ptype:108",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": "Research",
@@ -165,8 +175,8 @@
       "@id": "ptype:106",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": [
-        "Research",
-        "Scholar"
+        "Scholar",
+        "Research"
       ],
       "skos:notation": "106",
       "skos:prefLabel": "NYPL Department"
