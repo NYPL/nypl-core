@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### v1.23
+ - Adds the new Cullman Scholar entry to the patronTypes vocabulary (as CSV & JSON-LD)
+ - Adds a vocabularies/scripts/setup.py to assist dependency install
+ - Changes CSV & JSON path in all serialize scripts so that updates can be made in-place, without copying files around.
+ - Updates vocabularies/scripts/README.md to clarify use
+
 ### v1.22
  - Removes Shoichi Noma room, as it is being shutdown due to SASB renovation. 
 
