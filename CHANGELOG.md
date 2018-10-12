@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.24
+ - Adds new "Standard Number" mappings to Bib field mapping
+
 ### v1.23
  - Adds the new Cullman Scholar entry to the patronTypes vocabulary (as CSV & JSON-LD)
  - Adds a vocabularies/scripts/setup.py to assist dependency install
