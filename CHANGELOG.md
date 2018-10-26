@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.25
+ - Adds catalogItemType:155 (Read-Along Book)
+
 ### v1.24
  - Adds new "Standard Number" mappings to Bib field mapping
 
