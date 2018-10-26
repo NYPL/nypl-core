@@ -710,8 +710,8 @@
       "@id": "nyplCatalogItemTypes:135",
       "@type": "nypl:CatalogItemType",
       "nypl:collectionType": [
-        "Research",
-        "Branch"
+        "Branch",
+        "Research"
       ],
       "skos:notation": "135",
       "skos:note": "LPA Only",
@@ -721,8 +721,8 @@
       "@id": "nyplCatalogItemTypes:132",
       "@type": "nypl:CatalogItemType",
       "nypl:collectionType": [
-        "Branch",
-        "Research"
+        "Research",
+        "Branch"
       ],
       "skos:notation": "132",
       "skos:note": "LPA Only",
@@ -732,8 +732,8 @@
       "@id": "nyplCatalogItemTypes:133",
       "@type": "nypl:CatalogItemType",
       "nypl:collectionType": [
-        "Research",
-        "Branch"
+        "Branch",
+        "Research"
       ],
       "skos:notation": "133",
       "skos:note": "LPA Only",
@@ -763,12 +763,12 @@
       "skos:prefLabel": "Mixed media set"
     },
     {
-      "@id": "nyplCatalogItemTypes:120",
+      "@id": "nyplCatalogItemTypes:212",
       "@type": "nypl:CatalogItemType",
       "nypl:collectionType": "Branch",
-      "skos:notation": "120",
-      "skos:note": "Adult",
-      "skos:prefLabel": "Picture"
+      "skos:notation": "212",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J periodical"
     },
     {
       "@id": "nyplCatalogItemTypes:123",
@@ -787,12 +787,12 @@
       "skos:prefLabel": "J reference"
     },
     {
-      "@id": "nyplCatalogItemTypes:212",
+      "@id": "nyplCatalogItemTypes:120",
       "@type": "nypl:CatalogItemType",
       "nypl:collectionType": "Branch",
-      "skos:notation": "212",
-      "skos:note": "Juvenile",
-      "skos:prefLabel": "J periodical"
+      "skos:notation": "120",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Picture"
     },
     {
       "@id": "nyplCatalogItemTypes:211",
@@ -825,11 +825,12 @@
       "skos:prefLabel": "E-nypl book"
     },
     {
-      "@id": "nyplCatalogItemTypes:127",
+      "@id": "nyplCatalogItemTypes:215",
       "@type": "nypl:CatalogItemType",
       "nypl:collectionType": "Branch",
-      "skos:notation": "127",
-      "skos:prefLabel": "E-nypl video"
+      "skos:notation": "215",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J videocassette"
     },
     {
       "@id": "nyplCatalogItemTypes:126",
@@ -877,12 +878,11 @@
       "skos:prefLabel": "J DVD express"
     },
     {
-      "@id": "nyplCatalogItemTypes:215",
+      "@id": "nyplCatalogItemTypes:127",
       "@type": "nypl:CatalogItemType",
       "nypl:collectionType": "Branch",
-      "skos:notation": "215",
-      "skos:note": "Juvenile",
-      "skos:prefLabel": "J videocassette"
+      "skos:notation": "127",
+      "skos:prefLabel": "E-nypl video"
     },
     {
       "@id": "nyplCatalogItemTypes:214",
@@ -1013,6 +1013,13 @@
       },
       "skos:notation": "19",
       "skos:prefLabel": "3-D object"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:155",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "155",
+      "skos:prefLabel": "Read-Along Book"
     },
     {
       "@id": "nyplCatalogItemTypes:150",
@@ -1197,8 +1204,8 @@
       "@id": "nyplCatalogItemTypes:142",
       "@type": "nypl:CatalogItemType",
       "nypl:collectionType": [
-        "Research",
-        "Branch"
+        "Branch",
+        "Research"
       ],
       "skos:notation": "142",
       "skos:prefLabel": "RFVC - LPA Blu-ray"
