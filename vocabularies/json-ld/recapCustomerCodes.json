@@ -367,6 +367,19 @@
       "skos:prefLabel": "LSC Special Formats Processing"
     },
     {
+      "@id": "http://data.nypl.org/recapCustomerCodes/OI",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:eddRequestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "OI",
+      "skos:prefLabel": "LSC DIU"
+    },
+    {
       "@id": "http://data.nypl.org/recapCustomerCodes/NJ",
       "@type": "nypl:RecapCustomerCode",
       "nypl:eddRequestable": {
