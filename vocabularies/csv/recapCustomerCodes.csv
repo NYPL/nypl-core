@@ -8,6 +8,7 @@ NF,NF,SASB Microforms,,false,0001
 NG,NG,SASB Art Division,,false,0001
 NH,NH,SASB Rose Main Reading Room,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW,true,0001
 NI,NI,LSC Special Formats Processing,,false,0001
+OI,OI,LSC DIU,,false,0001
 NJ,NJ,SASB Jewish Division,,false,0001
 NK,NK,BKOPS Barcoding/Special Projects,,false,0001
 NL,NL,SASB Restricted,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW,true,0001

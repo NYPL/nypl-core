@@ -1307,6 +1307,7 @@ lsbb2,Library Services Center - Cataloging,Library Services Center - ON THE FLY 
 lsbx2,Library Services Center - Cataloging - Research Storage,Library Services Center - Cataloging - Research Storage,Research,,,ls,,false,,,true,
 lsca,Library Services Center - Archives Unit,LSC - Archives Unit,Research,Research,,ls,,false,lsca,NY,false,
 lsdd2,Library Services Center - Special Formats Processing,Library Services Center - Special Formats Processing,Research,Research,,ls,,false,lsdd2,NI,false,
+lsc-oi,Library Services Center - DIU,Library Services Center - DIU,Research,Research,,ls,,false,lsc-oi,OI,false,
 lsedu,Library Services Center - Educator's Book Sets,LSC -- Educator's Book Sets,Branch,,,ls,,false,,,true,
 lsx,Library Services Center - Preservation,Library Services Center - Preservation,Research,,,ls,,false,,,true,
 lsxx2,Library Services Center - Preservation,Library Services Center - Preservation,Research,,,ls,,false,,,true,

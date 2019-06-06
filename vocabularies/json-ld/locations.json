@@ -56482,6 +56482,32 @@
       "skos:prefLabel": "Library Services Center - Special Formats Processing"
     },
     {
+      "@id": "nyplLocation:lsc-oi",
+      "@type": "nypl:Location",
+      "dcterms:isPartOf": {
+        "@id": "nyplLocation:ls"
+      },
+      "nypl:allowSierraHold": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "nypl:collectionType": "Research",
+      "nypl:deliverableTo": {
+        "@id": "nyplLocation:lsc-oi"
+      },
+      "nypl:deliveryLocationType": "Research",
+      "nypl:recapCustomerCode": {
+        "@id": "http://data.nypl.org/recapCustomerCodes/OI"
+      },
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "Library Services Center - DIU",
+      "skos:notation": "lsdd2",
+      "skos:prefLabel": "Library Services Center - DIU"
+    },
+    {
       "@id": "nyplLocation:mabm2",
       "@type": "nypl:Location",
       "dcterms:isPartOf": {
