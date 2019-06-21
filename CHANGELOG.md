@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.26
+ - Adds lsc-oi suppressed location
+
 ### v1.25
  - Adds catalogItemType:155 (Read-Along Book)
 
