@@ -1036,6 +1036,13 @@
       "skos:prefLabel": "J pre-k book"
     },
     {
+      "@id": "nyplCatalogItemTypes:221",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "221",
+      "skos:prefLabel": "J Tablet - LaunchPads"
+    },
+    {
       "@id": "nyplCatalogItemTypes:239",
       "@type": "nypl:CatalogItemType",
       "nypl:collectionType": "Branch",
