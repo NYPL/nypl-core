@@ -97,6 +97,13 @@
       "skos:prefLabel": "CUNY Graduate Center (9/30)"
     },
     {
+      "@id": "ptype:93",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "93",
+      "skos:prefLabel": "Research Borrower"
+    },
+    {
       "@id": "ptype:81",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": "Research",
