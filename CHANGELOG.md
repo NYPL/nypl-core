@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.27
+ - Adds catalogItemType:221 "J Tablet - LaunchPads"
+
 ### v1.26
  - Adds lsc-oi suppressed location
 
