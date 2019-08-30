@@ -2,6 +2,10 @@
 
 Models, mappings, and vocabularies for the NYPL Core ontology.
 
+### Current Version
+
+v1.27
+
 ## Deployment Process
 
 A suggested workflow for the `discovery-api` Beanstalk application.
@@ -46,10 +50,10 @@ when working with multiple features for the same release.
 * Submit for approval
 * Once approved, merge changes to master
 * Delete working branch
-* Add a release tag vX.X (without the trailing letter) based on the new
-  merge and commit
 * Update the README with the new version if the version has changed
 * Add an entry to [CHANGELOG.md](CHANGELOG.md) summarizing the changes and push to master. Add release notes at https://github.com/NYPL/nypl-core/tags .
+* Add a release tag vX.X (without the trailing letter) based on the new
+  merge and commit
 * Restart the `discovery-api` application to clear the cache and pick up the
   changes via the 'Restart App Server(s)' option in the Actions dropdown.
 
@@ -59,7 +63,3 @@ when working with multiple features for the same release.
 Contributors make changes, commit and submit pull requests. Approvals
 are performed by contributors other than the owners of pull requests.
 Owners of pull requests merge their changes upon approval.
-
-### Current Version
-
-v1.27
