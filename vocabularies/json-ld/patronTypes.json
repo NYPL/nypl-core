@@ -104,6 +104,19 @@
       "skos:prefLabel": "Research Borrower"
     },
     {
+      "@id": "ptype:94",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "94",
+      "skos:prefLabel": "MaRLI NYU"
+    },{
+      "@id": "ptype:95",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "95",
+      "skos:prefLabel": "MaRLI Columbia"
+    },
+    {
       "@id": "ptype:81",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": "Research",
