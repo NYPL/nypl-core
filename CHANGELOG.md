@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.28
+ - Adds pTypes 93, 94, and 95
+
 ### v1.27
  - Adds catalogItemType:221 "J Tablet - LaunchPads"
 
@@ -19,7 +22,7 @@
  - Updates vocabularies/scripts/README.md to clarify use
 
 ### v1.22
- - Removes Shoichi Noma room, as it is being shutdown due to SASB renovation. 
+ - Removes Shoichi Noma room, as it is being shutdown due to SASB renovation.
 
 ### v1.21
  - Adds updated field-mapping-bib mapping for 'Contents', new mapping for 'Contents title'
