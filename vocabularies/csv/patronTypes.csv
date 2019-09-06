@@ -29,6 +29,9 @@ skos:notation,skos:prefLabel,nypl:deliveryLocationAccess
 89,Cullman Scholar,Research;Scholar
 90,Organization (1 Year Only),Research
 91,(Non-MyLibraryNYC) NYC Educator,Research
+93,Research Borrower,Research
+94,MaRLI NYU,Research
+95,MaRLI Columbia,Research
 100,INACTIVE PATRON,Research
 101,PENDING DISPUTE,Research
 106,NYPL Department,Research;Scholar
