@@ -57,6 +57,12 @@
         },
         {
           "@id": "nyplLocation:malc"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -758,6 +764,12 @@
         },
         {
           "@id": "nyplLocation:myr"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -964,6 +976,12 @@
         },
         {
           "@id": "nyplLocation:mai"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -3884,6 +3902,12 @@
         },
         {
           "@id": "nyplLocation:maln"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -8028,6 +8052,12 @@
         },
         {
           "@id": "nyplLocation:malc"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -11027,6 +11057,12 @@
         },
         {
           "@id": "nyplLocation:maln"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -23420,6 +23456,12 @@
         },
         {
           "@id": "nyplLocation:mala"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -30679,6 +30721,12 @@
         },
         {
           "@id": "nyplLocation:mala"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -47240,6 +47288,12 @@
         },
         {
           "@id": "nyplLocation:mag"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -48003,6 +48057,12 @@
         },
         {
           "@id": "nyplLocation:malc"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -49546,6 +49606,12 @@
         },
         {
           "@id": "nyplLocation:malc"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -51815,6 +51881,12 @@
         },
         {
           "@id": "nyplLocation:mai"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -52981,6 +53053,12 @@
         },
         {
           "@id": "nyplLocation:malc"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -55607,6 +55685,12 @@
         },
         {
           "@id": "nyplLocation:mag"
+        },
+        {
+          "@id": "nyplLocation:mal17"
+        },
+        {
+          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -57862,6 +57946,50 @@
       "skos:altLabel": "OFFSITE Rose - Request in advance for use at Performing Arts",
       "skos:notation": "mym42",
       "skos:prefLabel": "Offsite Rose - Performing Arts"
+    },
+    {
+      "@id":"nyplLocation:mal17",
+      "@type":"nypl:Location",
+      "dcterms:isPartOf":{
+        "@id":"nyplLocation:ma"
+      },
+      "nypl:collectionType":"Research",
+      "nypl:deliveryLocationType":"Scholar",
+      "nypl:owner":{
+        "@id":"http://data.nypl.org/orgs/1000"
+      },
+      "nypl:recapCustomerCode":{
+        "@id":"http://data.nypl.org/recapCustomerCodes/OD"
+      },
+      "nypl:requestable":{
+        "@type":"XSD:boolean",
+        "@value":"false"
+      },
+      "skos:altLabel":"SASB - Scholar Room 217",
+      "skos:notation":"mal17",
+      "skos:prefLabel":"Schwarzman Building - Scholar Room 217"
+    },
+    {
+      "@id":"nyplLocation:mal23",
+      "@type":"nypl:Location",
+      "dcterms:isPartOf":{
+        "@id":"nyplLocation:ma"
+      },
+      "nypl:collectionType":"Research",
+      "nypl:deliveryLocationType":"Scholar",
+      "nypl:owner":{
+        "@id":"http://data.nypl.org/orgs/1000"
+      },
+      "nypl:recapCustomerCode":{
+        "@id":"http://data.nypl.org/recapCustomerCodes/OE"
+      },
+      "nypl:requestable":{
+        "@type":"XSD:boolean",
+        "@value":"false"
+      },
+      "skos:altLabel":"SASB - Scholar Room 223",
+      "skos:notation":"mal23",
+      "skos:prefLabel":"Schwarzman Building - Scholar Room 223"
     }
   ]
 }
