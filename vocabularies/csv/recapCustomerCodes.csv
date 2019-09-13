@@ -1,28 +1,28 @@
 id,skos:notation,skos:prefLabel,nypl:deliverableTo,nypl:eddRequestable,nypl:owner
-NA,NA,NA,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW,true,0001
-NB,NB,SIBL,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW,true,0001
+NA,NA,NA,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW;OD;OE,true,0001
+NB,NB,SIBL,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW;OD;OE,true,0001
 NC,NC,LSC BookOps Cataloging,,false,0001
 ND,ND,SASB Map Division,ND,false,0001
 NE,NE,NYPL Inter-Library Loan,,false,0001
 NF,NF,SASB Microforms,,false,0001
 NG,NG,SASB Art Division,,false,0001
-NH,NH,SASB Rose Main Reading Room,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW,true,0001
+NH,NH,SASB Rose Main Reading Room,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW;OD;OE,true,0001
 NI,NI,LSC Special Formats Processing,,false,0001
 OI,OI,LSC DIU,,false,0001
 NJ,NJ,SASB Jewish Division,,false,0001
 NK,NK,BKOPS Barcoding/Special Projects,,false,0001
-NL,NL,SASB Restricted,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW,true,0001
+NL,NL,SASB Restricted,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW;OD;OE,true,0001
 NM,NM,SASB Milstein Division,,false,0001
 NN,NN,LPA Reserve Film and Video,NP,false,0001
 NO,NO,SASB Manuscripts and Archives,,false,0001
 NP,NP,LPA,NP,true,0001
-NQ,NQ,SASB Restricted,ND;NF;NG;NH;NJ;NM;OA;OC;OW,true,0001
+NQ,NQ,SASB Restricted,ND;NF;NG;NH;NJ;NM;OA;OC;OW;OD;OE,true,0001
 NR,NR,SASB Rare Book Division,,false,0001
 NS,NS,Schomburg Center MARB,SR,true,0001
 NT,NT,Permissions & Reproduction Services (SASB),,false,0001
 NU,NU,LBL Restricted,,false,0001
 NV,NV,LPA TOFT,NP,false,0001
-NW,NW,Donnell Children's Room,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW,true,0001
+NW,NW,Donnell Children's Room,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW;OD;OE,true,0001
 NX,NX,Preservation,,false,0001
 NY,NY,LSC ARCHV,,false,0001
 NZ,NZ,SASB Pforzheimer,,false,0001
@@ -30,12 +30,12 @@ SA,SA,Schomburg Art & Artifacts,,false,0001
 SM,SM,Schomburg MIRS,,false,0001
 SP,SP,Schomburg Prints & Photographs,,false,0001
 SR,SR,Schomburg Center - Research and Reference Division,,false,0001
-GN,GN,Government Documents,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW,true,0001
+GN,GN,Government Documents,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW;OD;OE,true,0001
 ID,ID,Inter-Library Loan (deprecated),,false,0001
-JN,JN,JSTOR Standard,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW,true,0001
-JO,JO,JSTOR Restricted,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW,true,0001
+JN,JN,JSTOR Standard,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW;OD;OE,true,0001
+JO,JO,JSTOR Restricted,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW;OD;OE,true,0001
 GO,GO,Google Project (deprecated),,false,0001
-JS,JS,SIBL De-duping candidates,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW,false,0001
+JS,JS,SIBL De-duping candidates,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;OW;OD;OE,false,0001
 OA,OA,SASB Allen Room,,false,0001
 OC,OC,SASB Cullman Center,,false,0001
 ON,ON,SASB Shoichi Noma Scholar Room,,false,0001
@@ -45,9 +45,11 @@ OZ,OZ,SASB no Sierra holds,,false,0001
 OP,OP,LPA no Sierra holds,,false,0001
 OB,OB,SIBL no Sierra holds,,false,0001
 OM,OM,Schomburg Gen. no Sierra holds,,false,0001
+OD,OD,SASB Scholar Room 217,,false,0001
+OE,OE,SASB Scholar Room 223,,false,0001
 AC,AC,Avery Cold Vault,,false,0002
 AD,AD,Avery Drawings & Archives,,false,0002
-AR,AR,Avery Library,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW,true,0002
+AR,AR,Avery Library,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW;OD;OE,true,0002
 AV,AV,Avery Classics,,false,0002
 BC,BC,Bibliographic Control Division,,false,0002
 BL,BL,Barnard Library,,false,0002
@@ -63,18 +65,18 @@ CI,CI,Interlibary Loan,,false,0002
 CJ,CJ,Journalism Library,,false,0002
 CM,CM,Master Microfilm,,false,0002
 CP,CP,CP,,false,0002
-CR,CR,Columbia Restricted,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW,true,0002
+CR,CR,Columbia Restricted,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW;OD;OE,true,0002
 CS,CS,Shipping & Receiving,,false,0002
-CU,CU,CU Standard,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW,true,0002
+CU,CU,CU Standard,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW;OD;OE,true,0002
 CV,CV,Butler Media Collection,,false,0002
 EA,EA,East Asian Library,,false,0002
 EN,EN,EN,,false,0002
-EV,EV,East Asian Vernacular,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW,true,0002
-GC,GC,Government Documents,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW,true,0002
+EV,EV,East Asian Vernacular,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW;OD;OE,true,0002
+GC,GC,Government Documents,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW;OD;OE,true,0002
 GE,GE,Geology Library,,false,0002
 GS,GS,Geoscience Library ,,false,0002
-HR,HR,HSL Restricted,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW,true,0002
-HS,HS,Health Sciences Library,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW,true,0002
+HR,HR,HSL Restricted,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW;OD;OE,true,0002
+HS,HS,Health Sciences Library,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW;OD;OE,true,0002
 HX,HX,HX,,false,0002
 JC,JC,JC,,false,0002
 JD,JD,JD,,false,0002
@@ -95,7 +97,7 @@ CL,CL,CL,,false,0002
 CX,CX,CX,,false,0002
 JL,JL,JL,,false,0002
 JM,JM,JM,,false,0002
-PA,PA,Firestone LIbrary,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW,true,0003
+PA,PA,Firestone LIbrary,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW;OD;OE,true,0003
 PB,PB,Firestone Library Use Only,,true,0003
 PE,PE,Princeton Dark Storage,,false,0003
 PF,PF,"Firestone Library, Microforms",NB;NF;NP;SR,true,0003
@@ -122,7 +124,7 @@ QN,QN,QN,,false,0003
 QP,QP,ReCAP/Princeton Preservation,,false,0003
 QT,QT,Technical Services. 693 (Staff Only),,false,0003
 QV,QV,Video Collection,,false,0003
-GP,GP,GP,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW,true,0003
+GP,GP,GP,NB;ND;NF;NG;NJ;NM;NH;NP;SR;OA;OC;OW;OD;OE,true,0003
 JP,JP,JP,,false,0003
 JQ,JQ,Princeton Dark Storage,,true,0003
 QX,QX,Firestone Library. Shared,,false,0003
