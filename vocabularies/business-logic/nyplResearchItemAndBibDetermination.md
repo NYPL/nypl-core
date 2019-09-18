@@ -23,12 +23,12 @@ https://github.com/NYPL-discovery/discovery-store-models/blob/09653683bbfc9d0c31
 
  - is partner record OR
  - has 0 items (because only a research record would exist in that state) OR
- - has at least ONE research item OR
+ - has at least ONE research item (as determined for items above) OR
  - its items are ALL electronic AND it has at least one location whose collectionType includes 'Research'*
 
 \* Again, for the needs of a service that looks exclusively at bibs in the BibService, we can drop the electronic item check, so the final clause above is not relevant.
 
-The same set of checks is made by our SyncItemMetadataToSCSBListener component:
+A similar set of checks is made by our SyncItemMetadataToSCSBListener component to determine "is-research" for bibs:
 
 https://github.com/NYPL/sync-item-metadata-to-scsb-listener/blob/0c7470aa39cd4c53313c3d70fa074f5688f4c34c/lib/bib_handler.rb#L19-L63
 
