@@ -60,9 +60,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -767,9 +764,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -979,9 +973,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -3905,9 +3896,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -8055,9 +8043,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -11060,9 +11045,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -23459,9 +23441,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -30724,9 +30703,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -47291,9 +47267,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -48060,9 +48033,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -49609,9 +49579,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -51884,9 +51851,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -53056,9 +53020,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -55688,9 +55649,6 @@
         },
         {
           "@id": "nyplLocation:mal17"
-        },
-        {
-          "@id": "nyplLocation:mal23"
         }
       ],
       "nypl:owner": {
@@ -57968,28 +57926,6 @@
       "skos:altLabel":"SASB - Scholar Room 217",
       "skos:notation":"mal17",
       "skos:prefLabel":"Schwarzman Building - Scholar Room 217"
-    },
-    {
-      "@id":"nyplLocation:mal23",
-      "@type":"nypl:Location",
-      "dcterms:isPartOf":{
-        "@id":"nyplLocation:ma"
-      },
-      "nypl:collectionType":"Research",
-      "nypl:deliveryLocationType":"Scholar",
-      "nypl:owner":{
-        "@id":"http://data.nypl.org/orgs/1000"
-      },
-      "nypl:recapCustomerCode":{
-        "@id":"http://data.nypl.org/recapCustomerCodes/OE"
-      },
-      "nypl:requestable":{
-        "@type":"XSD:boolean",
-        "@value":"false"
-      },
-      "skos:altLabel":"SASB - Scholar Room 223",
-      "skos:notation":"mal23",
-      "skos:prefLabel":"Schwarzman Building - Scholar Room 223"
     }
   ]
 }

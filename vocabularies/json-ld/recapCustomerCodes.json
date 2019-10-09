@@ -74,9 +74,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -177,9 +174,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -305,9 +299,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -362,9 +353,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -471,9 +459,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -570,9 +555,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -627,9 +609,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -872,9 +851,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -942,9 +918,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -1025,9 +998,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -1095,9 +1065,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -1230,9 +1197,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -1561,9 +1525,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -1696,9 +1657,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -1925,9 +1883,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -2008,9 +1963,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -2234,9 +2186,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -2291,9 +2240,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -2478,9 +2424,6 @@
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -2557,19 +2500,6 @@
       },
       "skos:notation": "SW",
       "skos:prefLabel": "Social Work Library"
-    },
-    {
-      "@id": "http://data.nypl.org/recapCustomerCodes/OE",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0001"
-      },
-      "skos:notation": "OE",
-      "skos:prefLabel": "SASB Scholar Room 223"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/OD",
