@@ -334,6 +334,16 @@
       "nypl:deliveryLocationAccess": "Research",
       "skos:notation": "10",
       "skos:prefLabel": "Adult 18-64 Metro (3 Year)"
+    },
+    {
+      "@id": "ptype:76",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": [
+        "Scholar",
+        "Research"
+      ],
+      "skos:notation": "76",
+      "skos:prefLabel": "SASB Scholar RM 217"
     }
   ]
 }
