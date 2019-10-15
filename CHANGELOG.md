@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v1.29
+ - Adds Scholar Rm 217 as `nyplLocation:mal17`, `recapCustomerCodes:0D`
+ - Adds `ptype:76` for Scholar Room 217
+
 ### v1.28
  - Adds pTypes 93, 94, and 95
 
