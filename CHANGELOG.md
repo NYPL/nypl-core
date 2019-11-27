@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.30
+ - Adds `ptype:120`, `ptype:121` for Easy Borrowing
+
 ### v1.29
  - Adds Scholar Rm 217 as `nyplLocation:mal17`, `recapCustomerCodes:0D`
  - Adds `ptype:76` for Scholar Room 217
