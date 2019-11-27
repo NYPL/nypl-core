@@ -344,6 +344,20 @@
       ],
       "skos:notation": "76",
       "skos:prefLabel": "SASB Scholar RM 217"
+    },
+    {
+      "@id": "ptype:120",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": [],
+      "skos:notation": "120",
+      "skos:prefLabel": "Easy Borrowing AdultPilot"
+    },
+    {
+      "@id": "ptype:121",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": [],
+      "skos:notation": "121",
+      "skos:prefLabel": "Easy Borrowing SeniorPilot"
     }
   ]
 }
