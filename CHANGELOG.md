@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.31
+ - Changes `recapCustomerCode:JS` > `nypl:eddRequestable` to `true`
+
 ### v1.30
  - Adds `ptype:120`, `ptype:121` for Easy Borrowing
 
