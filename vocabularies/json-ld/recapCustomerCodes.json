@@ -2485,7 +2485,7 @@
       ],
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
-        "@value": "false"
+        "@value": "true"
       },
       "nypl:owner": {
         "@id": "nyplOrg:0001"
