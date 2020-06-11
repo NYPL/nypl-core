@@ -35,7 +35,7 @@ ID,ID,Inter-Library Loan (deprecated),,false,0001
 JN,JN,JSTOR Standard,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW;OD,true,0001
 JO,JO,JSTOR Restricted,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW;OD,true,0001
 GO,GO,Google Project (deprecated),,false,0001
-JS,JS,SIBL De-duping candidates,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW;OD,false,0001
+JS,JS,SIBL De-duping candidates,NB;ND;NF;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW;OD,true,0001
 OA,OA,SASB Allen Room,,false,0001
 OC,OC,SASB Cullman Center,,false,0001
 ON,ON,SASB Shoichi Noma Scholar Room,,false,0001
