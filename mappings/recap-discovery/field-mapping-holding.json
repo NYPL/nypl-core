@@ -1,0 +1,109 @@
+{
+    "Identifier": {
+        "pred": "dcterms:identifier",
+        "jsonLdKey": "identifier"
+    },
+    "Call Number": {
+        "pred": "nypl:shelfMark",
+        "jsonLdKey": "shelfMark",
+        "paths": [
+            {
+                "marc": "852",
+                "subfields": [
+                    "k", "h", "i"
+                ]
+            },
+            {
+                "notes": "Above 852 fields should be joined to 'v' legacy field if present"
+            }
+        ]
+    },
+    "Physical Location": {
+        "pred": "bf:physicalLocation",
+        "jsonLdKey": "physicalLocation",
+        "paths": [
+            {
+                "marc": "852",
+                "subfields": [
+                    "k", "h", "i"
+                ]
+            }
+        ]
+    },
+    "Enumeration Chronology": {
+        "pred": "bf:enumerationAndChronology",
+        "jsonLdKey": "enumerationChronology",
+        "paths": [
+            {
+                "notes": "Drawn from 'v' legacy field"
+            }
+        ]
+    },
+    "Holding Statement": {
+        "pred": "dcterms:coverage",
+        "jsonLdKey": "holdingStatement",
+        "paths": [
+            {
+                "marc": "866",
+                "subfields": [
+                    "h"
+                ]
+            },
+            {
+                "marc": "853",
+                "subfields": [
+                    "8", "a", "b", "c", "d", "e", "f", "i", "j", "k", "l"
+                ],
+                "notes": "Provides structure for metadata in 863 fields"
+            },
+            {
+                "marc": "863",
+                "subfields": [
+                    "8", "a", "b", "c", "d", "e", "f", "i", "j", "k", "l"
+                ],
+                "notes": "Provides structured data as defined in 853 fields"
+            },
+            {
+                "notes": "Additional data drawn from the fieldTag 'h' fields"
+            }
+        ]
+    },
+    "Location": {
+        "pred": "nypl:holdingLocation",
+        "jsonLdKey": "location",
+        "paths": [
+            {
+                "marc": "Location",
+                "notes": "derived from location code stored in record"
+            }
+        ]
+    },
+    "Format": {
+        "pred": "dcterms:format",
+        "jsonLdKey": "format",
+        "paths": [
+            {
+                "notes": "Drawn from fieldTag 'i'"
+            },
+            {
+                "marc": "852",
+                "subfields": [
+                    "m"
+                ]
+            }
+        ]
+    },
+    "Note": {
+        "pred": "bf:note",
+        "jsonLdKey": "notes",
+        "paths": [
+            {
+                "notes": "Drawn from fieldTag 'n'"
+            }
+        ]
+    },
+    "Check In Box": {
+        "predicate": "dcterms:hasPart",
+        "jsonLdKey": "checkInBoxes"
+    }
+}
