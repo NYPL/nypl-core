@@ -11,10 +11,8 @@
                 "marc": "852",
                 "subfields": [
                     "k", "h", "i"
-                ]
-            },
-            {
-                "notes": "Above 852 fields should be joined to 'v' legacy field if present"
+                ],
+                "notes": "'v' legacy field should be appended to the 852 fields if present"
             }
         ]
     },
@@ -65,6 +63,9 @@
             },
             {
                 "notes": "Additional data drawn from the fieldTag 'h' fields"
+            },
+            {
+                "notes": "Pre-formatted statements also available in holdings.holding_statement field"
             }
         ]
     },
@@ -104,6 +105,20 @@
     },
     "Check In Box": {
         "predicate": "dcterms:hasPart",
-        "jsonLdKey": "checkInBoxes"
+        "jsonLdKey": "checkInBoxes",
+        "paths": [
+            {
+                "notes": "Drawn from enumeration, start_date and end_date fields"
+            }
+        ]
+    },
+    "Suppressed": {
+        "pred": "nypl:suppressed",
+        "jsonLdKey": "suppressed",
+        "paths": [
+            {
+                "notes": "set true if deleted or suppressed fields are set to true"
+            }
+        ]
     }
 }
