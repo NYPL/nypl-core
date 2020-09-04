@@ -84,13 +84,14 @@
         "jsonLdKey": "format",
         "paths": [
             {
-                "notes": "Drawn from fieldTag 'i'"
+                "marc": "843",
+                "subfields": [
+                    "a"
+                ],
+                "notes": "With 843 present, fieldTag may be i or n"
             },
             {
-                "marc": "852",
-                "subfields": [
-                    "m"
-                ]
+                "notes": "Drawn from fieldTag 'i'"
             }
         ]
     },
@@ -99,7 +100,7 @@
         "jsonLdKey": "notes",
         "paths": [
             {
-                "notes": "Drawn from fieldTag 'n'"
+                "notes": "Drawn from fieldTag 'n', but not if marc field is 843"
             }
         ]
     },
