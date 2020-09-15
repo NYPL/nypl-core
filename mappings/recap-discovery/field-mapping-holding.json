@@ -1,0 +1,125 @@
+{
+    "Identifier": {
+        "pred": "dcterms:identifier",
+        "jsonLdKey": "identifier"
+    },
+    "Call Number": {
+        "pred": "nypl:shelfMark",
+        "jsonLdKey": "shelfMark",
+        "paths": [
+            {
+                "marc": "852",
+                "subfields": [
+                    "k", "h", "i"
+                ],
+                "notes": "'v' legacy field should be appended to the 852 fields if present"
+            }
+        ]
+    },
+    "Physical Location": {
+        "pred": "bf:physicalLocation",
+        "jsonLdKey": "physicalLocation",
+        "paths": [
+            {
+                "marc": "852",
+                "subfields": [
+                    "k", "h", "i"
+                ]
+            }
+        ]
+    },
+    "Enumeration Chronology": {
+        "pred": "bf:enumerationAndChronology",
+        "jsonLdKey": "enumerationChronology",
+        "paths": [
+            {
+                "notes": "Drawn from 'v' legacy field"
+            }
+        ]
+    },
+    "Holding Statement": {
+        "pred": "dcterms:coverage",
+        "jsonLdKey": "holdingStatement",
+        "paths": [
+            {
+                "marc": "866",
+                "subfields": [
+                    "h"
+                ]
+            },
+            {
+                "marc": "853",
+                "subfields": [
+                    "8", "a", "b", "c", "d", "e", "f", "i", "j", "k", "l"
+                ],
+                "notes": "Provides structure for metadata in 863 fields"
+            },
+            {
+                "marc": "863",
+                "subfields": [
+                    "8", "a", "b", "c", "d", "e", "f", "i", "j", "k", "l"
+                ],
+                "notes": "Provides structured data as defined in 853 fields"
+            },
+            {
+                "notes": "Additional data drawn from the fieldTag 'h' fields"
+            },
+            {
+                "notes": "Pre-formatted statements also available in holdings.holding_statement field"
+            }
+        ]
+    },
+    "Location": {
+        "pred": "nypl:holdingLocation",
+        "jsonLdKey": "location",
+        "paths": [
+            {
+                "marc": "Location",
+                "notes": "derived from location code stored in record"
+            }
+        ]
+    },
+    "Format": {
+        "pred": "dcterms:format",
+        "jsonLdKey": "format",
+        "paths": [
+            {
+                "marc": "843",
+                "subfields": [
+                    "a"
+                ],
+                "notes": "With 843 present, fieldTag may be i or n"
+            },
+            {
+                "notes": "Drawn from fieldTag 'i'"
+            }
+        ]
+    },
+    "Note": {
+        "pred": "bf:note",
+        "jsonLdKey": "notes",
+        "paths": [
+            {
+                "notes": "Drawn from fieldTag 'n', but not if marc field is 843"
+            }
+        ]
+    },
+    "Check In Box": {
+        "predicate": "dcterms:hasPart",
+        "jsonLdKey": "checkInBoxes",
+        "paths": [
+            {
+                "notes": "Drawn from enumeration, start_date and end_date fields"
+            }
+        ]
+    },
+    "Suppressed": {
+        "pred": "nypl:suppressed",
+        "jsonLdKey": "suppressed",
+        "paths": [
+            {
+                "notes": "set true if deleted or suppressed fields are set to true"
+            }
+        ]
+    }
+}
