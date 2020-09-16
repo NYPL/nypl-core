@@ -10,9 +10,8 @@
             {
                 "marc": "852",
                 "subfields": [
-                    "k", "h", "i"
-                ],
-                "notes": "'v' legacy field should be appended to the 852 fields if present"
+                    "k", "h", "i", "n", "z"
+                ]
             }
         ]
     },
@@ -105,7 +104,7 @@
         ]
     },
     "Check In Box": {
-        "predicate": "dcterms:hasPart",
+        "pred": "dcterms:hasPart",
         "jsonLdKey": "checkInBoxes",
         "paths": [
             {
