@@ -47,7 +47,11 @@
     "jsonLdKey": "shelfMark",
     "paths": [
       {
-        "notes": "Join 852$h and fieldTag 'v' value (if available) with a space"
+        "marc": "852",
+        "subfields": [
+          "k", "h", "i"
+        ],
+        "notes": "Join 852 $k $h $i fields and fieldTag 'v' value (if available) with a space"
       },
       {
         "marc": "945",
