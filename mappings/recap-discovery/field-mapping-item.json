@@ -59,6 +59,27 @@
       }
     ]
   },
+  "Enumeration Chronology": {
+    "pred": "bf:enumerationAndChronology",
+    "jsonLdKey": "enumerationChronology",
+    "paths": [
+        {
+            "notes": "Standalone representation of the 'v' fieldTag"
+        }
+    ]
+  },
+  "Physical Location": {
+    "pred": "bf:physicalLocation",
+    "jsonLdKey": "physicalLocation",
+    "paths": [
+        {
+            "marc": "852",
+            "subfields": [
+                "k", "h", "i"
+            ]
+        }
+    ]
+  },
   "Carrier type": {
     "pred": "bf:carrier",
     "jsonLdKey": "carrier",
