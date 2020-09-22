@@ -47,12 +47,37 @@
     "jsonLdKey": "shelfMark",
     "paths": [
       {
-        "notes": "Join 852$h and fieldTag 'v' value (if available) with a space"
+        "marc": "852",
+        "subfields": [
+          "k", "h", "i"
+        ],
+        "notes": "Join 852 $k $h $i fields and fieldTag 'v' value (if available) with a space"
       },
       {
         "marc": "945",
         "subfields": [ "g" ]
       }
+    ]
+  },
+  "Enumeration Chronology": {
+    "pred": "bf:enumerationAndChronology",
+    "jsonLdKey": "enumerationChronology",
+    "paths": [
+        {
+            "notes": "Standalone representation of the 'v' fieldTag"
+        }
+    ]
+  },
+  "Physical Location": {
+    "pred": "bf:physicalLocation",
+    "jsonLdKey": "physicalLocation",
+    "paths": [
+        {
+            "marc": "852",
+            "subfields": [
+                "k", "h", "i"
+            ]
+        }
     ]
   },
   "Carrier type": {
