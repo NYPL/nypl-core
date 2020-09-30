@@ -21,24 +21,14 @@ def main():
     masterLocationFile = openLocationsJsonFile()
 
     # Compare the two objects
-    newKeys = []
-    deletedKeys = []
-    alteredKeys = []
     newLocDict = {item['skos:notation']: item for item in newLocationFile['@graph']}
     masterLocDict = {item['skos:notation']: item for item in masterLocationFile['@graph']}
-
-    for key, item in newLocDict.items():
-        if key not in masterLocDict.keys():
-            newKeys.append(key)
-        else:
-            diff = DeepDiff(newLocDict[key], masterLocDict[key], ignore_order=True)
-            if len(diff.keys()) > 0:
-                alteredKeys.append((key, diff))
-    
-    for key in masterLocDict.keys():
-        if key not in newLocDict.keys():
-            deletedKeys.append(key)
-
+    newKeys = newLocDict.keys() - masterLocDict.keys()
+    deletedKeys = masterLocDict.keys() - newLocDict.keys()
+    alteredKeys = list(filter(lambda x: x[1], [
+        (key, DeepDiff(newLocDict[key], masterLocDict[key], ignore_order=True))
+        for key in set(newLocDict.keys()) & set(masterLocDict.keys()) 
+    ]))
 
     # Output comparison results
     print('Keys Added: {}'.format(len(newKeys)))
