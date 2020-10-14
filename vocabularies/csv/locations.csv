@@ -2784,7 +2784,6 @@ sgy0n,St. George YA Non-Fiction,St. George YA Non-Fiction,Branch,,,sg,,false,,,t
 sgy0v,St. George YA Non-Print Media,St. George YA Non-Print Media,Branch,,,sg,,false,,,true,
 sgyr,St. George Young Adult Reference,St. George Young Adult Reference,Branch,,,sg,,false,,,true,
 sgzzz,St. George,St. George (error code),Branch,,,sg,,false,,,true,
-skos:notation,skos:prefLabel,skos:altLabel,nypl:collectionType,nypl:deliveryLocationType,nypl:actualLocation,dcterms:isPartOf,nypl:owner,nypl:requestable,nypl:deliverableTo,nypl:recapCustomerCode,nypl:allowSierraHold,nypl:locationsSlug
 sl,"Science, Industry and Business Library (SIBL)",SIBL - Science Industry and Business,Branch,,,sl,1125,false,,,true,
 sla,"Science, Industry and Business Library (SIBL) - Adult",SIBL - Adult,Branch,,,sl,1125,false,,,true,
 sla01,"Science, Industry and Business Library (SIBL) - Reference",SIBL - Reference,Branch,,,sl,1125,false,,,true,
