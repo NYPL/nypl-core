@@ -11,4 +11,3 @@ setup(name='serializescripts',
           'rdflib',
           'rdflib-jsonld',
       ])
-

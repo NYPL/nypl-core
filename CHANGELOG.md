@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.32
+  - Update locations csv and json with new location codes
+
 ### v1.31
  - Changes `recapCustomerCode:JS` > `nypl:eddRequestable` to `true`
 

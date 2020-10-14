@@ -1,0 +1,4 @@
+deepdiff
+gitpython
+rdflib
+rdflib-jsonld
