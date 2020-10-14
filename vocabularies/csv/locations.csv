@@ -1659,7 +1659,6 @@ mak82,SASB M1 - Periodicals Rm 108,SASB M1 - Periodicals Rm 108,Research,,,ma,,f
 makk3,Schwarzman Building - Dewitt Wallace Reference Desk Room 108,SASB - Dewitt Wallace Reference Desk Rm 108,Research,,,ma,1000,false,mak,,true,
 mal,Schwarzman Building - Main Reading Room 315,SASB - Service Desk Rm 315,Research,Research,,ma,1000,false,mal,NH,true,general-research-division
 mal17,Schwarzman Building - Scholar Room 217,SASB - Scholar Room 217,Research,Scholar,,ma,1000,false,,OD,,
-mal23,Schwarzman Building - Scholar Room 223,SASB - Scholar Room 223,Research,Scholar,,ma,1000,false,,OE,,
 mal72,SASB - SIBL - General Research - Room 315,SASB - SIBL - General Research - Room 315,Research,,,ma,,false,,,true,
 mal82,Schwarzman Building - Main Reading Room 315,SASB M1 - General Research - Room 315,Research,,,ma,1000,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,
 mal92,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research Room 315,Research,,,ma,1101,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,
@@ -2784,7 +2783,6 @@ sgy0n,St. George YA Non-Fiction,St. George YA Non-Fiction,Branch,,,sg,,false,,,t
 sgy0v,St. George YA Non-Print Media,St. George YA Non-Print Media,Branch,,,sg,,false,,,true,
 sgyr,St. George Young Adult Reference,St. George Young Adult Reference,Branch,,,sg,,false,,,true,
 sgzzz,St. George,St. George (error code),Branch,,,sg,,false,,,true,
-skos:notation,skos:prefLabel,skos:altLabel,nypl:collectionType,nypl:deliveryLocationType,nypl:actualLocation,dcterms:isPartOf,nypl:owner,nypl:requestable,nypl:deliverableTo,nypl:recapCustomerCode,nypl:allowSierraHold,nypl:locationsSlug
 sl,"Science, Industry and Business Library (SIBL)",SIBL - Science Industry and Business,Branch,,,sl,1125,false,,,true,
 sla,"Science, Industry and Business Library (SIBL) - Adult",SIBL - Adult,Branch,,,sl,1125,false,,,true,
 sla01,"Science, Industry and Business Library (SIBL) - Reference",SIBL - Reference,Branch,,,sl,1125,false,,,true,
