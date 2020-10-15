@@ -16,8 +16,8 @@ NYPL-Core contains vocabularies and mappings that control many different compone
 2. If modifying `./vocabularies`, make your edits to the CSVs and then update the JSON-LD files using the included [`./vocabularies/scripts`](./vocabularies/scripts)
 3. (If modifying `./mappings`, you can just edit the JSONs directly.)
 4. Commit your changes.
-5. Create a pre-release tag using the next logical version number (e.g. if the current version is 1.32, run `git tag -a v1.33a`. See [Working with Git tags](#working-with-git-tags))
-6. Git push your feature branch (and push your tags via `git push --tags`) and create a PR
+5. Create a pre-release tag using the next logical version number (e.g. `v1.33a`. See [Working with Git tags](#working-with-git-tags))
+6. Git push and create a PR
 
 ### 2. Consider downstream effects
 
@@ -39,11 +39,11 @@ After 1) PR signoff and 2) confirming that your changes don't create trouble for
 1. Merge your PR and delete feature branch.
 2. Update [README.md](README.md) with the new version number
 3. Add an entry to [CHANGELOG.md](CHANGELOG.md) summarizing the changes
-5. Commit your changes
-6. Add a release tag (e.g. `v1.33`)
-7. Push to master
-4. Add release notes at https://github.com/NYPL/nypl-core/tags .
-8. If you made changes to `./vocabularies`, [publish nypl-core-objects](https://github.com/NYPL/nypl-core-objects#pushing-to-s3)
+4. Commit your changes
+5. Add a release tag (e.g. `v1.33`)
+6. Push to master
+7. Add release notes at https://github.com/NYPL/nypl-core/tags .
+8. If you made changes to `./vocabularies`, [publish nypl-core-objects lookups to "production" S3](https://github.com/NYPL/nypl-core-objects#pushing-to-s3)
 
 ## Appendix
 
