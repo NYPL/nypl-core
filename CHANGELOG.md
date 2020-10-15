@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.33
+  - Remove outdated locations in csv and json-ld
+
 ### v1.32
   - Update locations csv and json with new location codes
 
