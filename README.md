@@ -37,10 +37,10 @@ Note that beanstalk apps may need to be "Restart"ed to pick up env config change
 After 1) PR signoff and 2) confirming that your changes don't create trouble for [nypl-core-objects](https://github.com/NYPL/nypl-core-objects) or other immediately impacted apps, proceed to publish.
 
 1. Merge your PR and delete feature branch.
-2. Update [README.md](README.md) with the new version number
+2. Update [README.md](README.md#current-version) with the new version number (e.g. "v1.33")
 3. Add an entry to [CHANGELOG.md](CHANGELOG.md) summarizing the changes
 4. Commit your changes
-5. Add a release tag (e.g. `v1.33`)
+5. Add a release tag (e.g. `v1.33`. See [Working with Git tags](#working-with-git-tags))
 6. Push to master
 7. Add release notes at https://github.com/NYPL/nypl-core/tags .
 8. If you made changes to `./vocabularies`, [publish nypl-core-objects lookups to "production" S3](https://github.com/NYPL/nypl-core-objects#pushing-to-s3)
@@ -54,19 +54,19 @@ We [tend to tag version numbers starting with "v1.0.0"](https://github.com/NYPL/
 To create a tag:
 
 ```
-git tag v1.33
+git tag -a v1.33
 ```
 
 To create a "pre-release tag" (i.e. an unofficial version number tag published for the purpose of testing):
 
 ```
-git tag v1.33a
+git tag -a v1.33a
 ```
 
 After creating a pre-release tag (or any other tag), if you want to add additional commits to the tag (essentially reassign what the tag is an alias for), you'll need to force it:
 
 ```
-git tag v1.33a -f
+git tag -a v1.33a -f
 ```
 
 All tags you create must be pushed to origin after pushing your commits:
