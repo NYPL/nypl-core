@@ -6,9 +6,6 @@ from rdflib import Namespace, Graph, plugin
 from rdflib.serializer import Serializer
 import rdflib
 import csv
-import json
-
-from util import graphAsSortedJsonldString
 
 f = open('../csv/locations.csv')
 reader = csv.DictReader(f)
@@ -76,7 +73,7 @@ for r in reader:
         custcode = recapCustomerCode + str(r['nypl:recapCustomerCode'])
         g.add( (location, nypl.recapCustomerCode, custcode))
 
-z = open('../json-ld/locations.json', 'w')
+z = open('../json-ld/locations.json', 'wb')
 
 context = {"dcterms": "http://purl.org/dc/terms/",
            "nypl": "http://data.nypl.org/nypl-core/",
@@ -84,7 +81,7 @@ context = {"dcterms": "http://purl.org/dc/terms/",
            "nyplLocation": "http://data.nypl.org/locations/",
            "recapCustomerCode": "http://data.nypl.org/recapCustomerCodes"}
 
-z.write(graphAsSortedJsonldString(g, context))
+z.write(g.serialize(format="json-ld", context=context))
 
 z.close()
 f.close()
