@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.34
+  - Add five new ReCAP locations
+
 ### v1.33
   - Remove outdated locations in csv and json-ld
 
