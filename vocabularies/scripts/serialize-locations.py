@@ -80,6 +80,7 @@ context = {"dcterms": "http://purl.org/dc/terms/",
            "skos": "http://www.w3.org/2004/02/skos/core#", 
            "nyplLocation": "http://data.nypl.org/locations/",
            "recapCustomerCode": "http://data.nypl.org/recapCustomerCodes"}
+
 z.write(g.serialize(format="json-ld", context=context))
 
 z.close()
