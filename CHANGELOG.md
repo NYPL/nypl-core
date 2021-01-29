@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.35
+  - Add unrequestable ReCAP location rcx28
+
 ### v1.34
   - Add five new ReCAP locations
 
