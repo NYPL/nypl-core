@@ -199,6 +199,12 @@
       "skos:prefLabel": "Columbia University Libraries"
     },
     {
+      "@id": "nyplOrg:0004",
+      "@type": "org:OrganizationalUnit",
+      "skos:notation": "HL",
+      "skos:prefLabel": "Harvard Library"
+    },
+    {
       "@id": "nyplOrg:1129",
       "@type": "org:OrganizationalUnit",
       "skos:altLabel": "Slavic and East European Collections",

@@ -2,6 +2,7 @@ code,id,rdf:type,skos:prefLabel,skos:altLabel,org:unitOf
 NYPL,0001,org:Organization,New York Public Library,,
 CUL,0002,org:Organization,Columbia University Libraries,,
 PUL,0003,org:Organization,Princeton University Library,,
+HL,0004,org:Organization,Harvard Library,,
 ,1000,org:OrganizationalUnit,Stephen A. Schwarzman Building,,http://data.nypl.org/orgs/0001
 ,1001,org:OrganizationalUnit,Schomburg Center for Research in Black Culture,,http://data.nypl.org/orgs/0001
 ,1002,org:OrganizationalUnit,"New York Public Library for the Performing Arts, Dorothy and Lewis B. Cullman Center",,http://data.nypl.org/orgs/0001
