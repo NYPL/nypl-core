@@ -2,6 +2,7 @@
   "sierra-nypl": {
     "organization": "nyplOrg:0001",
     "bibPrefix": "b",
+    "holdingPrefix": "h",
     "itemPrefix": "i"
   },
   "recap-pul": {
