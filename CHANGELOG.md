@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.36
+  - Add Harvard to orgs
+
 ### v1.35
   - Add unrequestable ReCAP location rcx28
 
