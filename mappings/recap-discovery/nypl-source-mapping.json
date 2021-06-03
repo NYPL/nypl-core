@@ -1,0 +1,23 @@
+{
+  "sierra-nypl": {
+    "organization": "nyplOrg:0001",
+    "bibPrefix": "b",
+    "holdingPrefix": "h",
+    "itemPrefix": "i"
+  },
+  "recap-pul": {
+    "organization": "nyplOrg:0003",
+    "bibPrefix": "pb",
+    "itemPrefix": "pi"
+  },
+  "recap-cul": {
+    "organization": "nyplOrg:0002",
+    "bibPrefix": "cb",
+    "itemPrefix": "ci"
+  },
+  "recap-hl": {
+    "organization": "nyplOrg:0004",
+    "bibPrefix": "hb",
+    "itemPrefix": "hi"
+  }
+}
