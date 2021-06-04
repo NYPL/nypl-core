@@ -1,19 +1,22 @@
 # CHANGELOG
 
+### v1.37
+ - Add nypl-source-mapping.json
+
 ### v1.36
-  - Add Harvard to orgs
+ - Add Harvard to orgs
 
 ### v1.35
-  - Add unrequestable ReCAP location rcx28
+ - Add unrequestable ReCAP location rcx28
 
 ### v1.34
-  - Add five new ReCAP locations
+ - Add five new ReCAP locations
 
 ### v1.33
-  - Remove outdated locations in csv and json-ld
+ - Remove outdated locations in csv and json-ld
 
 ### v1.32
-  - Update locations csv and json with new location codes
+ - Update locations csv and json with new location codes
 
 ### v1.31
  - Changes `recapCustomerCode:JS` > `nypl:eddRequestable` to `true`
