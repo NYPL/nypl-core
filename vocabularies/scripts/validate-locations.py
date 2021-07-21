@@ -1,3 +1,14 @@
+# This script compares ../json-ld/locations.json in the current branch to that in `master`
+#
+# Depends on Python 3
+#
+# Install dependencies:
+#   pip install -r requirements.txt
+#
+# Usage:
+#   git checkout [feature-branch]
+#   python validate-locations.py
+
 from deepdiff import DeepDiff
 from git import Git
 import json
@@ -13,28 +24,40 @@ def main():
             currentBranch = branch[2:]
             break
 
+    print(f'Comparing {currentBranch} to master')
+
     # Get current working copy of the locations JSON-LD file
     newLocationFile = openLocationsJsonFile()
 
-    # Checkout master and get the current version
-    git.checkout('master')
-    masterLocationFile = openLocationsJsonFile()
+    try:
+        # Checkout master and get the current version
+        git.checkout('master')
+        masterLocationFile = openLocationsJsonFile()
 
-    # Compare the two objects
-    newLocDict = {item['skos:notation']: item for item in newLocationFile['@graph']}
-    masterLocDict = {item['skos:notation']: item for item in masterLocationFile['@graph']}
-    newKeys = newLocDict.keys() - masterLocDict.keys()
-    deletedKeys = masterLocDict.keys() - newLocDict.keys()
-    alteredKeys = list(filter(lambda x: x[1], [
-        (key, DeepDiff(newLocDict[key], masterLocDict[key], ignore_order=True))
-        for key in set(newLocDict.keys()) & set(masterLocDict.keys()) 
-    ]))
+        # Compare the two objects
+        for item in newLocationFile['@graph']:
+            if not 'skos:notation' in item:
+                print('Item found without a skos:notation!', item)
 
-    # Output comparison results
-    print('Keys Added: {}'.format(len(newKeys)))
-    print('Keys Deleted: {}'.format(len(deletedKeys)))
-    print('Keys Altered: {}'.format(len(alteredKeys)))
-    displayAlterations(alteredKeys) # Provide details on altered mapping objects
+        newLocDict = {item['skos:notation']: item for item in newLocationFile['@graph']}
+        masterLocDict = {item['skos:notation']: item for item in masterLocationFile['@graph']}
+        newKeys = newLocDict.keys() - masterLocDict.keys()
+        deletedKeys = masterLocDict.keys() - newLocDict.keys()
+        alteredKeys = list(filter(lambda x: x[1], [
+            (key, DeepDiff(newLocDict[key], masterLocDict[key], ignore_order=True))
+            for key in set(newLocDict.keys()) & set(masterLocDict.keys())
+        ]))
+
+        # Output comparison results
+        print('Keys Added: {}'.format(len(newKeys)))
+        print('Keys Deleted: {}'.format(len(deletedKeys)))
+        print('Keys Altered: {}'.format(len(alteredKeys)))
+        displayAlterations(alteredKeys) # Provide details on altered mapping objects
+
+    except Exception as e:
+        template = "An exception of type {0} occurred. Arguments:\n{1!r}"
+        message = template.format(type(e).__name__, e.args)
+        print (message)
 
     # Reset to current working branch
     git.checkout(currentBranch)
