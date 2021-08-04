@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.38
+- Remove BPSE from locations
+
 ### v1.37
  - Add nypl-source-mapping.json
 
