@@ -1599,7 +1599,7 @@ mab,Schwarzman Building - Art & Architecture Room 300,SASB - Art & Architecture 
 mab0v,SASB - Picture Collection Rm 100,SASB - Picture Collection Rm 100,Research,,,ma,,false,,,true,
 mab62,Schwarzman Building S6 - Art & Architecture Room 300,SASB S6 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,
 mab72,Schwarzman Building - Art & Architecture Room 300 (Stacks),Schwarzman Building - Art & Architecture Rm 300 (Stacks),Research,,,ma,1110,false,mab,,true,
-mab82,Schwarzman Building - Art & Architecture Room 300 (BPSE),SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,
+mab82,Schwarzman Building - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,
 mab88,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,,,true,
 mab89,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,,,true,
 mab92,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,
