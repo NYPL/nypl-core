@@ -42,8 +42,7 @@ After 1) PR signoff and 2) confirming that your changes don't create trouble for
 2. Commit your changes
 3. Add a release tag (e.g. `v1.33`. See [Working with Git tags](#working-with-git-tags))
 4. Push to master
-5. Add release notes at https://github.com/NYPL/nypl-core/tags .
-6. If you made changes to `./vocabularies`, [publish nypl-core-objects lookups to "production" S3](https://github.com/NYPL/nypl-core-objects#pushing-to-s3)
+5. If you made changes to `./vocabularies`, follow the instructions in [nypl-core-objects "Pushing to S3"](https://github.com/NYPL/nypl-core-objects#pushing-to-s3) to push updated JSONs to S3 (for use by non-Node apps).
 
 ## Appendix
 
