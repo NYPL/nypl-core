@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.??
+- Add HL Customer Codes
+
 ### v1.38
 - Remove BPSE from locations
 
