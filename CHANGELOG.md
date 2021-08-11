@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v1.39
+- Change to label for location mab82
+- Add HL Customer Codes
+
 ### v1.38
 - Remove BPSE from locations
 
