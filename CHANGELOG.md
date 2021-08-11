@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.40
+- Add missing HL Customer Code HV
+
 ### v1.39
 - Change to label for location mab82
 - Add HL Customer Codes
