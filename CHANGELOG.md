@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.41
+- Change some preflabels and altlabels related to microform rooms
+
 ### v1.40
 - Add missing HL Customer Code HV
 
