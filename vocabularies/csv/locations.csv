@@ -1631,10 +1631,10 @@ mag98,Schwarzman Building M2 - Milstein Division Room 121,SASB M2 - Milstein Div
 magg1,Schwarzman Building - Milstein Division Reference Room 121,SASB - Milstein Division Reference Rm 121,Research,,,ma,1105,false,mag;mal,,true,
 magg2,Schwarzman Building - Milstein Division Mezzanine Room 121,SASB - Milstein Division - Mezzanine,Research,,,ma,1105,false,mag;mal,,true,
 magg3,Schwarzman Building - Milstein Division Desk Room 121,SASB - Milstein Division - Desk Rm 121,Research,,,ma,1105,false,mag;mal,,true,
-magh1,Schwarzman Building - Microforms Room 315,SASB - Microforms Rm 315,Research,,,ma,1105,false,mag;mal,,true,
-mai,Schwarzman Building - Microforms Room 315,SASB - Microforms Rm 315,Research,Research,,ma,1000,false,mai,NF,true,periodicals-room
+magh1,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,,,ma,1105,false,mag;mal,,true,
+mai,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,Research,,ma,1000,false,mai,NF,true,periodicals-room
 mai32,Schwarzman Building S3 - Microforms Room 315,SASB S3 - Microforms Room 315,Research,,,ma,1000,false,mai,,true,
-mai82,Schwarzman Building M1 - Microforms Room 315,SASB M1 - Microforms Rm 315,Research,,,ma,1000,false,mai,,true,
+mai82,Schwarzman Building M1 - Microforms Room 315,SASB M1 - Microforms Room 315,Research,,,ma,1000,false,mai,,true,
 mai83,Schwarzman Building - Periodicals and Microforms Room 119,SASB - Periodicals and Microforms Rm 119,Research,,,ma,1000,false,mai,,true,
 mai87,Schwarzman Building - Periodicals and Microforms Room 119,SASB - Periodicals and Microforms Rm 119,Research,,,ma,1000,false,mai,,true,
 mai92,Schwarzman Building M2 - Microforms Room 315,SASB M2 - Microforms Room 315,Research,,,ma,1101,false,mai,,true,
