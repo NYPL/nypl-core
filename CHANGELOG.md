@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.41
+- Add new ptype 75 for Schomburg Scholar
+
 ### v1.40
 - Add missing HL Customer Code HV
 
