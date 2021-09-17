@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.42
+- Update labels for microform rooms
+
 ### v1.41
 - Add new ptype 75 for Schomburg Scholar
 

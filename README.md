@@ -4,7 +4,7 @@ Models, mappings, and vocabularies for the NYPL Core ontology.
 
 ### Current Version
 
-v1.41
+v1.42
 
 ## Contributing
 
@@ -45,7 +45,7 @@ After 1) PR signoff and 2) confirming that your changes don't create trouble for
 5. If you made changes to `./vocabularies`:
    - Follow the instructions in [nypl-core-objects "Pushing to S3"](https://github.com/NYPL/nypl-core-objects#pushing-to-s3) to push updated JSONs to S3 (for use by non-Node apps).
    - If there are Node apps that need your update, update their `NYPL_CORE_VERSION` to your new version (e.g. `v1.33`)
-   
+
 ## Appendix
 
 ### Working with Git tags
