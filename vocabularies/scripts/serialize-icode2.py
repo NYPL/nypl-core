@@ -39,7 +39,7 @@ context = {"nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#", 
            "nyplOrg": "http://data.nypl.org/orgs/",
            "icode2": "http://data.nypl.org/icode2/"}
-z.write(g.serialize(format="json-ld", context=context))
+z.write(g.serialize(format="json-ld", context=context, encoding="utf-8"))
 
 z.close()
 f.close()
