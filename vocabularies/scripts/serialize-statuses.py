@@ -41,7 +41,7 @@ z = open('../json-ld/statuses.json', 'wb')
 context = {"nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#", 
            "nyplStatus": "http://data.nypl.org/statuses/"}
-z.write(g.serialize(format="json-ld", context=context))
+z.write(g.serialize(format="json-ld", context=context, encoding="utf-8"))
 
 z.close()
 
