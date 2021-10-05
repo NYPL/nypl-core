@@ -43,7 +43,7 @@ z = open('../json-ld/organizations.json', 'wb')
 context = {"org": "http://www.w3.org/ns/org#",
            "skos": "http://www.w3.org/2004/02/skos/core#", 
            "nyplOrg": "http://data.nypl.org/orgs/"}
-z.write(g.serialize(format="json-ld", context=context))
+z.write(g.serialize(format="json-ld", context=context, encoding="utf-8"))
 
 z.close()
 f.close()
