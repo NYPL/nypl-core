@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.43
+- Add new field mappings for Added Titles
+
 ### v1.42
 - Update labels for microform rooms
 

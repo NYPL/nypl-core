@@ -31,6 +31,9 @@
       {
         "marc": "740",
         "subfields": [ "a", "n", "p" ]
+      },
+      {
+        "marc": "793"
       }
     ]
   },
@@ -107,6 +110,9 @@
       },
       {
         "marc": "720"
+      },
+      {
+        "marc": "791"
       }
     ]
   },
@@ -220,6 +226,15 @@
         "subfields": [
           "c"
         ]
+      }
+    ]
+  },
+  "Donor/Sponsor": {
+    "pred": "nypl:donor",
+    "jsonLdKey": "donor",
+    "paths": [
+      {
+        "marc": "799"
       }
     ]
   },
