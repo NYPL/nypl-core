@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.43
+- Remove "fancy" hyphens (U+0096) from 5 locations
+
 ### v1.42
 - Update labels for microform rooms
 
