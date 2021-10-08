@@ -33,7 +33,8 @@
         "subfields": [ "a", "n", "p" ]
       },
       {
-        "marc": "793"
+        "marc": "793",
+        "excludedSubfields": [ "0", "6" ]
       }
     ]
   },
@@ -112,7 +113,8 @@
         "marc": "720"
       },
       {
-        "marc": "791"
+        "marc": "791",
+        "excludedSubfields": [ "0", "6" ]
       }
     ]
   },
@@ -234,7 +236,8 @@
     "jsonLdKey": "donor",
     "paths": [
       {
-        "marc": "799"
+        "marc": "799",
+        "excludedSubfields": [ "0", "6" ]
       }
     ]
   },
