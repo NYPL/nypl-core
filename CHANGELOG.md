@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.44
+- Add new field mappings for Added Titles
+
 ### v1.43
 - Remove "fancy" hyphens (U+0096) from 5 locations
 
