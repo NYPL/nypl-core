@@ -31,6 +31,10 @@
       {
         "marc": "740",
         "subfields": [ "a", "n", "p" ]
+      },
+      {
+        "marc": "793",
+        "excludedSubfields": [ "0", "6" ]
       }
     ]
   },
@@ -107,6 +111,10 @@
       },
       {
         "marc": "720"
+      },
+      {
+        "marc": "791",
+        "excludedSubfields": [ "0", "6" ]
       }
     ]
   },
@@ -220,6 +228,16 @@
         "subfields": [
           "c"
         ]
+      }
+    ]
+  },
+  "Donor/Sponsor": {
+    "pred": "nypl:donor",
+    "jsonLdKey": "donor",
+    "paths": [
+      {
+        "marc": "799",
+        "excludedSubfields": [ "0", "6" ]
       }
     ]
   },
@@ -770,7 +788,8 @@
       },
       {
         "marc": "035",
-        "subfields": [ "a" ]
+        "subfields": [ "a" ],
+        "notes": "Reject if not prefixed '(OCoLC)'"
       }
     ]
   },
