@@ -787,7 +787,9 @@
         "subfields": [ "y" ]
       },
       {
-        "notes": "OR 001 if 003 == 'OCoLC' OR 035 if 'OCoLC' in 035 $a"
+        "marc": "035",
+        "subfields": [ "a" ],
+        "notes": "Reject if not prefixed '(OCoLC)'"
       }
     ]
   },

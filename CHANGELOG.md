@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.45
+- Add new field mapping for OCLC number
+
 ### v1.44
 - Add new field mappings for Added Titles
 
