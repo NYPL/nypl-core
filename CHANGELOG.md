@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.46
+- Remove NF Customer Code
+
 ### v1.45
 - Add new field mapping for OCLC number
 
