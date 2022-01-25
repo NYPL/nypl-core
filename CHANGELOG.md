@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v1.46
+- Remove NF Customer Code
+- Add map08 location code
+
 ### v1.45
 - Add new field mapping for OCLC number
 
