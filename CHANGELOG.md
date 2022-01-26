@@ -1,9 +1,5 @@
 # CHANGELOG
 
-### v1.47
-- Add map42, mapp8, mapp9, map98
-- Spell out Room in all instances in locations.csv
-
 ### v1.46
 - Remove NF Customer Code
 - Add map08 location code
