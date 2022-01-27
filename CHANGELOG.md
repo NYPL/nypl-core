@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v1.47
+- Add mapp8, mapp9, map32, map42
+- Update other map locations
+
 ### v1.46
 - Remove NF Customer Code
 - Add map08 location code
