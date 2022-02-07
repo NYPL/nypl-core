@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v1.48
+- Add Edition Statement
+- Add Parallel Fields
+
 ### v1.47
 - Add mapp8, mapp9, map32, map42
 - Update other map locations
