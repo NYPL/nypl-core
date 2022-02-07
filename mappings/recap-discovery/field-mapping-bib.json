@@ -241,6 +241,15 @@
       }
     ]
   },
+  "Edition Statement": {
+    "pred": "nypl:editionStatement",
+    "jsonLdKey": "editionStatement",
+    "paths": [
+      {
+        "marc": "250"
+      }
+    ]
+  },
   "Electronic location": {
     "pred": "bf:electronicLocator",
     "jsonLdKey": "electronicLocator",
@@ -965,8 +974,7 @@
     "paths": [
       {
         "marc": "880",
-        "subfields": [],
-        "isParallelFor": ""
+        "isParallelFor": "250"
       }
     ]
   },
