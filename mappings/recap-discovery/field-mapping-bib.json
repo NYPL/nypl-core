@@ -241,6 +241,15 @@
       }
     ]
   },
+  "Edition Statement": {
+    "pred": "nypl:editionStatement",
+    "jsonLdKey": "editionStatement",
+    "paths": [
+      {
+        "marc": "250"
+      }
+    ]
+  },
   "Electronic location": {
     "pred": "bf:electronicLocator",
     "jsonLdKey": "electronicLocator",
@@ -809,6 +818,191 @@
       }
     ]
   },
+  "Parallel Publisher": {
+    "pred": "nypl:parallelPublisher",
+    "jsonLdKey": "parallelPublisher",
+    "paths": [
+      {
+        "marc": "880",
+        "subfields": ["b"],
+        "isParallelFor": "260"
+      },
+      {
+        "marc": "880",
+        "subfields": ["b"],
+        "isParallelFor": "264"
+      }
+    ]
+  },
+  "Parallel Publication Statement": {
+    "pred": "nypl:parallelPublicationStatement",
+    "jsonLdKey": "parallelPublicationStatement",
+    "elasticSearchKey": "parallelDisplayField",
+    "parallelFieldName": "publicationStatement",
+    "paths": [
+      {
+        "marc": "880",
+        "subfields": ["a", "b", "c"],
+        "isParallelFor": "260"
+      },
+      {
+        "marc": "880",
+        "subfields": ["a", "b", "c"],
+        "isParallelFor": "264"
+      }
+    ]
+  },
+  "Parallel Creator Literal": {
+    "pred": "nypl:parallelCreatorLiteral",
+    "jsonLdKey": "parallelCreatorLiteral",
+    "paths": [
+      {
+        "marc": "880",
+        "subfields": ["a", "b", "c", "q", "d", "j"],
+        "isParallelFor": "100"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "110"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "111"
+      }
+    ]
+  },
+  "Parallel Contributor Literal": {
+    "pred": "nypl:parallelContributorLiteral",
+    "jsonLdKey": "parallelContributorLiteral",
+    "paths": [
+      {
+        "marc": "880",
+        "isParallelFor": "700"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "710"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "711"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "720"
+      }
+    ]
+  },
+  "Parallel Alternative Title": {
+    "pred": "nypl:parallelTitleAlt",
+    "jsonLdKey": "parallelTitleAlt",
+    "paths": [
+      {
+        "marc": "880",
+        "subfields": ["a", "b", "f", "n", "p"],
+        "isParallelFor": "246"
+      }
+    ]
+  },
+  "Parallel Subject Literal": {
+    "pred": "nypl:parallelSubjectLiteral",
+    "jsonLdKey": "SubjectLiteral",
+    "paths": [
+      {
+        "marc": "880",
+        "subfields": ["a", "b", "c", "d", "e", "g", "4", "v", "x", "y", "z"],
+        "isParallelFor": "600"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "610"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "611"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "630"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "648"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "650"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "651"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "653"
+      }
+    ]
+  },
+  "Parallel Uniform Title": {
+    "pred": "nypl:parallelUniformTitle",
+    "jsonLdKey": "parallelUniformTitle",
+    "paths": [
+      {
+        "marc": "880",
+        "subfields": ["a", "d", "f", "g", "k", "l", "m", "n", "o", "p", "r", "s", "t", "v"],
+        "isParallelFor": "830"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "130"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "240"
+      },
+      {
+        "marc": "880",
+        "isParallelFor": "730"
+      }
+    ]
+  },
+  "Parallel Edition Statement": {
+    "pred": "nypl:parallelEditionStatement",
+    "jsonLdKey": "parallelEditionStatement",
+    "elasticSearchKey": "parallelDisplayField",
+    "parallelFieldName": "editionStatement",
+    "paths": [
+      {
+        "marc": "880",
+        "isParallelFor": "250"
+      }
+    ]
+  },
+  "Parallel Table Of Contents": {
+    "pred": "nypl:parallelTableOfContents",
+    "jsonLdKey": "parallelTableOfContents",
+    "elasticSearchKey": "parallelDisplayField",
+    "parallelFieldName": "tableOfContents",
+    "paths": [
+      {
+        "marc": "880",
+        "isParallelFor": "505"
+      }
+    ]
+  },
+  "Parallel Description": {
+    "pred": "nypl:parallelDescription",
+    "jsonLdKey": "parallelDescription",
+    "elasticSearchKey": "parallelDisplayField",
+    "parallelFieldName": "description",
+    "paths": [
+      {
+        "marc": "880",
+        "subfields": ["a"],
+        "isParallelFor": "520"
+      }
+    ]
+  },
   "Parallel title": {
     "pred": "nypl:parallelTitle",
     "jsonLdKey": "parallelTitle",
@@ -828,6 +1022,55 @@
         "marc": "880",
         "subfields": [ "a", "b", "c", "f", "g", "h", "k", "n", "p", "s" ],
         "isParallelFor": "245"
+      }
+    ]
+  },
+  "Parallel Note": {
+    "pred": "nypl:parallelNote",
+    "jsonLdKey": "parallelNote",
+    "elasticSearchKey": "parallelDisplayField",
+    "parallelFieldName": "note",
+    "paths": [
+      {
+        "marc": "880",
+        "subfields": ["a"],
+        "isParallelFor": "500"
+      }
+    ]
+  },
+  "Parallel Place Of Publication": {
+    "pred": "nypl:parallelPlaceOfPublication",
+    "jsonLdKey": "parallelPlaceOfPublication",
+    "elasticSearchKey": "parallelDisplayField",
+    "parallelFieldName": "placeOfPublication",
+    "paths": [
+      {
+        "marc": "880",
+        "subfields": ["a"],
+        "isParallelFor": "260"
+      },
+      {
+        "marc": "880",
+        "subfields": ["a"],
+        "isParallelFor": "264"
+      }
+    ]
+  },
+  "Parallel Publication Statement": {
+    "pred": "nypl:parallelPublicationStatement",
+    "jsonLdKey": "parallelPublicationStatement",
+    "elasticSearchKey": "parallelDisplayField",
+    "parallelFieldName": "publicationStatement",
+    "paths": [
+      {
+        "marc": "880",
+        "subfields": ["a", "b", "c"],
+        "isParallelFor": "260"
+      },
+      {
+        "marc": "880",
+        "subfields": ["a", "b", "c"],
+        "isParallelFor": "264"
       }
     ]
   },
