@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.49
+- Add ReCAP Customer Code to item field mapping
+
 ### v1.48
 - Add Edition Statement
 - Add Parallel Fields
