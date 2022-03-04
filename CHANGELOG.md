@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.50
+- Add NM as valid delivery location for ND ReCAP Customer Code so that Maps room stuff can be delivered somewhere
+
 ### v1.49
 - Add ReCAP Customer Code to item field mapping
 
