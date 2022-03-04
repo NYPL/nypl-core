@@ -2,7 +2,7 @@ id,skos:notation,skos:prefLabel,nypl:deliverableTo,nypl:eddRequestable,nypl:owne
 NA,NA,NA,NB;ND;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW;OD,true,0001
 NB,NB,SIBL,NB;ND;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW;OD,true,0001
 NC,NC,LSC BookOps Cataloging,,false,0001
-ND,ND,SASB Map Division,ND,false,0001
+ND,ND,SASB Map Division,ND;NM,false,0001
 NE,NE,NYPL Inter-Library Loan,,false,0001
 NG,NG,SASB Art Division,,false,0001
 NH,NH,SASB Rose Main Reading Room,NB;ND;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW;OD,true,0001
