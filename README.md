@@ -20,6 +20,7 @@ NYPL-Core contains vocabularies and mappings that control many different compone
 6. Commit your changes.
 7. Create a pre-release tag using the next logical version number (e.g. `v1.33a`. See [Working with Git tags](#working-with-git-tags))
 8. Git push and create a PR
+9. If it's a change in `./vocabularies` include a `validate-changes` report in your PR (e.g. if changing `locations.json`, run `cd vocabularies/scripts; python validate-changes.py locations`)
 
 ### 2. Consider downstream effects
 
