@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.51
+- fix map08 typo
+
 ### v1.49
 - Add ReCAP Customer Code to item field mapping
 
