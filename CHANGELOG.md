@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.52
+- Fix mistake in field-mapping-bib.json SubjectLiteral -> parallelSubjectLiteral
+
 ### v1.51
 - fix map08 typo
 
