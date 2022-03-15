@@ -906,7 +906,7 @@
   },
   "Parallel Subject Literal": {
     "pred": "nypl:parallelSubjectLiteral",
-    "jsonLdKey": "SubjectLiteral",
+    "jsonLdKey": "parallelSubjectLiteral",
     "paths": [
       {
         "marc": "880",
