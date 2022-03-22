@@ -2,7 +2,7 @@
 
 ### v1.53
 - Temporarily change the label for "map" to "Schwarzman Building -  Map
-  Division - Temporary Service in Room 121" to ensure RC considers it as open
+  Division (Temporary Service in Room 121)" to ensure RC considers it as open
 
 ### v1.52
 - Fix mistake in field-mapping-bib.json SubjectLiteral -> parallelSubjectLiteral
