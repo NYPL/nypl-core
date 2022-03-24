@@ -1075,9 +1075,18 @@
         "marc": "245",
         "subfields": [
           "a",
+          "b"
+        ],
+        "nyplSources": ["sierra-nypl"]
+      },
+      {
+        "marc": "245",
+        "subfields": [
+          "a",
           "b",
           "c"
-        ]
+        ],
+        "nyplSources": ["recap-hl", "recap-cul", "recap-pul"]
       }
     ]
   },
