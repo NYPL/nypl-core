@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.54
+ - Reconfigure how parallels are related in field-mapping-bib using isParallelFor
+
 ### v1.53
 - Temporarily change the label for "map" to "Schwarzman Building -  Map
   Division (Temporary Service in Room 121)" to ensure RC considers it as open
