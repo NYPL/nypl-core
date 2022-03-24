@@ -810,7 +810,7 @@
   "Parallel Publisher": {
     "pred": "nypl:parallelPublisher",
     "jsonLdKey": "parallelPublisher",
-    "isParallelFor": "Publisher"
+    "isParallelFor": "Publisher literal"
   },
   "Parallel Publication Statement": {
     "pred": "nypl:parallelPublicationStatement",
@@ -943,26 +943,6 @@
           "b",
           "c"
         ]
-      }
-    ]
-  },
-  "Publisher": {
-    "pred": "roles:pbl",
-    "jsonLdKey": "pbl",
-    "paths": [
-      {
-        "marc": "260",
-        "subfields": [
-          "b"
-        ],
-        "nyplSources": []
-      },
-      {
-        "marc": "264",
-        "subfields": [
-          "b"
-        ],
-        "nyplSources": []
       }
     ]
   },
