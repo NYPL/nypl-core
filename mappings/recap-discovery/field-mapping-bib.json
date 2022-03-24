@@ -805,274 +805,96 @@
   "Parallel series statement": {
     "pred": "nypl:parallelSeriesStatement",
     "jsonLdKey": "parallelSeriesStatement",
-    "paths": [
-      {
-        "marc": "880",
-        "subfields": ["3","a","x","v","l"],
-        "isParallelFor": "440"
-      },
-      {
-        "marc": "880",
-        "subfields": ["3","a","x","v","l"],
-        "isParallelFor": "490"
-      }
-    ]
+    "isParallelFor": "Series statement"
   },
   "Parallel Publisher": {
     "pred": "nypl:parallelPublisher",
     "jsonLdKey": "parallelPublisher",
-    "paths": [
-      {
-        "marc": "880",
-        "subfields": ["b"],
-        "isParallelFor": "260"
-      },
-      {
-        "marc": "880",
-        "subfields": ["b"],
-        "isParallelFor": "264"
-      }
-    ]
+    "isParallelFor": "Publisher literal"
   },
   "Parallel Publication Statement": {
     "pred": "nypl:parallelPublicationStatement",
     "jsonLdKey": "parallelPublicationStatement",
     "elasticSearchKey": "parallelDisplayField",
     "parallelFieldName": "publicationStatement",
-    "paths": [
-      {
-        "marc": "880",
-        "subfields": ["a", "b", "c"],
-        "isParallelFor": "260"
-      },
-      {
-        "marc": "880",
-        "subfields": ["a", "b", "c"],
-        "isParallelFor": "264"
-      }
-    ]
+    "isParallelFor": "Publication statement"
   },
   "Parallel Creator Literal": {
     "pred": "nypl:parallelCreatorLiteral",
     "jsonLdKey": "parallelCreatorLiteral",
-    "paths": [
-      {
-        "marc": "880",
-        "subfields": ["a", "b", "c", "q", "d", "j"],
-        "isParallelFor": "100"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "110"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "111"
-      }
-    ]
+    "isParallelFor": "Creator literal"
   },
   "Parallel Contributor Literal": {
     "pred": "nypl:parallelContributorLiteral",
     "jsonLdKey": "parallelContributorLiteral",
-    "paths": [
-      {
-        "marc": "880",
-        "isParallelFor": "700"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "710"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "711"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "720"
-      }
-    ]
+    "isParallelFor": "Contributor literal"
   },
   "Parallel Alternative Title": {
     "pred": "nypl:parallelTitleAlt",
     "jsonLdKey": "parallelTitleAlt",
-    "paths": [
-      {
-        "marc": "880",
-        "subfields": ["a", "b", "f", "n", "p"],
-        "isParallelFor": "246"
-      }
-    ]
+    "isParallelFor": "Alternative title"
   },
   "Parallel Subject Literal": {
     "pred": "nypl:parallelSubjectLiteral",
     "jsonLdKey": "parallelSubjectLiteral",
-    "paths": [
-      {
-        "marc": "880",
-        "subfields": ["a", "b", "c", "d", "e", "g", "4", "v", "x", "y", "z"],
-        "isParallelFor": "600"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "610"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "611"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "630"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "648"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "650"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "651"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "653"
-      }
-    ]
+    "isParallelFor": "Subject literal"
   },
   "Parallel Uniform Title": {
     "pred": "nypl:parallelUniformTitle",
     "jsonLdKey": "parallelUniformTitle",
-    "paths": [
-      {
-        "marc": "880",
-        "subfields": ["a", "d", "f", "g", "k", "l", "m", "n", "o", "p", "r", "s", "t", "v"],
-        "isParallelFor": "830"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "130"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "240"
-      },
-      {
-        "marc": "880",
-        "isParallelFor": "730"
-      }
-    ]
+    "isParallelFor": "Uniform title"
   },
   "Parallel Edition Statement": {
     "pred": "nypl:parallelEditionStatement",
     "jsonLdKey": "parallelEditionStatement",
     "elasticSearchKey": "parallelDisplayField",
     "parallelFieldName": "editionStatement",
-    "paths": [
-      {
-        "marc": "880",
-        "isParallelFor": "250"
-      }
-    ]
+    "isParallelFor": "Edition Statement"
   },
   "Parallel Table Of Contents": {
     "pred": "nypl:parallelTableOfContents",
     "jsonLdKey": "parallelTableOfContents",
     "elasticSearchKey": "parallelDisplayField",
     "parallelFieldName": "tableOfContents",
-    "paths": [
-      {
-        "marc": "880",
-        "isParallelFor": "505"
-      }
-    ]
+    "isParallelFor": "Contents"
   },
   "Parallel Description": {
     "pred": "nypl:parallelDescription",
     "jsonLdKey": "parallelDescription",
     "elasticSearchKey": "parallelDisplayField",
     "parallelFieldName": "description",
-    "paths": [
-      {
-        "marc": "880",
-        "subfields": ["a"],
-        "isParallelFor": "520"
-      }
-    ]
+    "isParallelFor": "Description"
   },
   "Parallel title": {
     "pred": "nypl:parallelTitle",
     "jsonLdKey": "parallelTitle",
-    "paths": [
-      {
-        "marc": "880",
-        "subfields": [ "a", "b" ],
-        "isParallelFor": "245"
-      }
-    ]
+    "isParallelFor": "Title"
   },
   "Parallel title display": {
     "pred": "nypl:parallelTitleDisplay",
     "jsonLdKey": "parallelTitleDisplay",
-    "paths": [
-      {
-        "marc": "880",
-        "subfields": [ "a", "b", "c", "f", "g", "h", "k", "n", "p", "s" ],
-        "isParallelFor": "245"
-      }
-    ]
+    "isParallelFor": "Title display"
   },
   "Parallel Note": {
     "pred": "nypl:parallelNote",
     "jsonLdKey": "parallelNote",
     "elasticSearchKey": "parallelDisplayField",
     "parallelFieldName": "note",
-    "paths": [
-      {
-        "marc": "880",
-        "subfields": ["a"],
-        "isParallelFor": "500"
-      }
-    ]
+    "isParallelFor": "Note"
   },
   "Parallel Place Of Publication": {
     "pred": "nypl:parallelPlaceOfPublication",
     "jsonLdKey": "parallelPlaceOfPublication",
     "elasticSearchKey": "parallelDisplayField",
     "parallelFieldName": "placeOfPublication",
-    "paths": [
-      {
-        "marc": "880",
-        "subfields": ["a"],
-        "isParallelFor": "260"
-      },
-      {
-        "marc": "880",
-        "subfields": ["a"],
-        "isParallelFor": "264"
-      }
-    ]
+    "isParallelFor": "Place of publication"
   },
   "Parallel Publication Statement": {
     "pred": "nypl:parallelPublicationStatement",
     "jsonLdKey": "parallelPublicationStatement",
     "elasticSearchKey": "parallelDisplayField",
     "parallelFieldName": "publicationStatement",
-    "paths": [
-      {
-        "marc": "880",
-        "subfields": ["a", "b", "c"],
-        "isParallelFor": "260"
-      },
-      {
-        "marc": "880",
-        "subfields": ["a", "b", "c"],
-        "isParallelFor": "264"
-      }
-    ]
+    "isParallelFor": "Publication statement"
   },
   "Part of": {
     "pred": "nypl:partOf",
@@ -1121,26 +943,6 @@
           "b",
           "c"
         ]
-      }
-    ]
-  },
-  "Publisher": {
-    "pred": "roles:pbl",
-    "jsonLdKey": "pbl",
-    "paths": [
-      {
-        "marc": "260",
-        "subfields": [
-          "b"
-        ],
-        "nyplSources": []
-      },
-      {
-        "marc": "264",
-        "subfields": [
-          "b"
-        ],
-        "nyplSources": []
       }
     ]
   },
@@ -1270,15 +1072,21 @@
     "jsonLdKey": "title",
     "paths": [
       {
-        "marc": "title"
-      },
-      {
         "marc": "245",
         "subfields": [
           "a",
           "b"
         ],
-        "nyplSources": ["recap-pul", "recap-col"]
+        "nyplSources": ["sierra-nypl", "recap-cul", "recap-pul"]
+      },
+      {
+        "marc": "245",
+        "subfields": [
+          "a",
+          "b",
+          "c"
+        ],
+        "nyplSources": ["recap-hl"]
       }
     ]
   },
