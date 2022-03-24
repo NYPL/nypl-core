@@ -1077,7 +1077,7 @@
           "a",
           "b"
         ],
-        "nyplSources": ["sierra-nypl"]
+        "nyplSources": ["sierra-nypl", "recap-cul", "recap-pul"]
       },
       {
         "marc": "245",
@@ -1086,7 +1086,7 @@
           "b",
           "c"
         ],
-        "nyplSources": ["recap-hl", "recap-cul", "recap-pul"]
+        "nyplSources": ["recap-hl"]
       }
     ]
   },
