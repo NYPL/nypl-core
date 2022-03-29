@@ -104,13 +104,16 @@
         "subfields": [ "a", "b", "c", "q", "d", "j" ]
       },
       {
-        "marc": "710"
+        "marc": "710",
+        "excludedSubfields": [ "0", "6" ]
       },
       {
-        "marc": "711"
+        "marc": "711",
+        "excludedSubfields": [ "0", "6" ]
       },
       {
-        "marc": "720"
+        "marc": "720",
+        "excludedSubfields": [ "0", "6" ]
       },
       {
         "marc": "791",
