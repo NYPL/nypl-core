@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### v1.55
+ - Ensure all entries in field-mapping-bib that have "parallel" field
+   counterparts are configured either with explicit `subfields` or
+   `excludedSubfields`
+
 ### v1.54
  - Reconfigure how parallels are related in field-mapping-bib using isParallelFor
 
