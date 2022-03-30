@@ -104,13 +104,16 @@
         "subfields": [ "a", "b", "c", "q", "d", "j" ]
       },
       {
-        "marc": "710"
+        "marc": "710",
+        "excludedSubfields": [ "0", "6" ]
       },
       {
-        "marc": "711"
+        "marc": "711",
+        "excludedSubfields": [ "0", "6" ]
       },
       {
-        "marc": "720"
+        "marc": "720",
+        "excludedSubfields": [ "0", "6" ]
       },
       {
         "marc": "791",
@@ -142,10 +145,12 @@
         "subfields": [ "a", "b", "c", "q", "d", "j" ]
       },
       {
-        "marc": "110"
+        "marc": "110",
+        "excludedSubfields": [ "0", "6" ]
       },
       {
-        "marc": "111"
+        "marc": "111",
+        "excludedSubfields": [ "0", "6" ]
       }
     ]
   },
@@ -246,7 +251,8 @@
     "jsonLdKey": "editionStatement",
     "paths": [
       {
-        "marc": "250"
+        "marc": "250",
+        "excludedSubfields": [ "0", "6" ]
       }
     ]
   },
