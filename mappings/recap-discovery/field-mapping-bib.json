@@ -814,8 +814,8 @@
     "isParallelFor": "Series statement"
   },
   "Parallel Publisher": {
-    "pred": "nypl:parallelPublisher",
-    "jsonLdKey": "parallelPublisher",
+    "pred": "nypl:parallelPublisherLiteral",
+    "jsonLdKey": "parallelPublisherLiteral",
     "isParallelFor": "Publisher literal"
   },
   "Parallel Publication Statement": {
