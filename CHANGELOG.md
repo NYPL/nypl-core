@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v1.56
+ - Rename parallelPublisher to parallelPublisherLiteral in field-mapping-bib to
+   match convention.
+
 ### v1.55
  - Ensure all entries in field-mapping-bib that have "parallel" field
    counterparts are configured either with explicit `subfields` or
