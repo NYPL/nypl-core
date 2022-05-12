@@ -53,33 +53,6 @@
       }
     ]
   },
-  "Date Range": {
-    "pred": "nypl:dateRange",
-    "jsonLdKey": "dateRange"
-  },
-  "Date Raw": {
-    "pred": "nypl:dateRaw",
-    "jsonLdKey": "dateRaw"
-  },
-  "Enumeration Chronology": {
-    "pred": "bf:enumerationAndChronology",
-    "jsonLdKey": "enumerationChronology",
-    "paths": [
-      {
-        "notes": "Standalone representation of the 'v' fieldTag"
-      }
-    ]
-  },
-  "Physical Location": {
-    "pred": "bf:physicalLocation",
-    "jsonLdKey": "physicalLocation",
-    "paths": [
-      {
-        "marc": "852",
-        "subfields": ["k", "h", "i"]
-      }
-    ]
-  },
   "Carrier type": {
     "pred": "bf:carrier",
     "jsonLdKey": "carrier",
@@ -108,12 +81,29 @@
       }
     ]
   },
+  "Date Range": {
+    "pred": "nypl:dateRange",
+    "jsonLdKey": "dateRange"
+  },
+  "Date Raw": {
+    "pred": "nypl:dateRaw",
+    "jsonLdKey": "dateRaw"
+  },
   "Delivery location": {
     "pred": "nypl:deliveryLocation",
     "jsonLdKey": "deliveryLocation",
     "paths": [
       {
         "notes": "based on application/mapping logic at https://docs.google.com/spreadsheets/d/1SwZyCSUMsQ0Lf91t39_LxKpSLbvNNEliOhF1bnyUwcA/edit?gid=940035354#gid=1104339016"
+      }
+    ]
+  },
+  "Enumeration Chronology": {
+    "pred": "bf:enumerationAndChronology",
+    "jsonLdKey": "enumerationChronology",
+    "paths": [
+      {
+        "notes": "Standalone representation of the 'v' fieldTag"
       }
     ]
   },
@@ -148,6 +138,16 @@
     "paths": [
       {
         "notes": "Based on item type"
+      }
+    ]
+  },
+  "Physical Location": {
+    "pred": "bf:physicalLocation",
+    "jsonLdKey": "physicalLocation",
+    "paths": [
+      {
+        "marc": "852",
+        "subfields": ["k", "h", "i"]
       }
     ]
   },
