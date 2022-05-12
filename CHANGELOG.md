@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.60
+- add volume raw, volume range, format, type, date raw, and date range properties to item field mapping 
+
 ### v1.51
 - fix map08 typo
 
