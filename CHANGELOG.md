@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.60
+- add volume raw, volume range, format, type, date raw, and date range properties to item field mapping 
+
 ### v1.56
  - Rename parallelPublisher to parallelPublisherLiteral in field-mapping-bib to
    match convention.
