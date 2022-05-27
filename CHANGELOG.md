@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.61
+- add missing customer codes from spreadsheet to customer code PF
+
 ### v1.60
 - add volume raw, volume range, format, type, date raw, and date range properties to item field mapping 
 
