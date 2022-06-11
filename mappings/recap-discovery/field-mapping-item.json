@@ -27,9 +27,7 @@
       },
       {
         "marc": "876",
-        "subfields": [
-          "j"
-        ],
+        "subfields": ["j"],
         "nyplSources": ["recap-pul", "recap-col"]
       }
     ]
@@ -43,9 +41,7 @@
       },
       {
         "marc": "876",
-        "subfields": [
-          "p"
-        ],
+        "subfields": ["p"],
         "nyplSources": ["recap-pul", "recap-col"]
       }
     ]
@@ -56,36 +52,13 @@
     "paths": [
       {
         "marc": "852",
-        "subfields": [
-          "k", "h", "i"
-        ],
+        "subfields": ["k", "h", "i"],
         "notes": "Join 852 $k $h $i fields and fieldTag 'v' value (if available) with a space"
       },
       {
         "marc": "945",
-        "subfields": [ "g" ]
+        "subfields": ["g"]
       }
-    ]
-  },
-  "Enumeration Chronology": {
-    "pred": "bf:enumerationAndChronology",
-    "jsonLdKey": "enumerationChronology",
-    "paths": [
-        {
-            "notes": "Standalone representation of the 'v' fieldTag"
-        }
-    ]
-  },
-  "Physical Location": {
-    "pred": "bf:physicalLocation",
-    "jsonLdKey": "physicalLocation",
-    "paths": [
-        {
-            "marc": "852",
-            "subfields": [
-                "k", "h", "i"
-            ]
-        }
     ]
   },
   "Carrier type": {
@@ -116,6 +89,14 @@
       }
     ]
   },
+  "Date Range": {
+    "pred": "nypl:dateRange",
+    "jsonLdKey": "dateRange"
+  },
+  "Date Raw": {
+    "pred": "nypl:dateRaw",
+    "jsonLdKey": "dateRaw"
+  },
   "Delivery location": {
     "pred": "nypl:deliveryLocation",
     "jsonLdKey": "deliveryLocation",
@@ -124,6 +105,19 @@
         "notes": "based on application/mapping logic at https://docs.google.com/spreadsheets/d/1SwZyCSUMsQ0Lf91t39_LxKpSLbvNNEliOhF1bnyUwcA/edit?gid=940035354#gid=1104339016"
       }
     ]
+  },
+  "Enumeration Chronology": {
+    "pred": "bf:enumerationAndChronology",
+    "jsonLdKey": "enumerationChronology",
+    "paths": [
+      {
+        "notes": "Standalone representation of the 'v' fieldTag"
+      }
+    ]
+  },
+  "Format": {
+    "pred": "nypl:format",
+    "jsonLdKey": "format"
   },
   "Holding location": {
     "pred": "nypl:holdingLocation",
@@ -134,7 +128,7 @@
       },
       {
         "marc": "852",
-        "subfields": [ "b" ]
+        "subfields": ["b"]
       }
     ]
   },
@@ -155,6 +149,16 @@
       }
     ]
   },
+  "Physical Location": {
+    "pred": "bf:physicalLocation",
+    "jsonLdKey": "physicalLocation",
+    "paths": [
+      {
+        "marc": "852",
+        "subfields": ["k", "h", "i"]
+      }
+    ]
+  },
   "Requestable": {
     "pred": "nypl:requestable",
     "jsonLdKey": "requestable",
@@ -170,7 +174,7 @@
     "paths": [
       {
         "marc": "900",
-        "subfields": [ "b" ]
+        "subfields": ["b"]
       }
     ]
   },
@@ -182,5 +186,17 @@
         "notes": "suppressed or if location.code ends in 9. if bib's suppressed value is true, then item is suppressed"
       }
     ]
+  },
+  "Type": {
+    "pred": "rdfs:type",
+    "jsonLdKey": "type"
+  },
+  "Volume Range": {
+    "pred": "nypl:volumeRange",
+    "jsonLdKey": "volumeRange"
+  },
+  "Volume Raw": {
+    "pred": "nypl:volumeRaw",
+    "jsonLdKey": "volumeRaw"
   }
 }
