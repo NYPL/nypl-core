@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.63
+ - Add Aeon properties to field-mapping
+
 ### v1.62
  - replace PF customer codes with new spreadsheet values
 
