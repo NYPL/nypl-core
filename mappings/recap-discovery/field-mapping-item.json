@@ -9,6 +9,14 @@
       }
     ]
   },
+  "Aeon Site Code": {
+    "pred": "nypl:aeonSiteCode",
+    "paths": [
+      {
+        "notes": "fieldTag x matching /^AEON eligible/"
+      }
+    ]
+  },
   "Availability": {
     "pred": "bf:status",
     "jsonLdKey": "status",

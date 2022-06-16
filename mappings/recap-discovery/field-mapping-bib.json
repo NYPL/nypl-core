@@ -8,6 +8,14 @@
       }
     ]
   },
+  "Aeon URL": {
+    "pred": "nypl:aeonUrl",
+    "paths": [
+      {
+        "notes": "856 $u matching Aeon base URLs"
+      }
+    ]
+  },
   "Alternative title": {
     "pred": "dcterms:alternative",
     "jsonLdKey": "titleAlt",
