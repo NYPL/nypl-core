@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.64
+ - Make customer code NS ineligible for EDD
+
 ### v1.63
  - Add Aeon properties to field-mapping
 
