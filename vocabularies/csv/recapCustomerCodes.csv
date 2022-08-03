@@ -17,7 +17,7 @@ NO,NO,SASB Manuscripts and Archives,,false,0001
 NP,NP,LPA,NP,true,0001
 NQ,NQ,SASB Restricted,ND;NG;NH;NJ;NM;OA;OC;ON;OW;OD,true,0001
 NR,NR,SASB Rare Book Division,,false,0001
-NS,NS,Schomburg Center MARB,SR,true,0001
+NS,NS,Schomburg Center MARB,SR,false,0001
 NT,NT,Permissions & Reproduction Services (SASB),,false,0001
 NU,NU,LBL Restricted,,false,0001
 NV,NV,LPA TOFT,NP,false,0001
