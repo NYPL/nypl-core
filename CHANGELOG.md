@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.65
+ - Add item.dueDate to field mapping
+
 ### v1.64
  - Make customer code NS ineligible for EDD
 

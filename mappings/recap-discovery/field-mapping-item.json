@@ -106,6 +106,15 @@
       }
     ]
   },
+  "Due date": {
+    "pred": "nypl:dueDate",
+    "jsonLdKey": "dueDate",
+    "paths": [
+      {
+        "notes": "Use item.status.dueDate, stripped of time"
+      }
+    ]
+  },
   "Enumeration Chronology": {
     "pred": "bf:enumerationAndChronology",
     "jsonLdKey": "enumerationChronology",
