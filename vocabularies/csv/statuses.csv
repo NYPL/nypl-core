@@ -1,32 +1,32 @@
 id,skos:notation,skos:prefLabel,skos:altLabel,nypl:requestable,skos:note
-a,-,Available ,AVAILABLE,true,"for Sierra code ""-"", if hold present or if due date present, then requestable=false"
+a,-,Arrived ,ARRIVED,true,"for Sierra code ""-"", if hold present or if due date present, then requestable=false"
 oh,!,On Holdshelf,ON HOLDSHELF,true,
 mt,?,Missing in transit,MISSING IN TRANSIT,false,
 il,%,ILL returned,ILL RETURNED,false,
 s,~,Staff use,Staff use,false,
 lp,$,Lost and paid,Lost and paid,false,
-b,b,New-in process,New-in process,false,
+b,b,Bound,BOUND,false,
 c,c,Closed branch,Closed branch,false,
 d,d,Damaged,Damaged,false,
-e,e,On exhibit,On exhibit,false,
+e,e,Expected,EXPECTED,false,
 f,f,Being filmed,Being filmed,false,
 g,g,Storage,Storage,false,
 h,h,Phone request,Phone request,false,
 i,i,At bindery,At bindery,false,
 j,j,Overflow,Overflow,false,
 k,k,Check with staff,Check with staff,false,
-l,l,Lost in inventory,Lost in inventory,false,
+l,l,Not Published,NOT PUBLISHED,false,
 m,m,Missing,MISSING,false,
 co,-,Loaned,Loaned,true,"determine id=co how? for Sierra code ""-"", if hold present or if due date present, then requestable=false"
-n,n,Billed ,BILLED,false,
-o,o,Use in library,USE IN LIBRARY,false,updated 20171001
-p,p,Noncirculating,Noncirculating,false,
-t,t,In transit,IN TRANSIT,true,
-u,u,Temporarily unavailable,Temporarily unavailable,false,
+n,n,Blank,BLANK,false,
+o,o,Out of Print,OUT OF PRINT,false,updated 20171001
+p,p,Partial,PARTIAL,false,
+t,t,To Bind,TO BIND,true,
+u,u,Unavailable,UNAVAILABLE,false,
 v,v,Preservation,Preservation,false,
 w,w,Withdrawn,Withdrawn,false,
 z,z,Disputed Item,DISPUTED ITEM,false,
 na,na,Not available (ReCAP),Not available (ReCAP),false,
-r,r,Loaned (ReCAP),Loaned (ReCAP),false,
+r,r,Removed,REMOVED,false,
 s,s,Supervised use,Supervised use,false,This code is only present in test Sierra right now. Not to be confused with OPAC Message (accessMessage) of same label
 x,x,Mid-Manhattan request,MML REQUEST,,
