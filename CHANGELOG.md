@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.66
+ - Add new bib field mapping for OCLC numbers in marc 001
+
 ### v1.65
  - Add item.dueDate to field mapping
 
