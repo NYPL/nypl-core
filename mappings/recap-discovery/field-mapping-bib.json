@@ -813,6 +813,9 @@
         "marc": "035",
         "subfields": [ "a" ],
         "notes": "Reject if not prefixed '(OCoLC)'"
+      },
+      {
+        "marc": "001"
       }
     ]
   },
