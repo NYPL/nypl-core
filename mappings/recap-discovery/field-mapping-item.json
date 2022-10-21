@@ -128,6 +128,10 @@
     "pred": "nypl:format",
     "jsonLdKey": "format"
   },
+  "Format literal": {
+    "pred": "nypl:formatLiteral",
+    "jsonLdKey": "formatLiteral"
+  },
   "Holding location": {
     "pred": "nypl:holdingLocation",
     "jsonLdKey": "holdingLocation",
