@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.67
+ - Change location label for 'map' to reflect its reopening.
+
 ### v1.66
  - Add new bib field mapping for OCLC numbers in marc 001
 
