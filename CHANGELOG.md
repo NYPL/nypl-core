@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.68
+ - Add formatLiteral to item field mapping
+
 ### v1.67
  - Change location label for 'map' to reflect its reopening.
 
