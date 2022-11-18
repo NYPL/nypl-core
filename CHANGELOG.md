@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.69
+ - Add OL recap customer code
+
 ### v1.68
  - Add formatLiteral to item field mapping
 
