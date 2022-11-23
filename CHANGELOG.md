@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.70
+ - Change associated sierra location for customer code NX from 'max' to 'ls'
+
 ### v1.69
  - Add OL recap customer code
 
