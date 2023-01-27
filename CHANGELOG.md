@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.71
+ - Add m2CustomerCode csv, json-ld, and serializer script
+ 
 ### v1.70
  - Change associated sierra location for customer code NX from 'max' to 'ls'
 
@@ -31,7 +34,7 @@
  - add missing customer codes from spreadsheet to customer code PF
 
 ### v1.60
- - add volume raw, volume range, format, type, date raw, and date range properties to item field mapping 
+ - add volume raw, volume range, format, type, date raw, and date range properties to item field mapping
 
 ### v1.56
  - Rename parallelPublisher to parallelPublisherLiteral in field-mapping-bib to

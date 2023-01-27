@@ -1,0 +1,17 @@
+skos:notation,skos:prefLabel,nypl:deliverableTo,nypl:requestable,General statement about delivery options,Associated Sierra location,Notes
+NH,General Research,AR;AA;AJ;AL;AM;AC;AW;AE;AN,TRUE,deliver to any NYPL RL,,Contains: General Research
+NQ,General Research,AR;AA;AJ;AL;AM;AC;AW;AE;AN,TRUE,deliver to any SASB reading room only,,"Contains:
+ - General Research
+ - Jewish (Dorot) Collection
+ - ""Poor Condition"""
+XA,General Research,AR;AA;AJ;AL;AM;AC;AW;AE;AN,TRUE,deliver to any NYPL RL,,"Contains:
+ - General Research
+ - Asian & Middle-Eastern
+ - Slavic & Baltic
+ - Local History & Genealogy"
+XF,,AR;AA;AJ;AL;AM;AC;AW;AE;AN,TRUE,deliver to any NYPL RL,,?
+XG,ART,AR;AA;AJ;AL;AM;AC;AW;AE;AN,TRUE,ART Collection deliver to any NYPL RL,,Contains: Art & Architecture
+XH,JWS,AR;AA;AJ;AL;AM;AC;AW;AE;AN,TRUE,JWS Collection deliver to any NYPL RL,,Contains: Jewish (Dorot) Collection
+XP,MAP,AL;AM,FALSE,MAP Collection delivery to rm 121 & 117 only,,Contains: Map
+XS,Photography Collection,AA,FALSE,Photography Collection deliver to rm 300 only,,Contains: Photography
+JS,SIBL Serials,AR;AA;AJ;AL;AM;AC;AW;AE;AN,TRUE,SIBL Serials deliver to any NYPL RL,,Contains: SIBL Serials

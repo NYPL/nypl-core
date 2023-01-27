@@ -1,0 +1,314 @@
+{
+  "@context": {
+    "customerCode": "http://data.nypl.org/m2CustomerCodes",
+    "nypl": "http://data.nypl.org/nypl-core/",
+    "nyplOrg": "http://data.nypl.org/orgs/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@graph": [
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/NQ",
+      "@type": "nypl:m2CustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AM"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AW"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AE"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AN"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AJ"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AC"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AA"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AL"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AR"
+        }
+      ],
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "TRUE"
+      },
+      "skos:notation": "NQ",
+      "skos:prefLabel": "General Research"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/XP",
+      "@type": "nypl:m2CustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AL"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AM"
+        }
+      ],
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "FALSE"
+      },
+      "skos:notation": "XP",
+      "skos:prefLabel": "MAP"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/NH",
+      "@type": "nypl:m2CustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AM"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AW"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AE"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AC"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AJ"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AN"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AA"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AL"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AR"
+        }
+      ],
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "TRUE"
+      },
+      "skos:notation": "NH",
+      "skos:prefLabel": "General Research"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/XG",
+      "@type": "nypl:m2CustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AC"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AR"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AA"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AL"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AE"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AM"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AW"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AN"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AJ"
+        }
+      ],
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "TRUE"
+      },
+      "skos:notation": "XG",
+      "skos:prefLabel": "ART"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/XF",
+      "@type": "nypl:m2CustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AN"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AJ"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AE"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AA"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AL"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AC"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AR"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AM"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AW"
+        }
+      ],
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "TRUE"
+      },
+      "skos:notation": "XF",
+      "skos:prefLabel": ""
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/XS",
+      "@type": "nypl:m2CustomerCode",
+      "nypl:deliverableTo": {
+        "@id": "http://data.nypl.org/m2CustomerCodes/AA"
+      },
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "FALSE"
+      },
+      "skos:notation": "XS",
+      "skos:prefLabel": "Photography Collection"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/XH",
+      "@type": "nypl:m2CustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AN"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AC"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AA"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AL"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AR"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AE"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AM"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AW"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AJ"
+        }
+      ],
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "TRUE"
+      },
+      "skos:notation": "XH",
+      "skos:prefLabel": "JWS"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/JS",
+      "@type": "nypl:m2CustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AA"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AL"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AC"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AR"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AE"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AM"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AW"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AN"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AJ"
+        }
+      ],
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "TRUE"
+      },
+      "skos:notation": "JS",
+      "skos:prefLabel": "SIBL Serials"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/XA",
+      "@type": "nypl:m2CustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AA"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AL"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AC"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AR"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AJ"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AE"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AN"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AM"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AW"
+        }
+      ],
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "TRUE"
+      },
+      "skos:notation": "XA",
+      "skos:prefLabel": "General Research"
+    }
+  ]
+}
