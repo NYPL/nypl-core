@@ -15,3 +15,16 @@ XH,JWS,AR;AA;AJ;AL;AM;AC;AW;AE;AN,TRUE,JWS Collection deliver to any NYPL RL,,Co
 XP,MAP,AL;AM,FALSE,MAP Collection delivery to rm 121 & 117 only,,Contains: Map
 XS,Photography Collection,AA,FALSE,Photography Collection deliver to rm 300 only,,Contains: Photography
 JS,SIBL Serials,AR;AA;AJ;AL;AM;AC;AW;AE;AN,TRUE,SIBL Serials deliver to any NYPL RL,,Contains: SIBL Serials
+EM,EDD,,,,,"Presumably associated with maedd, which is not requestable, so there's no functional point linking it"
+AR,GRD - room 315,,,,mal,
+AA,ART - room 300,,,,mab,
+AJ,Dorot - room 111,,,,maf,
+AL,LHG - room 121,,,,mag,
+AM,MAP - room 117,,,,map,
+IL,Interlibrary & Document Services,,,,,"Sierra location presumably staff-only, so no linking necessary"
+AC,Cullman Center,,,,malc,
+AW,Wertheim Study,,,,malw,
+AE,Allen Room,,,,mala,
+AN,Noma Schiochi,,,,maln,
+AS,room 217 Scholar Hallway,,,,mal17,
+AG,MaRLi-To-Go,,,,,"Sierra location presumably staff-only, so no linking necessary"
