@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.71
+ - Add missing M2 locations: mal98, mal99
+
 ### v1.70
  - Change associated sierra location for customer code NX from 'max' to 'ls'
 
