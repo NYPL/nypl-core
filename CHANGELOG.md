@@ -1,9 +1,12 @@
 # CHANGELOG
 
-### v1.71
+### v1.x-rom-com
  - Add m2CustomerCode csv, json-ld, and serializer script
  - Add associated m2 customer codes to locations
  - Update m2 locations requestability to 'true'
+
+### v1.71
+ - Add missing M2 locations: mal98, mal99
 
 ### v1.70
  - Change associated sierra location for customer code NX from 'max' to 'ls'

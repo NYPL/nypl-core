@@ -1663,6 +1663,8 @@ mal17,Schwarzman Building - Scholar Room 217,SASB - Scholar Room 217,Research,Sc
 mal72,SASB - SIBL - General Research - Room 315,SASB - SIBL - General Research - Room 315,Research,,,ma,,false,,,true,
 mal82,Schwarzman Building - Main Reading Room 315,SASB M1 - General Research - Room 315,Research,,,ma,1000,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,
 mal92,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research Room 315,Research,,,ma,1101,true,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,
+mal98,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research Room 315,Research,,,ma,1101,true,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,
+mal99,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research Room 315,Research,,,ma,1101,true,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,
 mala,Schwarzman Building - Allen Scholar Room,SASB - Allen Scholar Room,Research,Scholar,,ma,1000,false,mala,OA,true,schwarzman
 mala1,Schwarzman Building - Allen Room - Reference,SASB - Allen Room - Reference,Research,,,ma,1000,false,mala,,true,
 malc,Schwarzman Building - Cullman Center,SASB - Cullman Center,Research,Scholar,,ma,1127,false,malc,OC,true,schwarzman
