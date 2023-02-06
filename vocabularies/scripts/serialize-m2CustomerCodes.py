@@ -3,14 +3,15 @@ from rdflib import Namespace, Graph, plugin
 from rdflib.serializer import Serializer
 import rdflib
 import csv
+import m2Utils
 
-f = open('../csv/m2CustomerCodes.csv')
+f = open(m2Utils.customerCodeFilename)
 reader = csv.DictReader(f)
 
 nypl = Namespace('http://data.nypl.org/nypl-core/')
 skos = Namespace('http://www.w3.org/2004/02/skos/core#')
 nyplOrg = rdflib.URIRef('http://data.nypl.org/orgs/')
-custCode = rdflib.URIRef('http://data.nypl.org/m2CustomerCodes/')
+custCode = m2Utils.custCode
 
 g = Graph()
 

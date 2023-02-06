@@ -2,7 +2,9 @@
 
 ### v1.71
  - Add m2CustomerCode csv, json-ld, and serializer script
- 
+ - Add associated m2 customer codes to locations
+ - Update m2 locations requestability to 'true'
+
 ### v1.70
  - Change associated sierra location for customer code NX from 'max' to 'ls'
 
