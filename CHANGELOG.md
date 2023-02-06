@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### v1.x-rom-com
+ - Add m2CustomerCode csv, json-ld, and serializer script
+ - Add associated m2 customer codes to locations
+ - Update m2 locations requestability to 'true'
+
 ### v1.71
  - Add missing M2 locations: mal98, mal99
 
@@ -34,7 +39,7 @@
  - add missing customer codes from spreadsheet to customer code PF
 
 ### v1.60
- - add volume raw, volume range, format, type, date raw, and date range properties to item field mapping 
+ - add volume raw, volume range, format, type, date raw, and date range properties to item field mapping
 
 ### v1.56
  - Rename parallelPublisher to parallelPublisherLiteral in field-mapping-bib to

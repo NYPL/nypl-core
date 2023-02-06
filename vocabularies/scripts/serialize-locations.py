@@ -6,6 +6,7 @@ from rdflib import Namespace, Graph, plugin
 from rdflib.serializer import Serializer
 import rdflib
 import csv
+import m2Utils
 
 f = open('../csv/locations.csv')
 reader = csv.DictReader(f)
@@ -16,6 +17,10 @@ dcterms = Namespace('http://purl.org/dc/terms/')
 nyplLocation = rdflib.URIRef('http://data.nypl.org/locations/')
 nyplOrg = rdflib.URIRef('http://data.nypl.org/orgs/')
 recapCustomerCode = rdflib.URIRef('http://data.nypl.org/recapCustomerCodes/')
+m2CustomerCode = m2Utils.custCode
+m2CodesByLocation = m2Utils.buildAssociatedLocations()
+
+
 
 g = Graph()
 
@@ -33,7 +38,7 @@ for r in reader:
     requestable = r['nypl:requestable']
     slug = r['nypl:locationsSlug']
     allowSierraHold = r['nypl:allowSierraHold']
-    
+
     g.add( (location, RDF.type, nypl.Location))
     g.add( (location, SKOS.prefLabel, preflabel))
     g.add( (location, SKOS.altLabel, altlabel))
@@ -72,12 +77,15 @@ for r in reader:
     if r['nypl:recapCustomerCode'] != '':
         custcode = recapCustomerCode + str(r['nypl:recapCustomerCode'])
         g.add( (location, nypl.recapCustomerCode, custcode))
+    if m2CodesByLocation.get(id) and m2CodesByLocation.get(id) != '':
+        m2CustCode = m2CustomerCode + str(m2CodesByLocation[id])
+        g.add( (location, nypl.m2CustomerCode, m2CustCode))
 
 z = open('../json-ld/locations.json', 'wb')
 
 context = {"dcterms": "http://purl.org/dc/terms/",
            "nypl": "http://data.nypl.org/nypl-core/",
-           "skos": "http://www.w3.org/2004/02/skos/core#", 
+           "skos": "http://www.w3.org/2004/02/skos/core#",
            "nyplLocation": "http://data.nypl.org/locations/",
            "recapCustomerCode": "http://data.nypl.org/recapCustomerCodes"}
 
