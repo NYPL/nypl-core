@@ -4,7 +4,7 @@ Models, mappings, and vocabularies for the NYPL Core ontology.
 
 ### Current Version
 
-v1.x-rom-com
+v1.x-rom-com-prerelease-1.1
 
 ## Contributing
 
