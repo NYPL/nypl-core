@@ -28,5 +28,5 @@ w,w,Withdrawn,Withdrawn,false,
 z,z,Disputed Item,DISPUTED ITEM,false,
 na,na,Not available,Not available,false,
 r,r,Loaned (ReCAP),Loaned (ReCAP),false,
-s,s,Supervised use,Supervised use,false,This code is only present in test Sierra right now. Not to be confused with OPAC Message (accessMessage) of same label
+su,s,Supervised use,Supervised use,false,This code is only present in test Sierra right now. Not to be confused with OPAC Message (accessMessage) of same label
 x,x,Mid-Manhattan request,MML REQUEST,,
