@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v1.72
+ - Remove (ReCAP) qualifier from status:na
+ - Change id for Supervised Use status from s to su for uniqueness
+
 ### v1.71
  - Add missing M2 locations: mal98, mal99
 
