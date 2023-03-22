@@ -191,6 +191,10 @@
       }
     ]
   },
+  "M2 Customer Code": {
+    "pred": "nypl:m2CustomerCode",
+    "jsonLdKey": "m2CustomerCode"
+  },
   "Suppressed": {
     "pred": "nypl:suppressed",
     "jsonLdKey": "suppressed",
