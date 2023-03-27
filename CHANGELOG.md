@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v1.73
+ - Add locations bur51 and bu, add catalogItemType 39
+
 ### v1.72
  - Remove (ReCAP) qualifier from status:na
  - Change id for Supervised Use status from s to su for uniqueness
@@ -38,7 +41,7 @@
  - add missing customer codes from spreadsheet to customer code PF
 
 ### v1.60
- - add volume raw, volume range, format, type, date raw, and date range properties to item field mapping 
+ - add volume raw, volume range, format, type, date raw, and date range properties to item field mapping
 
 ### v1.56
  - Rename parallelPublisher to parallelPublisherLiteral in field-mapping-bib to
