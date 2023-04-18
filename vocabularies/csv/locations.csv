@@ -1599,6 +1599,7 @@ maa0n,Schwarzman Building,SASB - DO NOT USE,Branch,,,ma,1000,false,,,true,
 maa0v,Schwarzman Building,SASB - DO NOT USE,Branch,,,ma,1000,false,,,true,
 mab,Schwarzman Building - Art & Architecture Room 300,SASB - Art & Architecture Rm 300,Research,Research,,ma,1110,false,mab,NG,true,art-architecture-collection
 mab0v,SASB - Picture Collection Rm 100,SASB - Picture Collection Rm 100,Research,,,ma,,false,,,true,
+mab01,Schwarzman Building - Picture Collection Reference - Rm 119,SASB - Picture Collection Reference - Rm 119,Research,,,,,false,,,false,
 mab62,Schwarzman Building S6 - Art & Architecture Room 300,SASB S6 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,
 mab72,Schwarzman Building - Art & Architecture Room 300 (Stacks),Schwarzman Building - Art & Architecture Rm 300 (Stacks),Research,,,ma,1110,false,mab,,true,
 mab82,Schwarzman Building M1 - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,
