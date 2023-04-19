@@ -1,5 +1,7 @@
 # CHANGELOG
 
+### v1.74
+ - add location mab01
 ### v1.73
  - Add locations bur51 and bu, add catalogItemType 39
 
