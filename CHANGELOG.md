@@ -1,9 +1,13 @@
 # CHANGELOG
 
-### v1.x-rom-com
- - Add m2CustomerCode csv, json-ld, and serializer script
- - Add associated m2 customer codes to locations
- - Update m2 locations requestability to 'true'
+### v1.74
+ - add location mab01
+### v1.73
+ - Add locations bur51 and bu, add catalogItemType 39
+
+### v1.72
+ - Remove (ReCAP) qualifier from status:na
+ - Change id for Supervised Use status from s to su for uniqueness
 
 ### v1.71
  - Add missing M2 locations: mal98, mal99
