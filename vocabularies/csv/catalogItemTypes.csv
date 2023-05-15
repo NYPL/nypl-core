@@ -38,6 +38,7 @@ skos:notation,skos:prefLabel,skos:note,nypl:collectionType,nypl:requestable,
 36,www based,,Research,false,Jason will check
 37,master recording,A.O. ???,Research,false,
 38,art and artifacts,,Research,false,
+39,picture collection folder,,Research,,
 41,"internet archive, non-circ",Public Domain,Research,false,confirm with heide
 42,"internet archive, book",Public Domain,Research,true,
 43,"internet archive, serial",Public Domain,Research,true,
