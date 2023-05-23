@@ -1,6 +1,6 @@
 # CHANGELOG
 
-### v1.75
+### v2.0
  - ROM-COM v1.0 release
  - Add m2CustomerCode csv, json-ld, and serializer script
  - Add associated m2 customer codes to locations
