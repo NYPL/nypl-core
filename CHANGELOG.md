@@ -1,7 +1,14 @@
 # CHANGELOG
 
+### v2.0
+ - ROM-COM v1.0 release
+ - Add m2CustomerCode csv, json-ld, and serializer script
+ - Add associated m2 customer codes to locations
+ - Update m2 locations requestability to 'true'
+
 ### v1.74
  - add location mab01
+
 ### v1.73
  - Add locations bur51 and bu, add catalogItemType 39
 
