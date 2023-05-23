@@ -51,8 +51,6 @@ def main():
             if not 'skos:notation' in item:
                 print('Item found without a skos:notation!', item)
 
-        # newLocDict = {item['skos:notation']: item for item in newFile['@graph']}
-        # masterLocDict = {item['skos:notation']: item for item in masterFile['@graph']}
         newLocDict = {item['@id']: item for item in newFile['@graph']}
         masterLocDict = {item['@id']: item for item in masterFile['@graph']}
         newKeys = newLocDict.keys() - masterLocDict.keys()
@@ -102,6 +100,9 @@ def displayAlterations(alteredKeys):
                 print('Attribute(Pos): {}'.format(label))
                 print('Added Value: {}'.format(addition))
 
+        if 'dictionary_item_added' in diff.keys():
+            for addition in diff['dictionary_item_added']:
+                print('Added Item: {}'.format(addition))
 
 if __name__ == '__main__':
     main()
