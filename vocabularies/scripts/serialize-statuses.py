@@ -24,24 +24,23 @@ for r in reader:
     notation = rdflib.Literal(r['skos:notation'])
     status = nyplStatus + str(id)
     requestable = r['nypl:requestable']
-    
-    g.add( (status, RDF.type, nypl.Status))
-    g.add( (status, SKOS.prefLabel, preflabel))
-    g.add( (status, SKOS.altLabel, altlabel))
-    g.add( (status, SKOS.notation, notation))
+
+    g.add((status, RDF.type, nypl.Status))
+    g.add((status, SKOS.prefLabel, preflabel))
+    g.add((status, SKOS.altLabel, altlabel))
+    g.add((status, SKOS.notation, notation))
     if r['skos:note'] != '':
         note = rdflib.Literal(r['skos:note'])
-        g.add( (status, SKOS.note, note))
+        g.add((status, SKOS.note, note))
     if requestable != '':
         requestable = rdflib.Literal(requestable, datatype="XSD:boolean")
-        g.add ( (status, nypl.requestable, requestable) )
+        g.add((status, nypl.requestable, requestable))
 
 z = open('../json-ld/statuses.json', 'wb')
 
 context = {"nypl": "http://data.nypl.org/nypl-core/",
-           "skos": "http://www.w3.org/2004/02/skos/core#", 
+           "skos": "http://www.w3.org/2004/02/skos/core#",
            "nyplStatus": "http://data.nypl.org/statuses/"}
 z.write(g.serialize(format="json-ld", context=context, encoding="utf-8"))
 
 z.close()
-

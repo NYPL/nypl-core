@@ -21,7 +21,6 @@ m2CustomerCode = m2Utils.custCode
 m2CodesByLocation = m2Utils.buildAssociatedLocations()
 
 
-
 g = Graph()
 
 for r in reader:
@@ -39,47 +38,48 @@ for r in reader:
     slug = r['nypl:locationsSlug']
     allowSierraHold = r['nypl:allowSierraHold']
 
-    g.add( (location, RDF.type, nypl.Location))
-    g.add( (location, SKOS.prefLabel, preflabel))
-    g.add( (location, SKOS.altLabel, altlabel))
-    g.add( (location, SKOS.notation, notation))
+    g.add((location, RDF.type, nypl.Location))
+    g.add((location, SKOS.prefLabel, preflabel))
+    g.add((location, SKOS.altLabel, altlabel))
+    g.add((location, SKOS.notation, notation))
     if r['dcterms:isPartOf'] != '':
         sublocationOf = nyplLocation + r['dcterms:isPartOf']
-        g.add( (location, dcterms.isPartOf, sublocationOf))
+        g.add((location, dcterms.isPartOf, sublocationOf))
     if r['nypl:owner'] != '':
         owner = nyplOrg + str(r['nypl:owner'])
-        g.add( (location, nypl.owner, owner))
+        g.add((location, nypl.owner, owner))
     if actualLocation != '':
         actualLocation = rdflib.Literal(actualLocation)
-        g.add ( (location, nypl.actualLocation, actualLocation) )
+        g.add((location, nypl.actualLocation, actualLocation))
     if slug != '':
         slug = rdflib.Literal(slug)
-        g.add ( (location, nypl.locationsSlug, slug) )
+        g.add((location, nypl.locationsSlug, slug))
     for c in collectionType:
         if c != '':
             c = rdflib.Literal(c)
-            g.add( (location, nypl.collectionType, c))
+            g.add((location, nypl.collectionType, c))
     for d in deliveryLocationType:
         if d != '':
             d = rdflib.Literal(d)
-            g.add( (location, nypl.deliveryLocationType, d))
+            g.add((location, nypl.deliveryLocationType, d))
     if requestable != '':
         requestable = rdflib.Literal(requestable, datatype="XSD:boolean")
-        g.add ( (location, nypl.requestable, requestable) )
+        g.add((location, nypl.requestable, requestable))
     if allowSierraHold != '':
-        allowSierraHold = rdflib.Literal(allowSierraHold, datatype="XSD:boolean")
-        g.add ( (location, nypl.allowSierraHold, allowSierraHold) )
+        allowSierraHold = rdflib.Literal(
+            allowSierraHold, datatype="XSD:boolean")
+        g.add((location, nypl.allowSierraHold, allowSierraHold))
     if r['nypl:deliverableTo'] != '':
         for d in deliverableTo:
             if d != '':
                 d = nyplLocation + d.strip()
-                g.add( (location, nypl.deliverableTo, d))
+                g.add((location, nypl.deliverableTo, d))
     if r['nypl:recapCustomerCode'] != '':
         custcode = recapCustomerCode + str(r['nypl:recapCustomerCode'])
-        g.add( (location, nypl.recapCustomerCode, custcode))
+        g.add((location, nypl.recapCustomerCode, custcode))
     if m2CodesByLocation.get(id) and m2CodesByLocation.get(id) != '':
         m2CustCode = m2CustomerCode + str(m2CodesByLocation[id])
-        g.add( (location, nypl.m2CustomerCode, m2CustCode))
+        g.add((location, nypl.m2CustomerCode, m2CustCode))
 
 z = open('../json-ld/locations.json', 'wb')
 

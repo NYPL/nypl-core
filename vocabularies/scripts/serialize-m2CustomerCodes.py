@@ -24,17 +24,17 @@ for r in reader:
     requestable = r['nypl:requestable']
     m2CustomerCode = custCode + str(id)
 
-    g.add( (m2CustomerCode, RDF.type, nypl.m2CustomerCode))
-    g.add( (m2CustomerCode, SKOS.prefLabel, prefLabel))
-    g.add( (m2CustomerCode, SKOS.notation, notation))
+    g.add((m2CustomerCode, RDF.type, nypl.m2CustomerCode))
+    g.add((m2CustomerCode, SKOS.prefLabel, prefLabel))
+    g.add((m2CustomerCode, SKOS.notation, notation))
     if requestable != '':
         requestable = rdflib.Literal(requestable, datatype="XSD:boolean")
-        g.add( (m2CustomerCode, nypl.requestable, requestable) )
+        g.add((m2CustomerCode, nypl.requestable, requestable))
     if r['nypl:deliverableTo'] != '':
         for d in deliverableTo:
             if d != '':
                 d = custCode + d.strip()
-                g.add( (m2CustomerCode, nypl.deliverableTo, d))
+                g.add((m2CustomerCode, nypl.deliverableTo, d))
 
 z = open('../json-ld/m2CustomerCodes.json', 'wb')
 

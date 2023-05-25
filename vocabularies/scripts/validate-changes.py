@@ -43,7 +43,7 @@ def main():
 
     try:
         # Checkout master and get the current version
-        git.checkout('master')
+        git.checkout('origin/rom-com-release')
         masterFile = openJsonFile(which)
 
         # Compare the two objects

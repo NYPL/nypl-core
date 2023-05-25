@@ -25,20 +25,20 @@ for r in reader:
     note = r['skos:note']
     requestable = r['nypl:requestable']
     catalogItemType = nyplCatalogItemType + str(id)
-    
-    g.add( (catalogItemType, RDF.type, nypl.CatalogItemType))
-    g.add( (catalogItemType, SKOS.prefLabel, preflabel))
-    g.add( (catalogItemType, SKOS.notation, notation))
+
+    g.add((catalogItemType, RDF.type, nypl.CatalogItemType))
+    g.add((catalogItemType, SKOS.prefLabel, preflabel))
+    g.add((catalogItemType, SKOS.notation, notation))
     if note != '':
         note = rdflib.Literal(note)
-        g.add ( (catalogItemType, SKOS.note, note) )
+        g.add((catalogItemType, SKOS.note, note))
     if requestable != '':
         requestable = rdflib.Literal(requestable, datatype="XSD:boolean")
-        g.add ( (catalogItemType, nypl.requestable, requestable) )
+        g.add((catalogItemType, nypl.requestable, requestable))
     for l in collectionType:
         if l != '':
             l = rdflib.Literal(l)
-            g.add( (catalogItemType, nypl.collectionType, l))
+            g.add((catalogItemType, nypl.collectionType, l))
 
 z = open('../json-ld/catalogItemTypes.json', 'wb')
 
