@@ -1,0 +1,11 @@
+@id,skos:prefLabel,nypl:estimatedTime,nypl:location
+sasb-onsite,Onsite SASB,PT45M,ma
+sc-onsite,Onsite Schomburg,PT15M,sc
+lpa-onsite,Onsite LPA,?,my
+recap-offsite,Offsite ReCAP,P1D,
+hd-offsite,Offsite Harvard Depository,P2D,
+sasb-edd,EDD Onsite,P2W,
+lpa-edd,EDD Onsite,P2W,
+sc-edd,EDD Onsite,P2W,
+recap-edd,EDD ReCAP,P1W,
+hd-edd,EDD Harvard Depository,P1W,

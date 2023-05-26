@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "fulfillment": "http://data.nypl.org/fulfillment/",
+    "nypl": "http://data.nypl.org/nypl-core/",
+    "nyplLocation": "http://data.nypl.org/locations/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@graph": [
+    {
+      "@id": "fulfillment:lpa-onsite",
+      "nypl:estimatedTime": "?",
+      "nypl:location": {
+        "@id": "nyplLocation:my"
+      },
+      "skos:prefLabel": "Onsite LPA"
+    },
+    {
+      "@id": "fulfillment:sc-onsite",
+      "nypl:estimatedTime": "PT15M",
+      "nypl:location": {
+        "@id": "nyplLocation:sc"
+      },
+      "skos:prefLabel": "Onsite Schomburg"
+    },
+    {
+      "@id": "fulfillment:hd-edd",
+      "nypl:estimatedTime": "P1W",
+      "skos:prefLabel": "EDD Harvard Depository"
+    },
+    {
+      "@id": "fulfillment:lpa-edd",
+      "nypl:estimatedTime": "P2W",
+      "skos:prefLabel": "EDD Onsite"
+    },
+    {
+      "@id": "fulfillment:recap-edd",
+      "nypl:estimatedTime": "P1W",
+      "skos:prefLabel": "EDD ReCAP"
+    },
+    {
+      "@id": "fulfillment:sasb-edd",
+      "nypl:estimatedTime": "P2W",
+      "skos:prefLabel": "EDD Onsite"
+    },
+    {
+      "@id": "fulfillment:recap-offsite",
+      "nypl:estimatedTime": "P1D",
+      "skos:prefLabel": "Offsite ReCAP"
+    },
+    {
+      "@id": "fulfillment:sasb-onsite",
+      "nypl:estimatedTime": "PT45M",
+      "nypl:location": {
+        "@id": "nyplLocation:ma"
+      },
+      "skos:prefLabel": "Onsite SASB"
+    },
+    {
+      "@id": "fulfillment:hd-offsite",
+      "nypl:estimatedTime": "P2D",
+      "skos:prefLabel": "Offsite Harvard Depository"
+    },
+    {
+      "@id": "fulfillment:sc-edd",
+      "nypl:estimatedTime": "P2W",
+      "skos:prefLabel": "EDD Onsite"
+    }
+  ]
+}
