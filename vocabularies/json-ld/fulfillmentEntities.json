@@ -7,35 +7,14 @@
   },
   "@graph": [
     {
-      "@id": "fulfillment:lpa-onsite",
-      "nypl:estimatedTime": "?",
-      "nypl:location": {
-        "@id": "nyplLocation:my"
-      },
-      "skos:prefLabel": "Onsite LPA"
+      "@id": "fulfillment:hd-offsite",
+      "nypl:estimatedTime": "P2D",
+      "skos:prefLabel": "Offsite Harvard Depository"
     },
     {
-      "@id": "fulfillment:sc-onsite",
-      "nypl:estimatedTime": "PT15M",
-      "nypl:location": {
-        "@id": "nyplLocation:sc"
-      },
-      "skos:prefLabel": "Onsite Schomburg"
-    },
-    {
-      "@id": "fulfillment:hd-edd",
-      "nypl:estimatedTime": "P1W",
-      "skos:prefLabel": "EDD Harvard Depository"
-    },
-    {
-      "@id": "fulfillment:lpa-edd",
-      "nypl:estimatedTime": "P2W",
-      "skos:prefLabel": "EDD Onsite"
-    },
-    {
-      "@id": "fulfillment:recap-edd",
-      "nypl:estimatedTime": "P1W",
-      "skos:prefLabel": "EDD ReCAP"
+      "@id": "fulfillment:recap-offsite",
+      "nypl:estimatedTime": "P1D",
+      "skos:prefLabel": "Offsite ReCAP"
     },
     {
       "@id": "fulfillment:sasb-edd",
@@ -43,9 +22,14 @@
       "skos:prefLabel": "EDD Onsite"
     },
     {
-      "@id": "fulfillment:recap-offsite",
-      "nypl:estimatedTime": "P1D",
-      "skos:prefLabel": "Offsite ReCAP"
+      "@id": "fulfillment:lpa-edd",
+      "nypl:estimatedTime": "P2W",
+      "skos:prefLabel": "EDD Onsite"
+    },
+    {
+      "@id": "fulfillment:hd-edd",
+      "nypl:estimatedTime": "P1W",
+      "skos:prefLabel": "EDD Harvard Depository"
     },
     {
       "@id": "fulfillment:sasb-onsite",
@@ -56,14 +40,30 @@
       "skos:prefLabel": "Onsite SASB"
     },
     {
-      "@id": "fulfillment:hd-offsite",
-      "nypl:estimatedTime": "P2D",
-      "skos:prefLabel": "Offsite Harvard Depository"
-    },
-    {
       "@id": "fulfillment:sc-edd",
       "nypl:estimatedTime": "P2W",
       "skos:prefLabel": "EDD Onsite"
+    },
+    {
+      "@id": "fulfillment:sc-onsite",
+      "nypl:estimatedTime": "PT15M",
+      "nypl:location": {
+        "@id": "nyplLocation:sc"
+      },
+      "skos:prefLabel": "Onsite Schomburg"
+    },
+    {
+      "@id": "fulfillment:recap-edd",
+      "nypl:estimatedTime": "P1W",
+      "skos:prefLabel": "EDD ReCAP"
+    },
+    {
+      "@id": "fulfillment:lpa-onsite",
+      "nypl:estimatedTime": "PT45M",
+      "nypl:location": {
+        "@id": "nyplLocation:my"
+      },
+      "skos:prefLabel": "Onsite LPA"
     }
   ]
 }
