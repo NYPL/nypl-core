@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.01
+ - add fulfillment entities csv, script, and json files
+
 ### v2.0
  - ROM-COM v1.0 release
  - Add m2CustomerCode csv, json-ld, and serializer script
