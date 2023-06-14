@@ -1,5 +1,5 @@
 id,skos:notation,skos:prefLabel,skos:altLabel,nypl:requestable,skos:note
-a,-,Available ,AVAILABLE,true,"for Sierra code ""-"", if hold present or if due date present, then requestable=false"
+a,-,Available,AVAILABLE,true,"for Sierra code ""-"", if hold present or if due date present, then requestable=false"
 oh,!,On Holdshelf,ON HOLDSHELF,true,
 mt,?,Missing in transit,MISSING IN TRANSIT,false,
 il,%,ILL returned,ILL RETURNED,false,
