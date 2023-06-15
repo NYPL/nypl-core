@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.02 
+ - remove trailing whitespace from status label
+
 ### v2.0
  - ROM-COM v1.0 release
  - Add m2CustomerCode csv, json-ld, and serializer script
