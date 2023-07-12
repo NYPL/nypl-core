@@ -1600,7 +1600,7 @@ mab0v,SASB - Picture Collection Rm 100,SASB - Picture Collection Rm 100,Research
 mab62,Schwarzman Building S6 - Art & Architecture Room 300,SASB S6 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,,sierra-location
 mab72,Schwarzman Building - Art & Architecture Room 300 (Stacks),Schwarzman Building - Art & Architecture Rm 300 (Stacks),Research,,,ma,1110,false,mab,,true,,sierra-location
 mab82,Schwarzman Building M1 - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
-mab88,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,,,true,,sierra-location
+mab88,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,mab,,true,,sierra-location
 mab89,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,,,true,,sierra-location
 mab92,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
 mab98,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,mab,,true,,sierra-location
@@ -1634,7 +1634,7 @@ magg3,Schwarzman Building - Milstein Division Desk Room 121,SASB - Milstein Divi
 magh1,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,,,ma,1105,false,mag;mal,,true,,sierra-location
 mai,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,Research,,ma,1000,false,mai,,true,periodicals-room,sierra-location
 mai32,Schwarzman Building S3 - Microforms Room 315,SASB S3 - Microforms Room 315,Research,,,ma,1000,false,mai,,true,,sierra-location
-mai82,Schwarzman Building M1 - Microforms Room 315,SASB M1 - Microforms Room 315,Research,,,ma,1000,false,mai,,true,,sierra-location
+mai82,Schwarzman Building M1 - Microforms Room 315,SASB M1 - Microforms Room 315,Research,,,ma,1000,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
 mai83,Schwarzman Building - Periodicals and Microforms Room 119,SASB - Periodicals and Microforms Rm 119,Research,,,ma,1000,false,mai,,true,,sierra-location
 mai87,Schwarzman Building - Periodicals and Microforms Room 119,SASB - Periodicals and Microforms Rm 119,Research,,,ma,1000,false,mai,,true,,sierra-location
 mai92,Schwarzman Building M2 - Microforms Room 315,SASB M2 - Microforms Room 315,Research,,,ma,1101,false,mai,,true,,sierra-location
