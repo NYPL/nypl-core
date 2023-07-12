@@ -2405,9 +2405,9 @@ pry0n,Port Richmond YA Non-Fiction,Port Richmond YA Non-Fiction,Branch,,,pr,,fal
 pry0v,Port Richmond YA Non-Print Media,Port Richmond YA Non-Print Media,Branch,,,pr,,false,,,true,,sierra-location
 pryr,Port Richmond Young Adult Reference,Port Richmond Young Adult Reference,Branch,,,pr,,false,,,true,,sierra-location
 przzz,Port Richmond,Port Richmond (error code),Branch,,,pr,,false,,,true,,sierra-location
-qc2ma,Temporary Storage,OFFSITE - TSD - Request in Advance,Research,,,qc,1,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;myr;sc;slr;mal17,,true,,sierra-location
-qc2mj,Temporary Storage,OFFSITE - TSD - Request in Advance,Research,,,qc,1,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;myr;sc;slr;mal17,,true,,sierra-location
-qc2sl,Temporary Storage,OFFSITE - TSD - Request in Advance,Research,,,qc,1,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;myr;sc;slr;mal17,,true,,sierra-location
+qc2ma,Temporary Storage,OFFSITE - TSD - Request in Advance,Research,,,qc,0001,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;myr;sc;slr;mal17,,true,,sierra-location
+qc2mj,Temporary Storage,OFFSITE - TSD - Request in Advance,Research,,,qc,0001,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;myr;sc;slr;mal17,,true,,sierra-location
+qc2sl,Temporary Storage,OFFSITE - TSD - Request in Advance,Research,,,qc,0001,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;myr;sc;slr;mal17,,true,,sierra-location
 qcma2,Temporary Storage,OFFSITE - TSD - Request in Advance for use at Schwarzman Bldg,Research,,,qc,1000,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;myr;sc;slr;mal17,,true,,sierra-location
 qcmb2,Temporary Storage,OFFSITE - TSD - Request in Advance for use at Schwarzman Bldg,Research,,,qc,1000,false,mab;mal,,true,,sierra-location
 qcmb8,Temporary Storage,OFFSITE - Request in Advance for use at SASB Art Division,Research,,,qc,1110,false,mab,,true,,sierra-location
@@ -2425,12 +2425,12 @@ qcmp2,Temporary Storage,OFFSITE - TSD - Request in Advance for use at Schwarzman
 qcmr2,Temporary Storage,OFFSITE - TSD - Request in Advance for use at Schwarzman Bldg - Rare,Research,,,qc,1108,false,mar,,true,,sierra-location
 qcms2,Temporary Storage,OFFSITE - TSD - Request in Advance for use at Schwarzman Bldg,Research,,,qc,1000,false,mas,,true,,sierra-location
 qcmy2,Temporary Storage,OFFSITE - TSD - Request in Advance for use at Performing Arts,Research,,,qc,1002,false,myr,,true,,sierra-location
-rc,Offsite,NYPL Research Libraries,Research,,,rc,1,true,,,true,,recap-customer-code
-rc2cf,Offsite,OFFSITE - Request in Advance,Research,,,rc,1,true,,,true,,recap-customer-code
-rc2cm,Offsite,OFFSITE - Request in Advance,Research,,,rc,1,true,,,true,,recap-customer-code
-rc2ma,Offsite,OFFSITE - Request in Advance,Research,,,rc,1,true,,,true,,recap-customer-code
-rc2mj,Offsite,OFFSITE - Request in Advance,Research,,,rc,1,true,,,true,,recap-customer-code
-rc2sl,Offsite,OFFSITE - Request in Advance,Research,,,rc,1,true,,,true,,recap-customer-code
+rc,Offsite,NYPL Research Libraries,Research,,,rc,0001,true,,,true,,recap-customer-code
+rc2cf,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,recap-customer-code
+rc2cm,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,recap-customer-code
+rc2ma,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,recap-customer-code
+rc2mj,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,recap-customer-code
+rc2sl,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,recap-customer-code
 rcca9,Offsite,SCH A&A--Offsite--Restricted,Research,,,rc,1115,false,,,true,,recap-customer-code
 rccb2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center - Moving,Research,,,rc,1117,true,,,true,,recap-customer-code
 rccb8,Offsite,OFFSITE - For use by Appointment only at Schomburg Center - Moving,Research,,,rc,1001,false,,,true,,recap-customer-code
@@ -2479,8 +2479,8 @@ rcpt2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,
 rcpt8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,false,,,true,,recap-customer-code
 rcpt9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1119,false,,,false,,recap-customer-code
 rcsl2,Offsite,OFFSITE - Request in Advance for use at SIBL,Research,,,rc,1125,true,,,true,,recap-customer-code
-rcx28,Offsite,OFFSITE - Preservation - Print Master Negative,Research,,,rc,1,false,,,true,,recap-customer-code
-rcxx2,Offsite,OFFSITE - Preservation Division use only,Research,,,rc,1,false,,,true,,recap-customer-code
+rcx28,Offsite,OFFSITE - Preservation - Print Master Negative,Research,,,rc,0001,false,,,true,,recap-customer-code
+rcxx2,Offsite,OFFSITE - Preservation Division use only,Research,,,rc,0001,false,,,true,,recap-customer-code
 rd,Riverdale,Riverdale,Branch,,,rd,,false,,,true,,sierra-location
 rda,Riverdale Adult,Riverdale Adult,Branch,,,rd,,false,,,true,,sierra-location
 rda01,Riverdale Reference,Riverdale Reference,Branch,,,rd,,false,,,true,,sierra-location
@@ -3509,4 +3509,4 @@ yvy0n,Yorkville YA Non-Fiction,Yorkville YA Non-Fiction,Branch,,,yv,,false,,,tru
 yvy0v,Yorkville YA Non-Print Media,Yorkville YA Non-Print Media,Branch,,,yv,,false,,,true,,sierra-location
 yvyr,Yorkville Young Adult Reference,Yorkville Young Adult Reference,Branch,,,yv,,false,,,true,,sierra-location
 yvzzz,Yorkville,Yorkville (error code),Branch,,,yv,,false,,,true,,sierra-location
-zzzzz,mya,NYPL Default Location,Research;Branch,,,zz,1,false,,,true,,sierra-location
+zzzzz,mya,NYPL Default Location,Research;Branch,,,zz,0001,false,,,true,,sierra-location
