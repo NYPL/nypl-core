@@ -1599,8 +1599,8 @@ mab01,Schwarzman Building - Picture Collection Reference - Rm 119,SASB - Picture
 mab0v,SASB - Picture Collection Rm 100,SASB - Picture Collection Rm 100,Research,,,ma,,false,,,true,,sierra-location
 mab62,Schwarzman Building S6 - Art & Architecture Room 300,SASB S6 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,,sierra-location
 mab72,Schwarzman Building - Art & Architecture Room 300 (Stacks),Schwarzman Building - Art & Architecture Rm 300 (Stacks),Research,,,ma,1110,false,mab,,true,,sierra-location
-mab82,Schwarzman Building M1 - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
-mab88,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,mab,,true,,sierra-location
+mab82,Schwarzman Building M1 - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,true,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
+mab88,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,true,mab,,true,,sierra-location
 mab89,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,,,true,,sierra-location
 mab92,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
 mab98,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,mab,,true,,sierra-location
@@ -1617,7 +1617,7 @@ mae82,Schwarzman Building - Berg Collection Room 320,SASB - Berg Collection Rm 3
 maedd,SASB EDD Onsite,SASB EDD Onsite,Research,,,ma,,false,,,true,,sierra-location
 maee2,Schwarzman Building - Berg Collection Room 320,SASB - Berg Collection Rm 320,Research,,,ma,1104,false,mae,,true,,sierra-location
 maf,Schwarzman Building - Dorot Jewish Division Room 111,SASB - Dorot Jewish Division Rm 111,Research,Research,,ma,1103,false,maf,NJ,true,jewish-division,sierra-location
-maf82,Schwarzman Building - Dorot Jewish Division Room 111,SASB M1 - Dorot Jewish Division Rm 111,Research,,,ma,1103,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
+maf82,Schwarzman Building - Dorot Jewish Division Room 111,SASB M1 - Dorot Jewish Division Rm 111,Research,,,ma,1103,true,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
 maf88,Schwarzman Building - Dorot Jewish Division Room 111,SASB - Dorot Jewish Division Rm 111,Research,,,ma,1103,false,maf,,true,,sierra-location
 maf92,Schwarzman Building M2 - Dorot Jewish Division Room 111,SASB M2 - Dorot Jewish Division - Room 111,Research,,,ma,1103,true,,,true,,m2-customer-codes
 maf98,Schwarzman Building M2 - Dorot Jewish Division Room 111,SASB M2 - Dorot Jewish Division - Room 111,Research,,,ma,1103,true,,,true,,m2-customer-codes
@@ -1625,7 +1625,7 @@ maf99,Schwarzman Building M2 - Dorot Jewish Division (Restricted) Room 111,SASB 
 maff1,Schwarzman Building - Dorot Jewish Division Reference Room 111,SASB - Dorot Jewish Division Reference Rm 111,Research,,,ma,1103,false,maf,,true,,sierra-location
 maff3,Schwarzman Building - Dorot Jewish Division Desk Room 111,SASB - Dorot Jewish Division - Desk Rm 111,Research,,,ma,1103,false,maf,,true,,sierra-location
 mag,Schwarzman Building - Milstein Division Room 121,SASB - Milstein Division Rm 121,Research,Research,,ma,1105,false,mag;mal,NM,true,milstein,sierra-location
-mag82,Schwarzman Building - Milstein Division Room 121,SASB M1 - Milstein Division Rm 121,Research,,,ma,1105,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
+mag82,Schwarzman Building - Milstein Division Room 121,SASB M1 - Milstein Division Rm 121,Research,,,ma,1105,true,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
 mag92,Schwarzman Building M2 - Milstein Division Room 121,SASB M2 - Milstein Division - Room 121,Research,,,ma,1105,true,,,true,,m2-customer-codes
 mag98,Schwarzman Building M2 - Milstein Division Room 121,SASB M2 - Milstein Division - Room 121,Research,,,ma,1105,false,mag;mal,,true,,sierra-location
 magg1,Schwarzman Building - Milstein Division Reference Room 121,SASB - Milstein Division Reference Rm 121,Research,,,ma,1105,false,mag;mal,,true,,sierra-location
@@ -1634,7 +1634,7 @@ magg3,Schwarzman Building - Milstein Division Desk Room 121,SASB - Milstein Divi
 magh1,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,,,ma,1105,false,mag;mal,,true,,sierra-location
 mai,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,Research,,ma,1000,false,mai,,true,periodicals-room,sierra-location
 mai32,Schwarzman Building S3 - Microforms Room 315,SASB S3 - Microforms Room 315,Research,,,ma,1000,false,mai,,true,,sierra-location
-mai82,Schwarzman Building M1 - Microforms Room 315,SASB M1 - Microforms Room 315,Research,,,ma,1000,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
+mai82,Schwarzman Building M1 - Microforms Room 315,SASB M1 - Microforms Room 315,Research,,,ma,1000,true,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
 mai83,Schwarzman Building - Periodicals and Microforms Room 119,SASB - Periodicals and Microforms Rm 119,Research,,,ma,1000,false,mai,,true,,sierra-location
 mai87,Schwarzman Building - Periodicals and Microforms Room 119,SASB - Periodicals and Microforms Rm 119,Research,,,ma,1000,false,mai,,true,,sierra-location
 mai92,Schwarzman Building M2 - Microforms Room 315,SASB M2 - Microforms Room 315,Research,,,ma,1101,false,mai,,true,,sierra-location
@@ -1661,7 +1661,7 @@ makk3,Schwarzman Building - Dewitt Wallace Reference Desk Room 108,SASB - Dewitt
 mal,Schwarzman Building - Main Reading Room 315,SASB - Service Desk Rm 315,Research,Research,,ma,1000,false,mal,NH,true,general-research-division,sierra-location
 mal17,Schwarzman Building - Scholar Room 217,SASB - Scholar Room 217,Research,Scholar,,ma,1000,false,,OD,,,sierra-location
 mal72,SASB - SIBL - General Research - Room 315,SASB - SIBL - General Research - Room 315,Research,,,ma,,false,,,true,,sierra-location
-mal82,Schwarzman Building - Main Reading Room 315,SASB M1 - General Research - Room 315,Research,,,ma,1000,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
+mal82,Schwarzman Building - Main Reading Room 315,SASB M1 - General Research - Room 315,Research,,,ma,1000,true,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,sierra-location
 mal92,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research Room 315,Research,,,ma,1101,true,,,true,,m2-customer-codes
 mal98,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research Room 315,Research,,,ma,1101,true,,,true,,m2-customer-codes
 mal99,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research Room 315,Research,,,ma,1101,true,,,true,,m2-customer-codes
