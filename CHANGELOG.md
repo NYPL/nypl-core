@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### romcom-2.0-prelease 
+ - remove deliverableTo from M2 items
+ - add deliverableToResolution to all locations.csv entries
+ - update serializer to accomodate new property
+
 ### v2.02 
  - remove trailing whitespace from status label
 
