@@ -84,3 +84,12 @@ git push --tags -f
 ```
 
 Sometimes multiple features are vying for the next release version. If, when creating your pre-release tag, another active PR has already pushed code using that pre-release tag, you may create a second pre-release tag (e.g. `v1.33b`). You may arrange to eventually merge both features into the final release. Or only one feature may be rolled out under the version number and the other feature will have to take the next logical version number.
+
+
+## Locations and deliverableToResolution
+There are three different sources of truth for determining deliverableTo: Sierra, Recap, and the M2 ILS. 
+locations.csv contains Sierra locations, which includes M2 locations. However, these location codes are governed by 
+different deliverability rules than other onsite materials. These have no deliverableTo listed in locations.csv because 
+their deliverableTo is instead maintained in `m2CustomerCodes.csv`. To make it explicit where deliverableTo should be 
+resolved, we have a property per code called deliverableToResolution, which indicates if that information 
+should be found in locations, m2CustomerCodes, or recapCustomerCodes csvs. 
