@@ -2142,7 +2142,7 @@ pam38,Performing Arts Research Collections - Music,Performing Arts Research Coll
 pam42,Offsite Rose - Performing Arts,OFFSITE Rose - Request in advance for use at Performing Arts,Research,,,pa,1002,false,par,,true,
 pam48,Offsite Rose - Performing Arts,OFFSITE Rose - Request in advance for use at Performing Arts,Research,,,pa,1002,false,par,,true,
 par,Performing Arts Research Collections,Performing Arts Research Collections,Research,Research,,pa,1002,false,myr,NP,true,lpa
-pav,Performing Arts - Reserve Film and Video,Performing Arts - Reserve Film and Video,Branch,,,pa,1002,false,,,true,
+pav,Performing Arts - Reserve Film and Video,Performing Arts - Reserve Film and Video,Research,,,pa,1002,false,,NN,true,
 pav38,Performing Arts Research Collections - Reserve Film and Video,Performing Arts Research Collections - Reserve Film and Video,Research,Research,,pa,1002,false,par,,true,
 myrfv,Performing Arts - Reserve Film and Video,Performing Arts - Reserve Film and Video,Research;Branch,Research;Branch,,my,1002,false,myrfv,NN,true,lpa
 parhr,Performing Arts Research Holds Room,Performing Arts Research Holds Room,Research,,,pa,,false,,,true,
