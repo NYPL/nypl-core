@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.03
+ - Split LPA `my*` location codes into `lp*` and `pa*` codes, representing Circulating and Research locations.
+
 ### v2.02 
  - remove trailing whitespace from status label
 
