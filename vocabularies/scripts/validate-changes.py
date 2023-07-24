@@ -25,9 +25,12 @@ import sys
 def main():
     # Determine what json-ld file to compare
     which = 'locations'
-    if len(sys.argv) == 2:
+    if len(sys.argv) >= 2:
         which = sys.argv[1]
 
+    branchToCompare = 'master'
+    if len(sys.argv) == 3:
+        branchToCompare = sys.argv[2]
     # Initialize git client and store current branch name
     git = Git()
     currentBranch = None
@@ -36,14 +39,14 @@ def main():
             currentBranch = branch[2:]
             break
 
-    print(f'Comparing {which} in {currentBranch} to master')
+    print(f'Comparing {which} in {currentBranch} to {branchToCompare}')
 
     # Get current working copy of the JSON-LD file
     newFile = openJsonFile(which)
 
     try:
         # Checkout master and get the current version
-        git.checkout('master')
+        git.checkout(branchToCompare)
         masterFile = openJsonFile(which)
 
         # Compare the two objects
