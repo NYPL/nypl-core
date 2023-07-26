@@ -397,7 +397,7 @@ ccj0n,SASB (Children's Center at 42nd St.) - Non-Fiction Rm 84,SASB (Children's 
 ccj0t,SASB (Children's Center at 42nd St.) - Fairy Tale Rm 84,SASB (Children's Center at 42nd St.) - Fairy Tale Rm 84,,,,cc,,false,,,true,,
 ccj0v,SASB (Children's Center at 42nd St.) - Non-Print Media Rm 84,SASB (Children's Center at 42nd St.) - Non-Print Media Rm 84,,,,cc,,false,,,true,,
 ccj0y,SASB (Children's Center at 42nd St.) - Young Reader Rm 84,SASB (Children's Center at 42nd St.) - Young Reader Rm 84,,,,cc,,false,,,true,,
-ccj92,SASB M2 - General Research - Room 315,SASB M2 - General Research - Room 315,,,,cc,,false,,,true,,
+ccj92,SASB M2 - General Research - Room 315,SASB M2 - General Research - Room 315,,,,cc,,false,,,true,,m2-customer-codes
 ccjlf,SASB (Children's Center at 42nd St.) Read-Along Book Fiction,SASB (Children's Center at 42nd St.) Read-Along Book Fiction,,,,cc,,false,,,true,,
 ccjln,SASB (Children's Center at 42nd St.) Read-Along Book Non-Fiction,SASB (Children's Center at 42nd St.) Read-Along Book Non-Fiction,,,,cc,,false,,,true,,
 ccjr,SASB (Children's Center at 42nd St.) - Reference Rm 84,SASB (Children's Center at 42nd St.) - Reference Rm 84,,,,cc,,false,,,true,,
@@ -1602,9 +1602,9 @@ mab72,Schwarzman Building - Art & Architecture Room 300 (Stacks),Schwarzman Buil
 mab82,Schwarzman Building M1 - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,
 mab88,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,true,mab,,true,,
 mab89,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,,,true,,
-mab92,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,
-mab98,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,mab,,true,,
-mab99,Schwarzman Building M2 - Art and Architecture (Restricted) Room 300,SASB M2 - Art and Architecture (Restricted) - Room 300,Research,,,ma,1110,false,mab,,true,,
+mab92,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,m2-customer-codes
+mab98,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,mab,,true,,m2-customer-codes
+mab99,Schwarzman Building M2 - Art and Architecture (Restricted) Room 300,SASB M2 - Art and Architecture (Restricted) - Room 300,Research,,,ma,1110,false,mab,,true,,m2-customer-codes
 mabb1,Schwarzman Building - Art Reference Room 300,SASB - Art Reference Rm 300,Research,,,ma,1130,false,mab,,true,,
 mabb2,Schwarzman Building - Art & Architecture Room 300,SASB - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,,
 mabb3,Schwarzman Building - Art & Architecture Desk Room 300,SASB - Art - Desk Rm 300,Research,,,ma,1110,false,mab,,true,,
@@ -1627,7 +1627,7 @@ maff3,Schwarzman Building - Dorot Jewish Division Desk Room 111,SASB - Dorot Jew
 mag,Schwarzman Building - Milstein Division Room 121,SASB - Milstein Division Rm 121,Research,Research,,ma,1105,false,mag;mal,NM,true,milstein,
 mag82,Schwarzman Building - Milstein Division Room 121,SASB M1 - Milstein Division Rm 121,Research,,,ma,1105,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,
 mag92,Schwarzman Building M2 - Milstein Division Room 121,SASB M2 - Milstein Division - Room 121,Research,,,ma,1105,true,,,true,,m2-customer-codes
-mag98,Schwarzman Building M2 - Milstein Division Room 121,SASB M2 - Milstein Division - Room 121,Research,,,ma,1105,false,mag;mal,,true,,
+mag98,Schwarzman Building M2 - Milstein Division Room 121,SASB M2 - Milstein Division - Room 121,Research,,,ma,1105,false,mag;mal,,true,,m2-customer-codes
 magg1,Schwarzman Building - Milstein Division Reference Room 121,SASB - Milstein Division Reference Rm 121,Research,,,ma,1105,false,mag;mal,,true,,
 magg2,Schwarzman Building - Milstein Division Mezzanine Room 121,SASB - Milstein Division - Mezzanine,Research,,,ma,1105,false,mag;mal,,true,,
 magg3,Schwarzman Building - Milstein Division Desk Room 121,SASB - Milstein Division - Desk Rm 121,Research,,,ma,1105,false,mag;mal,,true,,
@@ -1637,7 +1637,7 @@ mai32,Schwarzman Building S3 - Microforms Room 315,SASB S3 - Microforms Room 315
 mai82,Schwarzman Building M1 - Microforms Room 315,SASB M1 - Microforms Room 315,Research,,,ma,1000,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,
 mai83,Schwarzman Building - Periodicals and Microforms Room 119,SASB - Periodicals and Microforms Rm 119,Research,,,ma,1000,false,mai,,true,,
 mai87,Schwarzman Building - Periodicals and Microforms Room 119,SASB - Periodicals and Microforms Rm 119,Research,,,ma,1000,false,mai,,true,,
-mai92,Schwarzman Building M2 - Microforms Room 315,SASB M2 - Microforms Room 315,Research,,,ma,1101,false,mai,,true,,
+mai92,Schwarzman Building M2 - Microforms Room 315,SASB M2 - Microforms Room 315,Research,,,ma,1101,false,mai,,true,,m2-customer-codes
 maii1,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,,,ma,1000,false,mai,,true,,
 maii2,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,,,ma,1000,false,mai,,true,,
 maii3,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,,,ma,1000,false,mai,,true,,
@@ -1653,7 +1653,7 @@ maj0n,Schwarzman Building (Children's Center at 42nd St.) - Non-Fiction Room 84,
 maj0t,Schwarzman Building (Children's Center at 42nd St.) - Fairy Tale Room 84,SASB (Children's Center at 42nd St.) - Fairy Tale Rm 84,Research,,,ma,1126,false,,,true,,
 maj0v,Schwarzman Building (Children's Center at 42nd St.) - Non-Print Media Room 84,SASB (Children's Center at 42nd St.) - Non-Print Media Rm 84,Research,,,ma,1126,false,,,true,,
 maj0y,Schwarzman Building (Children's Center at 42nd St.) - Young Reader Room 84,SASB (Children's Center at 42nd St.) - Young Reader Rm 84,Research,,,ma,1126,false,,,true,,
-maj92,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research - Room 315,Research,,,ma,1101,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,
+maj92,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research - Room 315,Research,,,ma,1101,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,m2-customer-codes
 majr,Schwarzman Building (Children's Center at 42nd St.) - Reference Room 84,SASB (Children's Center at 42nd St.) - Reference Rm 84,Research,,,ma,1126,false,,,true,,
 mak,Schwarzman Building - Dewitt Wallace Room 108,SASB - Dewitt Wallace Room 108,Research,,,ma,1000,false,mak,,true,periodicals-room,
 mak82,SASB M1 - Periodicals Rm 108,SASB M1 - Periodicals Rm 108,Research,,,ma,,false,,,true,,
@@ -1677,7 +1677,7 @@ malw,Schwarzman Building - Wertheim Scholar Room,SASB - Wertheim Scholar Room,Re
 malw1,Schwarzman Building - Wertheim Study Room 228W - Reference,SASB - Wertheim Study Rm 228W - Reference,Research,,,ma,1000,false,malw,,true,,
 mao,Schwarzman Building - Manuscripts & Archives Room 328,SASB - Manuscripts & Archives Rm 328,Research,Research,,ma,1107,false,mao,NO,false,manuscripts-division,
 mao82,Schwarzman Building - Manuscripts & Archives Room 328,SASB - Manuscripts & Archives Rm 328,Research,,,ma,1107,false,mao,,true,,
-mao92,Schwarzman Building M2 - Manuscripts Division Room 328,SASB M2 - Manuscripts Division - Room 328,Research,,,ma,1107,false,mao,,true,,
+mao92,Schwarzman Building M2 - Manuscripts Division Room 328,SASB M2 - Manuscripts Division - Room 328,Research,,,ma,1107,false,mao,,true,,m2-customer-codes
 maor2,Schwarzman Building - Manuscripts & Archives Room 328,SASB - Manuscripts & Archives Rm 328,Research,,,ma,1107,false,mao,,true,,
 map,Schwarzman Building - Map Division Room 117,SASB - Map Division - Rm 117,Research,Research,,ma,1106,false,map,ND,true,map-division,
 map08,Schwarzman Building M1A - Map Division Room 117,SASB M1A - Map Division - Room 117,Research,,,ma,1106,false,map,,true,,
@@ -1690,7 +1690,7 @@ mapp1,Schwarzman Building - Map Division Reference Room 117,SASB - Map Division 
 mapp2,Schwarzman Building - Map Division Room 117,SASB - Map Division - Room 117,Research,,,ma,1106,false,map,,true,,
 mapp3,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,
 mapp8,Schwarzman Building M1 - Map Division Desk Room 117,SASB M1 - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,
-mapp9,Schwarzman Building M2 - Map Division Desk Room 117,SASB M2 - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,
+mapp9,Schwarzman Building M2 - Map Division Desk Room 117,SASB M2 - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,m2-customer-codes
 maq,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,Research,,ma,1102,false,maq,NZ,false,pforzheimer-collection-shelley-and-his-circle,
 maqq2,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,,,ma,1102,false,maq,,true,,
 mar,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Collection Rm 328,Research,Research,,ma,1108,false,mar,NR,false,rare-books-division,
