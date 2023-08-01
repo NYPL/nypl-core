@@ -4,7 +4,11 @@ Models, mappings, and vocabularies for the NYPL Core ontology.
 
 ### Current Version
 
+<<<<<<< HEAD
 v2.03
+=======
+romcom-2.0-prerelease
+>>>>>>> SCC-3608/romcom-2.0
 
 ## Contributing
 
@@ -84,3 +88,13 @@ git push --tags -f
 ```
 
 Sometimes multiple features are vying for the next release version. If, when creating your pre-release tag, another active PR has already pushed code using that pre-release tag, you may create a second pre-release tag (e.g. `v1.33b`). You may arrange to eventually merge both features into the final release. Or only one feature may be rolled out under the version number and the other feature will have to take the next logical version number.
+
+
+## Locations and deliverableToResolution
+There are three different sources of truth for determining `deliverableTo`: Sierra ILS, Recap customer codes, 
+and M2 customer codes. `locations.csv` contains all Sierra locations, which includes M2 and Recap locations. 
+M2 and Recap location codes are governed by different deliverability rules than other materials. These have no 
+`deliverableTo` listed in `locations.csv` because their `deliverableTo` is instead maintained in `m2CustomerCodes.csv` 
+and `recapCustomerCodes.csv`, respectively. To make it explicit where `deliverableTo` should be resolved, we have 
+a property per code called `deliverableToResolution`, which indicates if that information should be found in 
+locations, m2CustomerCodes, or recapCustomerCodes csvs. 

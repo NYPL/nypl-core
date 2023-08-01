@@ -37,11 +37,17 @@ for r in reader:
     requestable = r['nypl:requestable']
     slug = r['nypl:locationsSlug']
     allowSierraHold = r['nypl:allowSierraHold']
+    deliverableToResolution = r['nypl:deliverableToResolution']
 
     g.add((location, RDF.type, nypl.Location))
     g.add((location, SKOS.prefLabel, preflabel))
     g.add((location, SKOS.altLabel, altlabel))
     g.add((location, SKOS.notation, notation))
+
+    if deliverableToResolution != '':
+        deliverableToResolution = rdflib.Literal(deliverableToResolution)
+        g.add(
+            (location, nypl.deliverableToResolution, deliverableToResolution))
     if r['dcterms:isPartOf'] != '':
         sublocationOf = nyplLocation + r['dcterms:isPartOf']
         g.add((location, dcterms.isPartOf, sublocationOf))
