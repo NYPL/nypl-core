@@ -4,11 +4,7 @@ Models, mappings, and vocabularies for the NYPL Core ontology.
 
 ### Current Version
 
-<<<<<<< HEAD
-v2.03
-=======
-romcom-2.0-prerelease
->>>>>>> SCC-3608/romcom-2.0
+v2.1
 
 ## Contributing
 
