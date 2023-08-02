@@ -2433,64 +2433,64 @@ qcmp2,Temporary Storage,OFFSITE - TSD - Request in Advance for use at Schwarzman
 qcmr2,Temporary Storage,OFFSITE - TSD - Request in Advance for use at Schwarzman Bldg - Rare,Research,,,qc,1108,false,mar,,true,,
 qcms2,Temporary Storage,OFFSITE - TSD - Request in Advance for use at Schwarzman Bldg,Research,,,qc,1000,false,mas,,true,,
 qcmy2,Temporary Storage,OFFSITE - TSD - Request in Advance for use at Performing Arts,Research,,,qc,1002,false,myr,,true,,
-rc,Offsite,NYPL Research Libraries,Research,,,rc,0001,true,,,true,,
-rc2cf,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,
-rc2cm,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,
-rc2ma,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,
-rc2mj,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,
-rc2sl,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,
-rcca9,Offsite,SCH A&A--Offsite--Restricted,Research,,,rc,1115,false,,,true,,
-rccb2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center - Moving,Research,,,rc,1117,true,,,true,,
-rccb8,Offsite,OFFSITE - For use by Appointment only at Schomburg Center - Moving,Research,,,rc,1001,false,,,true,,
-rccb9,Offsite,SCH MIRS--Offsite--Restricted,Research,,,rc,1117,false,,,true,,
-rccd2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center -,Research,,,rc,1001,true,,,true,,
-rccd8,Offsite,OFFSITE - For use by Appointment only at at Schomburg Center -,Research,,,rc,1001,false,,,true,,
-rccd9,Offsite,SCH MARB--Offsite--Restricted,Research,,,rc,1116,false,,,true,,
-rcce2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center -,Research,,,rc,1001,true,,,true,,
-rcce8,Offsite,OFFSITE - For use by Appointment only at at Schomburg Center -,Research,,,rc,1001,false,,,true,,
-rcce9,Offsite,SCH P&P--Offsite--Restricted,Research,,,rc,1118,false,,,true,,
-rccf2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center - Research,Research,,,rc,1001,true,,,true,,
-rccf8,Offsite,OFFSITE - For use by Appointment only at at Schomburg Center,Research,,,rc,1001,false,,,true,,
-rccf9,Offsite,SCH R&R--Offsite--Restricted,Research,,,rc,1114,false,,,true,,
-rcma2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg,Research,,,rc,1000,true,,,true,,
-rcmb2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Art,Research,,,rc,1110,true,,,true,,
-rcmb8,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg. - Art,Research,,,rc,1110,false,,,true,,
-rcmb9,Offsite,SASB Art--Offsite--Restricted,Research,,,rc,1110,false,,,true,,
-rcmf2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Jewish,Research,,,rc,1103,true,,,true,,
-rcmf8,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg. - Jewish,Research,,,rc,1103,false,,,true,,
-rcmf9,Offsite,SASB Jewish--Offsite--Restricted,Research,,,rc,1103,false,,,true,,
-rcmg2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Milstein,Research,,,rc,1105,true,,,true,,
-rcmg8,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Milstein,Research,,,rc,1105,false,,,true,,
-rcmg9,Offsite,SASB LHG--Offsite--Restricted,Research,,,rc,1000,false,,,true,,
-rcmi2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Microforms,Research,,,rc,1000,true,,,true,,
-rcmj2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg,Research,,,rc,1000,true,,,true,,
-rcml2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Room 217,Research,,,rc,1000,true,,,true,,
-rcml8,Offsite,OFFSITE - Request in Advance at SASB - Rose Main Reading Room,Research,,,rc,1000,false,,,true,,
-rcmo2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg -,Research,,,rc,1000,false,,,true,,
-rcmp2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Maps Division Rm 117,Research,,,rc,1106,true,,,true,,
-rcmq2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg -,Research,,,rc,1000,false,,,true,,
-rcmr2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Rare Books,Research,,,rc,1108,false,,,true,,
-rcms2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg -,Research,,,rc,1000,false,,,true,,
-rcpd2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,
-rcpd8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,false,,,true,,
-rcpd9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1002,false,,,true,,
-rcpf8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,false,,,true,,
-rcpf8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,false,,,true,,
-rcph2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,
-rcph8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1124,false,,,false,,
+rc,Offsite,NYPL Research Libraries,Research,,,rc,0001,true,,,true,,recap-customer-code
+rc2cf,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,recap-customer-code
+rc2cm,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,recap-customer-code
+rc2ma,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,recap-customer-code
+rc2mj,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,recap-customer-code
+rc2sl,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,recap-customer-code
+rcca9,Offsite,SCH A&A--Offsite--Restricted,Research,,,rc,1115,false,,,true,,recap-customer-code
+rccb2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center - Moving,Research,,,rc,1117,true,,,true,,recap-customer-code
+rccb8,Offsite,OFFSITE - For use by Appointment only at Schomburg Center - Moving,Research,,,rc,1001,false,,,true,,recap-customer-code
+rccb9,Offsite,SCH MIRS--Offsite--Restricted,Research,,,rc,1117,false,,,true,,recap-customer-code
+rccd2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center -,Research,,,rc,1001,true,,,true,,recap-customer-code
+rccd8,Offsite,OFFSITE - For use by Appointment only at at Schomburg Center -,Research,,,rc,1001,false,,,true,,recap-customer-code
+rccd9,Offsite,SCH MARB--Offsite--Restricted,Research,,,rc,1116,false,,,true,,recap-customer-code
+rcce2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center -,Research,,,rc,1001,true,,,true,,recap-customer-code
+rcce8,Offsite,OFFSITE - For use by Appointment only at at Schomburg Center -,Research,,,rc,1001,false,,,true,,recap-customer-code
+rcce9,Offsite,SCH P&P--Offsite--Restricted,Research,,,rc,1118,false,,,true,,recap-customer-code
+rccf2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center - Research,Research,,,rc,1001,true,,,true,,recap-customer-code
+rccf8,Offsite,OFFSITE - For use by Appointment only at at Schomburg Center,Research,,,rc,1001,false,,,true,,recap-customer-code
+rccf9,Offsite,SCH R&R--Offsite--Restricted,Research,,,rc,1114,false,,,true,,recap-customer-code
+rcma2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg,Research,,,rc,1000,true,,,true,,recap-customer-code
+rcmb2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Art,Research,,,rc,1110,true,,,true,,recap-customer-code
+rcmb8,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg. - Art,Research,,,rc,1110,false,,,true,,recap-customer-code
+rcmb9,Offsite,SASB Art--Offsite--Restricted,Research,,,rc,1110,false,,,true,,recap-customer-code
+rcmf2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Jewish,Research,,,rc,1103,true,,,true,,recap-customer-code
+rcmf8,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg. - Jewish,Research,,,rc,1103,false,,,true,,recap-customer-code
+rcmf9,Offsite,SASB Jewish--Offsite--Restricted,Research,,,rc,1103,false,,,true,,recap-customer-code
+rcmg2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Milstein,Research,,,rc,1105,true,,,true,,recap-customer-code
+rcmg8,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Milstein,Research,,,rc,1105,false,,,true,,recap-customer-code
+rcmg9,Offsite,SASB LHG--Offsite--Restricted,Research,,,rc,1000,false,,,true,,recap-customer-code
+rcmi2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Microforms,Research,,,rc,1000,true,,,true,,recap-customer-code
+rcmj2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg,Research,,,rc,1000,true,,,true,,recap-customer-code
+rcml2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Room 217,Research,,,rc,1000,true,,,true,,recap-customer-code
+rcml8,Offsite,OFFSITE - Request in Advance at SASB - Rose Main Reading Room,Research,,,rc,1000,false,,,true,,recap-customer-code
+rcmo2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg -,Research,,,rc,1000,false,,,true,,recap-customer-code
+rcmp2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Maps Division Rm 117,Research,,,rc,1106,true,,,true,,recap-customer-code
+rcmq2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg -,Research,,,rc,1000,false,,,true,,recap-customer-code
+rcmr2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Rare Books,Research,,,rc,1108,false,,,true,,recap-customer-code
+rcms2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg -,Research,,,rc,1000,false,,,true,,recap-customer-code
+rcpd2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,recap-customer-code
+rcpd8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,false,,,true,,recap-customer-code
+rcpd9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1002,false,,,true,,recap-customer-code
+rcpf8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,false,,,true,,recap-customer-code
+rcpf8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,false,,,true,,recap-customer-code
+rcph2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,recap-customer-code
+rcph8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1124,false,,,false,,recap-customer-code
 rcph9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1124,false,,,false,,
 rcpm2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,
-rcpm8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1123,false,,,false,,
+rcpm8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1123,false,,,false,,recap-customer-code
 rcpm9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1123,false,,,false,,
 rcpv2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,
-rcpv8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,
-rcpv9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1002,false,,,true,,
-rcpt2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,
-rcpt8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,false,,,true,,
-rcpt9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1119,false,,,false,,
+rcpv8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,recap-customer-code
+rcpv9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1002,false,,,true,,recap-customer-code
+rcpt2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,recap-customer-code
+rcpt8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,false,,,true,,recap-customer-code
+rcpt9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1119,false,,,false,,recap-customer-code
 rcsl2,Offsite,OFFSITE - Request in Advance for use at SIBL,Research,,,rc,1125,true,,,true,,
-rcx28,Offsite,OFFSITE - Preservation - Print Master Negative,Research,,,rc,0001,false,,,true,,
-rcxx2,Offsite,OFFSITE - Preservation Division use only,Research,,,rc,0001,false,,,true,,
+rcx28,Offsite,OFFSITE - Preservation - Print Master Negative,Research,,,rc,0001,false,,,true,,recap-customer-code
+rcxx2,Offsite,OFFSITE - Preservation Division use only,Research,,,rc,0001,false,,,true,,recap-customer-code
 rd,Riverdale,Riverdale,Branch,,,rd,,false,,,true,,
 rda,Riverdale Adult,Riverdale Adult,Branch,,,rd,,false,,,true,,
 rda01,Riverdale Reference,Riverdale Reference,Branch,,,rd,,false,,,true,,
