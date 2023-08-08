@@ -1,2 +1,3 @@
 mappings/scripts/*/node_modules
 vocabularies/scripts/*.egg-info
+vocabularies/scripts/__pycache__

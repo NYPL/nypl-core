@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### v2.1 
+ - remove deliverableTo from M2 items
+ - add deliverableToResolution to m2 and recap locations.csv entries
+ - update serializer to accomodate new property
+
 ### v2.03
  - Split LPA `my*` location codes into `lp*` and `pa*` codes, representing Circulating and Research locations.
 
