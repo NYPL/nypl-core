@@ -1686,7 +1686,7 @@ map,Schwarzman Building - Map Division Room 117,SASB - Map Division - Rm 117,Res
 map08,Schwarzman Building M1A - Map Division Room 117,SASB M1A - Map Division - Room 117,Research,,,ma,1106,false,map,,true,,
 map32,Schwarzman Building S3 - Map Division Room 117,SASB S3 - Map Division - Room 117,Resesarch,,,ma,1106,false,map,,true,,
 map42,Schwarzman Building S4 - Map Division Room 117,SASB S4 - Map Division - Room 117,Research,,,ma,1106,false,map,,true,,
-map82,Schwarzman Building M1 - Map Division Room 117,SASB M1 - Map Division - Room 117,Research,,,ma,1106,false,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,
+map82,Schwarzman Building M1 - Map Division Room 117,SASB M1 - Map Division - Room 117,Research,,,ma,1106,true,mab;mag;map;maf;mal;mai;mala;malc;maln;malw;mal17,,true,,
 map92,Schwarzman Building M2 - Map Division Room 117,SASB M2 - Map Division - Room 117,Research,,,ma,1106,true,,,true,,m2-customer-code
 map98,Schwarzman Building M2 - Map Division Room 117,SASB M2 - Map Division - Restricted - Room 117,Research,,,ma,1106,true,,,true,,m2-customer-code
 mapp1,Schwarzman Building - Map Division Reference Room 117,SASB - Map Division Reference - Room 117,Research,,,ma,1106,false,map,,true,,
