@@ -1,6 +1,10 @@
 # CHANGELOG
 
-### v2.1 
+### v2.5 
+ - first round of M1 locations marked requestable: mab82,maf82,mag82,mai82,map82
+ - mai removed as delivery location for all location codes
+ 
+### v2.4
  - remove deliverableTo from M2 items
  - add deliverableToResolution to m2 and recap locations.csv entries
  - update serializer to accomodate new property
