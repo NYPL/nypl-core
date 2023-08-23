@@ -1597,7 +1597,7 @@ maa,Schwarzman Building,SASB - DO NOT USE,Research,,,ma,1000,false,,,true,,
 maa0f,Schwarzman Building,SASB - DO NOT USE,Branch,,,ma,1000,false,,,true,,
 maa0n,Schwarzman Building,SASB - DO NOT USE,Branch,,,ma,1000,false,,,true,,
 maa0v,Schwarzman Building,SASB - DO NOT USE,Branch,,,ma,1000,false,,,true,,
-mab,Schwarzman Building - Art & Architecture Room 300,SASB - Art & Architecture Rm 300,Research,Research,,ma,1110,false,mab,NG,true,art-architecture-collection
+mab,Schwarzman Building - Art & Architecture Room 300,SASB - Art & Architecture Rm 300,Research,Research,,ma,1110,false,mab,NG,true,art-architecture-collection,
 mab0v,SASB - Picture Collection Rm 100,SASB - Picture Collection Rm 100,Research,,,ma,,false,,,true,,
 mab01,Schwarzman Building - Picture Collection Reference - Rm 119,SASB - Picture Collection Reference - Rm 119,Research,,,,,false,,,false,,
 mab62,Schwarzman Building S6 - Art & Architecture Room 300,SASB S6 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,,
@@ -1635,7 +1635,7 @@ magg1,Schwarzman Building - Milstein Division Reference Room 121,SASB - Milstein
 magg2,Schwarzman Building - Milstein Division Mezzanine Room 121,SASB - Milstein Division - Mezzanine,Research,,,ma,1105,false,mag;mal,,true,,
 magg3,Schwarzman Building - Milstein Division Desk Room 121,SASB - Milstein Division - Desk Rm 121,Research,,,ma,1105,false,mag;mal,,true,,
 magh1,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,,,ma,1105,false,mag;mal,,true,,
-mai,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,Research,,ma,1000,false,,,true,periodicals-room
+mai,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,Research,,ma,1000,false,,,true,periodicals-room,
 mai32,Schwarzman Building S3 - Microforms Room 315,SASB S3 - Microforms Room 315,Research,,,ma,1000,false,,,true,,
 mai82,Schwarzman Building M1 - Microforms Room 315,SASB M1 - Microforms Room 315,Research,,,ma,1000,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
 mai83,Schwarzman Building - Periodicals and Microforms Room 119,SASB - Periodicals and Microforms Rm 119,Research,,,ma,1000,false,,,true,,
