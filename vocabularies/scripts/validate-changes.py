@@ -19,6 +19,7 @@ from deepdiff import DeepDiff
 from git import Git
 import json
 import sys
+import re
 
 # Provides a comparison on the serialized named JSON-LD object in the
 # current working branch
@@ -67,7 +68,7 @@ def main():
         print('Keys Added: {}'.format(len(newKeys)))
         print('Keys Deleted: {}'.format(len(deletedKeys)))
         print('Keys Altered: {}'.format(len(alteredKeys)))
-        displayAlterations(alteredKeys) # Provide details on altered mapping objects
+        displayAlterations(alteredKeys, masterLocDict) # Provide details on altered mapping objects
 
     except Exception as e:
         template = "An exception of type {0} occurred. Arguments:\n{1!r}"
@@ -83,29 +84,36 @@ def openJsonFile(which):
         return json.load(locFile)
 
 
-def displayAlterations(alteredKeys):
+def displayAlterations(alteredKeys, masterLocDict):
     for key, diff in alteredKeys:
         print('\nALTERED KEY: {}'.format(key))
         for change in ['type_changes', 'values_changed']:
             if change in diff.keys():
                 for label, changes in diff[change].items():
-                    print('Attribute: {}'.format(label))
-                    print('Old Value: {}'.format(changes['old_value']))
-                    print('New Value: {}'.format(changes['new_value']))
+                    print('  Attribute: {}'.format(label))
+                    print('  Old Value: {}'.format(changes['old_value']))
+                    print('  New Value: {}'.format(changes['new_value']))
 
         if 'iterable_item_removed' in diff.keys():
             for label, removal in diff['iterable_item_removed'].items():
-                print('Attribute(Pos): {}'.format(label))
-                print('Removed Value: {}'.format(removal))
+                print('  Attribute(Pos): {}'.format(label))
+                print('  Removed Value: {}'.format(removal))
 
         if 'iterable_item_added' in diff.keys():
             for label, addition in diff['iterable_item_added'].items():
-                print('Attribute(Pos): {}'.format(label))
-                print('Added Value: {}'.format(addition))
+                print('  Attribute(Pos): {}'.format(label))
+                print('  Added Value: {}'.format(addition))
 
         if 'dictionary_item_added' in diff.keys():
             for addition in diff['dictionary_item_added']:
-                print('Added Item: {}'.format(addition))
+                print('  Added Item: {}'.format(addition))
+
+        if 'dictionary_item_removed' in diff.keys():
+            for prop in diff['dictionary_item_removed']:
+                prop = re.sub(r'(^root\[\'|\'\]$)', '', prop)
+                old_value = masterLocDict[key][prop]
+                print('  Removed Item: {} (Old value: "{}")'.format(prop, old_value))
+
 
 if __name__ == '__main__':
     main()
