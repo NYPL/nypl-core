@@ -4,7 +4,7 @@ Models, mappings, and vocabularies for the NYPL Core ontology.
 
 ### Current Version
 
-v2.1
+v2.6
 
 ## Contributing
 
@@ -93,4 +93,4 @@ M2 and Recap location codes are governed by different deliverability rules than 
 `deliverableTo` listed in `locations.csv` because their `deliverableTo` is instead maintained in `m2CustomerCodes.csv` 
 and `recapCustomerCodes.csv`, respectively. To make it explicit where `deliverableTo` should be resolved, we have 
 a property per code called `deliverableToResolution`, which indicates if that information should be found in 
-locations, m2CustomerCodes, or recapCustomerCodes csvs. 
+locations, m2CustomerCodes, or recapCustomerCodes csvs.

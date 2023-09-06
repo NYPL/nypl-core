@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.6
+ - Make mal82 requestable
+ - Fix location CSV & serialization issues [documented here](https://github.com/NYPL/nypl-core/pull/127)
+
 ### v2.5 
  - first round of M1 locations marked requestable: mab82,maf82,mag82,mai82,map82
  - mai removed as delivery location for all location codes
