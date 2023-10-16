@@ -1,13 +1,16 @@
 # CHANGELOG
 
+### v2.7
+ - Make mas82 and mab88 requestable to mab
+ - m2 codes XS only deliverable to AA and XP only deliverable to AM 
 ### v2.6
  - Make mal82 requestable
  - Fix location CSV & serialization issues [documented here](https://github.com/NYPL/nypl-core/pull/127)
 
-### v2.5 
+### v2.5
  - first round of M1 locations marked requestable: mab82,maf82,mag82,mai82,map82
  - mai removed as delivery location for all location codes
- 
+
 ### v2.4
  - remove deliverableTo from M2 items
  - add deliverableToResolution to m2 and recap locations.csv entries
@@ -16,7 +19,7 @@
 ### v2.03
  - Split LPA `my*` location codes into `lp*` and `pa*` codes, representing Circulating and Research locations.
 
-### v2.02 
+### v2.02
  - remove trailing whitespace from status label
 
 ### v2.0

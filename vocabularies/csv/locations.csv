@@ -1603,7 +1603,7 @@ mab01,Schwarzman Building - Picture Collection Reference - Rm 119,SASB - Picture
 mab62,Schwarzman Building S6 - Art & Architecture Room 300,SASB S6 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,,
 mab72,Schwarzman Building - Art & Architecture Room 300 (Stacks),Schwarzman Building - Art & Architecture Rm 300 (Stacks),Research,,,ma,1110,false,mab,,true,,
 mab82,Schwarzman Building M1 - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
-mab88,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,mab,,true,,
+mab88,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,true,mab,,true,,
 mab89,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,,,true,,
 mab92,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,,,true,,m2-customer-code
 mab98,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,,,true,,m2-customer-code
@@ -1704,7 +1704,7 @@ mard2,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Colle
 marr2,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Collection Rm 328,Research,,,ma,1108,false,mar,,true,,
 mas,Schwarzman Building - Photography Collection Room 308,SASB - Photography Collection Rm 308,Research,,,ma,1111,false,mas,,true,photography-collection,
 mas62,Schwarzman Building S6 - Art & Architecture Room 300,SASB S6 - Art & Architecture Rm 300,Research,,,ma,1110,false,mas,,true,,
-mas82,Schwarzman Building - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,,
+mas82,Schwarzman Building - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,true,mab,,true,,
 mas92,SASB M2 - Art & Architecture Rm 300,SASB M2 - Art & Architecture Rm 300,Research,,,ma,,true,,,true,,m2-customer-code
 masb2,Schwarzman Building - Photography Collection Room 308,SASB - Photography Collection Rm 308,Research,,,ma,1111,false,mas,,true,,
 mass2,Schwarzman Building - Photography Collection Room 308,SASB - Photography Collection Rm 308,Research,,,ma,1111,false,mas,,true,,
