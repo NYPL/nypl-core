@@ -2,7 +2,8 @@
 
 ### v2.7
  - Make mas82 and mab88 requestable to mab
- - m2 codes XS only deliverable to AA and XP only deliverable to AM 
+ - m2 codes XS only deliverable to AA and XP only deliverable to AM
+ 
 ### v2.6
  - Make mal82 requestable
  - Fix location CSV & serialization issues [documented here](https://github.com/NYPL/nypl-core/pull/127)
