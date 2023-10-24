@@ -12,8 +12,8 @@ XA,General Research,AR;AA;AJ;AL;AM;AC;AW;AE;AN,true,deliver to any NYPL RL,,"Con
 XF,,AR;AA;AJ;AL;AM;AC;AW;AE;AN,true,deliver to any NYPL RL,,?
 XG,ART,AR;AA;AJ;AL;AM;AC;AW;AE;AN,true,ART Collection deliver to any NYPL RL,,Contains: Art & Architecture
 XH,JWS,AR;AA;AJ;AL;AM;AC;AW;AE;AN,true,JWS Collection deliver to any NYPL RL,,Contains: Jewish (Dorot) Collection
-XP,MAP,AM,FALSE,MAP Collection delivery to rm 121 & 117 only,,Contains: Map
-XS,Photography Collection,AA,FALSE,Photography Collection deliver to rm 300 only,,Contains: Photography
+XP,MAP,AM,TRUE,MAP Collection delivery to rm 121 & 117 only,,Contains: Map
+XS,Photography Collection,AA,TRUE,Photography Collection deliver to rm 300 only,,Contains: Photography
 JS,SIBL Serials,AR;AA;AJ;AL;AM;AC;AW;AE;AN,true,SIBL Serials deliver to any NYPL RL,,Contains: SIBL Serials
 EM,EDD,,,,,"Presumably associated with maedd, which is not requestable, so there's no functional point linking it"
 AR,GRD - room 315,,,,mal,
