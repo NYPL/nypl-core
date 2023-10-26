@@ -1603,7 +1603,7 @@ mab01,Schwarzman Building - Picture Collection Reference - Rm 119,SASB - Picture
 mab62,Schwarzman Building S6 - Art & Architecture Room 300,SASB S6 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,,
 mab72,Schwarzman Building - Art & Architecture Room 300 (Stacks),Schwarzman Building - Art & Architecture Rm 300 (Stacks),Research,,,ma,1110,false,mab,,true,,
 mab82,Schwarzman Building M1 - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
-mab88,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,mab,,true,,
+mab88,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,true,mab,,true,,
 mab89,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,,,true,,
 mab92,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,,,true,,m2-customer-code
 mab98,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,,,true,,m2-customer-code
@@ -1612,22 +1612,22 @@ mabb1,Schwarzman Building - Art Reference Room 300,SASB - Art Reference Rm 300,R
 mabb2,Schwarzman Building - Art & Architecture Room 300,SASB - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,,
 mabb3,Schwarzman Building - Art & Architecture Desk Room 300,SASB - Art - Desk Rm 300,Research,,,ma,1110,false,mab,,true,,
 mabm2,Schwarzman Building - Art & Architecture Room 300,SASB - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,,
-mac,Schwarzman Building - Arents Collection Room 328,SASB - Arents Collection Rm 328,Research,,,ma,1109,false,mac,,true,arents-collection
+mac,Schwarzman Building - Arents Collection Room 328,SASB - Arents Collection Rm 328,Research,,,ma,1109,false,mac,,true,arents-collection,
 mac82,Schwarzman Building - Arents Collection Room 328,SASB - Arents Collection Rm 328,Research,,,ma,1109,false,mac,,true,,
 macc2,Schwarzman Building - Arents Collection Room 328,SASB - Arents Collection Rm 328,Research,,,ma,1109,false,mac,,true,,
-mae,Schwarzman Building - Berg Collection Room 320,SASB - Berg Collection Rm 320,Research,,,ma,1104,false,mae,,true,berg-collection-english-and-american-literature
+mae,Schwarzman Building - Berg Collection Room 320,SASB - Berg Collection Rm 320,Research,,,ma,1104,false,mae,,true,berg-collection-english-and-american-literature,
 mae82,Schwarzman Building - Berg Collection Room 320,SASB - Berg Collection Rm 320,Research,,,ma,1104,false,mae,,true,,
 maedd,SASB EDD Onsite,SASB EDD Onsite,Research,,,ma,,false,,,true,,
 maee2,Schwarzman Building - Berg Collection Room 320,SASB - Berg Collection Rm 320,Research,,,ma,1104,false,mae,,true,,
-maf,Schwarzman Building - Dorot Jewish Division Room 111,SASB - Dorot Jewish Division Rm 111,Research,Research,,ma,1103,false,maf,NJ,true,jewish-division
+maf,Schwarzman Building - Dorot Jewish Division Room 111,SASB - Dorot Jewish Division Rm 111,Research,Research,,ma,1103,false,maf,NJ,true,jewish-division,
 maf82,Schwarzman Building - Dorot Jewish Division Room 111,SASB M1 - Dorot Jewish Division Rm 111,Research,,,ma,1103,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
 maf88,Schwarzman Building - Dorot Jewish Division Room 111,SASB - Dorot Jewish Division Rm 111,Research,,,ma,1103,false,maf,,true,,
 maf92,Schwarzman Building M2 - Dorot Jewish Division Room 111,SASB M2 - Dorot Jewish Division - Room 111,Research,,,ma,1103,true,,,true,,m2-customer-code
-maf98,Schwarzman Building M2 - Dorot Jewish Division Room 111,SASB M2 - Dorot Jewish Division - Room 111,Research,,,ma,1103,true,,,true,, m2-customer-code
+maf98,Schwarzman Building M2 - Dorot Jewish Division Room 111,SASB M2 - Dorot Jewish Division - Room 111,Research,,,ma,1103,true,,,true,,m2-customer-code
 maf99,Schwarzman Building M2 - Dorot Jewish Division (Restricted) Room 111,SASB M2 - Dorot Jewish Division (Restricted) - Room 111,Research,,,ma,1103,true,,,true,,m2-customer-code
 maff1,Schwarzman Building - Dorot Jewish Division Reference Room 111,SASB - Dorot Jewish Division Reference Rm 111,Research,,,ma,1103,false,maf,,true,,
 maff3,Schwarzman Building - Dorot Jewish Division Desk Room 111,SASB - Dorot Jewish Division - Desk Rm 111,Research,,,ma,1103,false,maf,,true,,
-mag,Schwarzman Building - Milstein Division Room 121,SASB - Milstein Division Rm 121,Research,Research,,ma,1105,false,mag;mal,NM,true,milstein
+mag,Schwarzman Building - Milstein Division Room 121,SASB - Milstein Division Rm 121,Research,Research,,ma,1105,false,mag;mal,NM,true,milstein,
 mag82,Schwarzman Building - Milstein Division Room 121,SASB M1 - Milstein Division Rm 121,Research,,,ma,1105,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
 mag92,Schwarzman Building M2 - Milstein Division Room 121,SASB M2 - Milstein Division - Room 121,Research,,,ma,1105,true,,,true,,m2-customer-code
 mag98,Schwarzman Building M2 - Milstein Division Room 121,SASB M2 - Milstein Division - Room 121,Research,,,ma,1105,false,,,true,,m2-customer-code
@@ -1658,31 +1658,31 @@ maj0v,Schwarzman Building (Children's Center at 42nd St.) - Non-Print Media Room
 maj0y,Schwarzman Building (Children's Center at 42nd St.) - Young Reader Room 84,SASB (Children's Center at 42nd St.) - Young Reader Rm 84,Research,,,ma,1126,false,,,true,,
 maj92,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research - Room 315,Research,,,ma,1101,false,,,true,,m2-customer-code
 majr,Schwarzman Building (Children's Center at 42nd St.) - Reference Room 84,SASB (Children's Center at 42nd St.) - Reference Rm 84,Research,,,ma,1126,false,,,true,,
-mak,Schwarzman Building - Dewitt Wallace Room 108,SASB - Dewitt Wallace Room 108,Research,,,ma,1000,false,mak,,true,periodicals-room
+mak,Schwarzman Building - Dewitt Wallace Room 108,SASB - Dewitt Wallace Room 108,Research,,,ma,1000,false,mak,,true,periodicals-room,
 mak82,SASB M1 - Periodicals Rm 108,SASB M1 - Periodicals Rm 108,Research,,,ma,,false,,,true,,
 makk3,Schwarzman Building - Dewitt Wallace Reference Desk Room 108,SASB - Dewitt Wallace Reference Desk Rm 108,Research,,,ma,1000,false,mak,,true,,
-mal,Schwarzman Building - Main Reading Room 315,SASB - Service Desk Rm 315,Research,Research,,ma,1000,false,mal,NH,true,general-research-division
-mal17,Schwarzman Building - Scholar Room 217,SASB - Scholar Room 217,Research,Scholar,,ma,1000,false,,OD,,
+mal,Schwarzman Building - Main Reading Room 315,SASB - Service Desk Rm 315,Research,Research,,ma,1000,false,mal,NH,true,general-research-division,
+mal17,Schwarzman Building - Scholar Room 217,SASB - Scholar Room 217,Research,Scholar,,ma,1000,false,,OD,,,
 mal72,SASB - SIBL - General Research - Room 315,SASB - SIBL - General Research - Room 315,Research,,,ma,,false,,,true,,
-mal82,Schwarzman Building - Main Reading Room 315,SASB M1 - General Research - Room 315,Research,,,ma,1000,false,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
+mal82,Schwarzman Building - Main Reading Room 315,SASB M1 - General Research - Room 315,Research,,,ma,1000,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
 mal92,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research Room 315,Research,,,ma,1101,true,,,true,,m2-customer-code
 mal98,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research Room 315,Research,,,ma,1101,true,,,true,,m2-customer-code
 mal99,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research Room 315,Research,,,ma,1101,true,,,true,,m2-customer-code
-mala,Schwarzman Building - Allen Scholar Room,SASB - Allen Scholar Room,Research,Scholar,,ma,1000,false,mala,OA,true,schwarzman
+mala,Schwarzman Building - Allen Scholar Room,SASB - Allen Scholar Room,Research,Scholar,,ma,1000,false,mala,OA,true,schwarzman,
 mala1,Schwarzman Building - Allen Room - Reference,SASB - Allen Room - Reference,Research,,,ma,1000,false,mala,,true,,
-malc,Schwarzman Building - Cullman Center,SASB - Cullman Center,Research,Scholar,,ma,1127,false,malc,OC,true,schwarzman
+malc,Schwarzman Building - Cullman Center,SASB - Cullman Center,Research,Scholar,,ma,1127,false,malc,OC,true,schwarzman,
 mall1,Schwarzman Building - Main Reading Room 315 - Reference,SASB - General Research - Room 315,Research,,,ma,1101,false,mal,,true,,
 malm2,Schwarzman Building - Main Reading Room 315 - Mezzanine,SASB - General Research - Room 315,Research,,,ma,1101,false,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
-maln,Schwarzman Building - Noma Scholar Room,SASB - Noma Scholar Room,Research,Scholar,,ma,1000,false,maln,ON,true,schwarzman
+maln,Schwarzman Building - Noma Scholar Room,SASB - Noma Scholar Room,Research,Scholar,,ma,1000,false,maln,ON,true,schwarzman,
 maln1,Schwarzman Building - Shoichi Noma Global Studies Room 219 - Reference,SASB - Shoichi Noma Global Studies Rm 219 - Reference,Research,,,ma,1000,false,maln,,true,,
 malv2,Schwarzman Building - Public Catalog Room 315,SASB - General Research - Public Catalog Room 315,Research,,,ma,1101,false,mal,,true,,
-malw,Schwarzman Building - Wertheim Scholar Room,SASB - Wertheim Scholar Room,Research,Scholar,,ma,1000,false,malw,OW,true,schwarzman
+malw,Schwarzman Building - Wertheim Scholar Room,SASB - Wertheim Scholar Room,Research,Scholar,,ma,1000,false,malw,OW,true,schwarzman,
 malw1,Schwarzman Building - Wertheim Study Room 228W - Reference,SASB - Wertheim Study Rm 228W - Reference,Research,,,ma,1000,false,malw,,true,,
-mao,Schwarzman Building - Manuscripts & Archives Room 328,SASB - Manuscripts & Archives Rm 328,Research,Research,,ma,1107,false,mao,NO,false,manuscripts-division
+mao,Schwarzman Building - Manuscripts & Archives Room 328,SASB - Manuscripts & Archives Rm 328,Research,Research,,ma,1107,false,mao,NO,false,manuscripts-division,
 mao82,Schwarzman Building - Manuscripts & Archives Room 328,SASB - Manuscripts & Archives Rm 328,Research,,,ma,1107,false,mao,,true,,
 mao92,Schwarzman Building M2 - Manuscripts Division Room 328,SASB M2 - Manuscripts Division - Room 328,Research,,,ma,1107,false,,,true,,m2-customer-code
 maor2,Schwarzman Building - Manuscripts & Archives Room 328,SASB - Manuscripts & Archives Rm 328,Research,,,ma,1107,false,mao,,true,,
-map,Schwarzman Building - Map Division Room 117,SASB - Map Division - Rm 117,Research,Research,,ma,1106,false,map,ND,true,map-division
+map,Schwarzman Building - Map Division Room 117,SASB - Map Division - Rm 117,Research,Research,,ma,1106,false,map,ND,true,map-division,
 map08,Schwarzman Building M1A - Map Division Room 117,SASB M1A - Map Division - Room 117,Research,,,ma,1106,false,map,,true,,
 map32,Schwarzman Building S3 - Map Division Room 117,SASB S3 - Map Division - Room 117,Resesarch,,,ma,1106,false,map,,true,,
 map42,Schwarzman Building S4 - Map Division Room 117,SASB S4 - Map Division - Room 117,Research,,,ma,1106,false,map,,true,,
@@ -1694,17 +1694,17 @@ mapp2,Schwarzman Building - Map Division Room 117,SASB - Map Division - Room 117
 mapp3,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,
 mapp8,Schwarzman Building M1 - Map Division Desk Room 117,SASB M1 - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,
 mapp9,Schwarzman Building M2 - Map Division Desk Room 117,SASB M2 - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,m2-customer-code
-maq,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,Research,,ma,1102,false,maq,NZ,false,pforzheimer-collection-shelley-and-his-circle
+maq,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,Research,,ma,1102,false,maq,NZ,false,pforzheimer-collection-shelley-and-his-circle,
 maqq2,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,,,ma,1102,false,maq,,true,,
-mar,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Collection Rm 328,Research,Research,,ma,1108,false,mar,NR,false,rare-books-division
+mar,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Collection Rm 328,Research,Research,,ma,1108,false,mar,NR,false,rare-books-division,
 mar62,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Collection Rm 328,Research,,,Ma,1108,false,mar,,true,,
 mar82,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Collection Rm 328,Research,,,Ma,1108,false,mar,,true,,
 mar92,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Books Division - Room 324,Research,,,Ma,1108,false,mar,,true,,
 mard2,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Collection Rm 328,Research,,,ma,1108,false,mar,,true,,
 marr2,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Collection Rm 328,Research,,,ma,1108,false,mar,,true,,
-mas,Schwarzman Building - Photography Collection Room 308,SASB - Photography Collection Rm 308,Research,,,ma,1111,false,mas,,true,photography-collection
+mas,Schwarzman Building - Photography Collection Room 308,SASB - Photography Collection Rm 308,Research,,,ma,1111,false,mas,,true,photography-collection,
 mas62,Schwarzman Building S6 - Art & Architecture Room 300,SASB S6 - Art & Architecture Rm 300,Research,,,ma,1110,false,mas,,true,,
-mas82,Schwarzman Building - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,,
+mas82,Schwarzman Building - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,true,mab,,true,,
 mas92,SASB M2 - Art & Architecture Rm 300,SASB M2 - Art & Architecture Rm 300,Research,,,ma,,true,,,true,,m2-customer-code
 masb2,Schwarzman Building - Photography Collection Room 308,SASB - Photography Collection Rm 308,Research,,,ma,1111,false,mas,,true,,
 mass2,Schwarzman Building - Photography Collection Room 308,SASB - Photography Collection Rm 308,Research,,,ma,1111,false,mas,,true,,
@@ -2108,7 +2108,7 @@ pad32,Performing Arts Research Collections - Dance,Performing Arts Research Coll
 pad38,Performing Arts Research Collections - Dance,Performing Arts Research Collections - Dance,Research,,,pa,1121,false,par,,true,,
 pad42,Offsite Rose - Performing Arts,OFFSITE Rose - Request in advance for use at Performing Arts,Research,,,pa,1002,false,par,,true,,
 paedd,LPA EDD Onsite,LPA EDD Onsite,Research,,,pa,,false,,,true,,
-paf,Performing Arts Research Collections - TOFT,Performing Arts Research Collections - TOFT,Research,Research,,pa,1120,false,par,NV,false,theatre-film-and-tape-archive
+paf,Performing Arts Research Collections - TOFT,Performing Arts Research Collections - TOFT,Research,Research,,pa,1120,false,par,NV,false,theatre-film-and-tape-archive,
 paf28,Performing Arts Research Collections - TOFT,Performing Arts Research Collections - TOFT,Research,,,pa,1120,false,par,,true,,
 paf29,Performing Arts Research Collections - TOFT,Performing Arts Research Collections - TOFT,Research,,,pa,1120,false,par,,true,,
 pah,Performing Arts Research Collections - Recorded Sound,Performing Arts Research Collections - Recorded Sound,Research,,,pa,1124,false,par,,true,,
@@ -2138,7 +2138,7 @@ pam32,Performing Arts Research Collections - Music,Performing Arts Research Coll
 pam38,Performing Arts Research Collections - Music,Performing Arts Research Collections - Music,Research,,,pa,1123,false,par,,true,,
 pam42,Offsite Rose - Performing Arts,OFFSITE Rose - Request in advance for use at Performing Arts,Research,,,pa,1002,false,par,,true,,
 pam48,Offsite Rose - Performing Arts,OFFSITE Rose - Request in advance for use at Performing Arts,Research,,,pa,1002,false,par,,true,,
-par,Performing Arts Research Collections,Performing Arts Research Collections,Research,Research,,pa,1002,false,myr,NP,true,lpa
+par,Performing Arts Research Collections,Performing Arts Research Collections,Research,Research,,pa,1002,false,myr,NP,true,lpa,
 pav,Performing Arts - Reserve Film and Video,Performing Arts - Reserve Film and Video,Research,,,pa,1002,false,,NN,true,,
 pav38,Performing Arts Research Collections - Reserve Film and Video,Performing Arts Research Collections - Reserve Film and Video,Research,Research,,pa,1002,false,par,,true,,
 parhr,Performing Arts Research Holds Room,Performing Arts Research Holds Room,Research,,,pa,,false,,,true,,
@@ -2698,16 +2698,16 @@ sby0n,South Beach YA Non-Fiction,South Beach YA Non-Fiction,Branch,,,sb,,false,,
 sby0v,South Beach YA Non-Print Media,South Beach YA Non-Print Media,Branch,,,sb,,false,,,true,,
 sbyr,South Beach Young Adult Reference,South Beach Young Adult Reference,Branch,,,sb,,false,,,true,,
 sbzzz,South Beach,South Beach (error code),Branch,,,sb,,false,,,true,,
-sc,Schomburg Center - Research and Reference Division,Schomburg Center,Research,Research,,sc,1001,false,sc,SR,true,schomburg
-scb,Schomburg Center - Moving Image & Recorded Sound,Schomburg Center - Moving Image & Recorded Sound,Research,Research,,sc,1117,false,sc,SM,false,moving-image-and-recorded-sound-division
+sc,Schomburg Center - Research and Reference Division,Schomburg Center,Research,Research,,sc,1001,false,sc,SR,true,schomburg,
+scb,Schomburg Center - Moving Image & Recorded Sound,Schomburg Center - Moving Image & Recorded Sound,Research,Research,,sc,1117,false,sc,SM,false,moving-image-and-recorded-sound-division,
 scbb2,Schomburg Center - Moving Image & Recorded Sound,Schomburg Center - Moving Image & Recorded Sound,Research,,,sc,1117,false,sc,,true,,
-scc,Schomburg Center - Art & Artifacts,Schomburg Center - Art & Artifacts,Research,Research,,sc,1115,false,sc,SA,false,art-and-artifacts-division
+scc,Schomburg Center - Art & Artifacts,Schomburg Center - Art & Artifacts,Research,Research,,sc,1115,false,sc,SA,false,art-and-artifacts-division,
 sccc2,Schomburg Center - Art & Artifacts,Schomburg Center - Art & Artifacts,Research,,,sc,1115,false,sc,,true,,
 sccc3,Schomburg Center - Art & Artifacts - Desk,Schomburg Center - Art & Artifacts - Desk,Research,,,sc,1115,false,sc,,true,,
-scd,Schomburg Center - Manuscripts & Archives,Schomburg Center - Manuscripts & Archives,Research,Research,,sc,1116,false,sc,NS,false,manuscripts-archives-and-rare-books-division
+scd,Schomburg Center - Manuscripts & Archives,Schomburg Center - Manuscripts & Archives,Research,Research,,sc,1116,false,sc,NS,false,manuscripts-archives-and-rare-books-division,
 scdd1,Schomburg Center - Manuscripts & Archives Reference,Schomburg Center - Manuscripts & Archives Reference,Research,,,sc,1116,false,sc,,true,,
 scdd2,Schomburg Center - Manuscripts & Archives,Schomburg Center - Manuscripts & Archives,Research,,,sc,1116,false,sc,,true,,
-sce,Schomburg Center - Photographs & Prints,Schomburg Center - Photographs & Prints,Research,Research,,sc,1118,false,sc,SP,false,photographs-and-prints-division
+sce,Schomburg Center - Photographs & Prints,Schomburg Center - Photographs & Prints,Research,Research,,sc,1118,false,sc,SP,false,photographs-and-prints-division,
 scedd,SC EDD Onsite,SC EDD Onsite,Research,,,sc,,false,,,true,,
 scee2,Schomburg Center - Photographs & Prints,Schomburg Center - Photographs & Prints,Research,,,sc,1118,false,sc,,true,,
 scf,Schomburg Center - Research & Reference,Schomburg Center - Research & Reference,Research,,,sc,1114,false,sc,,true,,
@@ -2824,7 +2824,7 @@ slajv,"Science, Industry and Business Library (SIBL) - Job Search Central Non-Pr
 slar,"Science, Industry and Business Library (SIBL) - Adult Reference",SIBL - Adult Reference,Branch,,,sl,1125,false,,,true,,
 sle,"Science, Industry and Business Library (SIBL) - Electronic Information Center",SIBL - Electronic Information Center,Research,,,sl,1125,false,,,true,,
 slee1,"Science, Industry and Business Library (SIBL) - Electronic Information Center",SIBL - Electronic Information Center,Research,,,sl,1125,false,,,true,,
-slr,"Science, Industry and Business Library (SIBL)",SIBL - Science Industry and Business,Research,Research,,sl,1125,false,slr,NB,true,sibl
+slr,"Science, Industry and Business Library (SIBL)",SIBL - Science Industry and Business,Research,Research,,sl,1125,false,slr,NB,true,sibl,
 slr12,"Science, Industry and Business Library (SIBL) - B. Altman Desk",SIBL - B. Altman Desk,Research,,,sl,1125,false,slr,,true,,
 slr22,"Science, Industry and Business Library (SIBL) - B. Altman Desk",SIBL - B. Altman Desk,Research,,,sl,1125,false,slr,,true,,
 slra3,"Science, Industry and Business Library (SIBL) - B. Altman Reference Desk",SIBL - B. Altman Reference Desk,Research,,,sl,1125,false,slr,,true,,
