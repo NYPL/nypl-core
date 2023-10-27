@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.8
+ - Add customer code AA to M2 Customer codes with scholar room deliverableTo codes
+
 ### v2.7
  - Make mas82 and mab88 requestable to mab
  - m2 codes XS only deliverable to AA and XP only deliverable to AM
