@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ### v2.8
- - Add customer code AA to M2 Customer codes with scholar room deliverableTo codes
+ - Add customer code AS to M2 Customer codes with scholar room deliverableTo codes
 
 ### v2.7
  - Make mas82 and mab88 requestable to mab
