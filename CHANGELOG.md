@@ -2,6 +2,8 @@
 
 ### v2.10
  - Make map98 requestable
+### v2.9
+ - Add missing Branch accessMessage: 8 Paperback
 
 ### v2.8
  - Add customer code AS to M2 Customer codes with scholar room deliverableTo codes
