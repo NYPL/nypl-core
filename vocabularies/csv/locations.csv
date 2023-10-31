@@ -1606,7 +1606,7 @@ mab82,Schwarzman Building M1 - Art & Architecture Room 300,SASB M1 - Art & Archi
 mab88,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,true,mab,,true,,
 mab89,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,,,true,,
 mab92,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,,,true,,m2-customer-code
-mab98,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,,,true,,m2-customer-code
+mab98,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,true,,,true,,m2-customer-code
 mab99,Schwarzman Building M2 - Art and Architecture (Restricted) Room 300,SASB M2 - Art and Architecture (Restricted) - Room 300,Research,,,ma,1110,false,,,true,,m2-customer-code
 mabb1,Schwarzman Building - Art Reference Room 300,SASB - Art Reference Rm 300,Research,,,ma,1130,false,mab,,true,,
 mabb2,Schwarzman Building - Art & Architecture Room 300,SASB - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,,
