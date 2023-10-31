@@ -2,6 +2,7 @@
 
 ### v2.8
  - Add customer code AS to M2 Customer codes with scholar room deliverableTo codes
+ - Make map98 requestable
 
 ### v2.7
  - Make mas82 and mab88 requestable to mab
