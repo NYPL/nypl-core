@@ -1620,6 +1620,7 @@ mae82,Schwarzman Building - Berg Collection Room 320,SASB - Berg Collection Rm 3
 maedd,SASB EDD Onsite,SASB EDD Onsite,Research,,,ma,,false,,,true,,
 maee2,Schwarzman Building - Berg Collection Room 320,SASB - Berg Collection Rm 320,Research,,,ma,1104,false,mae,,true,,
 maf,Schwarzman Building - Dorot Jewish Division Room 111,SASB - Dorot Jewish Division Rm 111,Research,Research,,ma,1103,false,maf,NJ,true,jewish-division,
+maf32,Schwarzman Building S3 - Dorot Jewish Division Rm 111,SASB S3 - Dorot Jewish Division Rm 111,Research,,,ma,1103,false,,,true,,
 maf82,Schwarzman Building - Dorot Jewish Division Room 111,SASB M1 - Dorot Jewish Division Rm 111,Research,,,ma,1103,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
 maf88,Schwarzman Building - Dorot Jewish Division Room 111,SASB - Dorot Jewish Division Rm 111,Research,,,ma,1103,false,maf,,true,,
 maf92,Schwarzman Building M2 - Dorot Jewish Division Room 111,SASB M2 - Dorot Jewish Division - Room 111,Research,,,ma,1103,true,,,true,,m2-customer-code
@@ -1659,6 +1660,7 @@ maj0y,Schwarzman Building (Children's Center at 42nd St.) - Young Reader Room 84
 maj92,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research - Room 315,Research,,,ma,1101,false,,,true,,m2-customer-code
 majr,Schwarzman Building (Children's Center at 42nd St.) - Reference Room 84,SASB (Children's Center at 42nd St.) - Reference Rm 84,Research,,,ma,1126,false,,,true,,
 mak,Schwarzman Building - Dewitt Wallace Room 108,SASB - Dewitt Wallace Room 108,Research,,,ma,1000,false,mak,,true,periodicals-room,
+mak32,SASB S3 - Periodicals Rm 108,SASB S3 - Periodicals Rm 108,Research,,,ma,,false,,,true,,
 mak82,SASB M1 - Periodicals Rm 108,SASB M1 - Periodicals Rm 108,Research,,,ma,,false,,,true,,
 makk3,Schwarzman Building - Dewitt Wallace Reference Desk Room 108,SASB - Dewitt Wallace Reference Desk Rm 108,Research,,,ma,1000,false,mak,,true,,
 mal,Schwarzman Building - Main Reading Room 315,SASB - Service Desk Rm 315,Research,Research,,ma,1000,false,mal,NH,true,general-research-division,
@@ -1689,6 +1691,7 @@ map42,Schwarzman Building S4 - Map Division Room 117,SASB S4 - Map Division - Ro
 map82,Schwarzman Building M1 - Map Division Room 117,SASB M1 - Map Division - Room 117,Research,,,ma,1106,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
 map92,Schwarzman Building M2 - Map Division Room 117,SASB M2 - Map Division - Room 117,Research,,,ma,1106,true,,,true,,m2-customer-code
 map98,Schwarzman Building M2 - Map Division Room 117,SASB M2 - Map Division - Restricted - Room 117,Research,,,ma,1106,true,,,true,,m2-customer-code
+map99,Schwarzman Building M2 - Map Division - Tray Restricted - Room 117,SASB M2 - Map Division - Tray Restricted - Room 117,,Research,,,ma,1106,false,,,true,,
 mapp1,Schwarzman Building - Map Division Reference Room 117,SASB - Map Division Reference - Room 117,Research,,,ma,1106,false,map,,true,,
 mapp2,Schwarzman Building - Map Division Room 117,SASB - Map Division - Room 117,Research,,,ma,1106,false,map,,true,,
 mapp3,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,
@@ -2140,6 +2143,7 @@ pam42,Offsite Rose - Performing Arts,OFFSITE Rose - Request in advance for use a
 pam48,Offsite Rose - Performing Arts,OFFSITE Rose - Request in advance for use at Performing Arts,Research,,,pa,1002,false,par,,true,,
 par,Performing Arts Research Collections,Performing Arts Research Collections,Research,Research,,pa,1002,false,myr,NP,true,lpa,
 pav,Performing Arts - Reserve Film and Video,Performing Arts - Reserve Film and Video,Research,,,pa,1002,false,,NN,true,,
+pav28,Performing Arts Research Collections - Reserve Film and Video,Performing Arts Research Collections - Reserve Film and Video,Research,Research,,pa,1002,false,par,,true,,
 pav38,Performing Arts Research Collections - Reserve Film and Video,Performing Arts Research Collections - Reserve Film and Video,Research,Research,,pa,1002,false,par,,true,,
 parhr,Performing Arts Research Holds Room,Performing Arts Research Holds Room,Research,,,pa,,false,,,true,,
 pat,Performing Arts Research Collections - Theatre,Performing Arts Research Collections - Theatre,Research,,,pa,1119,false,par,,true,,
@@ -2482,6 +2486,7 @@ rcph9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1
 rcpm2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,
 rcpm8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1123,false,,,false,,recap-customer-code
 rcpm9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1123,false,,,false,,
+rcpr8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,recap-customer-code
 rcpv2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,
 rcpv8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,recap-customer-code
 rcpv9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1002,false,,,true,,recap-customer-code

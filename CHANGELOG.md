@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.10
+ - Add/update LPA Item Types
+ - Add several missing locations
+
 ### v2.9
  - Add missing Branch accessMessage: 8 Paperback
 
