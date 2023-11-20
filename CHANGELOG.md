@@ -1,5 +1,12 @@
 # CHANGELOG
 
+### v2.11
+ - Add/update LPA Item Types
+ - Add several missing locations
+
+### v2.10
+ - Make map98 requestable
+
 ### v2.9
  - Add missing Branch accessMessage: 8 Paperback
 
