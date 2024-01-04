@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.12
+ - Make sff3 requestable 
+
 ### v2.11
  - Add/update LPA Item Types
  - Add several missing locations

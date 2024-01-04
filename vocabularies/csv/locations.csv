@@ -2718,7 +2718,7 @@ scee2,Schomburg Center - Photographs & Prints,Schomburg Center - Photographs & P
 scf,Schomburg Center - Research & Reference,Schomburg Center - Research & Reference,Research,,,sc,1114,false,sc,,true,,
 scff1,Schomburg Center - Research & Reference - Open Shelf,Schomburg Center - Research & Reference - Open Shelf,Research,,,sc,1114,false,sc,,true,,
 scff2,Schomburg Center - Research & Reference,Schomburg Center - Research & Reference,Research,,,sc,1114,false,sc,,true,,
-scff3,Schomburg Center - Research & Reference - Desk,Schomburg Center - Research & Reference - Desk,Research,,,sc,1114,false,sc,,true,,
+scff3,Schomburg Center - Research & Reference - Desk,Schomburg Center - Research & Reference - Desk,Research,,,sc,1114,true,sc,,true,,
 sczzz,Schomburg Center,Schomburg Center - (error code),Research,,,sc,1001,false,,,true,,
 sd,Sedgwick,Sedgwick,Branch,,,sd,,false,,,true,,
 sda,Sedgwick Adult,Sedgwick Adult,Branch,,,sd,,false,,,true,,
