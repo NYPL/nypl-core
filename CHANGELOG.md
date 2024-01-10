@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ### v2.12
- - Make sff3 requestable 
+ - Make sff3, scff2 requestable 
 
 ### v2.11
  - Add/update LPA Item Types
