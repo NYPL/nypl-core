@@ -23,11 +23,14 @@ for r in reader:
     preflabel = rdflib.Literal(r['skos:prefLabel'])
     notation = rdflib.Literal(r['skos:notation'])
     access = access = r['nypl:deliveryLocationAccess'].split(';')
+    deliveryLocations = r['nypl:deliverableTo']
     ptype = nyplPatronType + str(id)
 
     g.add((ptype, RDF.type, nypl.PatronType))
     g.add((ptype, SKOS.prefLabel, preflabel))
     g.add((ptype, SKOS.notation, notation))
+    if r['nypl:deliverableTo'] != '':
+        g.add((ptype, nypl.deliverableTo, rdflib.Literal(ptype)))
     if r['nypl:deliveryLocationAccess'] != '':
         for a in access:
             if a != '':
