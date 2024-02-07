@@ -30,7 +30,7 @@ for r in reader:
     g.add((ptype, SKOS.prefLabel, preflabel))
     g.add((ptype, SKOS.notation, notation))
     if r['nypl:deliverableTo'] != '':
-        g.add((ptype, nypl.deliverableTo, rdflib.Literal(ptype)))
+        g.add((ptype, nypl.deliverableTo, rdflib.Literal(deliveryLocations)))
     if r['nypl:deliveryLocationAccess'] != '':
         for a in access:
             if a != '':

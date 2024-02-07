@@ -1,4 +1,4 @@
-skos:notation,skos:prefLabel,nypl:deliveryLocationAccess
+skos:notation,skos:prefLabel,nypl:deliveryLocationAccess,nypl:deliverableTo
 0,Undefined (Do Not Use),Research
 1,Web Applicant (No Borrowing),Research
 2,SimplyE Metro,Research
@@ -17,7 +17,7 @@ skos:notation,skos:prefLabel,nypl:deliveryLocationAccess
 72,Homebound NYC (3 Year),Research
 73,Homebound Juv Only NYC (3 Year),Research
 75,Schomburg Scholar,Research;Scholar
-76,SASB Scholar RM 217,Research;Scholar
+76,SASB Scholar RM 217,Research;Scholar,mal17
 78,Short Term Scholar,Research;Scholar
 80,CUNY Graduate Center (9/30),Research
 81,MaRLI (9/30),Research
@@ -25,10 +25,10 @@ skos:notation,skos:prefLabel,nypl:deliveryLocationAccess
 83,Temporary (3 Day Research Only),Research
 84,Visitor (3 Month Limited Use),Research
 85,ILL - Research,Research
-86,Wertheim Scholar,Research;Scholar
-87,Allen Scholar,Research;Scholar
-88,Shoichi Noma Scholar,Research;Scholar
-89,Cullman Scholar,Research;Scholar
+86,Wertheim Scholar,Research;Scholar,malw
+87,Allen Scholar,Research;Scholar,mala
+88,Shoichi Noma Scholar,Research;Scholar,maln
+89,Cullman Scholar,Research;Scholar,malc
 90,Organization (1 Year Only),Research
 91,(Non-MyLibraryNYC) NYC Educator,Research
 93,Research Borrower,Research
