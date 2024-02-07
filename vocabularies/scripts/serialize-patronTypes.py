@@ -29,7 +29,7 @@ for r in reader:
     g.add((ptype, RDF.type, nypl.PatronType))
     g.add((ptype, SKOS.prefLabel, preflabel))
     g.add((ptype, SKOS.notation, notation))
-    if r['nypl:deliverableTo'] != '':
+    if r['nypl:deliverableTo'] is not None:
         g.add((ptype, nypl.deliverableTo, rdflib.Literal(deliveryLocations)))
     if r['nypl:deliveryLocationAccess'] != '':
         for a in access:
