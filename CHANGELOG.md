@@ -1,10 +1,13 @@
 # CHANGELOG
 
+### v2.14
+ - Remove deleted locations
+ 
 ### v2.13
- - Add scholarRoom property to patron types 
+ - Add scholarRoom property to patron types
 
 ### v2.12
- - Make sff3, scff2 requestable 
+ - Make sff3, scff2 requestable
 
 ### v2.11
  - Add/update LPA Item Types
@@ -22,7 +25,7 @@
 ### v2.7
  - Make mas82 and mab88 requestable to mab
  - m2 codes XS only deliverable to AA and XP only deliverable to AM
- 
+
 ### v2.6
  - Make mal82 requestable
  - Fix location CSV & serialization issues [documented here](https://github.com/NYPL/nypl-core/pull/127)
