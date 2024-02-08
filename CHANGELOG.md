@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ### v2.13
- - Add deliverableTo property to patron types 
+ - Add scholarRoom property to patron types 
 
 ### v2.12
  - Make sff3, scff2 requestable 
