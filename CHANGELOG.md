@@ -2,7 +2,8 @@
 
 ### v2.14
  - Remove deleted locations
- 
+ - Add new locations
+
 ### v2.13
  - Add scholarRoom property to patron types
 
