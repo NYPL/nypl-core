@@ -3121,8 +3121,6 @@ sgyr,St. George Young Adult Reference,St. George Young Adult Reference,Branch,,,
 sgytl,St. George Library Center Young Adult World Language College and Career Pathways Collection,St. George Library Center Young Adult World Language College and Career Pathways Collection,Branch,,,sg,,false,,,true,,
 sgytn,St. George Young Adult College and Career Pathways Collection,St. George Young Adult College and Career Pathways Collection,Branch,,,sg,,false,,,true,,
 sgzzz,St. George,St. George (error code),Branch,,,sg,,false,,,true,,
-skos:notation,skos:prefLabel,skos:altLabel,nypl:collectionType,nypl:deliveryLocationType,nypl:actualLocation,dcterms:isPartOf,nypl:owner,nypl:requestable,nypl:deliverableTo,nypl:recapCustomerCode,nypl:allowSierraHold,nypl:locationsSlug,nypl:deliverableToResolution
-skos:notation,skos:prefLabel,skos:altLabel,nypl:collectionType,nypl:deliveryLocationType,nypl:actualLocation,dcterms:isPartOf,nypl:owner,nypl:requestable,nypl:deliverableTo,nypl:recapCustomerCode,nypl:allowSierraHold,nypl:locationsSlug,nypl:deliverableToResolution
 sle,"Science, Industry and Business Library (SIBL) - Electronic Information Center",SIBL - Electronic Information Center,Research,,,,1125,false,,,true,,
 slee1,"Science, Industry and Business Library (SIBL) - Electronic Information Center",SIBL - Electronic Information Center,Research,,,,1125,false,,,true,,
 slr,"Science, Industry and Business Library (SIBL)",SIBL - Science Industry and Business,Research,Research,,,1125,false,slr,NB,true,sibl,

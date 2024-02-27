@@ -1,6 +1,7 @@
 # CHANGELOG
 
 ### v2.14
+ - Remove duplicated csv headings from locations
  - Remove deleted locations
  - Add new locations
 
