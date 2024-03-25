@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.15
+ - make map98 not requestable
+ 
 ### v2.14
  - Remove duplicated csv headings from locations
  - Remove deleted locations
