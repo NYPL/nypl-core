@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.16
+ - temporarily disable schomburg locations
+
 ### v2.15
  - make map98 not requestable
  
