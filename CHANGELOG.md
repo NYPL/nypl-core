@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.17
+ - Update scff2 to requestable:true
+
 ### v2.16
  - temporarily disable schomburg locations
 
