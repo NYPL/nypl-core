@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.18
+ - Remove out of date locations described in scc-3878 and scc-3863
+
 ### v2.17
  - Update scff2 to requestable:true
 
@@ -8,7 +11,7 @@
 
 ### v2.15
  - make map98 not requestable
- 
+
 ### v2.14
  - Remove duplicated csv headings from locations
  - Remove deleted locations
