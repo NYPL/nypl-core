@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.19
+ - remove 'M1' and 'M2' from location label strings
+
 ### v2.18
  - Remove out of date locations described in scc-3878 and scc-3863
 

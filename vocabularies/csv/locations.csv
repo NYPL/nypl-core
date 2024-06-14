@@ -1834,12 +1834,12 @@ ma,Stephen A. Schwarzman Building,Stephen A. Schwarzman Building,Research,,,ma,1
 mab,Schwarzman Building - Art & Architecture Room 300,SASB - Art & Architecture Rm 300,Research,Research,,ma,1110,false,mab,NG,true,art-architecture-collection,
 mab01,Schwarzman Building - Picture Collection Reference - Rm 119,SASB - Picture Collection Reference - Rm 119,Research,,,,,false,,,false,,
 mab0v,SASB - Picture Collection Rm 100,SASB - Picture Collection Rm 100,Research,,,ma,,false,,,true,,
-mab82,Schwarzman Building M1 - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
-mab88,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,true,mab,,true,,
-mab89,SASB M1 - Art & Architecture Rm 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,,false,,,true,,
-mab92,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,false,,,true,,m2-customer-code
-mab98,Schwarzman Building M2 - Art and Architecture Room 300,SASB M2 - Art and Architecture - Room 300,Research,,,ma,1110,true,,,true,,m2-customer-code
-mab99,Schwarzman Building M2 - Art and Architecture (Restricted) Room 300,SASB M2 - Art and Architecture (Restricted) - Room 300,Research,,,ma,1110,false,,,true,,m2-customer-code
+mab82,Schwarzman Building - Art & Architecture Room 300,SASB - Art & Architecture Rm 300,Research,,,ma,1110,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
+mab88,SASB - Art & Architecture Rm 300,SASB - Art & Architecture Rm 300,Research,,,ma,,true,mab,,true,,
+mab89,SASB - Art & Architecture Rm 300,SASB - Art & Architecture Rm 300,Research,,,ma,,false,,,true,,
+mab92,Schwarzman Building - Art and Architecture Room 300,SASB - Art and Architecture - Room 300,Research,,,ma,1110,false,,,true,,m2-customer-code
+mab98,Schwarzman Building - Art and Architecture Room 300,SASB - Art and Architecture - Room 300,Research,,,ma,1110,true,,,true,,m2-customer-code
+mab99,Schwarzman Building - Art and Architecture (Restricted) Room 300,SASB - Art and Architecture (Restricted) - Room 300,Research,,,ma,1110,false,,,true,,m2-customer-code
 mabb1,Schwarzman Building - Art Reference Room 300,SASB - Art Reference Rm 300,Research,,,ma,1130,false,mab,,true,,
 mabb2,Schwarzman Building - Art & Architecture Room 300,SASB - Art & Architecture Rm 300,Research,,,ma,1110,false,mab,,true,,
 mabb3,Schwarzman Building - Art & Architecture Desk Room 300,SASB - Art - Desk Rm 300,Research,,,ma,1110,false,mab,,true,,
@@ -1853,33 +1853,33 @@ maedd,SASB EDD Onsite,SASB EDD Onsite,Research,,,ma,,false,,,true,,
 maee2,Schwarzman Building - Berg Collection Room 320,SASB - Berg Collection Rm 320,Research,,,ma,1104,false,mae,,true,,
 maf,Schwarzman Building - Dorot Jewish Division Room 111,SASB - Dorot Jewish Division Rm 111,Research,Research,,ma,1103,false,maf,NJ,true,jewish-division,
 maf32,Schwarzman Building S3 - Dorot Jewish Division Rm 111,SASB S3 - Dorot Jewish Division Rm 111,Research,,,ma,1103,false,,,true,,
-maf82,Schwarzman Building - Dorot Jewish Division Room 111,SASB M1 - Dorot Jewish Division Rm 111,Research,,,ma,1103,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
+maf82,Schwarzman Building - Dorot Jewish Division Room 111,SASB - Dorot Jewish Division Rm 111,Research,,,ma,1103,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
 maf88,Schwarzman Building - Dorot Jewish Division Room 111,SASB - Dorot Jewish Division Rm 111,Research,,,ma,1103,false,maf,,true,,
-maf92,Schwarzman Building M2 - Dorot Jewish Division Room 111,SASB M2 - Dorot Jewish Division - Room 111,Research,,,ma,1103,true,,,true,,m2-customer-code
-maf98,Schwarzman Building M2 - Dorot Jewish Division Room 111,SASB M2 - Dorot Jewish Division - Room 111,Research,,,ma,1103,true,,,true,,m2-customer-code
-maf99,Schwarzman Building M2 - Dorot Jewish Division (Restricted) Room 111,SASB M2 - Dorot Jewish Division (Restricted) - Room 111,Research,,,ma,1103,true,,,true,,m2-customer-code
+maf92,Schwarzman Building - Dorot Jewish Division Room 111,SASB - Dorot Jewish Division - Room 111,Research,,,ma,1103,true,,,true,,m2-customer-code
+maf98,Schwarzman Building - Dorot Jewish Division Room 111,SASB - Dorot Jewish Division - Room 111,Research,,,ma,1103,true,,,true,,m2-customer-code
+maf99,Schwarzman Building - Dorot Jewish Division (Restricted) Room 111,SASB - Dorot Jewish Division (Restricted) - Room 111,Research,,,ma,1103,true,,,true,,m2-customer-code
 maff1,Schwarzman Building - Dorot Jewish Division Reference Room 111,SASB - Dorot Jewish Division Reference Rm 111,Research,,,ma,1103,false,maf,,true,,
 maff3,Schwarzman Building - Dorot Jewish Division Desk Room 111,SASB - Dorot Jewish Division - Desk Rm 111,Research,,,ma,1103,false,maf,,true,,
 mag,Schwarzman Building - Milstein Division Room 121,SASB - Milstein Division Rm 121,Research,Research,,ma,1105,false,mag;mal,NM,true,milstein,
-mag82,Schwarzman Building - Milstein Division Room 121,SASB M1 - Milstein Division Rm 121,Research,,,ma,1105,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
-mag92,Schwarzman Building M2 - Milstein Division Room 121,SASB M2 - Milstein Division - Room 121,Research,,,ma,1105,true,,,true,,m2-customer-code
-mag98,Schwarzman Building M2 - Milstein Division Room 121,SASB M2 - Milstein Division - Room 121,Research,,,ma,1105,false,,,true,,m2-customer-code
+mag82,Schwarzman Building - Milstein Division Room 121,SASB - Milstein Division Rm 121,Research,,,ma,1105,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
+mag92,Schwarzman Building - Milstein Division Room 121,SASB - Milstein Division - Room 121,Research,,,ma,1105,true,,,true,,m2-customer-code
+mag98,Schwarzman Building - Milstein Division Room 121,SASB - Milstein Division - Room 121,Research,,,ma,1105,false,,,true,,m2-customer-code
 magg1,Schwarzman Building - Milstein Division Reference Room 121,SASB - Milstein Division Reference Rm 121,Research,,,ma,1105,false,mag;mal,,true,,
 magg2,Schwarzman Building - Milstein Division Mezzanine Room 121,SASB - Milstein Division - Mezzanine,Research,,,ma,1105,false,mag;mal,,true,,
 magg3,Schwarzman Building - Milstein Division Desk Room 121,SASB - Milstein Division - Desk Rm 121,Research,,,ma,1105,false,mag;mal,,true,,
 mai,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,Research,,ma,1000,false,,,true,periodicals-room,
 mai32,Schwarzman Building S3 - Microforms Room 315,SASB S3 - Microforms Room 315,Research,,,ma,1000,false,,,true,,
-mai82,Schwarzman Building M1 - Microforms Room 315,SASB M1 - Microforms Room 315,Research,,,ma,1000,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
-mai92,Schwarzman Building M2 - Microforms Room 315,SASB M2 - Microforms Room 315,Research,,,ma,1101,false,,,true,,m2-customer-code
+mai82,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,,,ma,1000,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
+mai92,Schwarzman Building - Microforms Room 315,SASB - Microforms Room 315,Research,,,ma,1101,false,,,true,,m2-customer-code
 mak,Schwarzman Building - Dewitt Wallace Room 108,SASB - Dewitt Wallace Room 108,Research,,,ma,1000,false,mak,,true,periodicals-room,
 mak32,SASB S3 - Periodicals Rm 108,SASB S3 - Periodicals Rm 108,Research,,,ma,,false,,,true,,
-mak82,SASB M1 - Periodicals Rm 108,SASB M1 - Periodicals Rm 108,Research,,,ma,,false,,,true,,
+mak82,SASB - Periodicals Rm 108,SASB - Periodicals Rm 108,Research,,,ma,,false,,,true,,
 makk3,Schwarzman Building - Dewitt Wallace Reference Desk Room 108,SASB - Dewitt Wallace Reference Desk Rm 108,Research,,,ma,1000,false,mak,,true,,
 mal,Schwarzman Building - Main Reading Room 315,SASB - Service Desk Rm 315,Research,Research,,ma,1000,false,mal,NH,true,general-research-division,
 mal17,Schwarzman Building - Scholar Room 217,SASB - Scholar Room 217,Research,Scholar,,ma,1000,false,,OD,,,
 mal72,SASB - SIBL - General Research - Room 315,SASB - SIBL - General Research - Room 315,Research,,,ma,,false,,,true,,
-mal82,Schwarzman Building - Main Reading Room 315,SASB M1 - General Research - Room 315,Research,,,ma,1000,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
-mal92,Schwarzman Building M2 - General Research Room 315,SASB M2 - General Research Room 315,Research,,,ma,1101,true,,,true,,m2-customer-code
+mal82,Schwarzman Building - Main Reading Room 315,SASB - General Research - Room 315,Research,,,ma,1000,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
+mal92,Schwarzman Building - General Research Room 315,SASB - General Research Room 315,Research,,,ma,1101,true,,,true,,m2-customer-code
 mala,Schwarzman Building - Allen Scholar Room,SASB - Allen Scholar Room,Research,Scholar,,ma,1000,false,mala,OA,true,schwarzman,
 mala1,Schwarzman Building - Allen Room - Reference,SASB - Allen Room - Reference,Research,,,ma,1000,false,mala,,true,,
 malc,Schwarzman Building - Cullman Center,SASB - Cullman Center,Research,Scholar,,ma,1127,false,malc,OC,true,schwarzman,
@@ -1892,21 +1892,21 @@ malw,Schwarzman Building - Wertheim Scholar Room,SASB - Wertheim Scholar Room,Re
 malw1,Schwarzman Building - Wertheim Study Room 228W - Reference,SASB - Wertheim Study Rm 228W - Reference,Research,,,ma,1000,false,malw,,true,,
 mao,Schwarzman Building - Manuscripts & Archives Room 328,SASB - Manuscripts & Archives Rm 328,Research,Research,,ma,1107,false,mao,NO,false,manuscripts-division,
 mao82,Schwarzman Building - Manuscripts & Archives Room 328,SASB - Manuscripts & Archives Rm 328,Research,,,ma,1107,false,mao,,true,,
-mao92,Schwarzman Building M2 - Manuscripts Division Room 328,SASB M2 - Manuscripts Division - Room 328,Research,,,ma,1107,false,,,true,,m2-customer-code
+mao92,Schwarzman Building - Manuscripts Division Room 328,SASB - Manuscripts Division - Room 328,Research,,,ma,1107,false,,,true,,m2-customer-code
 maor2,Schwarzman Building - Manuscripts & Archives Room 328,SASB - Manuscripts & Archives Rm 328,Research,,,ma,1107,false,mao,,true,,
 map,Schwarzman Building - Map Division Room 117,SASB - Map Division - Rm 117,Research,Research,,ma,1106,false,map,ND,true,map-division,
-map08,Schwarzman Building M1A - Map Division Room 117,SASB M1A - Map Division - Room 117,Research,,,ma,1106,false,map,,true,,
+map08,Schwarzman Building - Map Division Room 117,SASB - Map Division - Room 117,Research,,,ma,1106,false,map,,true,,
 map32,Schwarzman Building S3 - Map Division Room 117,SASB S3 - Map Division - Room 117,Resesarch,,,ma,1106,false,map,,true,,
 map42,Schwarzman Building S4 - Map Division Room 117,SASB S4 - Map Division - Room 117,Research,,,ma,1106,false,map,,true,,
-map82,Schwarzman Building M1 - Map Division Room 117,SASB M1 - Map Division - Room 117,Research,,,ma,1106,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
-map92,Schwarzman Building M2 - Map Division Room 117,SASB M2 - Map Division - Room 117,Research,,,ma,1106,true,,,true,,m2-customer-code
-map98,Schwarzman Building M2 - Map Division Room 117,SASB M2 - Map Division - Restricted - Room 117,Research,,,ma,1106,false,,,true,,m2-customer-code
-map99,Schwarzman Building M2 - Map Division - Tray Restricted - Room 117,SASB M2 - Map Division - Tray Restricted - Room 117,Research,,,ma,1106,false,,,true,,
+map82,Schwarzman Building - Map Division Room 117,SASB - Map Division - Room 117,Research,,,ma,1106,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
+map92,Schwarzman Building - Map Division Room 117,SASB - Map Division - Room 117,Research,,,ma,1106,true,,,true,,m2-customer-code
+map98,Schwarzman Building - Map Division Room 117,SASB - Map Division - Restricted - Room 117,Research,,,ma,1106,false,,,true,,m2-customer-code
+map99,Schwarzman Building - Map Division - Tray Restricted - Room 117,SASB - Map Division - Tray Restricted - Room 117,Research,,,ma,1106,false,,,true,,
 mapp1,Schwarzman Building - Map Division Reference Room 117,SASB - Map Division Reference - Room 117,Research,,,ma,1106,false,map,,true,,
 mapp2,Schwarzman Building - Map Division Room 117,SASB - Map Division - Room 117,Research,,,ma,1106,false,map,,true,,
 mapp3,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,
-mapp8,Schwarzman Building M1 - Map Division Desk Room 117,SASB M1 - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,
-mapp9,Schwarzman Building M2 - Map Division Desk Room 117,SASB M2 - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,m2-customer-code
+mapp8,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,
+mapp9,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,m2-customer-code
 maq,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,Research,,ma,1102,false,maq,NZ,false,pforzheimer-collection-shelley-and-his-circle,
 maqq2,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,,,ma,1102,false,maq,,true,,
 mar,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Collection Rm 328,Research,Research,,ma,1108,false,mar,NR,false,rare-books-division,
@@ -1915,8 +1915,8 @@ mar92,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Books Divi
 mard2,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Collection Rm 328,Research,,,ma,1108,false,mar,,true,,
 marr2,Schwarzman Building - Rare Book Collection Room 328,SASB - Rare Book Collection Rm 328,Research,,,ma,1108,false,mar,,true,,
 mas,Schwarzman Building - Photography Collection Room 308,SASB - Photography Collection Rm 308,Research,,,ma,1111,false,mas,,true,photography-collection,
-mas82,Schwarzman Building - Art & Architecture Room 300,SASB M1 - Art & Architecture Rm 300,Research,,,ma,1110,true,mab,,true,,
-mas92,SASB M2 - Art & Architecture Rm 300,SASB M2 - Art & Architecture Rm 300,Research,,,ma,,true,,,true,,m2-customer-code
+mas82,Schwarzman Building - Art & Architecture Room 300,SASB - Art & Architecture Rm 300,Research,,,ma,1110,true,mab,,true,,
+mas92,SASB - Art & Architecture Rm 300,SASB - Art & Architecture Rm 300,Research,,,ma,,true,,,true,,m2-customer-code
 masb2,Schwarzman Building - Photography Collection Room 308,SASB - Photography Collection Rm 308,Research,,,ma,1111,false,mas,,true,,
 mass2,Schwarzman Building - Photography Collection Room 308,SASB - Photography Collection Rm 308,Research,,,ma,1111,false,mas,,true,,
 masu2,Schwarzman Building - Photography Collection Room 308,SASB - Photography Collection Rm 308,Research,,,ma,1111,false,mas,,true,,
