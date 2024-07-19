@@ -37,6 +37,7 @@ GO,GO,Google Project (deprecated),,false,0001
 JS,JS,SIBL De-duping candidates,NB;ND;NG;NH;NJ;NM;NP;SR;OA;OC;ON;OW;OD,true,0001
 OA,OA,SASB Allen Room,,false,0001
 OC,OC,SASB Cullman Center,,false,0001
+OE,OE,SASB Scholar Room 223,,false,0001
 ON,ON,SASB Shoichi Noma Scholar Room,,false,0001
 OW,OW,SASB Wertheim Study,,false,0001
 OS,OS,SASB no Sierra holds (discontinued),,false,0001
