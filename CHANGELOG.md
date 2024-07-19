@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### v2.XX
+ - add scholar location mal23
+ - add corresponding ptype 77
+ - add corresponding recap customer code OE
+ - add corresponding m2 customer code AT
+
 ### v2.18
  - Remove out of date locations described in scc-3878 and scc-3863
 
