@@ -7,96 +7,6 @@
   },
   "@graph": [
     {
-      "@id": "http://data.nypl.org/m2CustomerCodes/JS",
-      "@type": "nypl:m2CustomerCode",
-      "nypl:deliverableTo": [
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AR"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AA"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AJ"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AL"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AM"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AC"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AW"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AE"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AN"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AS"
-        }
-      ],
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
-      "skos:notation": "JS",
-      "skos:prefLabel": "SIBL Serials"
-    },
-    {
-      "@id": "http://data.nypl.org/m2CustomerCodes/AE",
-      "@type": "nypl:m2CustomerCode",
-      "skos:notation": "AE",
-      "skos:prefLabel": "Allen Room"
-    },
-    {
-      "@id": "http://data.nypl.org/m2CustomerCodes/AN",
-      "@type": "nypl:m2CustomerCode",
-      "skos:notation": "AN",
-      "skos:prefLabel": "Noma Schiochi"
-    },
-    {
-      "@id": "http://data.nypl.org/m2CustomerCodes/AS",
-      "@type": "nypl:m2CustomerCode",
-      "skos:notation": "AS",
-      "skos:prefLabel": "room 217 Scholar Hallway"
-    },
-    {
-      "@id": "http://data.nypl.org/m2CustomerCodes/IL",
-      "@type": "nypl:m2CustomerCode",
-      "skos:notation": "IL",
-      "skos:prefLabel": "Interlibrary & Document Services"
-    },
-    {
-      "@id": "http://data.nypl.org/m2CustomerCodes/AG",
-      "@type": "nypl:m2CustomerCode",
-      "skos:notation": "AG",
-      "skos:prefLabel": "MaRLi-To-Go"
-    },
-    {
-      "@id": "http://data.nypl.org/m2CustomerCodes/AR",
-      "@type": "nypl:m2CustomerCode",
-      "skos:notation": "AR",
-      "skos:prefLabel": "GRD - room 315"
-    },
-    {
-      "@id": "http://data.nypl.org/m2CustomerCodes/AA",
-      "@type": "nypl:m2CustomerCode",
-      "skos:notation": "AA",
-      "skos:prefLabel": "ART - room 300"
-    },
-    {
-      "@id": "http://data.nypl.org/m2CustomerCodes/AJ",
-      "@type": "nypl:m2CustomerCode",
-      "skos:notation": "AJ",
-      "skos:prefLabel": "Dorot - room 111"
-    },
-    {
       "@id": "http://data.nypl.org/m2CustomerCodes/XH",
       "@type": "nypl:m2CustomerCode",
       "nypl:deliverableTo": [
@@ -139,20 +49,7 @@
       "skos:prefLabel": "JWS"
     },
     {
-      "@id": "http://data.nypl.org/m2CustomerCodes/XS",
-      "@type": "nypl:m2CustomerCode",
-      "nypl:deliverableTo": {
-        "@id": "http://data.nypl.org/m2CustomerCodes/AA"
-      },
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
-      "skos:notation": "XS",
-      "skos:prefLabel": "Photography Collection"
-    },
-    {
-      "@id": "http://data.nypl.org/m2CustomerCodes/XA",
+      "@id": "http://data.nypl.org/m2CustomerCodes/NH",
       "@type": "nypl:m2CustomerCode",
       "nypl:deliverableTo": [
         {
@@ -190,11 +87,11 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
-      "skos:notation": "XA",
+      "skos:notation": "NH",
       "skos:prefLabel": "General Research"
     },
     {
-      "@id": "http://data.nypl.org/m2CustomerCodes/NQ",
+      "@id": "http://data.nypl.org/m2CustomerCodes/XG",
       "@type": "nypl:m2CustomerCode",
       "nypl:deliverableTo": [
         {
@@ -232,20 +129,14 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
-      "skos:notation": "NQ",
-      "skos:prefLabel": "General Research"
+      "skos:notation": "XG",
+      "skos:prefLabel": "ART"
     },
     {
-      "@id": "http://data.nypl.org/m2CustomerCodes/AL",
+      "@id": "http://data.nypl.org/m2CustomerCodes/AN",
       "@type": "nypl:m2CustomerCode",
-      "skos:notation": "AL",
-      "skos:prefLabel": "LHG - room 121"
-    },
-    {
-      "@id": "http://data.nypl.org/m2CustomerCodes/EM",
-      "@type": "nypl:m2CustomerCode",
-      "skos:notation": "EM",
-      "skos:prefLabel": "EDD"
+      "skos:notation": "AN",
+      "skos:prefLabel": "Noma Schiochi"
     },
     {
       "@id": "http://data.nypl.org/m2CustomerCodes/AW",
@@ -296,10 +187,118 @@
       "skos:prefLabel": ""
     },
     {
-      "@id": "http://data.nypl.org/m2CustomerCodes/AC",
+      "@id": "http://data.nypl.org/m2CustomerCodes/AR",
       "@type": "nypl:m2CustomerCode",
-      "skos:notation": "AC",
-      "skos:prefLabel": "Cullman Center"
+      "skos:notation": "AR",
+      "skos:prefLabel": "GRD - room 315"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/AT",
+      "@type": "nypl:m2CustomerCode",
+      "skos:notation": "AT",
+      "skos:prefLabel": "room 223 Scholar Hallway"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/AJ",
+      "@type": "nypl:m2CustomerCode",
+      "skos:notation": "AJ",
+      "skos:prefLabel": "Dorot - room 111"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/EM",
+      "@type": "nypl:m2CustomerCode",
+      "skos:notation": "EM",
+      "skos:prefLabel": "EDD"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/AL",
+      "@type": "nypl:m2CustomerCode",
+      "skos:notation": "AL",
+      "skos:prefLabel": "LHG - room 121"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/XA",
+      "@type": "nypl:m2CustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AR"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AA"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AJ"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AL"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AM"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AC"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AW"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AE"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AN"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AS"
+        }
+      ],
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "XA",
+      "skos:prefLabel": "General Research"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/JS",
+      "@type": "nypl:m2CustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AR"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AA"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AJ"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AL"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AM"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AC"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AW"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AE"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AN"
+        },
+        {
+          "@id": "http://data.nypl.org/m2CustomerCodes/AS"
+        }
+      ],
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "JS",
+      "skos:prefLabel": "SIBL Serials"
     },
     {
       "@id": "http://data.nypl.org/m2CustomerCodes/AM",
@@ -308,49 +307,50 @@
       "skos:prefLabel": "MAP - room 117"
     },
     {
-      "@id": "http://data.nypl.org/m2CustomerCodes/XG",
+      "@id": "http://data.nypl.org/m2CustomerCodes/AE",
       "@type": "nypl:m2CustomerCode",
-      "nypl:deliverableTo": [
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AR"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AA"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AJ"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AL"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AM"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AC"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AW"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AE"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AN"
-        },
-        {
-          "@id": "http://data.nypl.org/m2CustomerCodes/AS"
-        }
-      ],
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
-      "skos:notation": "XG",
-      "skos:prefLabel": "ART"
+      "skos:notation": "AE",
+      "skos:prefLabel": "Allen Room"
     },
     {
-      "@id": "http://data.nypl.org/m2CustomerCodes/NH",
+      "@id": "http://data.nypl.org/m2CustomerCodes/IL",
+      "@type": "nypl:m2CustomerCode",
+      "skos:notation": "IL",
+      "skos:prefLabel": "Interlibrary & Document Services"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/XS",
+      "@type": "nypl:m2CustomerCode",
+      "nypl:deliverableTo": {
+        "@id": "http://data.nypl.org/m2CustomerCodes/AA"
+      },
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "XS",
+      "skos:prefLabel": "Photography Collection"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/AC",
+      "@type": "nypl:m2CustomerCode",
+      "skos:notation": "AC",
+      "skos:prefLabel": "Cullman Center"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/AG",
+      "@type": "nypl:m2CustomerCode",
+      "skos:notation": "AG",
+      "skos:prefLabel": "MaRLi-To-Go"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/AS",
+      "@type": "nypl:m2CustomerCode",
+      "skos:notation": "AS",
+      "skos:prefLabel": "room 217 Scholar Hallway"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/NQ",
       "@type": "nypl:m2CustomerCode",
       "nypl:deliverableTo": [
         {
@@ -388,8 +388,14 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
-      "skos:notation": "NH",
+      "skos:notation": "NQ",
       "skos:prefLabel": "General Research"
+    },
+    {
+      "@id": "http://data.nypl.org/m2CustomerCodes/AA",
+      "@type": "nypl:m2CustomerCode",
+      "skos:notation": "AA",
+      "skos:prefLabel": "ART - room 300"
     },
     {
       "@id": "http://data.nypl.org/m2CustomerCodes/XP",
