@@ -1876,6 +1876,7 @@ mak32,SASB S3 - Periodicals Rm 108,SASB S3 - Periodicals Rm 108,Research,,,ma,,f
 mak82,SASB M1 - Periodicals Rm 108,SASB M1 - Periodicals Rm 108,Research,,,ma,,false,,,true,,
 makk3,Schwarzman Building - Dewitt Wallace Reference Desk Room 108,SASB - Dewitt Wallace Reference Desk Rm 108,Research,,,ma,1000,false,mak,,true,,
 mal,Schwarzman Building - Main Reading Room 315,SASB - Service Desk Rm 315,Research,Research,,ma,1000,false,mal,NH,true,general-research-division,
+mal23,Schwarzman Building - Scholar Room 223,SASB - Scholar Room 223,Research,Scholar,,ma,1000,false,,OE,,,
 mal17,Schwarzman Building - Scholar Room 217,SASB - Scholar Room 217,Research,Scholar,,ma,1000,false,,OD,,,
 mal72,SASB - SIBL - General Research - Room 315,SASB - SIBL - General Research - Room 315,Research,,,ma,,false,,,true,,
 mal82,Schwarzman Building - Main Reading Room 315,SASB M1 - General Research - Room 315,Research,,,ma,1000,true,mab;mag;map;maf;mal;mala;malc;maln;malw;mal17,,true,,
