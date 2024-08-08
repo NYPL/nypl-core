@@ -65,7 +65,7 @@ def main():
         ]))
 
         # Output comparison results
-        print('Keys Added: {}'.format(len(newKeys)))
+        print('Keys Added: {}: {}'.format(len(newKeys), newKeys))
         print('Keys Deleted: {}'.format(len(deletedKeys)))
         print('Keys Altered: {}'.format(len(alteredKeys)))
         displayAlterations(alteredKeys, masterLocDict) # Provide details on altered mapping objects

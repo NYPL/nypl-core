@@ -1,10 +1,13 @@
 # CHANGELOG
 
-### v2.XX
+### v2.20
  - add scholar location mal23
  - add corresponding ptype 77
  - add corresponding recap customer code OE
  - add corresponding m2 customer code AT
+
+### v2.19
+ - remove 'M1' and 'M2' from location label strings
 
 ### v2.18
  - Remove out of date locations described in scc-3878 and scc-3863
