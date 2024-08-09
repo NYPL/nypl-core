@@ -1,20 +1,20 @@
 skos:notation,skos:prefLabel,nypl:deliverableTo,nypl:requestable,General statement about delivery options,Associated Sierra location,Notes
-NH,General Research,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS,true,deliver to any NYPL RL,,Contains: General Research
-NQ,General Research,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS,true,deliver to any SASB reading room only,,"Contains:
+NH,General Research,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS;AT,true,deliver to any NYPL RL,,Contains: General Research
+NQ,General Research,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS;AT,true,deliver to any SASB reading room only,,"Contains:
  - General Research
  - Jewish (Dorot) Collection
  - ""Poor Condition"""
-XA,General Research,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS,true,deliver to any NYPL RL,,"Contains:
+XA,General Research,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS;AT,true,deliver to any NYPL RL,,"Contains:
  - General Research
  - Asian & Middle-Eastern
  - Slavic & Baltic
  - Local History & Genealogy"
-XF,,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS,true,deliver to any NYPL RL,,?
-XG,ART,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS,true,ART Collection deliver to any NYPL RL,,Contains: Art & Architecture
-XH,JWS,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS,true,JWS Collection deliver to any NYPL RL,,Contains: Jewish (Dorot) Collection
+XF,,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS;AT,true,deliver to any NYPL RL,,?
+XG,ART,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS;AT,true,ART Collection deliver to any NYPL RL,,Contains: Art & Architecture
+XH,JWS,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS;AT,true,JWS Collection deliver to any NYPL RL,,Contains: Jewish (Dorot) Collection
 XP,MAP,AM,true,MAP Collection delivery to rm 121 & 117 only,,Contains: Map
 XS,Photography Collection,AA,true,Photography Collection deliver to rm 300 only,,Contains: Photography
-JS,SIBL Serials,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS,true,SIBL Serials deliver to any NYPL RL,,Contains: SIBL Serials
+JS,SIBL Serials,AR;AA;AJ;AL;AM;AC;AW;AE;AN;AS;AT,true,SIBL Serials deliver to any NYPL RL,,Contains: SIBL Serials
 EM,EDD,,,,,"Presumably associated with maedd, which is not requestable, so there's no functional point linking it"
 AR,GRD - room 315,,,,mal,
 AA,ART - room 300,,,,mab,
@@ -27,4 +27,5 @@ AW,Wertheim Study,,,,malw,
 AE,Allen Room,,,,mala,
 AN,Noma Schiochi,,,,maln,
 AS,room 217 Scholar Hallway,,,,mal17,
+AT,room 223 Scholar Hallway,,,,mal23
 AG,MaRLi-To-Go,,,,,"Sierra location presumably staff-only, so no linking necessary"
