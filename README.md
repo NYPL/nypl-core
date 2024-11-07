@@ -4,7 +4,7 @@ Models, mappings, and vocabularies for the NYPL Core ontology.
 
 ### Current Version
 
-v2.21
+v2.20
 
 ## Contributing
 
@@ -30,8 +30,9 @@ Think about what components are affected by the change. For changes to `./mappin
 2. Verify that the specific component(s) for which you're making the change pick up the change...
 
 The method by which you verify an NYPL-Core change in an app depends on how the app includes NYPL-Core.
-* _For Node apps using `nypl-core-objects`_, you should be able to set `NYPL_CORE_VERSION=v1.33a` to tell it to use your pre-release version.
-* For (typically non-Node) _components that draw on S3-hosted lookup files_ (e.g. [by_sierra_location.json](https://s3.amazonaws.com/nypl-core-objects-mapping-production/by_sierra_location.json), you may test your change by first [deploying your pre-release vocab to the QA S3 bucket](https://github.com/NYPL/nypl-core-objects#pushing-to-s3) and then using the QA version of the S3-hosted file to verify your changes.
+
+- _For Node apps using `nypl-core-objects`_, you should be able to set `NYPL_CORE_VERSION=v1.33a` to tell it to use your pre-release version.
+- For (typically non-Node) _components that draw on S3-hosted lookup files_ (e.g. [by_sierra_location.json](https://s3.amazonaws.com/nypl-core-objects-mapping-production/by_sierra_location.json), you may test your change by first [deploying your pre-release vocab to the QA S3 bucket](https://github.com/NYPL/nypl-core-objects#pushing-to-s3) and then using the QA version of the S3-hosted file to verify your changes.
 
 Note that beanstalk apps may need to be "Restart"ed to pick up env config changes.
 
@@ -85,8 +86,8 @@ git push --tags -f
 
 Sometimes multiple features are vying for the next release version. If, when creating your pre-release tag, another active PR has already pushed code using that pre-release tag, you may create a second pre-release tag (e.g. `v1.33b`). You may arrange to eventually merge both features into the final release. Or only one feature may be rolled out under the version number and the other feature will have to take the next logical version number.
 
-
 ## Locations and deliverableToResolution
+
 There are three different sources of truth for determining `deliverableTo`: Sierra ILS, Recap customer codes,
 and M2 customer codes. `locations.csv` contains all Sierra locations, which includes M2 and Recap locations.
 M2 and Recap location codes are governed by different deliverability rules than other materials. These have no
