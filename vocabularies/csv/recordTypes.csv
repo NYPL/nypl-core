@@ -1,0 +1,25 @@
+id,prefLabel,altLabel
+3,E-Video,E-VIDEO
+a,Book/Text,BOOK/TEXT
+b,Blu-ray,BLU-RAY
+c,Notated music,SCORE
+d,Manuscript notated music,MANUSCRIPT MUS
+e,Map,MAP
+f,Manuscript map,
+g,"Film, Slide, etc.","FILM,SLIDE,ETC"
+h,Microform,MICROFORM
+i,Spoken word recording,SPOKEN WORD
+j,Musical recording,MUSIC NON-CD
+k,Picture,PICTURE
+l,Large print,LARGE PRINT
+m,Computer file,COMPUTER FILE
+n,E-Audiobook,E-AUDIOBOOK
+o,Kit,KIT
+p,Archival Mix,ARCHIVAL MIX
+r,3-D Object,3-D OBJECT
+s,VHS,VHS
+t,Manuscript,MANUSCRIPT
+u,Audiobook,AUDIOBOOK
+v,DVD,DVD
+y,Music CD,MUSIC CD
+z,E-Book,E-BOOK
