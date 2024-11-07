@@ -1,4 +1,4 @@
-id,prefLabel,altLabel
+skos:notation,skos:prefLabel,skos:altLabel
 3,E-Video,E-VIDEO
 a,Book/Text,BOOK/TEXT
 b,Blu-ray,BLU-RAY
