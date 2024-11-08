@@ -3,10 +3,9 @@
 ### v2.22
 
 - add record types
+- update PF recap customer code with more deliverableTo locations
 
 ### v2.21
-
-- update PF recap customer code with more deliverableTo locations
 
 ### v2.20
 
