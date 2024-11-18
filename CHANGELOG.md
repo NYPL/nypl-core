@@ -7,6 +7,8 @@
 
 ### v2.21
 
+- update PF recap customer code with more deliverableTo locations
+
 ### v2.20
 
 - add scholar location mal23
