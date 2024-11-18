@@ -1,8 +1,11 @@
 # CHANGELOG
 
-~~### v2.21 ~~
+### v2.22
 
-## this tag was reverted as part of the v2.22 work to escape bottleneck
+- add record types
+- update PF recap customer code with more deliverableTo locations
+
+### v2.21
 
 - update PF recap customer code with more deliverableTo locations
 

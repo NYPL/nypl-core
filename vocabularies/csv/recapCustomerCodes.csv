@@ -100,7 +100,7 @@ JM,JM,JM,,false,0002
 PA,PA,Firestone LIbrary,NB;ND;NG;NJ;NM;NH;NP;SR;OA;OC;ON;OW;OE;OD,true,0003
 PB,PB,Firestone Library Use Only,,true,0003
 PE,PE,Princeton Dark Storage,,false,0003
-PF,PF,"Firestone Library, Microforms",NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;OA;OC;OE;OD;ON;OW,true,0003
+PF,PF,"Firestone Library, Microforms",NC;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;OE;OD,true,0003
 PG,PG,Rare Books,,false,0003
 PH,PH,Mudd Manuscript Library,,false,0003
 PJ,PJ,Marquand Library,,true,0003
