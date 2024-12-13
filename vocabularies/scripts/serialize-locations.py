@@ -2,8 +2,7 @@
 # requires libraries/plugins: rdflib, rdflib-jsonld
 
 from rdflib.namespace import RDF, SKOS
-from rdflib import Namespace, Graph, plugin
-from rdflib.serializer import Serializer
+from rdflib import Namespace, Graph
 import rdflib
 import csv
 import m2Utils
@@ -43,6 +42,10 @@ for r in reader:
     g.add((location, SKOS.prefLabel, preflabel))
     g.add((location, SKOS.altLabel, altlabel))
     g.add((location, SKOS.notation, notation))
+
+    if r['nypl:specialGeneralOrMixed'] is not None:
+        specialGeneralOrMixed = rdflib.Literal(r['nypl:specialGeneralOrMixed'])
+        g.add((location, nypl.specialGeneralOrMixed, specialGeneralOrMixed))
 
     if deliverableToResolution != '':
         deliverableToResolution = rdflib.Literal(deliverableToResolution)
