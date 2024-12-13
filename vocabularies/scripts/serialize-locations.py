@@ -43,9 +43,9 @@ for r in reader:
     g.add((location, SKOS.altLabel, altlabel))
     g.add((location, SKOS.notation, notation))
 
-    if r['nypl:specialGeneralOrMixed'] is not None:
-        specialGeneralOrMixed = rdflib.Literal(r['nypl:specialGeneralOrMixed'])
-        g.add((location, nypl.specialGeneralOrMixed, specialGeneralOrMixed))
+    if r['nypl:collectionAccessType'] is not None:
+        collectionAccessType = rdflib.Literal(r['nypl:collectionAccessType'])
+        g.add((location, nypl.collectionAccessType, collectionAccessType))
 
     if deliverableToResolution != '':
         deliverableToResolution = rdflib.Literal(deliverableToResolution)
