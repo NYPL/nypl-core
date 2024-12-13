@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.23
+
+- add collectionAccessType
+
 ### v2.22
 
 - add record types
