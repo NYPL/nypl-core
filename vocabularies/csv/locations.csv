@@ -1,4 +1,4 @@
-skos:notation,skos:prefLabel,skos:altLabel,nypl:collectionType,nypl:deliveryLocationType,nypl:actualLocation,dcterms:isPartOf,nypl:owner,nypl:requestable,nypl:deliverableTo,nypl:recapCustomerCode,nypl:allowSierraHold,nypl:locationsSlug,nypl:deliverableToResolution,nypl:specialGeneralOrMixed
+skos:notation,skos:prefLabel,skos:altLabel,nypl:collectionType,nypl:deliveryLocationType,nypl:actualLocation,dcterms:isPartOf,nypl:owner,nypl:requestable,nypl:deliverableTo,nypl:recapCustomerCode,nypl:allowSierraHold,nypl:locationsSlug,nypl:deliverableToResolution,nypl:collectionAccessType
 ag,Aguilar,Aguilar,Branch,,,ag,,false,,,true,,
 aga,Aguilar Adult,Aguilar Adult,Branch,,,ag,,false,,,true,,
 aga01,Aguilar Reference,Aguilar Reference,Branch,,,ag,,false,,,true,,
