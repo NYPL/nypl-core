@@ -18,7 +18,7 @@ NYPL-Core contains vocabularies and mappings that control many different compone
 4. Update [README.md](README.md#current-version) with the new version number (e.g. "v1.33")
 5. Add an entry to [CHANGELOG.md](CHANGELOG.md) summarizing the changes
 6. Commit your changes.
-7. Create a pre-release tag using the next logical version number (e.g. `v1.33a`. See [Working with Git tags](#working-with-git-tags))
+7. Tag your work next logical version number (e.g. `v1.33a`. See [Working with Git tags](#working-with-git-tags))
 8. Git push and create a PR
 9. If it's a change in `./vocabularies` include a `validate-changes` report in your PR (e.g. if changing `locations.json`, run `cd vocabularies/scripts; python validate-changes.py locations`)
 
@@ -42,8 +42,8 @@ After 1) PR signoff and 2) confirming that your changes don't create trouble for
 
 1. Merge your PR and delete feature branch.
 2. Commit your changes
-3. Add a release tag (e.g. `v1.33`. See [Working with Git tags](#working-with-git-tags))
-4. Push to master
+3. Push to master
+4. Reassign tag to point to master
 5. If you made changes to `./vocabularies`:
    - Follow the instructions in [nypl-core-objects "Pushing to S3"](https://github.com/NYPL/nypl-core-objects#pushing-to-s3) to push updated JSONs to S3 (for use by non-Node apps).
    - If there are Node apps that need your update, update their `NYPL_CORE_VERSION` to your new version (e.g. `v1.33`)
