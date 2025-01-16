@@ -26,7 +26,7 @@ NYPL-Core contains vocabularies and mappings that control many different compone
 
 Think about what components are affected by the change. For changes to `./mappings`, you should consider the impact on components in the Discovery data pipeline. (Presumably you're making changes specifically for that pipeline.) For some `./vocabularies` changes (e.g. changes to `locations.json` or `recapCustomerCodes.json`) the components impacted are too many to independently test. At a minimum, you should check the following components:
 
-1. Verify that [nypl-core-objects](https://github.com/NYPL/nypl-core-objects) is able to parse your changes (e.g. to build local mappings files based on your pre-release tag of 1.33a, run `NYPL_CORE_VERSION=v1.33a npm run build-mappings` inside that repo)
+1. Verify that [nypl-core-objects](https://github.com/NYPL/nypl-core-objects) is able to parse your changes (e.g. to build local mappings files based on your pre-release tag of 1.33a, run `NYPL_CORE_VERSION=v1.33 npm run build-mappings` inside that repo)
 2. Verify that the specific component(s) for which you're making the change pick up the change...
 
 The method by which you verify an NYPL-Core change in an app depends on how the app includes NYPL-Core.
