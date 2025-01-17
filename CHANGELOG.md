@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.24
+
+- update pam32 to requestable:true
+
 ### v2.23
 
 - add collectionAccessType
