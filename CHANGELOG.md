@@ -1,5 +1,11 @@
 # CHANGELOG
 
+### v2.25
+
+- add keys: pav32, rcpf2, mal42, rcpf9, pah38, mae92, sca0v, pazzz, maatv, pav22, sca, rcpr2, rcpr9
+- update keys to requestable true for ROM PROM release 2: pad22, pad32, pah32, pat22, pat32, pav32
+
+
 ### v2.24
 
 - update pam32 to requestable:true
