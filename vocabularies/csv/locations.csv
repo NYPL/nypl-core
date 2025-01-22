@@ -1906,7 +1906,7 @@ map99,Schwarzman Building - Map Division - Tray Restricted - Room 117,SASB - Map
 mapp1,Schwarzman Building - Map Division Reference Room 117,SASB - Map Division Reference - Room 117,Research,,,ma,1106,false,map,,true,,
 mapp2,Schwarzman Building - Map Division Room 117,SASB - Map Division - Room 117,Research,,,ma,1106,false,map,,true,,
 mapp3,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,
-mapp8,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,
+mapp8,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,,special
 mapp9,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,m2-customer-code,special
 maq,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,Research,,ma,1102,false,maq,NZ,false,pforzheimer-collection-shelley-and-his-circle,
 maqq2,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,,,ma,1102,false,maq,,true,,,special
@@ -2631,7 +2631,7 @@ rc2sl,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,recap
 rcca9,Offsite,SCH A&A--Offsite--Restricted,Research,,,rc,1115,false,,,true,,recap-customer-code,special
 rccb2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center - Moving,Research,,,rc,1117,true,,,true,,recap-customer-code,special
 rccb8,Offsite,OFFSITE - For use by Appointment only at Schomburg Center - Moving,Research,,,rc,1001,false,,,true,,recap-customer-code,special
-rccb9,Offsite,SCH MIRS--Offsite--Restricted,Research,,,rc,1117,false,,,true,,recap-customer-code
+rccb9,Offsite,SCH MIRS--Offsite--Restricted,Research,,,rc,1117,false,,,true,,recap-customer-code,special
 rccd2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center -,Research,,,rc,1001,true,,,true,,recap-customer-code
 rccd8,Offsite,OFFSITE - For use by Appointment only at at Schomburg Center -,Research,,,rc,1001,false,,,true,,recap-customer-code,special
 rccd9,Offsite,SCH MARB--Offsite--Restricted,Research,,,rc,1116,false,,,true,,recap-customer-code,special
