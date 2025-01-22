@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.25
+
+- mark scdd2 and scee2 as special collections only
+
 ### v2.24
 
 - update pam32 to requestable:true
