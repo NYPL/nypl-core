@@ -10,30 +10,64 @@
 #    - [which]: Name of csv file to update
 #               (e.g. 'recapCustomerCodes', 'organizations').
 #    - [updateInfo] Name of csv file with values to update
-
-import csv
 import sys
+import csv
+
+def csv_to_dict(file_name:str) -> dict:
+    """
+    Pass the filename and column number of the CSV file that you would like to make the keys in the
+    dictionary. For example Column One is 1 and Column five is 5.
+              usage: csv_to_dict("example.csv", 2)
+    :param file_name: string
+    :param column_as_key: integer
+    :return: dictionary
+    """
+    information_dict = {}
+    tmp_dict = {}
+
+    try:
+        # Open the CSV file
+        with open(file_name, 'r') as f:
+            raw = f.readlines()
+
+        keys = raw[:1][0].strip().split(',')
+        for i, line in enumerate(raw[1:]):
+            tmp = line.replace("\n", "").split(",")
+            current_key = tmp[0]
+            tmp.pop(0)
+            try:
+                for x, key in enumerate(keys):
+                    tmp_dict[key] = tmp[x]
+            except Exception as e:
+                if e is None:
+                    print(e)
+            information_dict[current_key] = tmp_dict
+            tmp_dict = {}
+
+        return information_dict
+
+    except Exception as e:
+        print(e)
+        return {"Error": e}
+
+def update_properties(target, new, key):
+    for property in new[key]:
+        target[key][property] = new[key][property]
 
 
 def theThing():
-    which = '../csv/' + sys.argv[1] + ".csv"
+    vocabulary_file = '../csv/' + sys.argv[1] + ".csv"
     update_data = sys.argv[2]
+    vocabulary_dict = csv_to_dict(vocabulary_file)
+    update_dict = csv_to_dict(update_data)
+    for v_id in vocabulary_dict:
+        for up_id in update_dict:
+            if v_id == up_id:
+                update_properties(vocabulary_dict, update_dict, v_id)
 
-    with open(which, 'r+') as vocabulary_file:
-        with open(update_data, 'r') as update_data_file:
-            vocabulary_dict = csv.DictReader(vocabulary_file)
-            update_data_dict = csv.DictReader(update_data_file)
-            for vocabulary_row in vocabulary_dict:
-                for update_data_row in update_data_dict:
-                    if update_data_row['skos:notation'] == vocabulary_row['skos:notation']:
-                        for property in update_data_row:
-                            value = update_data_row[property]
-                            should_update_value = value is not None or value != ''
-                            if should_update_value is True:
-                                vocabulary_row[property] = update_data_row[property]
-                    writer = csv.DictWriter(vocabulary_file, vocabulary_dict.fieldnames)
-                    writer.writeheader()
-                    writer.writerows(vocabulary_dict)
+
+    
+
 
 
 theThing()
