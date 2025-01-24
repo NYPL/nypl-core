@@ -13,15 +13,8 @@
 import sys
 import csv
 
-def csv_to_dict(file_name:str) -> dict:
-    """
-    Pass the filename and column number of the CSV file that you would like to make the keys in the
-    dictionary. For example Column One is 1 and Column five is 5.
-              usage: csv_to_dict("example.csv", 2)
-    :param file_name: string
-    :param column_as_key: integer
-    :return: dictionary
-    """
+
+def csv_to_dict(file_name: str) -> dict:
     information_dict = {}
     tmp_dict = {}
 
