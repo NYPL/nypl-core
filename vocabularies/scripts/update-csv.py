@@ -31,7 +31,7 @@ def csv_to_dict(file_name:str) -> dict:
             raw = f.readlines()
 
         header = raw[:1][0].strip().split(',')
-        for i, line in enumerate(raw[1:]):
+        for _, line in enumerate(raw[1:]):
             tmp = line.replace("\n", "").split(",")
             current_key = tmp[0]
             try:
@@ -52,26 +52,24 @@ def csv_to_dict(file_name:str) -> dict:
 
 def update_properties(target, new, key):
     for property in new[key]:
-        if target[key] is not None:
+        if target.get(key) is not None:
             target[key][property] = new[key][property]
+        else:
+            target[key] = new[key]
 
 
 def theThing():
-    vocabulary_file = '../csv/' + sys.argv[1] + ".csv"
+    vocabulary_file_path = '../csv/' + sys.argv[1] + ".csv"
     update_filepath = sys.argv[2]
-    vocabulary_dict = csv_to_dict(vocabulary_file)
+    vocabulary_dict = csv_to_dict(vocabulary_file_path)
     update_dict = csv_to_dict(update_filepath)
     new_dict = dict(vocabulary_dict)
-    for v_id in vocabulary_dict:
-        for up_id in update_dict:
-            if up_id not in vocabulary_dict:
-                new_dict[up_id] = update_dict[up_id]
-            if v_id == up_id:
-                update_properties(new_dict, update_dict, v_id)
+    for up_id in update_dict:
+        update_properties(new_dict, update_dict, up_id)
     sorted_new_dict = dict(sorted(new_dict.items()))
-    with open(vocabulary_file, 'r') as f:
+    with open(vocabulary_file_path, 'r') as f:
         header = csv.DictReader(f).fieldnames
-    with open('meatballs.csv', 'w', newline='') as f:
+    with open(vocabulary_file_path, 'w', newline='') as f:
         writer = csv.DictWriter(f, header)
         writer.writeheader()
         for _, value in sorted_new_dict.items():
