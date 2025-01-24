@@ -25,18 +25,14 @@ def csv_to_dict(file_name: str) -> dict:
     try:
         # Open the CSV file
         with open(file_name, 'r') as f:
-            raw = f.readlines()
+            raw_csv = f.readlines()
 
-        header = raw[:1][0].strip().split(',')
-        for _, line in enumerate(raw[1:]):
-            tmp = line.replace("\n", "").split(",")
-            current_key = tmp[0]
-            try:
-                for x, key in enumerate(header):
-                    tmp_dict[key] = tmp[x]
-            except Exception as e:
-                if e is None:
-                    print(e)
+        header = raw_csv[:1][0].strip().split(',')
+        for _, row_as_string in enumerate(raw_csv[1:]):
+            exploded_row = row_as_string.replace("\n", "").split(",")
+            current_key = exploded_row[0]
+            for index, key in enumerate(header):
+                tmp_dict[key] = exploded_row[index]
             information_dict[current_key] = tmp_dict
             tmp_dict = {}
 
