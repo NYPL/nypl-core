@@ -58,6 +58,8 @@ def get_updated_vocabulary(target, new):
             if target.get(key) is not None:
                 target[key][property] = value[property]
             else:
+                # if we are adding a new key to the csv, we assume it has all
+                # of the fields included in the header row.
                 target[key] = value
     return dict(sorted(target.items()))
 
