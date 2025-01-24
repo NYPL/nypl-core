@@ -23,16 +23,22 @@ def csv_to_dict(file_name: str) -> dict:
     tmp_dict = {}
 
     try:
-        # Open the CSV file
         with open(file_name, 'r') as f:
             raw_csv = f.readlines()
 
         header = raw_csv[:1][0].strip().split(',')
+        x = []
         for _, row_as_string in enumerate(raw_csv[1:]):
             exploded_row = row_as_string.replace("\n", "").split(",")
             current_key = exploded_row[0]
             for index, key in enumerate(header):
-                tmp_dict[key] = exploded_row[index]
+                try:
+                    tmp_dict[key] = exploded_row[index]
+                except IndexError:
+                    # Not every row has the right number of commas. This should
+                    # be addressed but should not break the script.
+                    print(f'{current_key} is missing value for {key}')
+            
             information_dict[current_key] = tmp_dict
             tmp_dict = {}
 
@@ -43,12 +49,14 @@ def csv_to_dict(file_name: str) -> dict:
         return {"Error": e}
 
 
-def update_properties(target, new, key):
-    for property in new[key]:
-        if target.get(key) is not None:
-            target[key][property] = new[key][property]
-        else:
-            target[key] = new[key]
+def get_updated_vocabulary(target, new):
+    for key, value in new.items():
+        for property in value:
+            if target.get(key) is not None:
+                target[key][property] = new[key][property]
+            else:
+                target[key] = value
+    return dict(sorted(target.items()))
 
 
 def main():
@@ -57,11 +65,9 @@ def main():
 
     vocabulary_dict = csv_to_dict(vocabulary_file_path)
     update_dict = csv_to_dict(update_filepath)
-
-    for up_id in update_dict:
-        update_properties(vocabulary_dict, update_dict, up_id)
-
-    sorted_new_dict = dict(sorted(vocabulary_dict.items()))
+    new_dict = dict(vocabulary_dict)
+    
+    sorted_new_dict = get_updated_vocabulary(new_dict, update_dict)
 
     with open(vocabulary_file_path, 'r') as f:
         header = csv.DictReader(f).fieldnames
@@ -71,7 +77,10 @@ def main():
         writer.writeheader()
 
         for _, value in sorted_new_dict.items():
-            writer.writerow(value)
+            try:
+                writer.writerow(value)
+            except Exception:
+                print(value)
 
 
 if __name__ == '__main__':
