@@ -22,30 +22,25 @@ def csv_to_dict(file_name: str) -> dict:
     output_dict = {}
     row_data = {}
 
-    try:
-        with open(file_name, 'r') as f:
-            raw_csv = f.readlines()
+    with open(file_name, 'r') as f:
+        raw_csv = f.readlines()
 
-        header = raw_csv[:1][0].strip().split(',')
-        for _, row_as_string in enumerate(raw_csv[1:]):
-            exploded_row = row_as_string.replace("\n", "").split(",")
-            primary_key = exploded_row[0]
-            for index, nypl_core_key in enumerate(header):
-                try:
-                    row_data[nypl_core_key] = exploded_row[index]
-                except IndexError:
-                    # Not every row has the right number of commas. This should
-                    # be addressed by running the script, as empty fields will
-                    # be assigned as a side effect.
-                    pass
-            output_dict[primary_key] = row_data
-            row_data = {}
+    header = raw_csv[:1][0].strip().split(',')
+    for _, row_as_string in enumerate(raw_csv[1:]):
+        exploded_row = row_as_string.replace("\n", "").split(",")
+        primary_key = exploded_row[0]
+        for index, nypl_core_key in enumerate(header):
+            try:
+                row_data[nypl_core_key] = exploded_row[index]
+            except IndexError:
+                # Not every row has the right number of commas. This should
+                # be addressed by running the script, as empty fields will
+                # be assigned as a side effect.
+                pass
+        output_dict[primary_key] = row_data
+        row_data = {}
 
         return output_dict
-
-    except Exception as e:
-        print(e)
-        return {"Error": e}
 
 
 def get_updated_vocabulary(target, new):
@@ -72,7 +67,7 @@ def main():
     vocabulary_dict = csv_to_dict(vocabulary_file_path)
     update_dict = csv_to_dict(update_filepath)
     new_dict = dict(vocabulary_dict)
-    
+
     sorted_new_dict = get_updated_vocabulary(new_dict, update_dict)
 
     with open(vocabulary_file_path, 'r') as f:
@@ -83,10 +78,7 @@ def main():
         writer.writeheader()
 
         for _, value in sorted_new_dict.items():
-            try:
-                writer.writerow(value)
-            except Exception:
-                print(value)
+            writer.writerow(value)
 
 
 if __name__ == '__main__':
