@@ -54,17 +54,23 @@ def update_properties(target, new, key):
 def theThing():
     vocabulary_file_path = '../csv/' + sys.argv[1] + ".csv"
     update_filepath = sys.argv[2]
+
     vocabulary_dict = csv_to_dict(vocabulary_file_path)
     update_dict = csv_to_dict(update_filepath)
     new_dict = dict(vocabulary_dict)
+
     for up_id in update_dict:
         update_properties(new_dict, update_dict, up_id)
+
     sorted_new_dict = dict(sorted(new_dict.items()))
+
     with open(vocabulary_file_path, 'r') as f:
         header = csv.DictReader(f).fieldnames
+
     with open(vocabulary_file_path, 'w', newline='') as f:
         writer = csv.DictWriter(f, header)
         writer.writeheader()
+        
         for _, value in sorted_new_dict.items():
             writer.writerow(value)
 
