@@ -52,7 +52,6 @@ def csv_to_dict(file_name:str) -> dict:
 
 def update_properties(target, new, key):
     for property in new[key]:
-        print(new[key][property])
         if target[key] is not None:
             target[key][property] = new[key][property]
 
@@ -62,9 +61,11 @@ def theThing():
     update_filepath = sys.argv[2]
     vocabulary_dict = csv_to_dict(vocabulary_file)
     update_dict = csv_to_dict(update_filepath)
-    new_dict = vocabulary_dict
+    new_dict = dict(vocabulary_dict)
     for v_id in vocabulary_dict:
         for up_id in update_dict:
+            if up_id not in vocabulary_dict:
+                new_dict[up_id] = update_dict[up_id]
             if v_id == up_id:
                 update_properties(new_dict, update_dict, v_id)
     sorted_new_dict = dict(sorted(new_dict.items()))
@@ -73,7 +74,8 @@ def theThing():
     with open('meatballs.csv', 'w', newline='') as f:
         writer = csv.DictWriter(f, header)
         writer.writeheader()
-        for key, value in sorted_new_dict.items():
+        for _, value in sorted_new_dict.items():
             writer.writerow(value)
+
 
 theThing()
