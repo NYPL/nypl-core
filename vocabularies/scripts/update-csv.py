@@ -19,8 +19,8 @@ import csv
 
 
 def csv_to_dict(file_name: str) -> dict:
-    information_dict = {}
-    tmp_dict = {}
+    output_dict = {}
+    row_data = {}
 
     try:
         with open(file_name, 'r') as f:
@@ -32,16 +32,16 @@ def csv_to_dict(file_name: str) -> dict:
             primary_key = exploded_row[0]
             for index, nypl_core_key in enumerate(header):
                 try:
-                    tmp_dict[nypl_core_key] = exploded_row[index]
+                    row_data[nypl_core_key] = exploded_row[index]
                 except IndexError:
                     # Not every row has the right number of commas. This should
                     # be addressed by running the script, as empty fields will
                     # be assigned as a side effect.
                     pass
-            information_dict[primary_key] = tmp_dict
-            tmp_dict = {}
+            output_dict[primary_key] = row_data
+            row_data = {}
 
-        return information_dict
+        return output_dict
 
     except Exception as e:
         print(e)
