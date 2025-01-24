@@ -35,9 +35,9 @@ def csv_to_dict(file_name: str) -> dict:
                     tmp_dict[nypl_core_key] = exploded_row[index]
                 except IndexError:
                     # Not every row has the right number of commas. This should
-                    # be addressed but should not break the script.
-                    print(f'{primary_key} is missing value for {nypl_core_key}')
-            
+                    # be addressed by running the script, as empty fields will
+                    # be assigned as a side effect.
+                    pass
             information_dict[primary_key] = tmp_dict
             tmp_dict = {}
 
