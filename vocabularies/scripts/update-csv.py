@@ -6,6 +6,10 @@
 #   pip install -r requirements.txt
 #
 #
+#   Invocation:
+#   cd vocabularies/scripts
+#   python update-csv.py locations spaghetti.csv
+#
 #   Params:
 #    - [which]: Name of csv file to update
 #               (e.g. 'recapCustomerCodes', 'organizations').
