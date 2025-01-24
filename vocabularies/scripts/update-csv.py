@@ -27,19 +27,18 @@ def csv_to_dict(file_name: str) -> dict:
             raw_csv = f.readlines()
 
         header = raw_csv[:1][0].strip().split(',')
-        x = []
         for _, row_as_string in enumerate(raw_csv[1:]):
             exploded_row = row_as_string.replace("\n", "").split(",")
-            current_key = exploded_row[0]
-            for index, key in enumerate(header):
+            primary_key = exploded_row[0]
+            for index, nypl_core_key in enumerate(header):
                 try:
-                    tmp_dict[key] = exploded_row[index]
+                    tmp_dict[nypl_core_key] = exploded_row[index]
                 except IndexError:
                     # Not every row has the right number of commas. This should
                     # be addressed but should not break the script.
-                    print(f'{current_key} is missing value for {key}')
+                    print(f'{primary_key} is missing value for {nypl_core_key}')
             
-            information_dict[current_key] = tmp_dict
+            information_dict[primary_key] = tmp_dict
             tmp_dict = {}
 
         return information_dict
