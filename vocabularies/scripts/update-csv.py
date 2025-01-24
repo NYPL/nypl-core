@@ -52,8 +52,10 @@ def csv_to_dict(file_name: str) -> dict:
 def get_updated_vocabulary(target, new):
     for key, value in new.items():
         for property in value:
+            if value[property] == "TRUE" or value[property] == "FALSE":
+                value[property] = value[property].lower()
             if target.get(key) is not None:
-                target[key][property] = new[key][property]
+                target[key][property] = value[property]
             else:
                 target[key] = value
     return dict(sorted(target.items()))
