@@ -1,4 +1,4 @@
-skos:notation,skos:prefLabel,skos:altLabel,nypl:collectionType,nypl:deliveryLocationType,nypl:actualLocation,dcterms:isPartOf,nypl:owner,nypl:requestable,nypl:deliverableTo,nypl:recapCustomerCode,nypl:allowSierraHold,nypl:locationsSlug,nypl:deliverableToResolution,nypl:collectionAccessType
+skos:notation,skos:prefLabel,skos:altLabel,nypl:collectionType,nypl:deliveryLocationType,nypl:actualLocation,dcterms:isPartOf,nypl:owner,nypl:requestable,nypl:deliverableTo,nypl:recapCustomerCode,nypl:allowSierraHold,nypl:locationsSlug,nypl:deliverableToResolution,nypl:collectionAccessType,
 ag,Aguilar,Aguilar,Branch,,,ag,,false,,,true,,
 aga,Aguilar Adult,Aguilar Adult,Branch,,,ag,,false,,,true,,
 aga01,Aguilar Reference,Aguilar Reference,Branch,,,ag,,false,,,true,,
@@ -1909,7 +1909,7 @@ map99,Schwarzman Building - Map Division - Tray Restricted - Room 117,SASB - Map
 mapp1,Schwarzman Building - Map Division Reference Room 117,SASB - Map Division Reference - Room 117,Research,,,ma,1106,false,map,,true,,
 mapp2,Schwarzman Building - Map Division Room 117,SASB - Map Division - Room 117,Research,,,ma,1106,false,map,,true,,
 mapp3,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,
-mapp8,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,
+mapp8,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,,special
 mapp9,Schwarzman Building - Map Division Desk Room 117,SASB - Map Division - Desk - Room 117,Research,,,ma,1106,false,map,,true,,m2-customer-code,special
 maq,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,Research,,ma,1102,false,maq,NZ,false,pforzheimer-collection-shelley-and-his-circle,
 maqq2,Schwarzman Building - Pforzheimer Collection Room 319,SASB - Pforzheimer Collection Rm 319,Research,,,ma,1102,false,maq,,true,,,special
@@ -2485,7 +2485,7 @@ pad38,Performing Arts Research Collections - Dance,Performing Arts Research Coll
 pad42,Offsite Rose - Performing Arts,OFFSITE Rose - Request in advance for use at Performing Arts,Research,,,pa,1002,false,par,,true,,
 paedd,LPA EDD Onsite,LPA EDD Onsite,Research,,,pa,,false,,,true,,
 paf,Performing Arts Research Collections - TOFT,Performing Arts Research Collections - TOFT,Research,Research,,pa,1120,false,par,NV,false,theatre-film-and-tape-archive,
-paf28,Performing Arts Research Collections - TOFT,Performing Arts Research Collections - TOFT,Research,,,pa,1120,false,par,,true,,
+paf28,Performing Arts Research Collections - TOFT,Performing Arts Research Collections - TOFT,Research,,,pa,1120,false,par,,true,,,special
 paf29,Performing Arts Research Collections - TOFT,Performing Arts Research Collections - TOFT,Research,,,pa,1120,false,par,,true,,,special
 pah,Performing Arts Research Collections - Recorded Sound,Performing Arts Research Collections - Recorded Sound,Research,,,pa,1124,false,par,,true,,
 pah11,Performing Arts Research Collections - Recorded Sound - Reference,Performing Arts Research Collections - Recorded Sound - Reference,Research,,,pa,1124,false,par,,true,,
@@ -2638,7 +2638,7 @@ rc2sl,Offsite,OFFSITE - Request in Advance,Research,,,rc,0001,true,,,true,,recap
 rcca9,Offsite,SCH A&A--Offsite--Restricted,Research,,,rc,1115,false,,,true,,recap-customer-code,special
 rccb2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center - Moving,Research,,,rc,1117,true,,,true,,recap-customer-code,special
 rccb8,Offsite,OFFSITE - For use by Appointment only at Schomburg Center - Moving,Research,,,rc,1001,false,,,true,,recap-customer-code,special
-rccb9,Offsite,SCH MIRS--Offsite--Restricted,Research,,,rc,1117,false,,,true,,recap-customer-code
+rccb9,Offsite,SCH MIRS--Offsite--Restricted,Research,,,rc,1117,false,,,true,,recap-customer-code,special
 rccd2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center -,Research,,,rc,1001,true,,,true,,recap-customer-code
 rccd8,Offsite,OFFSITE - For use by Appointment only at at Schomburg Center -,Research,,,rc,1001,false,,,true,,recap-customer-code,special
 rccd9,Offsite,SCH MARB--Offsite--Restricted,Research,,,rc,1116,false,,,true,,recap-customer-code,special
@@ -2646,7 +2646,7 @@ rcce2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center -,Researc
 rcce8,Offsite,OFFSITE - For use by Appointment only at at Schomburg Center -,Research,,,rc,1001,false,,,true,,recap-customer-code,special
 rcce9,Offsite,SCH P&P--Offsite--Restricted,Research,,,rc,1118,false,,,true,,recap-customer-code,special
 rccf2,Offsite,OFFSITE - Request in Advance for use at Schomburg Center - Research,Research,,,rc,1001,true,,,true,,recap-customer-code
-rccf8,Offsite,OFFSITE - For use by Appointment only at at Schomburg Center,Research,,,rc,1001,false,,,true,,recap-customer-code
+rccf8,Offsite,OFFSITE - For use by Appointment only at at Schomburg Center,Research,,,rc,1001,false,,,true,,recap-customer-code,special
 rccf9,Offsite,SCH R&R--Offsite--Restricted,Research,,,rc,1114,false,,,true,,recap-customer-code,special
 rcma2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg,Research,,,rc,1000,true,,,true,,recap-customer-code
 rcmb2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Art,Research,,,rc,1110,true,,,true,,recap-customer-code
@@ -2936,10 +2936,10 @@ sccc2,Schomburg Center - Art & Artifacts,Schomburg Center - Art & Artifacts,Rese
 sccc3,Schomburg Center - Art & Artifacts - Desk,Schomburg Center - Art & Artifacts - Desk,Research,,,sc,1115,false,sc,,true,,,special
 scd,Schomburg Center - Manuscripts & Archives,Schomburg Center - Manuscripts & Archives,Research,Research,,sc,1116,false,sc,NS,false,manuscripts-archives-and-rare-books-division,
 scdd1,Schomburg Center - Manuscripts & Archives Reference,Schomburg Center - Manuscripts & Archives Reference,Research,,,sc,1116,false,sc,,true,,
-scdd2,Schomburg Center - Manuscripts & Archives,Schomburg Center - Manuscripts & Archives,Research,,,sc,1116,false,sc,,true,,
+scdd2,Schomburg Center - Manuscripts & Archives,Schomburg Center - Manuscripts & Archives,Research,,,sc,1116,false,sc,,true,,,special,
 sce,Schomburg Center - Photographs & Prints,Schomburg Center - Photographs & Prints,Research,Research,,sc,1118,false,sc,SP,false,photographs-and-prints-division,
 scedd,SC EDD Onsite,SC EDD Onsite,Research,,,sc,,false,,,true,,
-scee2,Schomburg Center - Photographs & Prints,Schomburg Center - Photographs & Prints,Research,,,sc,1118,false,sc,,true,,
+scee2,Schomburg Center - Photographs & Prints,Schomburg Center - Photographs & Prints,Research,,,sc,1118,false,sc,,true,,,special
 scf,Schomburg Center - Research & Reference,Schomburg Center - Research & Reference,Research,,,sc,1114,false,sc,,true,,
 scff1,Schomburg Center - Research & Reference - Open Shelf,Schomburg Center - Research & Reference - Open Shelf,Research,,,sc,1114,false,sc,,true,,
 scff2,Schomburg Center - Research & Reference,Schomburg Center - Research & Reference,Research,,,sc,1114,true,sc,,true,,
