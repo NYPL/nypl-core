@@ -3,12 +3,12 @@
 # Depends on Python 3
 #
 # Install dependencies:
-#   pip install -r requirements.txt
+#   pip3 install -r requirements.txt
 #
 #
 #   Invocation:
 #   cd vocabularies/scripts
-#   python update-csv.py locations spaghetti.csv
+#   python3 update-csv.py locations spaghetti.csv
 #
 #   Params:
 #    - [which]: Name of csv file to update
