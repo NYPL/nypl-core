@@ -42,6 +42,15 @@ def csv_to_dict(file_name: str) -> dict:
         return output_dict
 
 
+# target and new are both dicts with keys that correspond to the first value
+# of every row in the provided csvs. The values are each row, converted into
+# a dict by csv.DictReader().
+# ie:
+    # {'mab': {'skos:notation': 'mab', 'skos:prefLabel': 'Rose Reading Room'
+    # ...},
+    # 'map32': {'skos:notation': 'map32', 'skos:prefLabel': 'Map room',
+    # 'skos:altLabel': 'Map room 123,'...}
+    # ...}
 def get_updated_vocabulary(target, new):
     for key, value in new.items():
         for property in value:
@@ -66,7 +75,7 @@ def main():
     vocabulary_dict = csv_to_dict(vocabulary_file_path)
     update_dict = csv_to_dict(update_filepath)
     new_dict = dict(vocabulary_dict)
-    print(update_dict)
+    
     sorted_new_dict = get_updated_vocabulary(new_dict, update_dict)
 
     with open(vocabulary_file_path, 'r') as f:
