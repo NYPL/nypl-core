@@ -23,10 +23,11 @@ def csv_to_dict(file_name: str) -> dict:
     primary_key = ''
     with open(file_name, 'r') as f:
         raw_csv = f.readlines()
-        primary_key = raw_csv[0].split(',')[0]
+        primary_key_name = raw_csv[0].split(',')[0]
         f.seek(0)
         rows = csv.DictReader(f)
         for row in rows:
+            primary_key = row[primary_key_name]
             output_dict[primary_key] = row
 
         return output_dict
@@ -56,7 +57,7 @@ def main():
     vocabulary_dict = csv_to_dict(vocabulary_file_path)
     update_dict = csv_to_dict(update_filepath)
     new_dict = dict(vocabulary_dict)
-
+    print(update_dict)
     sorted_new_dict = get_updated_vocabulary(new_dict, update_dict)
 
     with open(vocabulary_file_path, 'r') as f:
