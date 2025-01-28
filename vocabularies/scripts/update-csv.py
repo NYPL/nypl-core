@@ -20,25 +20,14 @@ import csv
 
 def csv_to_dict(file_name: str) -> dict:
     output_dict = {}
-    row_data = {}
-
+    primary_key = ''
     with open(file_name, 'r') as f:
         raw_csv = f.readlines()
-
-    header = raw_csv[:1][0].strip().split(',')
-    for _, row_as_string in enumerate(raw_csv[1:]):
-        exploded_row = row_as_string.replace("\n", "").split(",")
-        primary_key = exploded_row[0]
-        for index, nypl_core_key in enumerate(header):
-            try:
-                row_data[nypl_core_key] = exploded_row[index]
-            except IndexError:
-                # Not every row has the right number of commas. This should
-                # be addressed by running the script, as empty fields will
-                # be assigned as a side effect.
-                pass
-        output_dict[primary_key] = row_data
-        row_data = {}
+        primary_key = raw_csv[0].split(',')[0]
+        f.seek(0)
+        rows = csv.DictReader(f)
+        for row in rows:
+            output_dict[primary_key] = row
 
         return output_dict
 
