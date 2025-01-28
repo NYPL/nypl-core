@@ -13,7 +13,16 @@
 #   Params:
 #    - [which]: Name of csv file to update
 #               (e.g. 'recapCustomerCodes', 'organizations').
-#    - [updateInfo] Name of csv file with values to update
+#    - [updateInfo] Name of csv file with values to update. The first row of
+#                   the file should match the header row of the target CSV.
+#                   The rows only need to contain the data you want to update,
+#                   not the entire csv. An example to update the pref label for
+#                   organization code SCR is provided at
+#                   vocabularies/scripts/example-update-csv.csv. Empty fields
+#                   will not overwrite existing fields, so you only have to
+#                   provide the single value you are interested in updating.
+#                   You can also provide the entire row with the exisiting data
+#                   filled in.
 import sys
 import csv
 
