@@ -13,17 +13,16 @@
 #   Params:
 #    - [which]: Name of csv file to update
 #               (e.g. 'recapCustomerCodes', 'organizations').
-#    - [updateInfo] Name of csv file with values to update. The first row of
-#                   the file should match the header row of the target CSV.
-#                   The rows only need to contain the data you want to update,
-#                   not the entire csv. Empty fields do not overwrite existing
-#                   fields, so you only have toprovide the single value you are
-#                   interested in updating. In that case, you still need to
-#                   make sure you have the correct number of commas. An example
-#                   to update the pref label for organization code SCR is
-#                   provided at vocabularies/scripts/example-update-csv.csv.
-#                   You can also provide the entire row with the exisiting data
-#                   filled in.
+#    - [updateInfo] Name of csv file with values to update.
+# * The first row of the file should match the header row of the target CSV.
+# * The csv only need contain the rows you want to update,
+# not the entire csv.
+# * Empty fields do not overwrite existing
+# fields; you only have to provide the single value you are
+# interested in updating. In that case, you still need to
+# make sure you have the correct number of commas. 
+# * An example with valid inputs to update the organizations csv is provided at vocabularies/scripts/example-update-csv.csv.
+# 
 import sys
 import csv
 
@@ -52,19 +51,22 @@ def csv_to_dict(file_name: str) -> dict:
     # 'skos:altLabel': 'Map room 123,'...}
     # ...}
 def get_updated_vocabulary(target, new):
-    for key, value in new.items():
-        for property in value:
+    for key, update_data_row in new.items():
+        for property in update_data_row:
+            if update_data_row[property] == '':
+                # don't overwrite values that are not provided
+                continue
             # spreadsheets automatically convert booleans to all caps. Let's
             # make the transistion painless for all.
-            if value[property] == "TRUE" or value[property] == "FALSE":
-                value[property] = value[property].lower()
+            if update_data_row[property] == "TRUE" or update_data_row[property] == "FALSE":
+                update_data_row[property] = update_data_row[property].lower()
             if target.get(key) is not None:
-                target[key][property] = value[property]
+                target[key][property] = update_data_row[property]
             else:
                 # If we are adding a new key to the csv, we assume it has all
                 # of the fields included in the header row, in the expected
                 # order.
-                target[key] = value
+                target[key] = update_data_row
     return dict(sorted(target.items()))
 
 

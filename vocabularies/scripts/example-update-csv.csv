@@ -1,3 +1,4 @@
 code,id,rdf:type,skos:prefLabel,skos:altLabel,org:unitOf
 SCR,1114,org:OrganizationalUnit,"this field, should update correctly",Schomburg Jean Blackwell Hutson Research and Reference Division,http://data.nypl.org/orgs/1001
 CPS,,,,this one should too,
+A-NEW-CODE,XXXX,org:OrganizationalUnit,the pref label,Spaghetti Collection, http://data.nypl.org/orgs/XXXX
