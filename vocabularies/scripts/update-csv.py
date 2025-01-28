@@ -14,14 +14,18 @@
 #    - [which]: Name of csv file to update
 #               (e.g. 'recapCustomerCodes', 'organizations').
 #    - [updateInfo] Name of csv file with values to update.
-# * The first row of the file should match the header row of the target CSV.
-# * The csv only need contain the rows you want to update,
-# not the entire csv.
-# * Empty fields do not overwrite existing
-# fields; you only have to provide the single value you are
-# interested in updating. In that case, you still need to
-# make sure you have the correct number of commas. 
-# * An example with valid inputs to update the organizations csv is provided at vocabularies/scripts/example-update-csv.csv.
+#          * The first row of the file should match the header row of the
+#            target CSV.
+#          * The csv only need contain the rows you want to update,
+#            not the entire csv.
+#          * Empty fields do not overwrite existing
+#            fields; you only have to provide the single value you are
+#            interested in updating. In that case, you still need to
+#            make sure you have the correct number of commas.
+#          * An example with valid inputs to update the organizations csv is
+#            provided at vocabularies/scripts/example-update-csv.csv.
+#          * If you are adding a new row to the csv, the values must be
+#            provided in the order specified by the header of the csv.
 # 
 import sys
 import csv
