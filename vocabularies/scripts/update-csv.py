@@ -29,7 +29,6 @@ import csv
 
 def csv_to_dict(file_name: str) -> dict:
     output_dict = {}
-    primary_key = ''
     with open(file_name, 'r') as f:
         raw_csv = f.readlines()
         primary_key_name = raw_csv[0].split(',')[0]
