@@ -2667,7 +2667,7 @@ rcmp2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Maps Div
 rcmq2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg -,Research,,,rc,1000,false,,,true,,recap-customer-code,special,
 rcmr2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Rare Books,Research,,,rc,1108,false,,,true,,recap-customer-code,special,
 rcms2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg -,Research,,,rc,1000,false,,,true,,recap-customer-code,special,
-rcpd2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,recap-customer-code,REMOVE,
+rcpd2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,recap-customer-code,REMOVE_VALUE,
 rcpd8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,false,,,true,,recap-customer-code,special,
 rcpd9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1002,false,,,true,,recap-customer-code,special,
 rcpf2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,par,,true,,recap-customer-code,,
