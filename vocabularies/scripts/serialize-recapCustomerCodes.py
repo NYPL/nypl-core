@@ -1,8 +1,8 @@
 from rdflib.namespace import RDF, SKOS
-from rdflib import Namespace, Graph, plugin
-from rdflib.serializer import Serializer
+from rdflib import Namespace, Graph
 import rdflib
 import csv
+from utils import sort_and_write_graph_to_file
 
 f = open('../csv/recapCustomerCodes.csv')
 reader = csv.DictReader(f)
@@ -38,13 +38,11 @@ for r in reader:
                 d = custCode + d.strip()
                 g.add((recapCustomerCode, nypl.deliverableTo, d))
 
-z = open('../json-ld/recapCustomerCodes.json', 'wb')
-
 context = {"nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#",
            "nyplOrg": "http://data.nypl.org/orgs/",
            "recapCustomerCode": "http://data.nypl.org/recapCustomerCodes"}
-z.write(g.serialize(format="json-ld", context=context, encoding="utf-8"))
+sort_and_write_graph_to_file(g, context, 'recapCustomerCodes')
 
-z.close()
+
 f.close()

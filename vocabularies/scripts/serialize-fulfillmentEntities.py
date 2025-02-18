@@ -1,9 +1,10 @@
 # script to convert fulfillmentEntities.csv to json-ld
 # requires libraries/plugins: rdflib, rdflib-jsonld
-import rdflib
-from rdflib.namespace import RDF, SKOS
+from rdflib.namespace import SKOS
 from rdflib import Namespace, Graph, Literal, URIRef
 import csv
+from utils import sort_and_write_graph_to_file
+
 
 f = open('../csv/fulfillmentEntities.csv')
 reader = csv.DictReader(f)
@@ -27,7 +28,6 @@ for r in reader:
     if location is not None and len(location) > 0:
         fullLocation = locationUriPrefix + location
         g.add((fulfillmentEntity, nypl.location, fullLocation))
-z = open('../json-ld/fulfillmentEntities.json', 'wb')
 
 context = {
     "nypl": "http://data.nypl.org/nypl-core/",
@@ -35,8 +35,6 @@ context = {
     "nyplLocation": "http://data.nypl.org/locations/",
     "skos": "http://www.w3.org/2004/02/skos/core#"
 }
+sort_and_write_graph_to_file(g, context, 'fulfillmentEntities')
 
-z.write(g.serialize(format="json-ld", context=context, encoding="utf-8"))
-
-z.close()
 f.close()

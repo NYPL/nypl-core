@@ -2,10 +2,11 @@
 # requires libraries/plugins: rdflib, rdflib-jsonld
 
 from rdflib.namespace import RDF, SKOS
-from rdflib import Namespace, Graph, plugin
-from rdflib.serializer import Serializer
+from rdflib import Namespace, Graph
 import rdflib
 import csv
+from utils import sort_and_write_graph_to_file
+
 
 f = open('../csv/icode2.csv')
 reader = csv.DictReader(f)
@@ -33,13 +34,11 @@ for r in reader:
         note = rdflib.Literal(r['skos:note'])
         g.add((icode2, SKOS.note, note))
 
-z = open('../json-ld/icode2.json', 'wb')
-
 context = {"nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#",
            "nyplOrg": "http://data.nypl.org/orgs/",
            "icode2": "http://data.nypl.org/icode2/"}
-z.write(g.serialize(format="json-ld", context=context, encoding="utf-8"))
 
-z.close()
+sort_and_write_graph_to_file(g, context, 'icode2')
+
 f.close()

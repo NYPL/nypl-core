@@ -6,6 +6,7 @@ from rdflib import Namespace, Graph
 import rdflib
 import csv
 import m2Utils
+from utils import sort_and_write_graph_to_file
 
 f = open('../csv/locations.csv')
 reader = csv.DictReader(f)
@@ -90,15 +91,12 @@ for r in reader:
         m2CustCode = m2CustomerCode + str(m2CodesByLocation[id])
         g.add((location, nypl.m2CustomerCode, m2CustCode))
 
-z = open('../json-ld/locations.json', 'wb')
-
 context = {"dcterms": "http://purl.org/dc/terms/",
            "nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#",
            "nyplLocation": "http://data.nypl.org/locations/",
            "recapCustomerCode": "http://data.nypl.org/recapCustomerCodes"}
 
-z.write(g.serialize(format="json-ld", context=context, encoding="utf-8"))
+sort_and_write_graph_to_file(g, context, 'locations')
 
-z.close()
 f.close()

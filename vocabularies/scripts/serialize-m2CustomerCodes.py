@@ -1,6 +1,6 @@
 from rdflib.namespace import RDF, SKOS
-from rdflib import Namespace, Graph, plugin
-from rdflib.serializer import Serializer
+from rdflib import Namespace, Graph
+from utils import sort_and_write_graph_to_file
 import rdflib
 import csv
 import m2Utils
@@ -36,13 +36,11 @@ for r in reader:
                 d = custCode + d.strip()
                 g.add((m2CustomerCode, nypl.deliverableTo, d))
 
-z = open('../json-ld/m2CustomerCodes.json', 'wb')
-
 context = {"nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#",
            "nyplOrg": "http://data.nypl.org/orgs/",
            "customerCode": "http://data.nypl.org/m2CustomerCodes"}
-z.write(g.serialize(format="json-ld", context=context, encoding="utf-8"))
 
-z.close()
+sort_and_write_graph_to_file(g, context, 'm2CustomerCodes')
+
 f.close()
