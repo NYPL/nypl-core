@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.27
+
+- revert rcpd2 to non-special collection access type
+
 ### v2.26
 
 - add keys: pav32, rcpf2, mal42, rcpf9, pah38, mae92, sca0v, pazzz, maatv, pav22, sca, rcpr2, rcpr9
