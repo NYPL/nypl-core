@@ -5,6 +5,8 @@ from rdflib.namespace import RDF, SKOS
 from rdflib import Namespace, Graph
 import rdflib
 import csv
+from utils import sort_and_write_graph_to_file
+
 
 f = open('../csv/recordTypes.csv')
 reader = csv.DictReader(f)
@@ -28,15 +30,11 @@ for r in reader:
     g.add((recordType, SKOS.altLabel, altlabel))
     g.add((recordType, SKOS.notation, notation))
 
-
-z = open('../json-ld/recordTypes.json', 'wb')
-
 context = {
     "nypl": "http://data.nypl.org/nypl-core/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "recordType": 'http://data.nypl.org/recordTypes/'}
 
-z.write(g.serialize(format="json-ld", context=context, encoding="utf-8"))
+sort_and_write_graph_to_file(g, context, 'recordTypes')
 
-z.close()
 f.close()
