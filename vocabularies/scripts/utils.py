@@ -11,7 +11,7 @@ def sort_graph(graph, context):
 
 def write_graph(sorted_graph, data_type):
     out_file = open(f'../json-ld/{data_type}.json', 'w')
-    json.dump(sorted_graph, out_file, indent=4)
+    json.dump(sorted_graph, out_file, indent=2)
 
 
 def sort_and_write_graph_to_file(graph, context, data_type):

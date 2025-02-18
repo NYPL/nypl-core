@@ -1,1348 +1,1348 @@
 {
-    "@context": {
-        "nypl": "http://data.nypl.org/nypl-core/",
-        "nyplCatalogItemTypes": "http://data.nypl.org/catalogItemTypes/",
-        "skos": "http://www.w3.org/2004/02/skos/core#"
+  "@context": {
+    "nypl": "http://data.nypl.org/nypl-core/",
+    "nyplCatalogItemTypes": "http://data.nypl.org/catalogItemTypes/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@graph": [
+    {
+      "@id": "nyplCatalogItemTypes:0",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "0",
+      "skos:note": "Do Not Use",
+      "skos:prefLabel": "default"
     },
-    "@graph": [
-        {
-            "@id": "nyplCatalogItemTypes:0",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "0",
-            "skos:note": "Do Not Use",
-            "skos:prefLabel": "default"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:1",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "1",
-            "skos:note": "General Materials",
-            "skos:prefLabel": "non-circ"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:10",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "10",
-            "skos:prefLabel": "map, manuscript"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:101",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "101",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Book, circ"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:102",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "102",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Book, paperback"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:103",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "103",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Book, express"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:104",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "104",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Reference non-circ Book,PER,etc."
-        },
-        {
-            "@id": "nyplCatalogItemTypes:105",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "105",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Pamphlet"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:106",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "106",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Center for reading/writing"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:107",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "107",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Periodical, circ, serial"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:108",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "108",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Lpa score"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:109",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "109",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Lpa song index score"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:11",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "11",
-            "skos:note": "Service Copy",
-            "skos:prefLabel": "videorecording, non-circ"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:110",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "110",
-            "skos:note": "Adult",
-            "skos:prefLabel": "VHS"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:111",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "111",
-            "skos:note": "Adult",
-            "skos:prefLabel": "DVD"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:112",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "112",
-            "skos:note": "Adult",
-            "skos:prefLabel": "DVD express"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:113",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "113",
-            "skos:note": "Adult",
-            "skos:prefLabel": "VCD"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:114",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "114",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Compact disc"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:115",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "115",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Cd express"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:116",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "116",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Audiocassette"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:117",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "117",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Book, circ, 2-Week, New"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:118",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "118",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Recorded book"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:119",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "119",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Software"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:12",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "12",
-            "skos:note": "Service Copy",
-            "skos:prefLabel": "musical sound recording"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:120",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "120",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Picture"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:121",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "121",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Mixed media set"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:122",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "122",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Cd-rom"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:123",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "123",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Game express"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:124",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "124",
-            "skos:prefLabel": "E-nypl book"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:125",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "125",
-            "skos:prefLabel": "E-nypl audio book"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:126",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "126",
-            "skos:prefLabel": "E-nypl music"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:127",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "127",
-            "skos:prefLabel": "E-nypl video"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:128",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "128",
-            "skos:prefLabel": "Wireless laptop"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:129",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "129",
-            "skos:prefLabel": "Borrowed ILL"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:13",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "13",
-            "skos:note": "Service Copy",
-            "skos:prefLabel": "spoken sound recording"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:130",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "130",
-            "skos:prefLabel": "Equipment"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:131",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "131",
-            "skos:note": "On-The-Fly",
-            "skos:prefLabel": "Adult fast add item"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:132",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "132",
-            "skos:note": "LPA Only",
-            "skos:prefLabel": "RFVC - FILM"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:134",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "134",
-            "skos:note": "LPA Only",
-            "skos:prefLabel": "RFVC - VHS"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:135",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "135",
-            "skos:note": "LPA Only",
-            "skos:prefLabel": "RFVC - DVD"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:136",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "136",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Leased book 2-Week, New"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:137",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "137",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Leased book, express"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:138",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "138",
-            "skos:note": "Adult",
-            "skos:prefLabel": "Leased book, 3-week"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:139",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "139",
-            "skos:prefLabel": "Chrome book"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:14",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "14",
-            "skos:note": "Service Copy",
-            "skos:prefLabel": "moving image"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:140",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "140",
-            "skos:prefLabel": "Blu-ray"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:141",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "141",
-            "skos:prefLabel": "Blu-ray express"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:142",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": [
-                "Research",
-                "Branch"
-            ],
-            "skos:notation": "142",
-            "skos:prefLabel": "RFVC - LPA Blu-ray"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:143",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "143",
-            "skos:prefLabel": "ELL book, iZone at AG,IN,MH,SE"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:144",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "144",
-            "skos:note": "LPA Only",
-            "skos:prefLabel": "Lpa orchestra collection"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:15",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "15",
-            "skos:prefLabel": "flat graphic"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:150",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "150",
-            "skos:prefLabel": "Clear WiFi Access Point"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:155",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "155",
-            "skos:prefLabel": "Read-Along Book"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:16",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "16",
-            "skos:prefLabel": "computer file"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:17",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "17",
-            "skos:prefLabel": "kit"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:18",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "18",
-            "skos:prefLabel": "mixed medium collection"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:19",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "19",
-            "skos:prefLabel": "3-D object"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:2",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "2",
-            "skos:note": "General Bound Book",
-            "skos:prefLabel": "book non-circ"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:20",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "20",
-            "skos:prefLabel": "manuscript"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:201",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "201",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J book"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:202",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "202",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J recorded book"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:203",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "203",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J compact disc"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:204",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "204",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J cd-rom"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:205",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "205",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J audiocassette"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:206",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "206",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J DVD"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:207",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "207",
-            "skos:note": "Juvenile, ON-THE-FLY",
-            "skos:prefLabel": "J fast add item"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:208",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "208",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J game express"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:209",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "209",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J mixed media set"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:21",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "21",
-            "skos:note": "Print",
-            "skos:prefLabel": "archival material"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:210",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "210",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J long playing record"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:211",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "211",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J paperback"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:212",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "212",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J periodical"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:213",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "213",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J reference"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:214",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "214",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J software"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:215",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "215",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J videocassette"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:216",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "216",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J DVD express"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:217",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "217",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J Blu-ray"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:218",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "218",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J Blu-ray express"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:219",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "219",
-            "skos:note": "Juvenile",
-            "skos:prefLabel": "J ELL book at AG IN MH SE"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:22",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "22",
-            "skos:prefLabel": "clipping files"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:220",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "220",
-            "skos:prefLabel": "J pre-k book"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:221",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "221",
-            "skos:prefLabel": "J Tablet - LaunchPads"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:23",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "23",
-            "skos:note": "Preservation Copy",
-            "skos:prefLabel": "archival sound recording"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:230",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "230",
-            "skos:note": "Young Adult",
-            "skos:prefLabel": "YA DVD express"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:231",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "231",
-            "skos:note": "Young Adult",
-            "skos:prefLabel": "YA book"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:232",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "232",
-            "skos:note": "Young Adult",
-            "skos:prefLabel": "YA recorded book"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:233",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "233",
-            "skos:note": "Young Adult",
-            "skos:prefLabel": "YA CD"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:234",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "234",
-            "skos:note": "Young Adult",
-            "skos:prefLabel": "YA CD express"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:235",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "235",
-            "skos:note": "Young Adult",
-            "skos:prefLabel": "YA DVD"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:236",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "236",
-            "skos:note": "Young Adult",
-            "skos:prefLabel": "YA game express"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:237",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "237",
-            "skos:note": "Young Adult",
-            "skos:prefLabel": "YA pamphlet"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:238",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "238",
-            "skos:note": "Young Adult",
-            "skos:prefLabel": "YA paperback"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:239",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "239",
-            "skos:note": "Young Adult",
-            "skos:prefLabel": "YA periodical"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:24",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "24",
-            "skos:note": "Preservation Copy",
-            "skos:prefLabel": "archival video recording"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:240",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "240",
-            "skos:note": "Young Adult",
-            "skos:prefLabel": "YA Blu-ray"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:241",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "241",
-            "skos:note": "Young Adult",
-            "skos:prefLabel": "YA Blu-ray express"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:242",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "242",
-            "skos:note": "Young Adult",
-            "skos:prefLabel": "YA ELL book at AG IN MH SE"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:25",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "25",
-            "skos:prefLabel": "atlas"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:252",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "252",
-            "skos:note": "DOE Only",
-            "skos:prefLabel": "Teacher Set (DOE EDUCATOR ONLY)"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:253",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Branch",
-            "skos:notation": "253",
-            "skos:note": "DOE Only",
-            "skos:prefLabel": "Teacher Set Playaway"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:26",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "26",
-            "skos:prefLabel": "microfiche"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:27",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "27",
-            "skos:note": "A.O. (archival original)",
-            "skos:prefLabel": "preservation master negative"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:28",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "28",
-            "skos:note": "P.M.",
-            "skos:prefLabel": "printing master negative"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:29",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "29",
-            "skos:prefLabel": "bundled materials (vols.)"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:3",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "3",
-            "skos:note": "Periodicals etc.",
-            "skos:prefLabel": "serial"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:30",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "30",
-            "skos:prefLabel": "loose newspaper"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:31",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "31",
-            "skos:note": "Public Domain",
-            "skos:prefLabel": "google project, non-circ"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:32",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "32",
-            "skos:note": "Public Domain",
-            "skos:prefLabel": "google project, book"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:33",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "33",
-            "skos:note": "Public Domain",
-            "skos:prefLabel": "google project, serial"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:34",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "34",
-            "skos:prefLabel": "micro-opaque"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:35",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "35",
-            "skos:prefLabel": "cd-rom, dvd-rom"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:36",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "36",
-            "skos:prefLabel": "www based"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:37",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "37",
-            "skos:note": "A.O. ???",
-            "skos:prefLabel": "master recording"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:38",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "38",
-            "skos:prefLabel": "art and artifacts"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:39",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "skos:notation": "39",
-            "skos:prefLabel": "picture collection folder"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:4",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "4",
-            "skos:note": "Periodicals etc.",
-            "skos:prefLabel": "serial, loose"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:41",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "41",
-            "skos:note": "Public Domain",
-            "skos:prefLabel": "internet archive, non-circ"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:42",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "42",
-            "skos:note": "Public Domain",
-            "skos:prefLabel": "internet archive, book"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:43",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "43",
-            "skos:note": "Public Domain",
-            "skos:prefLabel": "internet archive, serial"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:5",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "5",
-            "skos:note": "Periodicals etc.",
-            "skos:prefLabel": "serial, loose, 1 hour"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:50",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "50",
-            "skos:note": "temporary item - ReCAP request",
-            "skos:prefLabel": "offsite requesting (ncip)"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:51",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "51",
-            "skos:note": "Public Domain",
-            "skos:prefLabel": "i-archive/google non-circ"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:52",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "52",
-            "skos:note": "Public Domain",
-            "skos:prefLabel": "i-archive/google monograph"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:53",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "53",
-            "skos:note": "Public Domain",
-            "skos:prefLabel": "i-archive/google serial"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:55",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "55",
-            "skos:note": "Leaves SASB",
-            "skos:prefLabel": "book, limited circ, MaRLI"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:57",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "57",
-            "skos:note": "Leaves SASB",
-            "skos:prefLabel": "printed music limited circ MaRLI"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:6",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "6",
-            "skos:prefLabel": "microfilm service copy"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:60",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "60",
-            "skos:prefLabel": "pamphlets, singles, 1-50 pages"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:61",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "61",
-            "skos:prefLabel": "pamphlet volumes, bound with"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:65",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "65",
-            "skos:note": "Conservation Candidate",
-            "skos:prefLabel": "book, good condition, non-MaRLI"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:66",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "66",
-            "skos:note": "Conservation Candidate",
-            "skos:prefLabel": "book, poor condition, non-MaRLI"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:67",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "67",
-            "skos:note": "Conservation Candidate",
-            "skos:prefLabel": "printed music, good, non-MaRLI"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:68",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "68",
-            "skos:note": "Conservation Candidate",
-            "skos:prefLabel": "printed music, poor, non-MaRLI"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:7",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "7",
-            "skos:prefLabel": "printed music, non-circ"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:72",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "72",
-            "skos:note": "LPA Only",
-            "skos:prefLabel": "rfvc - film"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:73",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "73",
-            "skos:note": "LPA Only",
-            "skos:prefLabel": "rfvc - film preservation"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:74",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "74",
-            "skos:note": "LPA Only",
-            "skos:prefLabel": "rfvc - vhs"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:75",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "75",
-            "skos:note": "LPA Only",
-            "skos:prefLabel": "dvd"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:76",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "76",
-            "skos:note": "LPA Only\tResearch",
-            "skos:prefLabel": "rfvc - lpa blu-ray"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:79",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "false"
-            },
-            "skos:notation": "79",
-            "skos:prefLabel": "Interlibrary Loan - Research"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:8",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "8",
-            "skos:prefLabel": "manuscript music"
-        },
-        {
-            "@id": "nyplCatalogItemTypes:9",
-            "@type": "nypl:CatalogItemType",
-            "nypl:collectionType": "Research",
-            "nypl:requestable": {
-                "@type": "XSD:boolean",
-                "@value": "true"
-            },
-            "skos:notation": "9",
-            "skos:prefLabel": "map"
-        }
-    ]
+    {
+      "@id": "nyplCatalogItemTypes:1",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "1",
+      "skos:note": "General Materials",
+      "skos:prefLabel": "non-circ"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:10",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "10",
+      "skos:prefLabel": "map, manuscript"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:101",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "101",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Book, circ"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:102",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "102",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Book, paperback"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:103",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "103",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Book, express"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:104",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "104",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Reference non-circ Book,PER,etc."
+    },
+    {
+      "@id": "nyplCatalogItemTypes:105",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "105",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Pamphlet"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:106",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "106",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Center for reading/writing"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:107",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "107",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Periodical, circ, serial"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:108",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "108",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Lpa score"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:109",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "109",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Lpa song index score"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:11",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "11",
+      "skos:note": "Service Copy",
+      "skos:prefLabel": "videorecording, non-circ"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:110",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "110",
+      "skos:note": "Adult",
+      "skos:prefLabel": "VHS"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:111",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "111",
+      "skos:note": "Adult",
+      "skos:prefLabel": "DVD"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:112",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "112",
+      "skos:note": "Adult",
+      "skos:prefLabel": "DVD express"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:113",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "113",
+      "skos:note": "Adult",
+      "skos:prefLabel": "VCD"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:114",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "114",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Compact disc"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:115",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "115",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Cd express"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:116",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "116",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Audiocassette"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:117",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "117",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Book, circ, 2-Week, New"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:118",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "118",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Recorded book"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:119",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "119",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Software"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:12",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "12",
+      "skos:note": "Service Copy",
+      "skos:prefLabel": "musical sound recording"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:120",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "120",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Picture"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:121",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "121",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Mixed media set"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:122",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "122",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Cd-rom"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:123",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "123",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Game express"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:124",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "124",
+      "skos:prefLabel": "E-nypl book"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:125",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "125",
+      "skos:prefLabel": "E-nypl audio book"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:126",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "126",
+      "skos:prefLabel": "E-nypl music"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:127",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "127",
+      "skos:prefLabel": "E-nypl video"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:128",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "128",
+      "skos:prefLabel": "Wireless laptop"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:129",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "129",
+      "skos:prefLabel": "Borrowed ILL"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:13",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "13",
+      "skos:note": "Service Copy",
+      "skos:prefLabel": "spoken sound recording"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:130",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "130",
+      "skos:prefLabel": "Equipment"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:131",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "131",
+      "skos:note": "On-The-Fly",
+      "skos:prefLabel": "Adult fast add item"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:132",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "132",
+      "skos:note": "LPA Only",
+      "skos:prefLabel": "RFVC - FILM"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:134",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "134",
+      "skos:note": "LPA Only",
+      "skos:prefLabel": "RFVC - VHS"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:135",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "135",
+      "skos:note": "LPA Only",
+      "skos:prefLabel": "RFVC - DVD"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:136",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "136",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Leased book 2-Week, New"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:137",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "137",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Leased book, express"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:138",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "138",
+      "skos:note": "Adult",
+      "skos:prefLabel": "Leased book, 3-week"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:139",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "139",
+      "skos:prefLabel": "Chrome book"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:14",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "14",
+      "skos:note": "Service Copy",
+      "skos:prefLabel": "moving image"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:140",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "140",
+      "skos:prefLabel": "Blu-ray"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:141",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "141",
+      "skos:prefLabel": "Blu-ray express"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:142",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": [
+        "Research",
+        "Branch"
+      ],
+      "skos:notation": "142",
+      "skos:prefLabel": "RFVC - LPA Blu-ray"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:143",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "143",
+      "skos:prefLabel": "ELL book, iZone at AG,IN,MH,SE"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:144",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "144",
+      "skos:note": "LPA Only",
+      "skos:prefLabel": "Lpa orchestra collection"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:15",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "15",
+      "skos:prefLabel": "flat graphic"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:150",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "150",
+      "skos:prefLabel": "Clear WiFi Access Point"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:155",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "155",
+      "skos:prefLabel": "Read-Along Book"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:16",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "16",
+      "skos:prefLabel": "computer file"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:17",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "17",
+      "skos:prefLabel": "kit"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:18",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "18",
+      "skos:prefLabel": "mixed medium collection"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:19",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "19",
+      "skos:prefLabel": "3-D object"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:2",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "2",
+      "skos:note": "General Bound Book",
+      "skos:prefLabel": "book non-circ"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:20",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "20",
+      "skos:prefLabel": "manuscript"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:201",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "201",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J book"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:202",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "202",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J recorded book"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:203",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "203",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J compact disc"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:204",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "204",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J cd-rom"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:205",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "205",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J audiocassette"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:206",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "206",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J DVD"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:207",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "207",
+      "skos:note": "Juvenile, ON-THE-FLY",
+      "skos:prefLabel": "J fast add item"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:208",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "208",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J game express"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:209",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "209",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J mixed media set"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:21",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "21",
+      "skos:note": "Print",
+      "skos:prefLabel": "archival material"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:210",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "210",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J long playing record"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:211",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "211",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J paperback"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:212",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "212",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J periodical"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:213",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "213",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J reference"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:214",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "214",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J software"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:215",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "215",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J videocassette"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:216",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "216",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J DVD express"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:217",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "217",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J Blu-ray"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:218",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "218",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J Blu-ray express"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:219",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "219",
+      "skos:note": "Juvenile",
+      "skos:prefLabel": "J ELL book at AG IN MH SE"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:22",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "22",
+      "skos:prefLabel": "clipping files"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:220",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "220",
+      "skos:prefLabel": "J pre-k book"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:221",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "221",
+      "skos:prefLabel": "J Tablet - LaunchPads"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:23",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "23",
+      "skos:note": "Preservation Copy",
+      "skos:prefLabel": "archival sound recording"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:230",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "230",
+      "skos:note": "Young Adult",
+      "skos:prefLabel": "YA DVD express"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:231",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "231",
+      "skos:note": "Young Adult",
+      "skos:prefLabel": "YA book"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:232",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "232",
+      "skos:note": "Young Adult",
+      "skos:prefLabel": "YA recorded book"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:233",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "233",
+      "skos:note": "Young Adult",
+      "skos:prefLabel": "YA CD"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:234",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "234",
+      "skos:note": "Young Adult",
+      "skos:prefLabel": "YA CD express"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:235",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "235",
+      "skos:note": "Young Adult",
+      "skos:prefLabel": "YA DVD"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:236",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "236",
+      "skos:note": "Young Adult",
+      "skos:prefLabel": "YA game express"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:237",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "237",
+      "skos:note": "Young Adult",
+      "skos:prefLabel": "YA pamphlet"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:238",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "238",
+      "skos:note": "Young Adult",
+      "skos:prefLabel": "YA paperback"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:239",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "239",
+      "skos:note": "Young Adult",
+      "skos:prefLabel": "YA periodical"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:24",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "24",
+      "skos:note": "Preservation Copy",
+      "skos:prefLabel": "archival video recording"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:240",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "240",
+      "skos:note": "Young Adult",
+      "skos:prefLabel": "YA Blu-ray"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:241",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "241",
+      "skos:note": "Young Adult",
+      "skos:prefLabel": "YA Blu-ray express"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:242",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "242",
+      "skos:note": "Young Adult",
+      "skos:prefLabel": "YA ELL book at AG IN MH SE"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:25",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "25",
+      "skos:prefLabel": "atlas"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:252",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "252",
+      "skos:note": "DOE Only",
+      "skos:prefLabel": "Teacher Set (DOE EDUCATOR ONLY)"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:253",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Branch",
+      "skos:notation": "253",
+      "skos:note": "DOE Only",
+      "skos:prefLabel": "Teacher Set Playaway"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:26",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "26",
+      "skos:prefLabel": "microfiche"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:27",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "27",
+      "skos:note": "A.O. (archival original)",
+      "skos:prefLabel": "preservation master negative"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:28",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "28",
+      "skos:note": "P.M.",
+      "skos:prefLabel": "printing master negative"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:29",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "29",
+      "skos:prefLabel": "bundled materials (vols.)"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:3",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "3",
+      "skos:note": "Periodicals etc.",
+      "skos:prefLabel": "serial"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:30",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "30",
+      "skos:prefLabel": "loose newspaper"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:31",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "31",
+      "skos:note": "Public Domain",
+      "skos:prefLabel": "google project, non-circ"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:32",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "32",
+      "skos:note": "Public Domain",
+      "skos:prefLabel": "google project, book"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:33",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "33",
+      "skos:note": "Public Domain",
+      "skos:prefLabel": "google project, serial"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:34",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "34",
+      "skos:prefLabel": "micro-opaque"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:35",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "35",
+      "skos:prefLabel": "cd-rom, dvd-rom"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:36",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "36",
+      "skos:prefLabel": "www based"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:37",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "37",
+      "skos:note": "A.O. ???",
+      "skos:prefLabel": "master recording"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:38",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "38",
+      "skos:prefLabel": "art and artifacts"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:39",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "skos:notation": "39",
+      "skos:prefLabel": "picture collection folder"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:4",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "4",
+      "skos:note": "Periodicals etc.",
+      "skos:prefLabel": "serial, loose"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:41",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "41",
+      "skos:note": "Public Domain",
+      "skos:prefLabel": "internet archive, non-circ"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:42",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "42",
+      "skos:note": "Public Domain",
+      "skos:prefLabel": "internet archive, book"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:43",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "43",
+      "skos:note": "Public Domain",
+      "skos:prefLabel": "internet archive, serial"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:5",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "5",
+      "skos:note": "Periodicals etc.",
+      "skos:prefLabel": "serial, loose, 1 hour"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:50",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "50",
+      "skos:note": "temporary item - ReCAP request",
+      "skos:prefLabel": "offsite requesting (ncip)"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:51",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "51",
+      "skos:note": "Public Domain",
+      "skos:prefLabel": "i-archive/google non-circ"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:52",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "52",
+      "skos:note": "Public Domain",
+      "skos:prefLabel": "i-archive/google monograph"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:53",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "53",
+      "skos:note": "Public Domain",
+      "skos:prefLabel": "i-archive/google serial"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:55",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "55",
+      "skos:note": "Leaves SASB",
+      "skos:prefLabel": "book, limited circ, MaRLI"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:57",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "57",
+      "skos:note": "Leaves SASB",
+      "skos:prefLabel": "printed music limited circ MaRLI"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:6",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "6",
+      "skos:prefLabel": "microfilm service copy"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:60",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "60",
+      "skos:prefLabel": "pamphlets, singles, 1-50 pages"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:61",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "61",
+      "skos:prefLabel": "pamphlet volumes, bound with"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:65",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "65",
+      "skos:note": "Conservation Candidate",
+      "skos:prefLabel": "book, good condition, non-MaRLI"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:66",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "66",
+      "skos:note": "Conservation Candidate",
+      "skos:prefLabel": "book, poor condition, non-MaRLI"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:67",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "67",
+      "skos:note": "Conservation Candidate",
+      "skos:prefLabel": "printed music, good, non-MaRLI"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:68",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "68",
+      "skos:note": "Conservation Candidate",
+      "skos:prefLabel": "printed music, poor, non-MaRLI"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:7",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "7",
+      "skos:prefLabel": "printed music, non-circ"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:72",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "72",
+      "skos:note": "LPA Only",
+      "skos:prefLabel": "rfvc - film"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:73",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "73",
+      "skos:note": "LPA Only",
+      "skos:prefLabel": "rfvc - film preservation"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:74",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "74",
+      "skos:note": "LPA Only",
+      "skos:prefLabel": "rfvc - vhs"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:75",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "75",
+      "skos:note": "LPA Only",
+      "skos:prefLabel": "dvd"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:76",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "76",
+      "skos:note": "LPA Only\tResearch",
+      "skos:prefLabel": "rfvc - lpa blu-ray"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:79",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:notation": "79",
+      "skos:prefLabel": "Interlibrary Loan - Research"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:8",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "8",
+      "skos:prefLabel": "manuscript music"
+    },
+    {
+      "@id": "nyplCatalogItemTypes:9",
+      "@type": "nypl:CatalogItemType",
+      "nypl:collectionType": "Research",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "9",
+      "skos:prefLabel": "map"
+    }
+  ]
 }
