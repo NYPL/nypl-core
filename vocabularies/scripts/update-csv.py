@@ -60,6 +60,8 @@ def get_updated_vocabulary(target, new):
             if update_data_row[property] == '':
                 # don't overwrite values that are not provided
                 continue
+            if target.get(key)[property] == "REMOVE_VALUE":
+                update_data_row[property] = ''
             # spreadsheets automatically convert booleans to all caps. Let's
             # make the transistion painless for all.
             if update_data_row[property] == "TRUE" or update_data_row[property] == "FALSE":
