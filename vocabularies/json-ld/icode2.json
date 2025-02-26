@@ -7,24 +7,14 @@
   },
   "@graph": [
     {
-      "@id": "icode2:-",
-      "@type": "nypl:Icode2",
-      "nypl:suppressed": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:notation": "-",
-      "skos:prefLabel": "---"
-    },
-    {
-      "@id": "icode2:d",
+      "@id": "icode2:w",
       "@type": "nypl:Icode2",
       "nypl:suppressed": {
         "@type": "XSD:boolean",
         "@value": "true"
       },
-      "skos:notation": "d",
-      "skos:prefLabel": "CLOSED BRANCH"
+      "skos:notation": "w",
+      "skos:prefLabel": "WITHDRAWN"
     },
     {
       "@id": "icode2:m",
@@ -35,6 +25,36 @@
       },
       "skos:notation": "m",
       "skos:prefLabel": "M2 MOD"
+    },
+    {
+      "@id": "icode2:s",
+      "@type": "nypl:Icode2",
+      "nypl:suppressed": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "s",
+      "skos:prefLabel": "SUPPRESS"
+    },
+    {
+      "@id": "icode2:p",
+      "@type": "nypl:Icode2",
+      "nypl:suppressed": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "p",
+      "skos:prefLabel": "ARCHIVAL SUPPRESS"
+    },
+    {
+      "@id": "icode2:d",
+      "@type": "nypl:Icode2",
+      "nypl:suppressed": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:notation": "d",
+      "skos:prefLabel": "CLOSED BRANCH"
     },
     {
       "@id": "icode2:n",
@@ -57,34 +77,14 @@
       "skos:prefLabel": "TSD TO MILSTEIN 2"
     },
     {
-      "@id": "icode2:p",
+      "@id": "icode2:-",
       "@type": "nypl:Icode2",
       "nypl:suppressed": {
         "@type": "XSD:boolean",
-        "@value": "true"
+        "@value": "false"
       },
-      "skos:notation": "p",
-      "skos:prefLabel": "ARCHIVAL SUPPRESS"
-    },
-    {
-      "@id": "icode2:s",
-      "@type": "nypl:Icode2",
-      "nypl:suppressed": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
-      "skos:notation": "s",
-      "skos:prefLabel": "SUPPRESS"
-    },
-    {
-      "@id": "icode2:w",
-      "@type": "nypl:Icode2",
-      "nypl:suppressed": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
-      "skos:notation": "w",
-      "skos:prefLabel": "WITHDRAWN"
+      "skos:notation": "-",
+      "skos:prefLabel": "---"
     }
   ]
 }

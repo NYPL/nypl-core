@@ -8,133 +8,6 @@
   },
   "@graph": [
     {
-      "@id": "ptype:0",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "0",
-      "skos:prefLabel": "Undefined (Do Not Use)"
-    },
-    {
-      "@id": "ptype:1",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "1",
-      "skos:prefLabel": "Web Applicant (No Borrowing)"
-    },
-    {
-      "@id": "ptype:10",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "10",
-      "skos:prefLabel": "Adult 18-64 Metro (3 Year)"
-    },
-    {
-      "@id": "ptype:100",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "100",
-      "skos:prefLabel": "INACTIVE PATRON"
-    },
-    {
-      "@id": "ptype:101",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "101",
-      "skos:prefLabel": "PENDING DISPUTE"
-    },
-    {
-      "@id": "ptype:106",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": [
-        "Research",
-        "Scholar"
-      ],
-      "skos:notation": "106",
-      "skos:prefLabel": "NYPL Department"
-    },
-    {
-      "@id": "ptype:107",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "107",
-      "skos:prefLabel": "Partner Card - Columbia"
-    },
-    {
-      "@id": "ptype:108",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "108",
-      "skos:prefLabel": "Partner Card - Princeton"
-    },
-    {
-      "@id": "ptype:11",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "11",
-      "skos:prefLabel": "Adult 18-64 NY State (3 Year)"
-    },
-    {
-      "@id": "ptype:116",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "116",
-      "skos:prefLabel": "NYPL Retiree, Non-NYS (3 Year)"
-    },
-    {
-      "@id": "ptype:120",
-      "@type": "nypl:PatronType",
-      "skos:notation": "120",
-      "skos:prefLabel": "Easy Borrowing AdultPilot"
-    },
-    {
-      "@id": "ptype:121",
-      "@type": "nypl:PatronType",
-      "skos:notation": "121",
-      "skos:prefLabel": "Easy Borrowing SeniorPilot"
-    },
-    {
-      "@id": "ptype:149",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "149",
-      "skos:prefLabel": "MyLibraryNYC Educator Queens"
-    },
-    {
-      "@id": "ptype:150",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "150",
-      "skos:prefLabel": "MyLibNYC Child 0-12 All Access"
-    },
-    {
-      "@id": "ptype:151",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "151",
-      "skos:prefLabel": "MyLibraryNYC Educator"
-    },
-    {
-      "@id": "ptype:152",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "152",
-      "skos:prefLabel": "MyLibNYC Child 0-12 JuvItem Only"
-    },
-    {
-      "@id": "ptype:153",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "153",
-      "skos:prefLabel": "MyLibraryNYC 13-17 Teen"
-    },
-    {
-      "@id": "ptype:2",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "2",
-      "skos:prefLabel": "SimplyE Metro"
-    },
-    {
       "@id": "ptype:3",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": "Research",
@@ -142,91 +15,18 @@
       "skos:prefLabel": "SimplyE Non-Metro"
     },
     {
-      "@id": "ptype:30",
+      "@id": "ptype:94",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "30",
-      "skos:prefLabel": "Senior, 65+, Metro (3 Year)"
+      "skos:notation": "94",
+      "skos:prefLabel": "MaRLI NYU"
     },
     {
-      "@id": "ptype:31",
+      "@id": "ptype:95",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "31",
-      "skos:prefLabel": "Senior, 65+, NY State (3 Year)"
-    },
-    {
-      "@id": "ptype:50",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "50",
-      "skos:prefLabel": "Teen 13-17 Metro"
-    },
-    {
-      "@id": "ptype:51",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "51",
-      "skos:prefLabel": "Teen 13-17 NY State"
-    },
-    {
-      "@id": "ptype:60",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "60",
-      "skos:prefLabel": "Child 0-12 Juv Only Metro"
-    },
-    {
-      "@id": "ptype:61",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "61",
-      "skos:prefLabel": "Child 0-12 All Access Metro"
-    },
-    {
-      "@id": "ptype:62",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "62",
-      "skos:prefLabel": "Child 0-12 Juv Only NY State"
-    },
-    {
-      "@id": "ptype:63",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "63",
-      "skos:prefLabel": "Child 0-12 All Access NY State"
-    },
-    {
-      "@id": "ptype:70",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "70",
-      "skos:prefLabel": "Disabled Metro NY (3 Year)"
-    },
-    {
-      "@id": "ptype:72",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "72",
-      "skos:prefLabel": "Homebound NYC (3 Year)"
-    },
-    {
-      "@id": "ptype:73",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "73",
-      "skos:prefLabel": "Homebound Juv Only NYC (3 Year)"
-    },
-    {
-      "@id": "ptype:75",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": [
-        "Research",
-        "Scholar"
-      ],
-      "skos:notation": "75",
-      "skos:prefLabel": "Schomburg Scholar"
+      "skos:notation": "95",
+      "skos:prefLabel": "MaRLI Columbia"
     },
     {
       "@id": "ptype:76",
@@ -242,17 +42,39 @@
       "skos:prefLabel": "SASB Scholar RM 217"
     },
     {
-      "@id": "ptype:77",
+      "@id": "ptype:62",
       "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": [
-        "Research",
-        "Scholar"
-      ],
-      "nypl:scholarRoom": {
-        "@id": "nyplLocation:mal23"
-      },
-      "skos:notation": "77",
-      "skos:prefLabel": "SASB Scholar RM 223"
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "62",
+      "skos:prefLabel": "Child 0-12 Juv Only NY State"
+    },
+    {
+      "@id": "ptype:11",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "11",
+      "skos:prefLabel": "Adult 18-64 NY State (3 Year)"
+    },
+    {
+      "@id": "ptype:152",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "152",
+      "skos:prefLabel": "MyLibNYC Child 0-12 JuvItem Only"
+    },
+    {
+      "@id": "ptype:116",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "116",
+      "skos:prefLabel": "NYPL Retiree, Non-NYS (3 Year)"
+    },
+    {
+      "@id": "ptype:2",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "2",
+      "skos:prefLabel": "SimplyE Metro"
     },
     {
       "@id": "ptype:78",
@@ -263,51 +85,6 @@
       ],
       "skos:notation": "78",
       "skos:prefLabel": "Short Term Scholar"
-    },
-    {
-      "@id": "ptype:80",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "80",
-      "skos:prefLabel": "CUNY Graduate Center (9/30)"
-    },
-    {
-      "@id": "ptype:81",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "81",
-      "skos:prefLabel": "MaRLI (9/30)"
-    },
-    {
-      "@id": "ptype:82",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": [
-        "Research",
-        "Scholar"
-      ],
-      "skos:notation": "82",
-      "skos:prefLabel": "Scholar"
-    },
-    {
-      "@id": "ptype:83",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "83",
-      "skos:prefLabel": "Temporary (3 Day Research Only)"
-    },
-    {
-      "@id": "ptype:84",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "84",
-      "skos:prefLabel": "Visitor (3 Month Limited Use)"
-    },
-    {
-      "@id": "ptype:85",
-      "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "85",
-      "skos:prefLabel": "ILL - Research"
     },
     {
       "@id": "ptype:86",
@@ -323,6 +100,34 @@
       "skos:prefLabel": "Wertheim Scholar"
     },
     {
+      "@id": "ptype:61",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "61",
+      "skos:prefLabel": "Child 0-12 All Access Metro"
+    },
+    {
+      "@id": "ptype:63",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "63",
+      "skos:prefLabel": "Child 0-12 All Access NY State"
+    },
+    {
+      "@id": "ptype:80",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "80",
+      "skos:prefLabel": "CUNY Graduate Center (9/30)"
+    },
+    {
+      "@id": "ptype:151",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "151",
+      "skos:prefLabel": "MyLibraryNYC Educator"
+    },
+    {
       "@id": "ptype:87",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": [
@@ -336,17 +141,64 @@
       "skos:prefLabel": "Allen Scholar"
     },
     {
-      "@id": "ptype:88",
+      "@id": "ptype:108",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "108",
+      "skos:prefLabel": "Partner Card - Princeton"
+    },
+    {
+      "@id": "ptype:153",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "153",
+      "skos:prefLabel": "MyLibraryNYC 13-17 Teen"
+    },
+    {
+      "@id": "ptype:51",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "51",
+      "skos:prefLabel": "Teen 13-17 NY State"
+    },
+    {
+      "@id": "ptype:77",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": [
         "Research",
         "Scholar"
       ],
       "nypl:scholarRoom": {
-        "@id": "nyplLocation:maln"
+        "@id": "nyplLocation:mal23"
       },
-      "skos:notation": "88",
-      "skos:prefLabel": "Shoichi Noma Scholar"
+      "skos:notation": "77",
+      "skos:prefLabel": "SASB Scholar RM 223"
+    },
+    {
+      "@id": "ptype:120",
+      "@type": "nypl:PatronType",
+      "skos:notation": "120",
+      "skos:prefLabel": "Easy Borrowing AdultPilot"
+    },
+    {
+      "@id": "ptype:72",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "72",
+      "skos:prefLabel": "Homebound NYC (3 Year)"
+    },
+    {
+      "@id": "ptype:121",
+      "@type": "nypl:PatronType",
+      "skos:notation": "121",
+      "skos:prefLabel": "Easy Borrowing SeniorPilot"
+    },
+    {
+      "@id": "ptype:30",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "30",
+      "skos:prefLabel": "Senior, 65+, Metro (3 Year)"
     },
     {
       "@id": "ptype:89",
@@ -362,18 +214,35 @@
       "skos:prefLabel": "Cullman Scholar"
     },
     {
-      "@id": "ptype:90",
+      "@id": "ptype:75",
       "@type": "nypl:PatronType",
-      "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "90",
-      "skos:prefLabel": "Organization (1 Year Only)"
+      "nypl:deliveryLocationAccess": [
+        "Research",
+        "Scholar"
+      ],
+      "skos:notation": "75",
+      "skos:prefLabel": "Schomburg Scholar"
     },
     {
-      "@id": "ptype:91",
+      "@id": "ptype:10",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "91",
-      "skos:prefLabel": "(Non-MyLibraryNYC) NYC Educator"
+      "skos:notation": "10",
+      "skos:prefLabel": "Adult 18-64 Metro (3 Year)"
+    },
+    {
+      "@id": "ptype:150",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "150",
+      "skos:prefLabel": "MyLibNYC Child 0-12 All Access"
+    },
+    {
+      "@id": "ptype:70",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "70",
+      "skos:prefLabel": "Disabled Metro NY (3 Year)"
     },
     {
       "@id": "ptype:93",
@@ -383,18 +252,149 @@
       "skos:prefLabel": "Research Borrower"
     },
     {
-      "@id": "ptype:94",
+      "@id": "ptype:90",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "94",
-      "skos:prefLabel": "MaRLI NYU"
+      "skos:notation": "90",
+      "skos:prefLabel": "Organization (1 Year Only)"
     },
     {
-      "@id": "ptype:95",
+      "@id": "ptype:0",
       "@type": "nypl:PatronType",
       "nypl:deliveryLocationAccess": "Research",
-      "skos:notation": "95",
-      "skos:prefLabel": "MaRLI Columbia"
+      "skos:notation": "0",
+      "skos:prefLabel": "Undefined (Do Not Use)"
+    },
+    {
+      "@id": "ptype:88",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": [
+        "Research",
+        "Scholar"
+      ],
+      "nypl:scholarRoom": {
+        "@id": "nyplLocation:maln"
+      },
+      "skos:notation": "88",
+      "skos:prefLabel": "Shoichi Noma Scholar"
+    },
+    {
+      "@id": "ptype:101",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "101",
+      "skos:prefLabel": "PENDING DISPUTE"
+    },
+    {
+      "@id": "ptype:85",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "85",
+      "skos:prefLabel": "ILL - Research"
+    },
+    {
+      "@id": "ptype:81",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "81",
+      "skos:prefLabel": "MaRLI (9/30)"
+    },
+    {
+      "@id": "ptype:50",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "50",
+      "skos:prefLabel": "Teen 13-17 Metro"
+    },
+    {
+      "@id": "ptype:149",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "149",
+      "skos:prefLabel": "MyLibraryNYC Educator Queens"
+    },
+    {
+      "@id": "ptype:73",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "73",
+      "skos:prefLabel": "Homebound Juv Only NYC (3 Year)"
+    },
+    {
+      "@id": "ptype:1",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "1",
+      "skos:prefLabel": "Web Applicant (No Borrowing)"
+    },
+    {
+      "@id": "ptype:107",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "107",
+      "skos:prefLabel": "Partner Card - Columbia"
+    },
+    {
+      "@id": "ptype:100",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "100",
+      "skos:prefLabel": "INACTIVE PATRON"
+    },
+    {
+      "@id": "ptype:60",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "60",
+      "skos:prefLabel": "Child 0-12 Juv Only Metro"
+    },
+    {
+      "@id": "ptype:83",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "83",
+      "skos:prefLabel": "Temporary (3 Day Research Only)"
+    },
+    {
+      "@id": "ptype:106",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": [
+        "Research",
+        "Scholar"
+      ],
+      "skos:notation": "106",
+      "skos:prefLabel": "NYPL Department"
+    },
+    {
+      "@id": "ptype:91",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "91",
+      "skos:prefLabel": "(Non-MyLibraryNYC) NYC Educator"
+    },
+    {
+      "@id": "ptype:84",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "84",
+      "skos:prefLabel": "Visitor (3 Month Limited Use)"
+    },
+    {
+      "@id": "ptype:31",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": "Research",
+      "skos:notation": "31",
+      "skos:prefLabel": "Senior, 65+, NY State (3 Year)"
+    },
+    {
+      "@id": "ptype:82",
+      "@type": "nypl:PatronType",
+      "nypl:deliveryLocationAccess": [
+        "Research",
+        "Scholar"
+      ],
+      "skos:notation": "82",
+      "skos:prefLabel": "Scholar"
     }
   ]
 }

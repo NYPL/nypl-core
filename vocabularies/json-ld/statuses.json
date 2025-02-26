@@ -6,149 +6,15 @@
   },
   "@graph": [
     {
-      "@id": "nyplStatus:a",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
-      "skos:altLabel": "AVAILABLE",
-      "skos:notation": "-",
-      "skos:note": "for Sierra code \"-\", if hold present or if due date present, then requestable=false",
-      "skos:prefLabel": "Available"
-    },
-    {
-      "@id": "nyplStatus:b",
+      "@id": "nyplStatus:s",
       "@type": "nypl:Status",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
       },
-      "skos:altLabel": "New-in process",
-      "skos:notation": "b",
-      "skos:prefLabel": "New-in process"
-    },
-    {
-      "@id": "nyplStatus:c",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "Closed branch",
-      "skos:notation": "c",
-      "skos:prefLabel": "Closed branch"
-    },
-    {
-      "@id": "nyplStatus:co",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
-      "skos:altLabel": "Loaned",
-      "skos:notation": "-",
-      "skos:note": "determine id=co how? for Sierra code \"-\", if hold present or if due date present, then requestable=false",
-      "skos:prefLabel": "Loaned"
-    },
-    {
-      "@id": "nyplStatus:d",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "Damaged",
-      "skos:notation": "d",
-      "skos:prefLabel": "Damaged"
-    },
-    {
-      "@id": "nyplStatus:e",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "On exhibit",
-      "skos:notation": "e",
-      "skos:prefLabel": "On exhibit"
-    },
-    {
-      "@id": "nyplStatus:f",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "Being filmed",
-      "skos:notation": "f",
-      "skos:prefLabel": "Being filmed"
-    },
-    {
-      "@id": "nyplStatus:g",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "Storage",
-      "skos:notation": "g",
-      "skos:prefLabel": "Storage"
-    },
-    {
-      "@id": "nyplStatus:h",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "Phone request",
-      "skos:notation": "h",
-      "skos:prefLabel": "Phone request"
-    },
-    {
-      "@id": "nyplStatus:i",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "At bindery",
-      "skos:notation": "i",
-      "skos:prefLabel": "At bindery"
-    },
-    {
-      "@id": "nyplStatus:il",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "ILL RETURNED",
-      "skos:notation": "%",
-      "skos:prefLabel": "ILL returned"
-    },
-    {
-      "@id": "nyplStatus:j",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "Overflow",
-      "skos:notation": "j",
-      "skos:prefLabel": "Overflow"
-    },
-    {
-      "@id": "nyplStatus:k",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "Check with staff",
-      "skos:notation": "k",
-      "skos:prefLabel": "Check with staff"
+      "skos:altLabel": "Staff use",
+      "skos:notation": "~",
+      "skos:prefLabel": "Staff use"
     },
     {
       "@id": "nyplStatus:l",
@@ -162,15 +28,15 @@
       "skos:prefLabel": "Lost in inventory"
     },
     {
-      "@id": "nyplStatus:lp",
+      "@id": "nyplStatus:p",
       "@type": "nypl:Status",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
       },
-      "skos:altLabel": "Lost and paid",
-      "skos:notation": "$",
-      "skos:prefLabel": "Lost and paid"
+      "skos:altLabel": "Noncirculating",
+      "skos:notation": "p",
+      "skos:prefLabel": "Noncirculating"
     },
     {
       "@id": "nyplStatus:m",
@@ -184,6 +50,39 @@
       "skos:prefLabel": "Missing"
     },
     {
+      "@id": "nyplStatus:b",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "New-in process",
+      "skos:notation": "b",
+      "skos:prefLabel": "New-in process"
+    },
+    {
+      "@id": "nyplStatus:lp",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "Lost and paid",
+      "skos:notation": "$",
+      "skos:prefLabel": "Lost and paid"
+    },
+    {
+      "@id": "nyplStatus:c",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "Closed branch",
+      "skos:notation": "c",
+      "skos:prefLabel": "Closed branch"
+    },
+    {
       "@id": "nyplStatus:mt",
       "@type": "nypl:Status",
       "nypl:requestable": {
@@ -193,62 +92,6 @@
       "skos:altLabel": "MISSING IN TRANSIT",
       "skos:notation": "?",
       "skos:prefLabel": "Missing in transit"
-    },
-    {
-      "@id": "nyplStatus:n",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "BILLED",
-      "skos:notation": "n",
-      "skos:prefLabel": "Billed "
-    },
-    {
-      "@id": "nyplStatus:na",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "Not available",
-      "skos:notation": "na",
-      "skos:prefLabel": "Not available"
-    },
-    {
-      "@id": "nyplStatus:o",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "USE IN LIBRARY",
-      "skos:notation": "o",
-      "skos:note": "updated 20171001",
-      "skos:prefLabel": "Use in library"
-    },
-    {
-      "@id": "nyplStatus:oh",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
-      "skos:altLabel": "ON HOLDSHELF",
-      "skos:notation": "!",
-      "skos:prefLabel": "On Holdshelf"
-    },
-    {
-      "@id": "nyplStatus:p",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "skos:altLabel": "Noncirculating",
-      "skos:notation": "p",
-      "skos:prefLabel": "Noncirculating"
     },
     {
       "@id": "nyplStatus:r",
@@ -262,15 +105,81 @@
       "skos:prefLabel": "Loaned (ReCAP)"
     },
     {
-      "@id": "nyplStatus:s",
+      "@id": "nyplStatus:t",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:altLabel": "IN TRANSIT",
+      "skos:notation": "t",
+      "skos:prefLabel": "In transit"
+    },
+    {
+      "@id": "nyplStatus:e",
       "@type": "nypl:Status",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
       },
-      "skos:altLabel": "Staff use",
-      "skos:notation": "~",
-      "skos:prefLabel": "Staff use"
+      "skos:altLabel": "On exhibit",
+      "skos:notation": "e",
+      "skos:prefLabel": "On exhibit"
+    },
+    {
+      "@id": "nyplStatus:h",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "Phone request",
+      "skos:notation": "h",
+      "skos:prefLabel": "Phone request"
+    },
+    {
+      "@id": "nyplStatus:u",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "Temporarily unavailable",
+      "skos:notation": "u",
+      "skos:prefLabel": "Temporarily unavailable"
+    },
+    {
+      "@id": "nyplStatus:d",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "Damaged",
+      "skos:notation": "d",
+      "skos:prefLabel": "Damaged"
+    },
+    {
+      "@id": "nyplStatus:na",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "Not available",
+      "skos:notation": "na",
+      "skos:prefLabel": "Not available"
+    },
+    {
+      "@id": "nyplStatus:j",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "Overflow",
+      "skos:notation": "j",
+      "skos:prefLabel": "Overflow"
     },
     {
       "@id": "nyplStatus:su",
@@ -285,26 +194,82 @@
       "skos:prefLabel": "Supervised use"
     },
     {
-      "@id": "nyplStatus:t",
-      "@type": "nypl:Status",
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "true"
-      },
-      "skos:altLabel": "IN TRANSIT",
-      "skos:notation": "t",
-      "skos:prefLabel": "In transit"
-    },
-    {
-      "@id": "nyplStatus:u",
+      "@id": "nyplStatus:f",
       "@type": "nypl:Status",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
       },
-      "skos:altLabel": "Temporarily unavailable",
-      "skos:notation": "u",
-      "skos:prefLabel": "Temporarily unavailable"
+      "skos:altLabel": "Being filmed",
+      "skos:notation": "f",
+      "skos:prefLabel": "Being filmed"
+    },
+    {
+      "@id": "nyplStatus:n",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "BILLED",
+      "skos:notation": "n",
+      "skos:prefLabel": "Billed "
+    },
+    {
+      "@id": "nyplStatus:i",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "At bindery",
+      "skos:notation": "i",
+      "skos:prefLabel": "At bindery"
+    },
+    {
+      "@id": "nyplStatus:oh",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:altLabel": "ON HOLDSHELF",
+      "skos:notation": "!",
+      "skos:prefLabel": "On Holdshelf"
+    },
+    {
+      "@id": "nyplStatus:z",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "DISPUTED ITEM",
+      "skos:notation": "z",
+      "skos:prefLabel": "Disputed Item"
+    },
+    {
+      "@id": "nyplStatus:a",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:altLabel": "AVAILABLE",
+      "skos:notation": "-",
+      "skos:note": "for Sierra code \"-\", if hold present or if due date present, then requestable=false",
+      "skos:prefLabel": "Available"
+    },
+    {
+      "@id": "nyplStatus:g",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "Storage",
+      "skos:notation": "g",
+      "skos:prefLabel": "Storage"
     },
     {
       "@id": "nyplStatus:v",
@@ -329,6 +294,17 @@
       "skos:prefLabel": "Withdrawn"
     },
     {
+      "@id": "nyplStatus:il",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "ILL RETURNED",
+      "skos:notation": "%",
+      "skos:prefLabel": "ILL returned"
+    },
+    {
       "@id": "nyplStatus:x",
       "@type": "nypl:Status",
       "skos:altLabel": "MML REQUEST",
@@ -336,15 +312,39 @@
       "skos:prefLabel": "Mid-Manhattan request"
     },
     {
-      "@id": "nyplStatus:z",
+      "@id": "nyplStatus:k",
       "@type": "nypl:Status",
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"
       },
-      "skos:altLabel": "DISPUTED ITEM",
-      "skos:notation": "z",
-      "skos:prefLabel": "Disputed Item"
+      "skos:altLabel": "Check with staff",
+      "skos:notation": "k",
+      "skos:prefLabel": "Check with staff"
+    },
+    {
+      "@id": "nyplStatus:co",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "skos:altLabel": "Loaned",
+      "skos:notation": "-",
+      "skos:note": "determine id=co how? for Sierra code \"-\", if hold present or if due date present, then requestable=false",
+      "skos:prefLabel": "Loaned"
+    },
+    {
+      "@id": "nyplStatus:o",
+      "@type": "nypl:Status",
+      "nypl:requestable": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "skos:altLabel": "USE IN LIBRARY",
+      "skos:notation": "o",
+      "skos:note": "updated 20171001",
+      "skos:prefLabel": "Use in library"
     }
   ]
 }

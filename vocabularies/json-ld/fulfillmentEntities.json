@@ -7,32 +7,9 @@
   },
   "@graph": [
     {
-      "@id": "fulfillment:hd-edd",
-      "nypl:estimatedTime": "P1W",
-      "skos:prefLabel": "EDD Harvard Depository"
-    },
-    {
       "@id": "fulfillment:hd-offsite",
       "nypl:estimatedTime": "P2D",
       "skos:prefLabel": "Offsite Harvard Depository"
-    },
-    {
-      "@id": "fulfillment:lpa-edd",
-      "nypl:estimatedTime": "P2W",
-      "skos:prefLabel": "EDD Onsite"
-    },
-    {
-      "@id": "fulfillment:lpa-onsite",
-      "nypl:estimatedTime": "PT45M",
-      "nypl:location": {
-        "@id": "nyplLocation:my"
-      },
-      "skos:prefLabel": "Onsite LPA"
-    },
-    {
-      "@id": "fulfillment:recap-edd",
-      "nypl:estimatedTime": "P1W",
-      "skos:prefLabel": "EDD ReCAP"
     },
     {
       "@id": "fulfillment:recap-offsite",
@@ -43,6 +20,16 @@
       "@id": "fulfillment:sasb-edd",
       "nypl:estimatedTime": "P2W",
       "skos:prefLabel": "EDD Onsite"
+    },
+    {
+      "@id": "fulfillment:lpa-edd",
+      "nypl:estimatedTime": "P2W",
+      "skos:prefLabel": "EDD Onsite"
+    },
+    {
+      "@id": "fulfillment:hd-edd",
+      "nypl:estimatedTime": "P1W",
+      "skos:prefLabel": "EDD Harvard Depository"
     },
     {
       "@id": "fulfillment:sasb-onsite",
@@ -64,6 +51,19 @@
         "@id": "nyplLocation:sc"
       },
       "skos:prefLabel": "Onsite Schomburg"
+    },
+    {
+      "@id": "fulfillment:recap-edd",
+      "nypl:estimatedTime": "P1W",
+      "skos:prefLabel": "EDD ReCAP"
+    },
+    {
+      "@id": "fulfillment:lpa-onsite",
+      "nypl:estimatedTime": "PT45M",
+      "nypl:location": {
+        "@id": "nyplLocation:my"
+      },
+      "skos:prefLabel": "Onsite LPA"
     }
   ]
 }
