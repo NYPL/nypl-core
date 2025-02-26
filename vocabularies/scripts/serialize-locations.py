@@ -44,7 +44,7 @@ for r in reader:
     g.add((location, SKOS.altLabel, altlabel))
     g.add((location, SKOS.notation, notation))
 
-    if r['nypl:collectionAccessType'] is not None:
+    if r['nypl:collectionAccessType'] != '':
         collectionAccessType = rdflib.Literal(r['nypl:collectionAccessType'])
         g.add((location, nypl.collectionAccessType, collectionAccessType))
 
