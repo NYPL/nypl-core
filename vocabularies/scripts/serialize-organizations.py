@@ -2,8 +2,8 @@
 # requires libraries/plugins: rdflib, rdflib-jsonld
 
 from rdflib.namespace import RDF, SKOS
-from rdflib import Namespace, Graph, plugin
-from rdflib.serializer import Serializer
+from rdflib import Namespace, Graph
+from utils import sort_and_write_graph_to_file
 import rdflib
 import csv
 
@@ -38,12 +38,10 @@ for r in reader:
             unit = nyplorg + u.strip()
             g.add((orgunit, org.unitOf, unit))
 
-z = open('../json-ld/organizations.json', 'wb')
-
 context = {"org": "http://www.w3.org/ns/org#",
            "skos": "http://www.w3.org/2004/02/skos/core#",
            "nyplOrg": "http://data.nypl.org/orgs/"}
-z.write(g.serialize(format="json-ld", context=context, encoding="utf-8"))
 
-z.close()
+sort_and_write_graph_to_file(g, context, 'organizations')
+
 f.close()
