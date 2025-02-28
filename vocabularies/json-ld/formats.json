@@ -7,210 +7,210 @@
   "@graph": [
     {
       "@id": "format:-",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "MISC",
       "skos:notation": "-",
       "skos:prefLabel": "Miscellaneous"
     },
     {
       "@id": "format:3",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "E-VIDEO",
       "skos:notation": "3",
       "skos:prefLabel": "E-Video"
     },
     {
       "@id": "format:4",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "Tablet",
       "skos:notation": "4",
       "skos:prefLabel": "Tablet"
     },
     {
       "@id": "format:5",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "READ-ALONG BOOK",
       "skos:notation": "5",
       "skos:prefLabel": "Read-Along Book"
     },
     {
       "@id": "format:7",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "TEACHER AUDIO",
       "skos:notation": "7",
       "skos:prefLabel": "Teacher Audio"
     },
     {
       "@id": "format:8",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "TEACHER SET",
       "skos:notation": "8",
       "skos:prefLabel": "Teacher Set"
     },
     {
       "@id": "format:a",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "BOOK/TEXT",
       "skos:notation": "a",
       "skos:prefLabel": "Book/Text"
     },
     {
       "@id": "format:b",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "BLU-RAY",
       "skos:notation": "b",
       "skos:prefLabel": "Blu-ray"
     },
     {
       "@id": "format:c",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "SCORE",
       "skos:notation": "c",
       "skos:prefLabel": "Notated music"
     },
     {
       "@id": "format:d",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "MANUSCRIPT MUS",
       "skos:notation": "d",
       "skos:prefLabel": "Manuscript notated music"
     },
     {
       "@id": "format:e",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "MAP",
       "skos:notation": "e",
       "skos:prefLabel": "Map"
     },
     {
       "@id": "format:g",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "FILM",
       "skos:notation": "g",
       "skos:prefLabel": "SLIDE"
     },
     {
       "@id": "format:h",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "MICROFORM",
       "skos:notation": "h",
       "skos:prefLabel": "Microform"
     },
     {
       "@id": "format:i",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "SPOKEN WORD",
       "skos:notation": "i",
       "skos:prefLabel": "Spoken word recording"
     },
     {
       "@id": "format:j",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "MUSIC NON-CD",
       "skos:notation": "j",
       "skos:prefLabel": "Musical recording"
     },
     {
       "@id": "format:k",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "PICTURE",
       "skos:notation": "k",
       "skos:prefLabel": "Picture"
     },
     {
       "@id": "format:l",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "LARGE PRINT",
       "skos:notation": "l",
       "skos:prefLabel": "Large print"
     },
     {
       "@id": "format:m",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "COMPUTER FILE",
       "skos:notation": "m",
       "skos:prefLabel": "Computer file"
     },
     {
       "@id": "format:n",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "E-AUDIOBOOK",
       "skos:notation": "n",
       "skos:prefLabel": "E-Audiobook"
     },
     {
       "@id": "format:o",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "KIT",
       "skos:notation": "o",
       "skos:prefLabel": "Kit"
     },
     {
       "@id": "format:p",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "ARCHIVAL MIX",
       "skos:notation": "p",
       "skos:prefLabel": "Archival Mix"
     },
     {
       "@id": "format:r",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "3-D OBJECT",
       "skos:notation": "r",
       "skos:prefLabel": "3-D Object"
     },
     {
       "@id": "format:s",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "VHS",
       "skos:notation": "s",
       "skos:prefLabel": "VHS"
     },
     {
       "@id": "format:t",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "MANUSCRIPT",
       "skos:notation": "t",
       "skos:prefLabel": "Manuscript"
     },
     {
       "@id": "format:u",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "AUDIOBOOK",
       "skos:notation": "u",
       "skos:prefLabel": "Audiobook"
     },
     {
       "@id": "format:v",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "DVD",
       "skos:notation": "v",
       "skos:prefLabel": "DVD"
     },
     {
       "@id": "format:w",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "WEB RESOURCE",
       "skos:notation": "w",
       "skos:prefLabel": "Web Resource"
     },
     {
       "@id": "format:x",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "GAME",
       "skos:notation": "x",
       "skos:prefLabel": "Game"
     },
     {
       "@id": "format:y",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "MUSIC CD",
       "skos:notation": "y",
       "skos:prefLabel": "Music CD"
     },
     {
       "@id": "format:z",
-      "@type": "nypl",
+      "@type": "nypl:Format",
       "skos:altLabel": "E-BOOK",
       "skos:notation": "z",
       "skos:prefLabel": "E-Boo"
