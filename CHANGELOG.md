@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.28
+
+- add format data
+
 ### v2.27
 
 - revert rcpd2 to non-special collection access type
