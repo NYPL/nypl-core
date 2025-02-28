@@ -24,7 +24,7 @@ def serialize(data_type):
         notation = rdflib.Literal(r['skos:notation'])
         dataType = nyplDataType + str(id)
 
-        g.add((dataType, RDF.type, nypl[data_type]))
+        g.add((dataType, RDF.type, nypl[data_type.capitalize]))
         g.add((dataType, SKOS.prefLabel, preflabel))
         g.add((dataType, SKOS.altLabel, altlabel))
         g.add((dataType, SKOS.notation, notation))
