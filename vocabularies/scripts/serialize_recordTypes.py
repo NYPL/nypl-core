@@ -1,3 +1,3 @@
-from format_like_serialization import serialize
+from vocabularies.scripts.notation_prefLabel_altLabel_serialization import serialize
 
 serialize('recordTypes')
