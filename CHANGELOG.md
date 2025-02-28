@@ -3,6 +3,7 @@
 ### v2.28
 
 - add format data
+- update serialize scripts to sort json ld alphabetically
 
 ### v2.27
 
