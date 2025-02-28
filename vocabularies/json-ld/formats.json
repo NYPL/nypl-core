@@ -85,9 +85,9 @@
     {
       "@id": "format:g",
       "@type": "nypl:Format",
-      "skos:altLabel": "FILM",
+      "skos:altLabel": "FILM,SLIDE",
       "skos:notation": "g",
-      "skos:prefLabel": "SLIDE"
+      "skos:prefLabel": "ETC,Film, Slide, etc."
     },
     {
       "@id": "format:h",
