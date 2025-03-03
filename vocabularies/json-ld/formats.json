@@ -1,177 +1,219 @@
 {
   "@context": {
+    "format": "http://data.nypl.org/format/",
     "nypl": "http://data.nypl.org/nypl-core/",
-    "recordType": "http://data.nypl.org/recordType/",
     "skos": "http://www.w3.org/2004/02/skos/core#"
   },
   "@graph": [
     {
-      "@id": "recordType:3",
-      "@type": "nypl:RecordType",
+      "@id": "format:-",
+      "@type": "nypl:Format",
+      "skos:altLabel": "MISC",
+      "skos:notation": "-",
+      "skos:prefLabel": "Miscellaneous"
+    },
+    {
+      "@id": "format:3",
+      "@type": "nypl:Format",
       "skos:altLabel": "E-VIDEO",
       "skos:notation": "3",
       "skos:prefLabel": "E-Video"
     },
     {
-      "@id": "recordType:a",
-      "@type": "nypl:RecordType",
+      "@id": "format:4",
+      "@type": "nypl:Format",
+      "skos:altLabel": "Tablet",
+      "skos:notation": "4",
+      "skos:prefLabel": "Tablet"
+    },
+    {
+      "@id": "format:5",
+      "@type": "nypl:Format",
+      "skos:altLabel": "READ-ALONG BOOK",
+      "skos:notation": "5",
+      "skos:prefLabel": "Read-Along Book"
+    },
+    {
+      "@id": "format:7",
+      "@type": "nypl:Format",
+      "skos:altLabel": "TEACHER AUDIO",
+      "skos:notation": "7",
+      "skos:prefLabel": "Teacher Audio"
+    },
+    {
+      "@id": "format:8",
+      "@type": "nypl:Format",
+      "skos:altLabel": "TEACHER SET",
+      "skos:notation": "8",
+      "skos:prefLabel": "Teacher Set"
+    },
+    {
+      "@id": "format:a",
+      "@type": "nypl:Format",
       "skos:altLabel": "BOOK/TEXT",
       "skos:notation": "a",
       "skos:prefLabel": "Book/Text"
     },
     {
-      "@id": "recordType:b",
-      "@type": "nypl:RecordType",
+      "@id": "format:b",
+      "@type": "nypl:Format",
       "skos:altLabel": "BLU-RAY",
       "skos:notation": "b",
       "skos:prefLabel": "Blu-ray"
     },
     {
-      "@id": "recordType:c",
-      "@type": "nypl:RecordType",
+      "@id": "format:c",
+      "@type": "nypl:Format",
       "skos:altLabel": "SCORE",
       "skos:notation": "c",
       "skos:prefLabel": "Notated music"
     },
     {
-      "@id": "recordType:d",
-      "@type": "nypl:RecordType",
+      "@id": "format:d",
+      "@type": "nypl:Format",
       "skos:altLabel": "MANUSCRIPT MUS",
       "skos:notation": "d",
       "skos:prefLabel": "Manuscript notated music"
     },
     {
-      "@id": "recordType:e",
-      "@type": "nypl:RecordType",
+      "@id": "format:e",
+      "@type": "nypl:Format",
       "skos:altLabel": "MAP",
       "skos:notation": "e",
       "skos:prefLabel": "Map"
     },
     {
-      "@id": "recordType:f",
-      "@type": "nypl:RecordType",
-      "skos:altLabel": "",
-      "skos:notation": "f",
-      "skos:prefLabel": "Manuscript map"
-    },
-    {
-      "@id": "recordType:g",
-      "@type": "nypl:RecordType",
+      "@id": "format:g",
+      "@type": "nypl:Format",
       "skos:altLabel": "FILM,SLIDE,ETC",
       "skos:notation": "g",
       "skos:prefLabel": "Film, Slide, etc."
     },
     {
-      "@id": "recordType:h",
-      "@type": "nypl:RecordType",
+      "@id": "format:h",
+      "@type": "nypl:Format",
       "skos:altLabel": "MICROFORM",
       "skos:notation": "h",
       "skos:prefLabel": "Microform"
     },
     {
-      "@id": "recordType:i",
-      "@type": "nypl:RecordType",
+      "@id": "format:i",
+      "@type": "nypl:Format",
       "skos:altLabel": "SPOKEN WORD",
       "skos:notation": "i",
       "skos:prefLabel": "Spoken word recording"
     },
     {
-      "@id": "recordType:j",
-      "@type": "nypl:RecordType",
+      "@id": "format:j",
+      "@type": "nypl:Format",
       "skos:altLabel": "MUSIC NON-CD",
       "skos:notation": "j",
       "skos:prefLabel": "Musical recording"
     },
     {
-      "@id": "recordType:k",
-      "@type": "nypl:RecordType",
+      "@id": "format:k",
+      "@type": "nypl:Format",
       "skos:altLabel": "PICTURE",
       "skos:notation": "k",
       "skos:prefLabel": "Picture"
     },
     {
-      "@id": "recordType:l",
-      "@type": "nypl:RecordType",
+      "@id": "format:l",
+      "@type": "nypl:Format",
       "skos:altLabel": "LARGE PRINT",
       "skos:notation": "l",
       "skos:prefLabel": "Large print"
     },
     {
-      "@id": "recordType:m",
-      "@type": "nypl:RecordType",
+      "@id": "format:m",
+      "@type": "nypl:Format",
       "skos:altLabel": "COMPUTER FILE",
       "skos:notation": "m",
       "skos:prefLabel": "Computer file"
     },
     {
-      "@id": "recordType:n",
-      "@type": "nypl:RecordType",
+      "@id": "format:n",
+      "@type": "nypl:Format",
       "skos:altLabel": "E-AUDIOBOOK",
       "skos:notation": "n",
       "skos:prefLabel": "E-Audiobook"
     },
     {
-      "@id": "recordType:o",
-      "@type": "nypl:RecordType",
+      "@id": "format:o",
+      "@type": "nypl:Format",
       "skos:altLabel": "KIT",
       "skos:notation": "o",
       "skos:prefLabel": "Kit"
     },
     {
-      "@id": "recordType:p",
-      "@type": "nypl:RecordType",
+      "@id": "format:p",
+      "@type": "nypl:Format",
       "skos:altLabel": "ARCHIVAL MIX",
       "skos:notation": "p",
       "skos:prefLabel": "Archival Mix"
     },
     {
-      "@id": "recordType:r",
-      "@type": "nypl:RecordType",
+      "@id": "format:r",
+      "@type": "nypl:Format",
       "skos:altLabel": "3-D OBJECT",
       "skos:notation": "r",
       "skos:prefLabel": "3-D Object"
     },
     {
-      "@id": "recordType:s",
-      "@type": "nypl:RecordType",
+      "@id": "format:s",
+      "@type": "nypl:Format",
       "skos:altLabel": "VHS",
       "skos:notation": "s",
       "skos:prefLabel": "VHS"
     },
     {
-      "@id": "recordType:t",
-      "@type": "nypl:RecordType",
+      "@id": "format:t",
+      "@type": "nypl:Format",
       "skos:altLabel": "MANUSCRIPT",
       "skos:notation": "t",
       "skos:prefLabel": "Manuscript"
     },
     {
-      "@id": "recordType:u",
-      "@type": "nypl:RecordType",
+      "@id": "format:u",
+      "@type": "nypl:Format",
       "skos:altLabel": "AUDIOBOOK",
       "skos:notation": "u",
       "skos:prefLabel": "Audiobook"
     },
     {
-      "@id": "recordType:v",
-      "@type": "nypl:RecordType",
+      "@id": "format:v",
+      "@type": "nypl:Format",
       "skos:altLabel": "DVD",
       "skos:notation": "v",
       "skos:prefLabel": "DVD"
     },
     {
-      "@id": "recordType:y",
-      "@type": "nypl:RecordType",
+      "@id": "format:w",
+      "@type": "nypl:Format",
+      "skos:altLabel": "WEB RESOURCE",
+      "skos:notation": "w",
+      "skos:prefLabel": "Web Resource"
+    },
+    {
+      "@id": "format:x",
+      "@type": "nypl:Format",
+      "skos:altLabel": "GAME",
+      "skos:notation": "x",
+      "skos:prefLabel": "Game"
+    },
+    {
+      "@id": "format:y",
+      "@type": "nypl:Format",
       "skos:altLabel": "MUSIC CD",
       "skos:notation": "y",
       "skos:prefLabel": "Music CD"
     },
     {
-      "@id": "recordType:z",
-      "@type": "nypl:RecordType",
+      "@id": "format:z",
+      "@type": "nypl:Format",
       "skos:altLabel": "E-BOOK",
       "skos:notation": "z",
-      "skos:prefLabel": "E-Book"
+      "skos:prefLabel": "E-Boo"
     }
   ]
 }

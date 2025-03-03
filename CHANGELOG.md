@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### v2.28
+
+- add format data
+- update serialize scripts to sort json ld alphabetically
+
 ### v2.27
 
 - revert rcpd2 to non-special collection access type

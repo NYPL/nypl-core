@@ -4,7 +4,7 @@ Models, mappings, and vocabularies for the NYPL Core ontology.
 
 ### Current Version
 
-v2.27
+v2.28
 
 ## Contributing
 
