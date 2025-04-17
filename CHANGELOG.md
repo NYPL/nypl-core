@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.29
+
+- add rcmp8 and rcmp9
+
 ### v2.28
 
 - add format data

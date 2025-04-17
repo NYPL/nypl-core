@@ -2664,6 +2664,8 @@ rcml2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Room 217
 rcml8,Offsite,OFFSITE - Request in Advance at SASB - Rose Main Reading Room,Research,,,rc,1000,false,,,true,,recap-customer-code,,
 rcmo2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg -,Research,,,rc,1000,false,,,true,,recap-customer-code,special,
 rcmp2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Maps Division Rm 117,Research,,,rc,1106,true,,,true,,recap-customer-code,,
+rcmp8,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg. - Map Division,Research,,,rc,1106,false,,,true,,recap-customer-code,special
+rcmp9,Offsite,OFFSITE - Restricted - Map Division,Research,,,rc,1106,false,,,true,,recap-customer-code,special
 rcmq2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg -,Research,,,rc,1000,false,,,true,,recap-customer-code,special,
 rcmr2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Rare Books,Research,,,rc,1108,false,,,true,,recap-customer-code,special,
 rcms2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg -,Research,,,rc,1000,false,,,true,,recap-customer-code,special,
