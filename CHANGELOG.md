@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.30
+
+- Remove SP, SM, SA, NS as PF deliverableTo location
+
 ### v2.29
 
 - add rcmp8 and rcmp9
