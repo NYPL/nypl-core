@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.31
+
+- E-Boo -> E-Book
+
 ### v2.30
 
 - Remove SP, SM, SA, NS as PF deliverableTo location
