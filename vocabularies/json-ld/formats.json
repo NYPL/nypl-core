@@ -213,7 +213,7 @@
       "@type": "nypl:Format",
       "skos:altLabel": "E-BOOK",
       "skos:notation": "z",
-      "skos:prefLabel": "E-Boo"
+      "skos:prefLabel": "E-Book"
     }
   ]
 }
