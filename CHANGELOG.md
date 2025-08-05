@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.32
+
+- Update mab0v label
+
 ### v2.31
 
 - E-Boo -> E-Book

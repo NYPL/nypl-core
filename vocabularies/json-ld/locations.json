@@ -34889,9 +34889,9 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
-      "skos:altLabel": "SASB - Picture Collection Rm 100",
+      "skos:altLabel": "SASB - Picture Collection Rm 119",
       "skos:notation": "mab0v",
-      "skos:prefLabel": "SASB - Picture Collection Rm 100"
+      "skos:prefLabel": "Schwarzman Building - Picture Collection - Rm 119"
     },
     {
       "@id": "nyplLocation:mab82",
