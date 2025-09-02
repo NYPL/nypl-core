@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.33
+
+- Add collection mapped to holding location data
+
 ### v2.32
 
 - Update mab0v label
