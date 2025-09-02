@@ -8,7 +8,7 @@
   "@graph": [
     {
       "@id": "nyplCollection:bur",
-      "nypl:Location": {
+      "nyplLocation": {
         "@id": "nypl:bur51"
       },
       "skos:notation": "bur",
@@ -16,7 +16,7 @@
     },
     {
       "@id": "nyplCollection:mab",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:mab01"
         },
@@ -68,7 +68,7 @@
     },
     {
       "@id": "nyplCollection:mac",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:mac82"
         },
@@ -81,7 +81,7 @@
     },
     {
       "@id": "nyplCollection:mae",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:mae82"
         },
@@ -97,7 +97,7 @@
     },
     {
       "@id": "nyplCollection:maf",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:maf32"
         },
@@ -137,7 +137,7 @@
     },
     {
       "@id": "nyplCollection:mag",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:mag82"
         },
@@ -171,7 +171,7 @@
     },
     {
       "@id": "nyplCollection:mak",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:mak32"
         },
@@ -187,7 +187,7 @@
     },
     {
       "@id": "nyplCollection:mal",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:mai32"
         },
@@ -272,7 +272,7 @@
     },
     {
       "@id": "nyplCollection:mao",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:mao82"
         },
@@ -291,7 +291,7 @@
     },
     {
       "@id": "nyplCollection:map",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:map08"
         },
@@ -343,7 +343,7 @@
     },
     {
       "@id": "nyplCollection:maq",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:maqq2"
         },
@@ -356,7 +356,7 @@
     },
     {
       "@id": "nyplCollection:mar",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:mar82"
         },
@@ -378,7 +378,7 @@
     },
     {
       "@id": "nyplCollection:mas",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:mas82"
         },
@@ -403,7 +403,7 @@
     },
     {
       "@id": "nyplCollection:mau",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:mauu1"
         },
@@ -416,7 +416,7 @@
     },
     {
       "@id": "nyplCollection:pad",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:pad11"
         },
@@ -450,7 +450,7 @@
     },
     {
       "@id": "nyplCollection:paf",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:paf28"
         },
@@ -472,7 +472,7 @@
     },
     {
       "@id": "nyplCollection:pah",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:pah11"
         },
@@ -503,7 +503,7 @@
     },
     {
       "@id": "nyplCollection:pam",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:pam11"
         },
@@ -537,7 +537,7 @@
     },
     {
       "@id": "nyplCollection:pat",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:pat11"
         },
@@ -574,7 +574,7 @@
     },
     {
       "@id": "nyplCollection:pav",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:pav22"
         },
@@ -602,7 +602,7 @@
     },
     {
       "@id": "nyplCollection:scb",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:scbb2"
         },
@@ -621,7 +621,7 @@
     },
     {
       "@id": "nyplCollection:scc",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:sccc2"
         },
@@ -637,7 +637,7 @@
     },
     {
       "@id": "nyplCollection:scd",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:scdd1"
         },
@@ -659,7 +659,7 @@
     },
     {
       "@id": "nyplCollection:sce",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:scedd"
         },
@@ -681,7 +681,7 @@
     },
     {
       "@id": "nyplCollection:scf",
-      "nypl:Location": [
+      "nyplLocation": [
         {
           "@id": "nypl:scff1"
         },

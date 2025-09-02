@@ -2,7 +2,7 @@
 # script to convert collections.csv to json-ld
 # requires libraries/plugins: rdflib, rdflib-jsonld
 
-from rdflib.namespace import RDF, SKOS
+from rdflib.namespace import SKOS
 from rdflib import Namespace, Graph
 import rdflib
 import csv
@@ -32,7 +32,7 @@ for r in reader:
     g.add((collection, SKOS.notation, notation))
     g.add((collection, SKOS.prefLabel, preflabel))
     for loc in holdingLocations:
-        g.add((collection, nypl.Location, nypl[loc]))
+        g.add((collection, nyplLocation, nypl[loc]))
  
 
  
