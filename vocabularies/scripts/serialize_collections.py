@@ -6,7 +6,6 @@ from rdflib.namespace import RDF, SKOS
 from rdflib import Namespace, Graph
 import rdflib
 import csv
-import m2Utils
 from utils import sort_and_write_graph_to_file
 
 f = open('../csv/collections.csv')
@@ -14,11 +13,9 @@ reader = csv.DictReader(f)
 
 nypl = Namespace('http://data.nypl.org/nypl-core/')
 skos = Namespace('http://www.w3.org/2004/02/skos/core#')
+nyplCollection = rdflib.URIRef('http://data.nypl.org/collections/')
 nyplLocation = rdflib.URIRef('http://data.nypl.org/locations/')
-nyplOrg = rdflib.URIRef('http://data.nypl.org/orgs/')
-recapCustomerCode = rdflib.URIRef('http://data.nypl.org/recapCustomerCodes/')
-m2CustomerCode = m2Utils.custCode
-m2CodesByLocation = m2Utils.buildAssociatedLocations()
+import ast
 
 
 g = Graph()
@@ -27,19 +24,24 @@ for r in reader:
     id = r['skos:notation']
     type = 'nypl:Collection'
     preflabel = rdflib.Literal(r['skos:prefLabel'])
-    holdingLocations = r['nypl:holdingLocations'].split(';')
-    collection = ...
+    notation = rdflib.Literal(r['skos:notation'])
+    holdingLocations = ast.literal_eval(r['nypl:holdingLocations'])
 
-    g.add((collection, RDF.type, nypl.Location))
-    g.add((collection, SKOS.prefLabel, preflabel))
+    collection = nyplCollection + str(id)
+
     g.add((collection, SKOS.notation, notation))
+    g.add((collection, SKOS.prefLabel, preflabel))
+    for loc in holdingLocations:
+        g.add((collection, nypl.Location, nypl[loc]))
+ 
 
  
 context = {
            "nypl": "http://data.nypl.org/nypl-core/",
            "skos": "http://www.w3.org/2004/02/skos/core#",
+           "nyplCollection": "http://data.nypl.org/collections/",
            "nyplLocation": "http://data.nypl.org/locations/",
-           "recapCustomerCode": "http://data.nypl.org/recapCustomerCodes"}
+}
 
 sort_and_write_graph_to_file(g, context, 'collections')
 

@@ -1,0 +1,714 @@
+{
+  "@context": {
+    "nypl": "http://data.nypl.org/nypl-core/",
+    "nyplCollection": "http://data.nypl.org/collections/",
+    "nyplLocation": "http://data.nypl.org/locations/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@graph": [
+    {
+      "@id": "nyplCollection:bur",
+      "nypl:Location": {
+        "@id": "nypl:bur51"
+      },
+      "skos:notation": "bur",
+      "skos:prefLabel": "Yoseloff Business Center"
+    },
+    {
+      "@id": "nyplCollection:mab",
+      "nypl:Location": [
+        {
+          "@id": "nypl:mab01"
+        },
+        {
+          "@id": "nypl:mab0v"
+        },
+        {
+          "@id": "nypl:mab82"
+        },
+        {
+          "@id": "nypl:mab88"
+        },
+        {
+          "@id": "nypl:mab89"
+        },
+        {
+          "@id": "nypl:mab92"
+        },
+        {
+          "@id": "nypl:mab98"
+        },
+        {
+          "@id": "nypl:mab99"
+        },
+        {
+          "@id": "nypl:mabb1"
+        },
+        {
+          "@id": "nypl:mabb2"
+        },
+        {
+          "@id": "nypl:mabb3"
+        },
+        {
+          "@id": "nypl:mabm2"
+        },
+        {
+          "@id": "nypl:rcmb2"
+        },
+        {
+          "@id": "nypl:rcmb8"
+        },
+        {
+          "@id": "nypl:rcmb9"
+        }
+      ],
+      "skos:notation": "mab",
+      "skos:prefLabel": "Art & Architecture Collection"
+    },
+    {
+      "@id": "nyplCollection:mac",
+      "nypl:Location": [
+        {
+          "@id": "nypl:mac82"
+        },
+        {
+          "@id": "nypl:macc2"
+        }
+      ],
+      "skos:notation": "mac",
+      "skos:prefLabel": "Arents Collection"
+    },
+    {
+      "@id": "nyplCollection:mae",
+      "nypl:Location": [
+        {
+          "@id": "nypl:mae82"
+        },
+        {
+          "@id": "nypl:mae92"
+        },
+        {
+          "@id": "nypl:maee2"
+        }
+      ],
+      "skos:notation": "mae",
+      "skos:prefLabel": "Berg Collection"
+    },
+    {
+      "@id": "nyplCollection:maf",
+      "nypl:Location": [
+        {
+          "@id": "nypl:maf32"
+        },
+        {
+          "@id": "nypl:maf82"
+        },
+        {
+          "@id": "nypl:maf88"
+        },
+        {
+          "@id": "nypl:maf92"
+        },
+        {
+          "@id": "nypl:maf98"
+        },
+        {
+          "@id": "nypl:maf99"
+        },
+        {
+          "@id": "nypl:maff1"
+        },
+        {
+          "@id": "nypl:maff3"
+        },
+        {
+          "@id": "nypl:rcmf2"
+        },
+        {
+          "@id": "nypl:rcmf8"
+        },
+        {
+          "@id": "nypl:rcmf9"
+        }
+      ],
+      "skos:notation": "maf",
+      "skos:prefLabel": "Dorot Jewish Division"
+    },
+    {
+      "@id": "nyplCollection:mag",
+      "nypl:Location": [
+        {
+          "@id": "nypl:mag82"
+        },
+        {
+          "@id": "nypl:mag92"
+        },
+        {
+          "@id": "nypl:mag98"
+        },
+        {
+          "@id": "nypl:magg1"
+        },
+        {
+          "@id": "nypl:magg2"
+        },
+        {
+          "@id": "nypl:rcmg2"
+        },
+        {
+          "@id": "nypl:rcmg8"
+        },
+        {
+          "@id": "nypl:rcmg9"
+        },
+        {
+          "@id": "nypl:magg3"
+        }
+      ],
+      "skos:notation": "mag",
+      "skos:prefLabel": "Milstein Division"
+    },
+    {
+      "@id": "nyplCollection:mak",
+      "nypl:Location": [
+        {
+          "@id": "nypl:mak32"
+        },
+        {
+          "@id": "nypl:mak82"
+        },
+        {
+          "@id": "nypl:makk3"
+        }
+      ],
+      "skos:notation": "mak",
+      "skos:prefLabel": "DeWitt Wallace Periodical Room"
+    },
+    {
+      "@id": "nyplCollection:mal",
+      "nypl:Location": [
+        {
+          "@id": "nypl:mai32"
+        },
+        {
+          "@id": "nypl:mai82"
+        },
+        {
+          "@id": "nypl:mai92"
+        },
+        {
+          "@id": "nypl:mal17"
+        },
+        {
+          "@id": "nypl:mal23"
+        },
+        {
+          "@id": "nypl:mal42"
+        },
+        {
+          "@id": "nypl:mal72"
+        },
+        {
+          "@id": "nypl:mal82"
+        },
+        {
+          "@id": "nypl:mal92"
+        },
+        {
+          "@id": "nypl:mala"
+        },
+        {
+          "@id": "nypl:mala1"
+        },
+        {
+          "@id": "nypl:malc"
+        },
+        {
+          "@id": "nypl:mall1"
+        },
+        {
+          "@id": "nypl:malm2"
+        },
+        {
+          "@id": "nypl:maln"
+        },
+        {
+          "@id": "nypl:maln1"
+        },
+        {
+          "@id": "nypl:malv2"
+        },
+        {
+          "@id": "nypl:malw"
+        },
+        {
+          "@id": "nypl:malw1"
+        },
+        {
+          "@id": "nypl:rc2ma"
+        },
+        {
+          "@id": "nypl:rc2mj"
+        },
+        {
+          "@id": "nypl:rcma2"
+        },
+        {
+          "@id": "nypl:rcmi2"
+        },
+        {
+          "@id": "nypl:rcmj2"
+        },
+        {
+          "@id": "nypl:rcml2"
+        },
+        {
+          "@id": "nypl:rcml8"
+        }
+      ],
+      "skos:notation": "mal",
+      "skos:prefLabel": "General Research Division"
+    },
+    {
+      "@id": "nyplCollection:mao",
+      "nypl:Location": [
+        {
+          "@id": "nypl:mao82"
+        },
+        {
+          "@id": "nypl:mao92"
+        },
+        {
+          "@id": "nypl:maor2"
+        },
+        {
+          "@id": "nypl:rcmo2"
+        }
+      ],
+      "skos:notation": "mao",
+      "skos:prefLabel": "Manuscripts and Archives Division"
+    },
+    {
+      "@id": "nyplCollection:map",
+      "nypl:Location": [
+        {
+          "@id": "nypl:map08"
+        },
+        {
+          "@id": "nypl:map32"
+        },
+        {
+          "@id": "nypl:map42"
+        },
+        {
+          "@id": "nypl:map82"
+        },
+        {
+          "@id": "nypl:map92"
+        },
+        {
+          "@id": "nypl:map98"
+        },
+        {
+          "@id": "nypl:map99"
+        },
+        {
+          "@id": "nypl:mapp1"
+        },
+        {
+          "@id": "nypl:mapp2"
+        },
+        {
+          "@id": "nypl:mapp3"
+        },
+        {
+          "@id": "nypl:mapp8"
+        },
+        {
+          "@id": "nypl:mapp9"
+        },
+        {
+          "@id": "nypl:rcmp2"
+        },
+        {
+          "@id": "nypl:rcmp8"
+        },
+        {
+          "@id": "nypl:rcmp9"
+        }
+      ],
+      "skos:notation": "map",
+      "skos:prefLabel": "Lionel Pincus and Princess Firyal Map Division"
+    },
+    {
+      "@id": "nyplCollection:maq",
+      "nypl:Location": [
+        {
+          "@id": "nypl:maqq2"
+        },
+        {
+          "@id": "nypl:rcmq2"
+        }
+      ],
+      "skos:notation": "maq",
+      "skos:prefLabel": "Pforzheimer Collection"
+    },
+    {
+      "@id": "nyplCollection:mar",
+      "nypl:Location": [
+        {
+          "@id": "nypl:mar82"
+        },
+        {
+          "@id": "nypl:mar92"
+        },
+        {
+          "@id": "nypl:mard2"
+        },
+        {
+          "@id": "nypl:marr2"
+        },
+        {
+          "@id": "nypl:rcmr2"
+        }
+      ],
+      "skos:notation": "mar",
+      "skos:prefLabel": "Rare Book Division"
+    },
+    {
+      "@id": "nyplCollection:mas",
+      "nypl:Location": [
+        {
+          "@id": "nypl:mas82"
+        },
+        {
+          "@id": "nypl:mas92"
+        },
+        {
+          "@id": "nypl:masb2"
+        },
+        {
+          "@id": "nypl:mass2"
+        },
+        {
+          "@id": "nypl:masu2"
+        },
+        {
+          "@id": "nypl:rcms2"
+        }
+      ],
+      "skos:notation": "mas",
+      "skos:prefLabel": "Photography Collection"
+    },
+    {
+      "@id": "nyplCollection:mau",
+      "nypl:Location": [
+        {
+          "@id": "nypl:mauu1"
+        },
+        {
+          "@id": "nypl:mauu2"
+        }
+      ],
+      "skos:notation": "mau",
+      "skos:prefLabel": "Print Collection"
+    },
+    {
+      "@id": "nyplCollection:pad",
+      "nypl:Location": [
+        {
+          "@id": "nypl:pad11"
+        },
+        {
+          "@id": "nypl:pad22"
+        },
+        {
+          "@id": "nypl:pad28"
+        },
+        {
+          "@id": "nypl:pad32"
+        },
+        {
+          "@id": "nypl:pad38"
+        },
+        {
+          "@id": "nypl:pad42"
+        },
+        {
+          "@id": "nypl:rcpd2"
+        },
+        {
+          "@id": "nypl:rcpd8"
+        },
+        {
+          "@id": "nypl:rcpd9"
+        }
+      ],
+      "skos:notation": "pad",
+      "skos:prefLabel": "Dance Division"
+    },
+    {
+      "@id": "nyplCollection:paf",
+      "nypl:Location": [
+        {
+          "@id": "nypl:paf28"
+        },
+        {
+          "@id": "nypl:paf29"
+        },
+        {
+          "@id": "nypl:rcpf2"
+        },
+        {
+          "@id": "nypl:rcpf8"
+        },
+        {
+          "@id": "nypl:rcpf9"
+        }
+      ],
+      "skos:notation": "paf",
+      "skos:prefLabel": "Theatre on Film and Tape Archive"
+    },
+    {
+      "@id": "nyplCollection:pah",
+      "nypl:Location": [
+        {
+          "@id": "nypl:pah11"
+        },
+        {
+          "@id": "nypl:pah22"
+        },
+        {
+          "@id": "nypl:pah32"
+        },
+        {
+          "@id": "nypl:pah38"
+        },
+        {
+          "@id": "nypl:pah42"
+        },
+        {
+          "@id": "nypl:rcph2"
+        },
+        {
+          "@id": "nypl:rcph8"
+        },
+        {
+          "@id": "nypl:rcph9"
+        }
+      ],
+      "skos:notation": "pah",
+      "skos:prefLabel": "Archives of Recorded Sound"
+    },
+    {
+      "@id": "nyplCollection:pam",
+      "nypl:Location": [
+        {
+          "@id": "nypl:pam11"
+        },
+        {
+          "@id": "nypl:pam22"
+        },
+        {
+          "@id": "nypl:pam32"
+        },
+        {
+          "@id": "nypl:pam38"
+        },
+        {
+          "@id": "nypl:pam42"
+        },
+        {
+          "@id": "nypl:pam48"
+        },
+        {
+          "@id": "nypl:rcpm2"
+        },
+        {
+          "@id": "nypl:rcpm8"
+        },
+        {
+          "@id": "nypl:rcpm9"
+        }
+      ],
+      "skos:notation": "pam",
+      "skos:prefLabel": "Music Division"
+    },
+    {
+      "@id": "nyplCollection:pat",
+      "nypl:Location": [
+        {
+          "@id": "nypl:pat11"
+        },
+        {
+          "@id": "nypl:pat22"
+        },
+        {
+          "@id": "nypl:pat28"
+        },
+        {
+          "@id": "nypl:pat32"
+        },
+        {
+          "@id": "nypl:pat38"
+        },
+        {
+          "@id": "nypl:pat42"
+        },
+        {
+          "@id": "nypl:pat48"
+        },
+        {
+          "@id": "nypl:rcpt2"
+        },
+        {
+          "@id": "nypl:rcpt8"
+        },
+        {
+          "@id": "nypl:rcpt9"
+        }
+      ],
+      "skos:notation": "pat",
+      "skos:prefLabel": "Theatre Division"
+    },
+    {
+      "@id": "nyplCollection:pav",
+      "nypl:Location": [
+        {
+          "@id": "nypl:pav22"
+        },
+        {
+          "@id": "nypl:pav28"
+        },
+        {
+          "@id": "nypl:pav32"
+        },
+        {
+          "@id": "nypl:pav38"
+        },
+        {
+          "@id": "nypl:rcpr2"
+        },
+        {
+          "@id": "nypl:rcpr8"
+        },
+        {
+          "@id": "nypl:rcpr9"
+        }
+      ],
+      "skos:notation": "pav",
+      "skos:prefLabel": "Reserve Film and Video"
+    },
+    {
+      "@id": "nyplCollection:scb",
+      "nypl:Location": [
+        {
+          "@id": "nypl:scbb2"
+        },
+        {
+          "@id": "nypl:rccb2"
+        },
+        {
+          "@id": "nypl:rccb8"
+        },
+        {
+          "@id": "nypl:rccb9"
+        }
+      ],
+      "skos:notation": "scb",
+      "skos:prefLabel": "Moving Image and Recorded Sound Division"
+    },
+    {
+      "@id": "nyplCollection:scc",
+      "nypl:Location": [
+        {
+          "@id": "nypl:sccc2"
+        },
+        {
+          "@id": "nypl:sccc3"
+        },
+        {
+          "@id": "nypl:rcca9"
+        }
+      ],
+      "skos:notation": "scc",
+      "skos:prefLabel": "Art and Artifacts Division"
+    },
+    {
+      "@id": "nyplCollection:scd",
+      "nypl:Location": [
+        {
+          "@id": "nypl:scdd1"
+        },
+        {
+          "@id": "nypl:scdd2"
+        },
+        {
+          "@id": "nypl:rccd2"
+        },
+        {
+          "@id": "nypl:rccd8"
+        },
+        {
+          "@id": "nypl:rccd9"
+        }
+      ],
+      "skos:notation": "scd",
+      "skos:prefLabel": "Manuscripts, Archives and Rare Books Division"
+    },
+    {
+      "@id": "nyplCollection:sce",
+      "nypl:Location": [
+        {
+          "@id": "nypl:scedd"
+        },
+        {
+          "@id": "nypl:scee2"
+        },
+        {
+          "@id": "nypl:rcce2"
+        },
+        {
+          "@id": "nypl:rcce8"
+        },
+        {
+          "@id": "nypl:rcce9"
+        }
+      ],
+      "skos:notation": "sce",
+      "skos:prefLabel": "Photographs and Prints Division"
+    },
+    {
+      "@id": "nyplCollection:scf",
+      "nypl:Location": [
+        {
+          "@id": "nypl:scff1"
+        },
+        {
+          "@id": "nypl:scff2"
+        },
+        {
+          "@id": "nypl:scff3"
+        },
+        {
+          "@id": "nypl:rc2cf"
+        },
+        {
+          "@id": "nypl:rc2cm"
+        },
+        {
+          "@id": "nypl:rccf2"
+        },
+        {
+          "@id": "nypl:rccf8"
+        },
+        {
+          "@id": "nypl:rccf9"
+        }
+      ],
+      "skos:notation": "scf",
+      "skos:prefLabel": "Jean Blackwell Hutson Research and Reference Division"
+    }
+  ]
+}
