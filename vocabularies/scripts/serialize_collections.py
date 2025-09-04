@@ -15,7 +15,6 @@ nypl = Namespace('http://data.nypl.org/nypl-core/')
 skos = Namespace('http://www.w3.org/2004/02/skos/core#')
 nyplCollection = rdflib.URIRef('http://data.nypl.org/collections/')
 nyplLocation = rdflib.URIRef('http://data.nypl.org/locations/')
-import ast
 
 
 g = Graph()
@@ -25,7 +24,8 @@ for r in reader:
     type = 'nypl:Collection'
     preflabel = rdflib.Literal(r['skos:prefLabel'])
     notation = rdflib.Literal(r['skos:notation'])
-    holdingLocations = ast.literal_eval(r['nypl:holdingLocations'])
+
+    holdingLocations = [loc.strip() for loc in r['nypl:holdingLocations'].split(';') if loc.strip()]
 
     collection = nyplCollection + str(id)
 
