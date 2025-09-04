@@ -32,7 +32,7 @@ for r in reader:
     g.add((collection, SKOS.notation, notation))
     g.add((collection, SKOS.prefLabel, preflabel))
     for loc in holdingLocations:
-        g.add((collection, nyplLocation, nypl[loc]))
+        g.add((collection, nyplLocation, nyplLocation + str(loc)))
  
 
  

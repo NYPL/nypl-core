@@ -9,7 +9,7 @@
     {
       "@id": "nyplCollection:bur",
       "nyplLocation": {
-        "@id": "nypl:bur51"
+        "@id": "nyplLocation:bur51"
       },
       "skos:notation": "bur",
       "skos:prefLabel": "Yoseloff Business Center"
@@ -18,49 +18,49 @@
       "@id": "nyplCollection:mab",
       "nyplLocation": [
         {
-          "@id": "nypl:mab01"
+          "@id": "nyplLocation:mab01"
         },
         {
-          "@id": "nypl:mab0v"
+          "@id": "nyplLocation:mab0v"
         },
         {
-          "@id": "nypl:mab82"
+          "@id": "nyplLocation:mab82"
         },
         {
-          "@id": "nypl:mab88"
+          "@id": "nyplLocation:mab88"
         },
         {
-          "@id": "nypl:mab89"
+          "@id": "nyplLocation:mab89"
         },
         {
-          "@id": "nypl:mab92"
+          "@id": "nyplLocation:mab92"
         },
         {
-          "@id": "nypl:mab98"
+          "@id": "nyplLocation:mab98"
         },
         {
-          "@id": "nypl:mab99"
+          "@id": "nyplLocation:mab99"
         },
         {
-          "@id": "nypl:mabb1"
+          "@id": "nyplLocation:mabb1"
         },
         {
-          "@id": "nypl:mabb2"
+          "@id": "nyplLocation:mabb2"
         },
         {
-          "@id": "nypl:mabb3"
+          "@id": "nyplLocation:mabb3"
         },
         {
-          "@id": "nypl:mabm2"
+          "@id": "nyplLocation:mabm2"
         },
         {
-          "@id": "nypl:rcmb2"
+          "@id": "nyplLocation:rcmb2"
         },
         {
-          "@id": "nypl:rcmb8"
+          "@id": "nyplLocation:rcmb8"
         },
         {
-          "@id": "nypl:rcmb9"
+          "@id": "nyplLocation:rcmb9"
         }
       ],
       "skos:notation": "mab",
@@ -70,10 +70,10 @@
       "@id": "nyplCollection:mac",
       "nyplLocation": [
         {
-          "@id": "nypl:mac82"
+          "@id": "nyplLocation:mac82"
         },
         {
-          "@id": "nypl:macc2"
+          "@id": "nyplLocation:macc2"
         }
       ],
       "skos:notation": "mac",
@@ -83,13 +83,13 @@
       "@id": "nyplCollection:mae",
       "nyplLocation": [
         {
-          "@id": "nypl:mae82"
+          "@id": "nyplLocation:mae82"
         },
         {
-          "@id": "nypl:mae92"
+          "@id": "nyplLocation:mae92"
         },
         {
-          "@id": "nypl:maee2"
+          "@id": "nyplLocation:maee2"
         }
       ],
       "skos:notation": "mae",
@@ -99,37 +99,37 @@
       "@id": "nyplCollection:maf",
       "nyplLocation": [
         {
-          "@id": "nypl:maf32"
+          "@id": "nyplLocation:maf32"
         },
         {
-          "@id": "nypl:maf82"
+          "@id": "nyplLocation:maf82"
         },
         {
-          "@id": "nypl:maf88"
+          "@id": "nyplLocation:maf88"
         },
         {
-          "@id": "nypl:maf92"
+          "@id": "nyplLocation:maf92"
         },
         {
-          "@id": "nypl:maf98"
+          "@id": "nyplLocation:maf98"
         },
         {
-          "@id": "nypl:maf99"
+          "@id": "nyplLocation:maf99"
         },
         {
-          "@id": "nypl:maff1"
+          "@id": "nyplLocation:maff1"
         },
         {
-          "@id": "nypl:maff3"
+          "@id": "nyplLocation:maff3"
         },
         {
-          "@id": "nypl:rcmf2"
+          "@id": "nyplLocation:rcmf2"
         },
         {
-          "@id": "nypl:rcmf8"
+          "@id": "nyplLocation:rcmf8"
         },
         {
-          "@id": "nypl:rcmf9"
+          "@id": "nyplLocation:rcmf9"
         }
       ],
       "skos:notation": "maf",
@@ -139,31 +139,31 @@
       "@id": "nyplCollection:mag",
       "nyplLocation": [
         {
-          "@id": "nypl:mag82"
+          "@id": "nyplLocation:mag82"
         },
         {
-          "@id": "nypl:mag92"
+          "@id": "nyplLocation:mag92"
         },
         {
-          "@id": "nypl:mag98"
+          "@id": "nyplLocation:mag98"
         },
         {
-          "@id": "nypl:magg1"
+          "@id": "nyplLocation:magg1"
         },
         {
-          "@id": "nypl:magg2"
+          "@id": "nyplLocation:magg2"
         },
         {
-          "@id": "nypl:rcmg2"
+          "@id": "nyplLocation:rcmg2"
         },
         {
-          "@id": "nypl:rcmg8"
+          "@id": "nyplLocation:rcmg8"
         },
         {
-          "@id": "nypl:rcmg9"
+          "@id": "nyplLocation:rcmg9"
         },
         {
-          "@id": "nypl:magg3"
+          "@id": "nyplLocation:magg3"
         }
       ],
       "skos:notation": "mag",
@@ -173,13 +173,13 @@
       "@id": "nyplCollection:mak",
       "nyplLocation": [
         {
-          "@id": "nypl:mak32"
+          "@id": "nyplLocation:mak32"
         },
         {
-          "@id": "nypl:mak82"
+          "@id": "nyplLocation:mak82"
         },
         {
-          "@id": "nypl:makk3"
+          "@id": "nyplLocation:makk3"
         }
       ],
       "skos:notation": "mak",
@@ -189,82 +189,82 @@
       "@id": "nyplCollection:mal",
       "nyplLocation": [
         {
-          "@id": "nypl:mai32"
+          "@id": "nyplLocation:mai32"
         },
         {
-          "@id": "nypl:mai82"
+          "@id": "nyplLocation:mai82"
         },
         {
-          "@id": "nypl:mai92"
+          "@id": "nyplLocation:mai92"
         },
         {
-          "@id": "nypl:mal17"
+          "@id": "nyplLocation:mal17"
         },
         {
-          "@id": "nypl:mal23"
+          "@id": "nyplLocation:mal23"
         },
         {
-          "@id": "nypl:mal42"
+          "@id": "nyplLocation:mal42"
         },
         {
-          "@id": "nypl:mal72"
+          "@id": "nyplLocation:mal72"
         },
         {
-          "@id": "nypl:mal82"
+          "@id": "nyplLocation:mal82"
         },
         {
-          "@id": "nypl:mal92"
+          "@id": "nyplLocation:mal92"
         },
         {
-          "@id": "nypl:mala"
+          "@id": "nyplLocation:mala"
         },
         {
-          "@id": "nypl:mala1"
+          "@id": "nyplLocation:mala1"
         },
         {
-          "@id": "nypl:malc"
+          "@id": "nyplLocation:malc"
         },
         {
-          "@id": "nypl:mall1"
+          "@id": "nyplLocation:mall1"
         },
         {
-          "@id": "nypl:malm2"
+          "@id": "nyplLocation:malm2"
         },
         {
-          "@id": "nypl:maln"
+          "@id": "nyplLocation:maln"
         },
         {
-          "@id": "nypl:maln1"
+          "@id": "nyplLocation:maln1"
         },
         {
-          "@id": "nypl:malv2"
+          "@id": "nyplLocation:malv2"
         },
         {
-          "@id": "nypl:malw"
+          "@id": "nyplLocation:malw"
         },
         {
-          "@id": "nypl:malw1"
+          "@id": "nyplLocation:malw1"
         },
         {
-          "@id": "nypl:rc2ma"
+          "@id": "nyplLocation:rc2ma"
         },
         {
-          "@id": "nypl:rc2mj"
+          "@id": "nyplLocation:rc2mj"
         },
         {
-          "@id": "nypl:rcma2"
+          "@id": "nyplLocation:rcma2"
         },
         {
-          "@id": "nypl:rcmi2"
+          "@id": "nyplLocation:rcmi2"
         },
         {
-          "@id": "nypl:rcmj2"
+          "@id": "nyplLocation:rcmj2"
         },
         {
-          "@id": "nypl:rcml2"
+          "@id": "nyplLocation:rcml2"
         },
         {
-          "@id": "nypl:rcml8"
+          "@id": "nyplLocation:rcml8"
         }
       ],
       "skos:notation": "mal",
@@ -274,16 +274,16 @@
       "@id": "nyplCollection:mao",
       "nyplLocation": [
         {
-          "@id": "nypl:mao82"
+          "@id": "nyplLocation:mao82"
         },
         {
-          "@id": "nypl:mao92"
+          "@id": "nyplLocation:mao92"
         },
         {
-          "@id": "nypl:maor2"
+          "@id": "nyplLocation:maor2"
         },
         {
-          "@id": "nypl:rcmo2"
+          "@id": "nyplLocation:rcmo2"
         }
       ],
       "skos:notation": "mao",
@@ -293,49 +293,49 @@
       "@id": "nyplCollection:map",
       "nyplLocation": [
         {
-          "@id": "nypl:map08"
+          "@id": "nyplLocation:map08"
         },
         {
-          "@id": "nypl:map32"
+          "@id": "nyplLocation:map32"
         },
         {
-          "@id": "nypl:map42"
+          "@id": "nyplLocation:map42"
         },
         {
-          "@id": "nypl:map82"
+          "@id": "nyplLocation:map82"
         },
         {
-          "@id": "nypl:map92"
+          "@id": "nyplLocation:map92"
         },
         {
-          "@id": "nypl:map98"
+          "@id": "nyplLocation:map98"
         },
         {
-          "@id": "nypl:map99"
+          "@id": "nyplLocation:map99"
         },
         {
-          "@id": "nypl:mapp1"
+          "@id": "nyplLocation:mapp1"
         },
         {
-          "@id": "nypl:mapp2"
+          "@id": "nyplLocation:mapp2"
         },
         {
-          "@id": "nypl:mapp3"
+          "@id": "nyplLocation:mapp3"
         },
         {
-          "@id": "nypl:mapp8"
+          "@id": "nyplLocation:mapp8"
         },
         {
-          "@id": "nypl:mapp9"
+          "@id": "nyplLocation:mapp9"
         },
         {
-          "@id": "nypl:rcmp2"
+          "@id": "nyplLocation:rcmp2"
         },
         {
-          "@id": "nypl:rcmp8"
+          "@id": "nyplLocation:rcmp8"
         },
         {
-          "@id": "nypl:rcmp9"
+          "@id": "nyplLocation:rcmp9"
         }
       ],
       "skos:notation": "map",
@@ -345,10 +345,10 @@
       "@id": "nyplCollection:maq",
       "nyplLocation": [
         {
-          "@id": "nypl:maqq2"
+          "@id": "nyplLocation:maqq2"
         },
         {
-          "@id": "nypl:rcmq2"
+          "@id": "nyplLocation:rcmq2"
         }
       ],
       "skos:notation": "maq",
@@ -358,19 +358,19 @@
       "@id": "nyplCollection:mar",
       "nyplLocation": [
         {
-          "@id": "nypl:mar82"
+          "@id": "nyplLocation:mar82"
         },
         {
-          "@id": "nypl:mar92"
+          "@id": "nyplLocation:mar92"
         },
         {
-          "@id": "nypl:mard2"
+          "@id": "nyplLocation:mard2"
         },
         {
-          "@id": "nypl:marr2"
+          "@id": "nyplLocation:marr2"
         },
         {
-          "@id": "nypl:rcmr2"
+          "@id": "nyplLocation:rcmr2"
         }
       ],
       "skos:notation": "mar",
@@ -380,22 +380,22 @@
       "@id": "nyplCollection:mas",
       "nyplLocation": [
         {
-          "@id": "nypl:mas82"
+          "@id": "nyplLocation:mas82"
         },
         {
-          "@id": "nypl:mas92"
+          "@id": "nyplLocation:mas92"
         },
         {
-          "@id": "nypl:masb2"
+          "@id": "nyplLocation:masb2"
         },
         {
-          "@id": "nypl:mass2"
+          "@id": "nyplLocation:mass2"
         },
         {
-          "@id": "nypl:masu2"
+          "@id": "nyplLocation:masu2"
         },
         {
-          "@id": "nypl:rcms2"
+          "@id": "nyplLocation:rcms2"
         }
       ],
       "skos:notation": "mas",
@@ -405,10 +405,10 @@
       "@id": "nyplCollection:mau",
       "nyplLocation": [
         {
-          "@id": "nypl:mauu1"
+          "@id": "nyplLocation:mauu1"
         },
         {
-          "@id": "nypl:mauu2"
+          "@id": "nyplLocation:mauu2"
         }
       ],
       "skos:notation": "mau",
@@ -418,31 +418,31 @@
       "@id": "nyplCollection:pad",
       "nyplLocation": [
         {
-          "@id": "nypl:pad11"
+          "@id": "nyplLocation:pad11"
         },
         {
-          "@id": "nypl:pad22"
+          "@id": "nyplLocation:pad22"
         },
         {
-          "@id": "nypl:pad28"
+          "@id": "nyplLocation:pad28"
         },
         {
-          "@id": "nypl:pad32"
+          "@id": "nyplLocation:pad32"
         },
         {
-          "@id": "nypl:pad38"
+          "@id": "nyplLocation:pad38"
         },
         {
-          "@id": "nypl:pad42"
+          "@id": "nyplLocation:pad42"
         },
         {
-          "@id": "nypl:rcpd2"
+          "@id": "nyplLocation:rcpd2"
         },
         {
-          "@id": "nypl:rcpd8"
+          "@id": "nyplLocation:rcpd8"
         },
         {
-          "@id": "nypl:rcpd9"
+          "@id": "nyplLocation:rcpd9"
         }
       ],
       "skos:notation": "pad",
@@ -452,19 +452,19 @@
       "@id": "nyplCollection:paf",
       "nyplLocation": [
         {
-          "@id": "nypl:paf28"
+          "@id": "nyplLocation:paf28"
         },
         {
-          "@id": "nypl:paf29"
+          "@id": "nyplLocation:paf29"
         },
         {
-          "@id": "nypl:rcpf2"
+          "@id": "nyplLocation:rcpf2"
         },
         {
-          "@id": "nypl:rcpf8"
+          "@id": "nyplLocation:rcpf8"
         },
         {
-          "@id": "nypl:rcpf9"
+          "@id": "nyplLocation:rcpf9"
         }
       ],
       "skos:notation": "paf",
@@ -474,28 +474,28 @@
       "@id": "nyplCollection:pah",
       "nyplLocation": [
         {
-          "@id": "nypl:pah11"
+          "@id": "nyplLocation:pah11"
         },
         {
-          "@id": "nypl:pah22"
+          "@id": "nyplLocation:pah22"
         },
         {
-          "@id": "nypl:pah32"
+          "@id": "nyplLocation:pah32"
         },
         {
-          "@id": "nypl:pah38"
+          "@id": "nyplLocation:pah38"
         },
         {
-          "@id": "nypl:pah42"
+          "@id": "nyplLocation:pah42"
         },
         {
-          "@id": "nypl:rcph2"
+          "@id": "nyplLocation:rcph2"
         },
         {
-          "@id": "nypl:rcph8"
+          "@id": "nyplLocation:rcph8"
         },
         {
-          "@id": "nypl:rcph9"
+          "@id": "nyplLocation:rcph9"
         }
       ],
       "skos:notation": "pah",
@@ -505,31 +505,31 @@
       "@id": "nyplCollection:pam",
       "nyplLocation": [
         {
-          "@id": "nypl:pam11"
+          "@id": "nyplLocation:pam11"
         },
         {
-          "@id": "nypl:pam22"
+          "@id": "nyplLocation:pam22"
         },
         {
-          "@id": "nypl:pam32"
+          "@id": "nyplLocation:pam32"
         },
         {
-          "@id": "nypl:pam38"
+          "@id": "nyplLocation:pam38"
         },
         {
-          "@id": "nypl:pam42"
+          "@id": "nyplLocation:pam42"
         },
         {
-          "@id": "nypl:pam48"
+          "@id": "nyplLocation:pam48"
         },
         {
-          "@id": "nypl:rcpm2"
+          "@id": "nyplLocation:rcpm2"
         },
         {
-          "@id": "nypl:rcpm8"
+          "@id": "nyplLocation:rcpm8"
         },
         {
-          "@id": "nypl:rcpm9"
+          "@id": "nyplLocation:rcpm9"
         }
       ],
       "skos:notation": "pam",
@@ -539,34 +539,34 @@
       "@id": "nyplCollection:pat",
       "nyplLocation": [
         {
-          "@id": "nypl:pat11"
+          "@id": "nyplLocation:pat11"
         },
         {
-          "@id": "nypl:pat22"
+          "@id": "nyplLocation:pat22"
         },
         {
-          "@id": "nypl:pat28"
+          "@id": "nyplLocation:pat28"
         },
         {
-          "@id": "nypl:pat32"
+          "@id": "nyplLocation:pat32"
         },
         {
-          "@id": "nypl:pat38"
+          "@id": "nyplLocation:pat38"
         },
         {
-          "@id": "nypl:pat42"
+          "@id": "nyplLocation:pat42"
         },
         {
-          "@id": "nypl:pat48"
+          "@id": "nyplLocation:pat48"
         },
         {
-          "@id": "nypl:rcpt2"
+          "@id": "nyplLocation:rcpt2"
         },
         {
-          "@id": "nypl:rcpt8"
+          "@id": "nyplLocation:rcpt8"
         },
         {
-          "@id": "nypl:rcpt9"
+          "@id": "nyplLocation:rcpt9"
         }
       ],
       "skos:notation": "pat",
@@ -576,25 +576,25 @@
       "@id": "nyplCollection:pav",
       "nyplLocation": [
         {
-          "@id": "nypl:pav22"
+          "@id": "nyplLocation:pav22"
         },
         {
-          "@id": "nypl:pav28"
+          "@id": "nyplLocation:pav28"
         },
         {
-          "@id": "nypl:pav32"
+          "@id": "nyplLocation:pav32"
         },
         {
-          "@id": "nypl:pav38"
+          "@id": "nyplLocation:pav38"
         },
         {
-          "@id": "nypl:rcpr2"
+          "@id": "nyplLocation:rcpr2"
         },
         {
-          "@id": "nypl:rcpr8"
+          "@id": "nyplLocation:rcpr8"
         },
         {
-          "@id": "nypl:rcpr9"
+          "@id": "nyplLocation:rcpr9"
         }
       ],
       "skos:notation": "pav",
@@ -604,16 +604,16 @@
       "@id": "nyplCollection:scb",
       "nyplLocation": [
         {
-          "@id": "nypl:scbb2"
+          "@id": "nyplLocation:scbb2"
         },
         {
-          "@id": "nypl:rccb2"
+          "@id": "nyplLocation:rccb2"
         },
         {
-          "@id": "nypl:rccb8"
+          "@id": "nyplLocation:rccb8"
         },
         {
-          "@id": "nypl:rccb9"
+          "@id": "nyplLocation:rccb9"
         }
       ],
       "skos:notation": "scb",
@@ -623,13 +623,13 @@
       "@id": "nyplCollection:scc",
       "nyplLocation": [
         {
-          "@id": "nypl:sccc2"
+          "@id": "nyplLocation:sccc2"
         },
         {
-          "@id": "nypl:sccc3"
+          "@id": "nyplLocation:sccc3"
         },
         {
-          "@id": "nypl:rcca9"
+          "@id": "nyplLocation:rcca9"
         }
       ],
       "skos:notation": "scc",
@@ -639,19 +639,19 @@
       "@id": "nyplCollection:scd",
       "nyplLocation": [
         {
-          "@id": "nypl:scdd1"
+          "@id": "nyplLocation:scdd1"
         },
         {
-          "@id": "nypl:scdd2"
+          "@id": "nyplLocation:scdd2"
         },
         {
-          "@id": "nypl:rccd2"
+          "@id": "nyplLocation:rccd2"
         },
         {
-          "@id": "nypl:rccd8"
+          "@id": "nyplLocation:rccd8"
         },
         {
-          "@id": "nypl:rccd9"
+          "@id": "nyplLocation:rccd9"
         }
       ],
       "skos:notation": "scd",
@@ -661,19 +661,19 @@
       "@id": "nyplCollection:sce",
       "nyplLocation": [
         {
-          "@id": "nypl:scedd"
+          "@id": "nyplLocation:scedd"
         },
         {
-          "@id": "nypl:scee2"
+          "@id": "nyplLocation:scee2"
         },
         {
-          "@id": "nypl:rcce2"
+          "@id": "nyplLocation:rcce2"
         },
         {
-          "@id": "nypl:rcce8"
+          "@id": "nyplLocation:rcce8"
         },
         {
-          "@id": "nypl:rcce9"
+          "@id": "nyplLocation:rcce9"
         }
       ],
       "skos:notation": "sce",
@@ -683,28 +683,28 @@
       "@id": "nyplCollection:scf",
       "nyplLocation": [
         {
-          "@id": "nypl:scff1"
+          "@id": "nyplLocation:scff1"
         },
         {
-          "@id": "nypl:scff2"
+          "@id": "nyplLocation:scff2"
         },
         {
-          "@id": "nypl:scff3"
+          "@id": "nyplLocation:scff3"
         },
         {
-          "@id": "nypl:rc2cf"
+          "@id": "nyplLocation:rc2cf"
         },
         {
-          "@id": "nypl:rc2cm"
+          "@id": "nyplLocation:rc2cm"
         },
         {
-          "@id": "nypl:rccf2"
+          "@id": "nyplLocation:rccf2"
         },
         {
-          "@id": "nypl:rccf8"
+          "@id": "nyplLocation:rccf8"
         },
         {
-          "@id": "nypl:rccf9"
+          "@id": "nyplLocation:rccf9"
         }
       ],
       "skos:notation": "scf",
