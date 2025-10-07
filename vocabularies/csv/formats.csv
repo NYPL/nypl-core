@@ -1,31 +1,31 @@
 skos:notation,skos:altLabel,skos:prefLabel
 -,MISC,Miscellaneous
-3,E-VIDEO,E-Video
+3,E-VIDEO,E-video
 4,Tablet,Tablet
-5,READ-ALONG BOOK,Read-Along Book
-7,TEACHER AUDIO,Teacher Audio
-8,TEACHER SET,Teacher Set
-a,BOOK/TEXT,Book/Text
+5,READ-ALONG BOOK,Read-along book
+7,TEACHER AUDIO,Teacher audio
+8,TEACHER SET,Teacher set
+a,BOOK/TEXT,Book/text
 b,BLU-RAY,Blu-ray
 c,SCORE,Notated music
 d,MANUSCRIPT MUS,Manuscript notated music
 e,MAP,Map
-g,"FILM,SLIDE,ETC","Film, Slide, etc."
+g,"FILM,SLIDE,ETC","Film, slide, etc."
 h,MICROFORM,Microform
 i,SPOKEN WORD,Spoken word recording
 j,MUSIC NON-CD,Musical recording
 k,PICTURE,Picture
 l,LARGE PRINT,Large print
 m,COMPUTER FILE,Computer file
-n,E-AUDIOBOOK,E-Audiobook
+n,E-AUDIOBOOK,E-audiobook
 o,KIT,Kit
-p,ARCHIVAL MIX,Archival Mix
-r,3-D OBJECT,3-D Object
+p,ARCHIVAL MIX,Archival mix
+r,3-D OBJECT,3-D object
 s,VHS,VHS
 t,MANUSCRIPT,Manuscript
 u,AUDIOBOOK,Audiobook
 v,DVD,DVD
-w,WEB RESOURCE,Web Resource
+w,WEB RESOURCE,Web resource
 x,GAME,Game
 y,MUSIC CD,Music CD
-z,E-BOOK,E-Book
+z,E-BOOK,E-book
