@@ -17,7 +17,7 @@
       "@type": "nypl:Format",
       "skos:altLabel": "E-VIDEO",
       "skos:notation": "3",
-      "skos:prefLabel": "E-Video"
+      "skos:prefLabel": "E-video"
     },
     {
       "@id": "format:4",
@@ -31,28 +31,28 @@
       "@type": "nypl:Format",
       "skos:altLabel": "READ-ALONG BOOK",
       "skos:notation": "5",
-      "skos:prefLabel": "Read-Along Book"
+      "skos:prefLabel": "Read-along book"
     },
     {
       "@id": "format:7",
       "@type": "nypl:Format",
       "skos:altLabel": "TEACHER AUDIO",
       "skos:notation": "7",
-      "skos:prefLabel": "Teacher Audio"
+      "skos:prefLabel": "Teacher audio"
     },
     {
       "@id": "format:8",
       "@type": "nypl:Format",
       "skos:altLabel": "TEACHER SET",
       "skos:notation": "8",
-      "skos:prefLabel": "Teacher Set"
+      "skos:prefLabel": "Teacher set"
     },
     {
       "@id": "format:a",
       "@type": "nypl:Format",
       "skos:altLabel": "BOOK/TEXT",
       "skos:notation": "a",
-      "skos:prefLabel": "Book/Text"
+      "skos:prefLabel": "Book/text"
     },
     {
       "@id": "format:b",
@@ -87,7 +87,7 @@
       "@type": "nypl:Format",
       "skos:altLabel": "FILM,SLIDE,ETC",
       "skos:notation": "g",
-      "skos:prefLabel": "Film, Slide, etc."
+      "skos:prefLabel": "Film, slide, etc."
     },
     {
       "@id": "format:h",
@@ -136,7 +136,7 @@
       "@type": "nypl:Format",
       "skos:altLabel": "E-AUDIOBOOK",
       "skos:notation": "n",
-      "skos:prefLabel": "E-Audiobook"
+      "skos:prefLabel": "E-audiobook"
     },
     {
       "@id": "format:o",
@@ -150,14 +150,14 @@
       "@type": "nypl:Format",
       "skos:altLabel": "ARCHIVAL MIX",
       "skos:notation": "p",
-      "skos:prefLabel": "Archival Mix"
+      "skos:prefLabel": "Archival mix"
     },
     {
       "@id": "format:r",
       "@type": "nypl:Format",
       "skos:altLabel": "3-D OBJECT",
       "skos:notation": "r",
-      "skos:prefLabel": "3-D Object"
+      "skos:prefLabel": "3-D object"
     },
     {
       "@id": "format:s",
@@ -192,7 +192,7 @@
       "@type": "nypl:Format",
       "skos:altLabel": "WEB RESOURCE",
       "skos:notation": "w",
-      "skos:prefLabel": "Web Resource"
+      "skos:prefLabel": "Web resource"
     },
     {
       "@id": "format:x",
@@ -213,7 +213,7 @@
       "@type": "nypl:Format",
       "skos:altLabel": "E-BOOK",
       "skos:notation": "z",
-      "skos:prefLabel": "E-Book"
+      "skos:prefLabel": "E-book"
     }
   ]
 }

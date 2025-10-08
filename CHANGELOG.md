@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.34
+
+- Sentence case format labels
+
 ### v2.33
 
 - Add collection mapped to holding location data
