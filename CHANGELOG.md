@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.35
+
+- Update SASB location labels
+
 ### v2.34
 
 - Sentence case format labels
