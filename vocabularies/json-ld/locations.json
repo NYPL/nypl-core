@@ -34970,7 +34970,7 @@
       },
       "skos:altLabel": "SASB - Art & Architecture Rm 300",
       "skos:notation": "mab88",
-      "skos:prefLabel": "Schwarzman Building - Art & Architecture Rm 300"
+      "skos:prefLabel": "Schwarzman Building - Art & Architecture Room 300"
     },
     {
       "@id": "nyplLocation:mab89",
@@ -34989,7 +34989,7 @@
       },
       "skos:altLabel": "SASB - Art & Architecture Rm 300",
       "skos:notation": "mab89",
-      "skos:prefLabel": "Schwarzman Building - Art & Architecture Rm 300"
+      "skos:prefLabel": "Schwarzman Building - Art & Architecture Room 300"
     },
     {
       "@id": "nyplLocation:mab92",
