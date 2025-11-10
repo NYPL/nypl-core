@@ -3,8 +3,10 @@ import json
 
 
 def sort_graph(graph, context):
+    print(graph)
     jsonld = graph.serialize(format="json-ld", context=context, encoding="utf-8")
     data_dict = json.loads(jsonld, object_pairs_hook=OrderedDict)
+    print(data_dict)
     data_dict.get('@graph').sort(key=lambda data: data["@id"])
     return data_dict
 
