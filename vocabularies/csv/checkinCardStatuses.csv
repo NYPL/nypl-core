@@ -1,0 +1,13 @@
+skos:notation,skos:prefLabel,nypl:itemStatusMapping,nypl:display
+A,ARRIVED,a,true
+B,BOUND,na,false
+E,EXPECTED,na,false
+L,NOT PUBLISHED,na,false
+M,MISSING,m,true
+N,BLANK,na,false
+O,OUT OF PRINT,na,false
+P,PARTIAL,a,true
+R,REMOVED,w,true
+S,BIND PREP,i,true
+T,TO BIND,i,true
+U,UNAVAILABLE,na,true

@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "nypl": "http://data.nypl.org/nypl-core/",
+    "nyplStatus": "http://data.nypl.org/checkinCardStatuses/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@graph": [
+    {
+      "@id": "nyplStatus:A",
+      "@type": "nypl:CheckinCardStatus",
+      "nypl:display": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "nypl:itemStatus": "a",
+      "skos:notation": "A",
+      "skos:prefLabel": "ARRIVED"
+    },
+    {
+      "@id": "nyplStatus:B",
+      "@type": "nypl:CheckinCardStatus",
+      "nypl:display": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "nypl:itemStatus": "na",
+      "skos:notation": "B",
+      "skos:prefLabel": "BOUND"
+    },
+    {
+      "@id": "nyplStatus:E",
+      "@type": "nypl:CheckinCardStatus",
+      "nypl:display": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "nypl:itemStatus": "na",
+      "skos:notation": "E",
+      "skos:prefLabel": "EXPECTED"
+    },
+    {
+      "@id": "nyplStatus:L",
+      "@type": "nypl:CheckinCardStatus",
+      "nypl:display": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "nypl:itemStatus": "na",
+      "skos:notation": "L",
+      "skos:prefLabel": "NOT PUBLISHED"
+    },
+    {
+      "@id": "nyplStatus:M",
+      "@type": "nypl:CheckinCardStatus",
+      "nypl:display": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "nypl:itemStatus": "m",
+      "skos:notation": "M",
+      "skos:prefLabel": "MISSING"
+    },
+    {
+      "@id": "nyplStatus:N",
+      "@type": "nypl:CheckinCardStatus",
+      "nypl:display": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "nypl:itemStatus": "na",
+      "skos:notation": "N",
+      "skos:prefLabel": "BLANK"
+    },
+    {
+      "@id": "nyplStatus:O",
+      "@type": "nypl:CheckinCardStatus",
+      "nypl:display": {
+        "@type": "XSD:boolean",
+        "@value": "false"
+      },
+      "nypl:itemStatus": "na",
+      "skos:notation": "O",
+      "skos:prefLabel": "OUT OF PRINT"
+    },
+    {
+      "@id": "nyplStatus:P",
+      "@type": "nypl:CheckinCardStatus",
+      "nypl:display": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "nypl:itemStatus": "a",
+      "skos:notation": "P",
+      "skos:prefLabel": "PARTIAL"
+    },
+    {
+      "@id": "nyplStatus:R",
+      "@type": "nypl:CheckinCardStatus",
+      "nypl:display": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "nypl:itemStatus": "w",
+      "skos:notation": "R",
+      "skos:prefLabel": "REMOVED"
+    },
+    {
+      "@id": "nyplStatus:S",
+      "@type": "nypl:CheckinCardStatus",
+      "nypl:display": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "nypl:itemStatus": "i",
+      "skos:notation": "S",
+      "skos:prefLabel": "BIND PREP"
+    },
+    {
+      "@id": "nyplStatus:T",
+      "@type": "nypl:CheckinCardStatus",
+      "nypl:display": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "nypl:itemStatus": "i",
+      "skos:notation": "T",
+      "skos:prefLabel": "TO BIND"
+    },
+    {
+      "@id": "nyplStatus:U",
+      "@type": "nypl:CheckinCardStatus",
+      "nypl:display": {
+        "@type": "XSD:boolean",
+        "@value": "true"
+      },
+      "nypl:itemStatus": "na",
+      "skos:notation": "U",
+      "skos:prefLabel": "UNAVAILABLE"
+    }
+  ]
+}

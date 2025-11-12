@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.36
+
+- add checkin card status vocabulary and script
+
 ### v2.35
 
 - Update SASB location labels
