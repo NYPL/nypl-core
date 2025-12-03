@@ -9,7 +9,7 @@ from utils import sort_and_write_graph_to_file
 
 
 def serialize(data_type):
-    f = open(f'../csv/{data_type}s.csv')
+    f = open(f'../csv/{data_type}.csv')
     reader = csv.DictReader(f)
 
     nypl = Namespace('http://data.nypl.org/nypl-core/')
@@ -19,21 +19,24 @@ def serialize(data_type):
 
     for r in reader:
         id = r['skos:notation']
-        preflabel = rdflib.Literal(r['skos:prefLabel'])
-        altlabel = rdflib.Literal(r['skos:altLabel'])
-        notation = rdflib.Literal(r['skos:notation'])
         dataType = nyplDataType + str(id)
         capitalized_data_type = data_type[0].capitalize() + data_type[1:]
+        if (id is not None):
+            notation = rdflib.Literal(id)
+            g.add((dataType, SKOS.notation, notation))
+        if (r.get('skos:altLabel') is not None):
+            altlabel = rdflib.Literal(r['skos:altLabel'])
+            g.add((dataType, SKOS.altLabel, altlabel))
         g.add((dataType, RDF.type, nypl[capitalized_data_type]))
-        g.add((dataType, SKOS.prefLabel, preflabel))
-        g.add((dataType, SKOS.altLabel, altlabel))
-        g.add((dataType, SKOS.notation, notation))
+        if (r.get('skos:prefLabel') is not None):
+            preflabel = rdflib.Literal(r['skos:prefLabel'])
+            g.add((dataType, SKOS.prefLabel, preflabel))
 
     context = {
         "nypl": "http://data.nypl.org/nypl-core/",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         data_type: f'http://data.nypl.org/{data_type}/'}
 
-    sort_and_write_graph_to_file(g, context, data_type+'s')
+    sort_and_write_graph_to_file(g, context, data_type)
 
     f.close()
