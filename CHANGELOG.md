@@ -1,5 +1,9 @@
 # CHANGELOG
 
+### v2.37
+
+- add LOC relators vocab and script
+
 ### v2.36
 
 - add checkin card status vocabulary and script

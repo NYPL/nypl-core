@@ -1,0 +1,1812 @@
+{
+  "@context": {
+    "nypl": "http://data.nypl.org/nypl-core/",
+    "relators": "http://data.nypl.org/relators/",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "@graph": [
+    {
+      "@id": "relators:abr",
+      "@type": "nypl:Relators",
+      "skos:notation": "abr",
+      "skos:prefLabel": "abridger"
+    },
+    {
+      "@id": "relators:acp",
+      "@type": "nypl:Relators",
+      "skos:notation": "acp",
+      "skos:prefLabel": "art copyist"
+    },
+    {
+      "@id": "relators:act",
+      "@type": "nypl:Relators",
+      "skos:notation": "act",
+      "skos:prefLabel": "actor"
+    },
+    {
+      "@id": "relators:adi",
+      "@type": "nypl:Relators",
+      "skos:notation": "adi",
+      "skos:prefLabel": "art director"
+    },
+    {
+      "@id": "relators:adp",
+      "@type": "nypl:Relators",
+      "skos:notation": "adp",
+      "skos:prefLabel": "adapter"
+    },
+    {
+      "@id": "relators:anc",
+      "@type": "nypl:Relators",
+      "skos:notation": "anc",
+      "skos:prefLabel": "announcer"
+    },
+    {
+      "@id": "relators:anl",
+      "@type": "nypl:Relators",
+      "skos:notation": "anl",
+      "skos:prefLabel": "analyst"
+    },
+    {
+      "@id": "relators:anm",
+      "@type": "nypl:Relators",
+      "skos:notation": "anm",
+      "skos:prefLabel": "animator"
+    },
+    {
+      "@id": "relators:ann",
+      "@type": "nypl:Relators",
+      "skos:notation": "ann",
+      "skos:prefLabel": "annotator"
+    },
+    {
+      "@id": "relators:ant",
+      "@type": "nypl:Relators",
+      "skos:notation": "ant",
+      "skos:prefLabel": "bibliographic antecedent"
+    },
+    {
+      "@id": "relators:ape",
+      "@type": "nypl:Relators",
+      "skos:notation": "ape",
+      "skos:prefLabel": "appellee"
+    },
+    {
+      "@id": "relators:apl",
+      "@type": "nypl:Relators",
+      "skos:notation": "apl",
+      "skos:prefLabel": "appellant"
+    },
+    {
+      "@id": "relators:app",
+      "@type": "nypl:Relators",
+      "skos:notation": "app",
+      "skos:prefLabel": "applicant"
+    },
+    {
+      "@id": "relators:aqt",
+      "@type": "nypl:Relators",
+      "skos:notation": "aqt",
+      "skos:prefLabel": "author in quotations or text abstracts"
+    },
+    {
+      "@id": "relators:arc",
+      "@type": "nypl:Relators",
+      "skos:notation": "arc",
+      "skos:prefLabel": "architect"
+    },
+    {
+      "@id": "relators:ard",
+      "@type": "nypl:Relators",
+      "skos:notation": "ard",
+      "skos:prefLabel": "artistic director"
+    },
+    {
+      "@id": "relators:arr",
+      "@type": "nypl:Relators",
+      "skos:notation": "arr",
+      "skos:prefLabel": "arranger"
+    },
+    {
+      "@id": "relators:art",
+      "@type": "nypl:Relators",
+      "skos:notation": "art",
+      "skos:prefLabel": "artist"
+    },
+    {
+      "@id": "relators:asg",
+      "@type": "nypl:Relators",
+      "skos:notation": "asg",
+      "skos:prefLabel": "assignee"
+    },
+    {
+      "@id": "relators:asn",
+      "@type": "nypl:Relators",
+      "skos:notation": "asn",
+      "skos:prefLabel": "associated name"
+    },
+    {
+      "@id": "relators:ato",
+      "@type": "nypl:Relators",
+      "skos:notation": "ato",
+      "skos:prefLabel": "autographer"
+    },
+    {
+      "@id": "relators:att",
+      "@type": "nypl:Relators",
+      "skos:notation": "att",
+      "skos:prefLabel": "attributed name"
+    },
+    {
+      "@id": "relators:auc",
+      "@type": "nypl:Relators",
+      "skos:notation": "auc",
+      "skos:prefLabel": "auctioneer"
+    },
+    {
+      "@id": "relators:aud",
+      "@type": "nypl:Relators",
+      "skos:notation": "aud",
+      "skos:prefLabel": "author of dialog"
+    },
+    {
+      "@id": "relators:aue",
+      "@type": "nypl:Relators",
+      "skos:notation": "aue",
+      "skos:prefLabel": "audio engineer"
+    },
+    {
+      "@id": "relators:aup",
+      "@type": "nypl:Relators",
+      "skos:notation": "aup",
+      "skos:prefLabel": "audio producer"
+    },
+    {
+      "@id": "relators:aus",
+      "@type": "nypl:Relators",
+      "skos:notation": "aus",
+      "skos:prefLabel": "screenwriter"
+    },
+    {
+      "@id": "relators:aut",
+      "@type": "nypl:Relators",
+      "skos:notation": "aut",
+      "skos:prefLabel": "author"
+    },
+    {
+      "@id": "relators:bdd",
+      "@type": "nypl:Relators",
+      "skos:notation": "bdd",
+      "skos:prefLabel": "binding designer"
+    },
+    {
+      "@id": "relators:bjd",
+      "@type": "nypl:Relators",
+      "skos:notation": "bjd",
+      "skos:prefLabel": "bookjacket designer"
+    },
+    {
+      "@id": "relators:bka",
+      "@type": "nypl:Relators",
+      "skos:notation": "bka",
+      "skos:prefLabel": "book artist"
+    },
+    {
+      "@id": "relators:bkd",
+      "@type": "nypl:Relators",
+      "skos:notation": "bkd",
+      "skos:prefLabel": "book designer"
+    },
+    {
+      "@id": "relators:bkp",
+      "@type": "nypl:Relators",
+      "skos:notation": "bkp",
+      "skos:prefLabel": "book producer"
+    },
+    {
+      "@id": "relators:blw",
+      "@type": "nypl:Relators",
+      "skos:notation": "blw",
+      "skos:prefLabel": "blurb writer"
+    },
+    {
+      "@id": "relators:bnd",
+      "@type": "nypl:Relators",
+      "skos:notation": "bnd",
+      "skos:prefLabel": "binder"
+    },
+    {
+      "@id": "relators:bpd",
+      "@type": "nypl:Relators",
+      "skos:notation": "bpd",
+      "skos:prefLabel": "bookplate designer"
+    },
+    {
+      "@id": "relators:brd",
+      "@type": "nypl:Relators",
+      "skos:notation": "brd",
+      "skos:prefLabel": "broadcaster"
+    },
+    {
+      "@id": "relators:brl",
+      "@type": "nypl:Relators",
+      "skos:notation": "brl",
+      "skos:prefLabel": "braille embosser"
+    },
+    {
+      "@id": "relators:bsl",
+      "@type": "nypl:Relators",
+      "skos:notation": "bsl",
+      "skos:prefLabel": "bookseller"
+    },
+    {
+      "@id": "relators:cad",
+      "@type": "nypl:Relators",
+      "skos:notation": "cad",
+      "skos:prefLabel": "casting director"
+    },
+    {
+      "@id": "relators:cas",
+      "@type": "nypl:Relators",
+      "skos:notation": "cas",
+      "skos:prefLabel": "caster"
+    },
+    {
+      "@id": "relators:ccp",
+      "@type": "nypl:Relators",
+      "skos:notation": "ccp",
+      "skos:prefLabel": "conceptor"
+    },
+    {
+      "@id": "relators:chr",
+      "@type": "nypl:Relators",
+      "skos:notation": "chr",
+      "skos:prefLabel": "choreographer"
+    },
+    {
+      "@id": "relators:cli",
+      "@type": "nypl:Relators",
+      "skos:notation": "cli",
+      "skos:prefLabel": "client"
+    },
+    {
+      "@id": "relators:cll",
+      "@type": "nypl:Relators",
+      "skos:notation": "cll",
+      "skos:prefLabel": "calligrapher"
+    },
+    {
+      "@id": "relators:clr",
+      "@type": "nypl:Relators",
+      "skos:notation": "clr",
+      "skos:prefLabel": "colorist"
+    },
+    {
+      "@id": "relators:clt",
+      "@type": "nypl:Relators",
+      "skos:notation": "clt",
+      "skos:prefLabel": "collotyper"
+    },
+    {
+      "@id": "relators:cmm",
+      "@type": "nypl:Relators",
+      "skos:notation": "cmm",
+      "skos:prefLabel": "commentator"
+    },
+    {
+      "@id": "relators:cmp",
+      "@type": "nypl:Relators",
+      "skos:notation": "cmp",
+      "skos:prefLabel": "composer"
+    },
+    {
+      "@id": "relators:cmt",
+      "@type": "nypl:Relators",
+      "skos:notation": "cmt",
+      "skos:prefLabel": "compositor"
+    },
+    {
+      "@id": "relators:cnd",
+      "@type": "nypl:Relators",
+      "skos:notation": "cnd",
+      "skos:prefLabel": "conductor"
+    },
+    {
+      "@id": "relators:cng",
+      "@type": "nypl:Relators",
+      "skos:notation": "cng",
+      "skos:prefLabel": "cinematographer"
+    },
+    {
+      "@id": "relators:cns",
+      "@type": "nypl:Relators",
+      "skos:notation": "cns",
+      "skos:prefLabel": "censor"
+    },
+    {
+      "@id": "relators:coe",
+      "@type": "nypl:Relators",
+      "skos:notation": "coe",
+      "skos:prefLabel": "contestant-appellee"
+    },
+    {
+      "@id": "relators:col",
+      "@type": "nypl:Relators",
+      "skos:notation": "col",
+      "skos:prefLabel": "collector"
+    },
+    {
+      "@id": "relators:com",
+      "@type": "nypl:Relators",
+      "skos:notation": "com",
+      "skos:prefLabel": "compiler"
+    },
+    {
+      "@id": "relators:con",
+      "@type": "nypl:Relators",
+      "skos:notation": "con",
+      "skos:prefLabel": "conservator"
+    },
+    {
+      "@id": "relators:cop",
+      "@type": "nypl:Relators",
+      "skos:notation": "cop",
+      "skos:prefLabel": "camera operator"
+    },
+    {
+      "@id": "relators:cor",
+      "@type": "nypl:Relators",
+      "skos:notation": "cor",
+      "skos:prefLabel": "collection registrar"
+    },
+    {
+      "@id": "relators:cos",
+      "@type": "nypl:Relators",
+      "skos:notation": "cos",
+      "skos:prefLabel": "contestant"
+    },
+    {
+      "@id": "relators:cot",
+      "@type": "nypl:Relators",
+      "skos:notation": "cot",
+      "skos:prefLabel": "contestant-appellant"
+    },
+    {
+      "@id": "relators:cou",
+      "@type": "nypl:Relators",
+      "skos:notation": "cou",
+      "skos:prefLabel": "court governed"
+    },
+    {
+      "@id": "relators:cov",
+      "@type": "nypl:Relators",
+      "skos:notation": "cov",
+      "skos:prefLabel": "cover designer"
+    },
+    {
+      "@id": "relators:cpc",
+      "@type": "nypl:Relators",
+      "skos:notation": "cpc",
+      "skos:prefLabel": "copyright claimant"
+    },
+    {
+      "@id": "relators:cpe",
+      "@type": "nypl:Relators",
+      "skos:notation": "cpe",
+      "skos:prefLabel": "complainant-appellee"
+    },
+    {
+      "@id": "relators:cph",
+      "@type": "nypl:Relators",
+      "skos:notation": "cph",
+      "skos:prefLabel": "copyright holder"
+    },
+    {
+      "@id": "relators:cpl",
+      "@type": "nypl:Relators",
+      "skos:notation": "cpl",
+      "skos:prefLabel": "complainant"
+    },
+    {
+      "@id": "relators:cpt",
+      "@type": "nypl:Relators",
+      "skos:notation": "cpt",
+      "skos:prefLabel": "complainant-appellant"
+    },
+    {
+      "@id": "relators:cre",
+      "@type": "nypl:Relators",
+      "skos:notation": "cre",
+      "skos:prefLabel": "creator"
+    },
+    {
+      "@id": "relators:crp",
+      "@type": "nypl:Relators",
+      "skos:notation": "crp",
+      "skos:prefLabel": "correspondent"
+    },
+    {
+      "@id": "relators:crr",
+      "@type": "nypl:Relators",
+      "skos:notation": "crr",
+      "skos:prefLabel": "corrector"
+    },
+    {
+      "@id": "relators:crt",
+      "@type": "nypl:Relators",
+      "skos:notation": "crt",
+      "skos:prefLabel": "court reporter"
+    },
+    {
+      "@id": "relators:csl",
+      "@type": "nypl:Relators",
+      "skos:notation": "csl",
+      "skos:prefLabel": "consultant"
+    },
+    {
+      "@id": "relators:csp",
+      "@type": "nypl:Relators",
+      "skos:notation": "csp",
+      "skos:prefLabel": "consultant to a project"
+    },
+    {
+      "@id": "relators:cst",
+      "@type": "nypl:Relators",
+      "skos:notation": "cst",
+      "skos:prefLabel": "costume designer"
+    },
+    {
+      "@id": "relators:ctb",
+      "@type": "nypl:Relators",
+      "skos:notation": "ctb",
+      "skos:prefLabel": "contributor"
+    },
+    {
+      "@id": "relators:cte",
+      "@type": "nypl:Relators",
+      "skos:notation": "cte",
+      "skos:prefLabel": "contestee-appellee"
+    },
+    {
+      "@id": "relators:ctg",
+      "@type": "nypl:Relators",
+      "skos:notation": "ctg",
+      "skos:prefLabel": "cartographer"
+    },
+    {
+      "@id": "relators:ctr",
+      "@type": "nypl:Relators",
+      "skos:notation": "ctr",
+      "skos:prefLabel": "contractor"
+    },
+    {
+      "@id": "relators:cts",
+      "@type": "nypl:Relators",
+      "skos:notation": "cts",
+      "skos:prefLabel": "contestee"
+    },
+    {
+      "@id": "relators:ctt",
+      "@type": "nypl:Relators",
+      "skos:notation": "ctt",
+      "skos:prefLabel": "contestee-appellant"
+    },
+    {
+      "@id": "relators:cur",
+      "@type": "nypl:Relators",
+      "skos:notation": "cur",
+      "skos:prefLabel": "curator"
+    },
+    {
+      "@id": "relators:cwt",
+      "@type": "nypl:Relators",
+      "skos:notation": "cwt",
+      "skos:prefLabel": "commentator for written text"
+    },
+    {
+      "@id": "relators:dbd",
+      "@type": "nypl:Relators",
+      "skos:notation": "dbd",
+      "skos:prefLabel": "dubbing director"
+    },
+    {
+      "@id": "relators:dbp",
+      "@type": "nypl:Relators",
+      "skos:notation": "dbp",
+      "skos:prefLabel": "distribution place"
+    },
+    {
+      "@id": "relators:dfd",
+      "@type": "nypl:Relators",
+      "skos:notation": "dfd",
+      "skos:prefLabel": "defendant"
+    },
+    {
+      "@id": "relators:dfe",
+      "@type": "nypl:Relators",
+      "skos:notation": "dfe",
+      "skos:prefLabel": "defendant-appellee"
+    },
+    {
+      "@id": "relators:dft",
+      "@type": "nypl:Relators",
+      "skos:notation": "dft",
+      "skos:prefLabel": "defendant-appellant"
+    },
+    {
+      "@id": "relators:dgc",
+      "@type": "nypl:Relators",
+      "skos:notation": "dgc",
+      "skos:prefLabel": "degree committee member"
+    },
+    {
+      "@id": "relators:dgg",
+      "@type": "nypl:Relators",
+      "skos:notation": "dgg",
+      "skos:prefLabel": "degree granting institution"
+    },
+    {
+      "@id": "relators:dgs",
+      "@type": "nypl:Relators",
+      "skos:notation": "dgs",
+      "skos:prefLabel": "degree supervisor"
+    },
+    {
+      "@id": "relators:dis",
+      "@type": "nypl:Relators",
+      "skos:notation": "dis",
+      "skos:prefLabel": "dissertant"
+    },
+    {
+      "@id": "relators:djo",
+      "@type": "nypl:Relators",
+      "skos:notation": "djo",
+      "skos:prefLabel": "dj"
+    },
+    {
+      "@id": "relators:dln",
+      "@type": "nypl:Relators",
+      "skos:notation": "dln",
+      "skos:prefLabel": "delineator"
+    },
+    {
+      "@id": "relators:dnc",
+      "@type": "nypl:Relators",
+      "skos:notation": "dnc",
+      "skos:prefLabel": "dancer"
+    },
+    {
+      "@id": "relators:dnr",
+      "@type": "nypl:Relators",
+      "skos:notation": "dnr",
+      "skos:prefLabel": "donor"
+    },
+    {
+      "@id": "relators:dpc",
+      "@type": "nypl:Relators",
+      "skos:notation": "dpc",
+      "skos:prefLabel": "depicted"
+    },
+    {
+      "@id": "relators:dpt",
+      "@type": "nypl:Relators",
+      "skos:notation": "dpt",
+      "skos:prefLabel": "depositor"
+    },
+    {
+      "@id": "relators:drm",
+      "@type": "nypl:Relators",
+      "skos:notation": "drm",
+      "skos:prefLabel": "draftsman"
+    },
+    {
+      "@id": "relators:drt",
+      "@type": "nypl:Relators",
+      "skos:notation": "drt",
+      "skos:prefLabel": "director"
+    },
+    {
+      "@id": "relators:dsr",
+      "@type": "nypl:Relators",
+      "skos:notation": "dsr",
+      "skos:prefLabel": "designer"
+    },
+    {
+      "@id": "relators:dst",
+      "@type": "nypl:Relators",
+      "skos:notation": "dst",
+      "skos:prefLabel": "distributor"
+    },
+    {
+      "@id": "relators:dtc",
+      "@type": "nypl:Relators",
+      "skos:notation": "dtc",
+      "skos:prefLabel": "data contributor"
+    },
+    {
+      "@id": "relators:dte",
+      "@type": "nypl:Relators",
+      "skos:notation": "dte",
+      "skos:prefLabel": "dedicatee"
+    },
+    {
+      "@id": "relators:dtm",
+      "@type": "nypl:Relators",
+      "skos:notation": "dtm",
+      "skos:prefLabel": "data manager"
+    },
+    {
+      "@id": "relators:dto",
+      "@type": "nypl:Relators",
+      "skos:notation": "dto",
+      "skos:prefLabel": "dedicator"
+    },
+    {
+      "@id": "relators:dub",
+      "@type": "nypl:Relators",
+      "skos:notation": "dub",
+      "skos:prefLabel": "dubious author"
+    },
+    {
+      "@id": "relators:edc",
+      "@type": "nypl:Relators",
+      "skos:notation": "edc",
+      "skos:prefLabel": "editor of compilation"
+    },
+    {
+      "@id": "relators:edd",
+      "@type": "nypl:Relators",
+      "skos:notation": "edd",
+      "skos:prefLabel": "editorial director"
+    },
+    {
+      "@id": "relators:edm",
+      "@type": "nypl:Relators",
+      "skos:notation": "edm",
+      "skos:prefLabel": "editor of moving image work"
+    },
+    {
+      "@id": "relators:edt",
+      "@type": "nypl:Relators",
+      "skos:notation": "edt",
+      "skos:prefLabel": "editor"
+    },
+    {
+      "@id": "relators:egr",
+      "@type": "nypl:Relators",
+      "skos:notation": "egr",
+      "skos:prefLabel": "engraver"
+    },
+    {
+      "@id": "relators:elg",
+      "@type": "nypl:Relators",
+      "skos:notation": "elg",
+      "skos:prefLabel": "electrician"
+    },
+    {
+      "@id": "relators:elt",
+      "@type": "nypl:Relators",
+      "skos:notation": "elt",
+      "skos:prefLabel": "electrotyper"
+    },
+    {
+      "@id": "relators:eng",
+      "@type": "nypl:Relators",
+      "skos:notation": "eng",
+      "skos:prefLabel": "engineer"
+    },
+    {
+      "@id": "relators:enj",
+      "@type": "nypl:Relators",
+      "skos:notation": "enj",
+      "skos:prefLabel": "enacting jurisdiction"
+    },
+    {
+      "@id": "relators:etr",
+      "@type": "nypl:Relators",
+      "skos:notation": "etr",
+      "skos:prefLabel": "etcher"
+    },
+    {
+      "@id": "relators:evp",
+      "@type": "nypl:Relators",
+      "skos:notation": "evp",
+      "skos:prefLabel": "event place"
+    },
+    {
+      "@id": "relators:exp",
+      "@type": "nypl:Relators",
+      "skos:notation": "exp",
+      "skos:prefLabel": "expert"
+    },
+    {
+      "@id": "relators:fac",
+      "@type": "nypl:Relators",
+      "skos:notation": "fac",
+      "skos:prefLabel": "facsimilist"
+    },
+    {
+      "@id": "relators:fds",
+      "@type": "nypl:Relators",
+      "skos:notation": "fds",
+      "skos:prefLabel": "film distributor"
+    },
+    {
+      "@id": "relators:fld",
+      "@type": "nypl:Relators",
+      "skos:notation": "fld",
+      "skos:prefLabel": "field director"
+    },
+    {
+      "@id": "relators:flm",
+      "@type": "nypl:Relators",
+      "skos:notation": "flm",
+      "skos:prefLabel": "film editor"
+    },
+    {
+      "@id": "relators:fmd",
+      "@type": "nypl:Relators",
+      "skos:notation": "fmd",
+      "skos:prefLabel": "film director"
+    },
+    {
+      "@id": "relators:fmk",
+      "@type": "nypl:Relators",
+      "skos:notation": "fmk",
+      "skos:prefLabel": "filmmaker"
+    },
+    {
+      "@id": "relators:fmo",
+      "@type": "nypl:Relators",
+      "skos:notation": "fmo",
+      "skos:prefLabel": "former owner"
+    },
+    {
+      "@id": "relators:fmp",
+      "@type": "nypl:Relators",
+      "skos:notation": "fmp",
+      "skos:prefLabel": "film producer"
+    },
+    {
+      "@id": "relators:fnd",
+      "@type": "nypl:Relators",
+      "skos:notation": "fnd",
+      "skos:prefLabel": "funder"
+    },
+    {
+      "@id": "relators:fon",
+      "@type": "nypl:Relators",
+      "skos:notation": "fon",
+      "skos:prefLabel": "founder"
+    },
+    {
+      "@id": "relators:fpy",
+      "@type": "nypl:Relators",
+      "skos:notation": "fpy",
+      "skos:prefLabel": "first party"
+    },
+    {
+      "@id": "relators:frg",
+      "@type": "nypl:Relators",
+      "skos:notation": "frg",
+      "skos:prefLabel": "forger"
+    },
+    {
+      "@id": "relators:gdv",
+      "@type": "nypl:Relators",
+      "skos:notation": "gdv",
+      "skos:prefLabel": "game developer"
+    },
+    {
+      "@id": "relators:gis",
+      "@type": "nypl:Relators",
+      "skos:notation": "gis",
+      "skos:prefLabel": "geographic information specialist"
+    },
+    {
+      "@id": "relators:his",
+      "@type": "nypl:Relators",
+      "skos:notation": "his",
+      "skos:prefLabel": "host institution"
+    },
+    {
+      "@id": "relators:hnr",
+      "@type": "nypl:Relators",
+      "skos:notation": "hnr",
+      "skos:prefLabel": "honoree"
+    },
+    {
+      "@id": "relators:hst",
+      "@type": "nypl:Relators",
+      "skos:notation": "hst",
+      "skos:prefLabel": "host"
+    },
+    {
+      "@id": "relators:ill",
+      "@type": "nypl:Relators",
+      "skos:notation": "ill",
+      "skos:prefLabel": "illustrator"
+    },
+    {
+      "@id": "relators:ilu",
+      "@type": "nypl:Relators",
+      "skos:notation": "ilu",
+      "skos:prefLabel": "illuminator"
+    },
+    {
+      "@id": "relators:ink",
+      "@type": "nypl:Relators",
+      "skos:notation": "ink",
+      "skos:prefLabel": "inker"
+    },
+    {
+      "@id": "relators:ins",
+      "@type": "nypl:Relators",
+      "skos:notation": "ins",
+      "skos:prefLabel": "inscriber"
+    },
+    {
+      "@id": "relators:inv",
+      "@type": "nypl:Relators",
+      "skos:notation": "inv",
+      "skos:prefLabel": "inventor"
+    },
+    {
+      "@id": "relators:isb",
+      "@type": "nypl:Relators",
+      "skos:notation": "isb",
+      "skos:prefLabel": "issuing body"
+    },
+    {
+      "@id": "relators:itr",
+      "@type": "nypl:Relators",
+      "skos:notation": "itr",
+      "skos:prefLabel": "instrumentalist"
+    },
+    {
+      "@id": "relators:ive",
+      "@type": "nypl:Relators",
+      "skos:notation": "ive",
+      "skos:prefLabel": "interviewee"
+    },
+    {
+      "@id": "relators:ivr",
+      "@type": "nypl:Relators",
+      "skos:notation": "ivr",
+      "skos:prefLabel": "interviewer"
+    },
+    {
+      "@id": "relators:jud",
+      "@type": "nypl:Relators",
+      "skos:notation": "jud",
+      "skos:prefLabel": "judge"
+    },
+    {
+      "@id": "relators:jug",
+      "@type": "nypl:Relators",
+      "skos:notation": "jug",
+      "skos:prefLabel": "jurisdiction governed"
+    },
+    {
+      "@id": "relators:lbr",
+      "@type": "nypl:Relators",
+      "skos:notation": "lbr",
+      "skos:prefLabel": "laboratory"
+    },
+    {
+      "@id": "relators:lbt",
+      "@type": "nypl:Relators",
+      "skos:notation": "lbt",
+      "skos:prefLabel": "librettist"
+    },
+    {
+      "@id": "relators:ldr",
+      "@type": "nypl:Relators",
+      "skos:notation": "ldr",
+      "skos:prefLabel": "laboratory director"
+    },
+    {
+      "@id": "relators:led",
+      "@type": "nypl:Relators",
+      "skos:notation": "led",
+      "skos:prefLabel": "lead"
+    },
+    {
+      "@id": "relators:lee",
+      "@type": "nypl:Relators",
+      "skos:notation": "lee",
+      "skos:prefLabel": "libelee-appellee"
+    },
+    {
+      "@id": "relators:lel",
+      "@type": "nypl:Relators",
+      "skos:notation": "lel",
+      "skos:prefLabel": "libelee"
+    },
+    {
+      "@id": "relators:len",
+      "@type": "nypl:Relators",
+      "skos:notation": "len",
+      "skos:prefLabel": "lender"
+    },
+    {
+      "@id": "relators:let",
+      "@type": "nypl:Relators",
+      "skos:notation": "let",
+      "skos:prefLabel": "libelee-appellant"
+    },
+    {
+      "@id": "relators:lgd",
+      "@type": "nypl:Relators",
+      "skos:notation": "lgd",
+      "skos:prefLabel": "lighting designer"
+    },
+    {
+      "@id": "relators:lie",
+      "@type": "nypl:Relators",
+      "skos:notation": "lie",
+      "skos:prefLabel": "libelant-appellee"
+    },
+    {
+      "@id": "relators:lil",
+      "@type": "nypl:Relators",
+      "skos:notation": "lil",
+      "skos:prefLabel": "libelant"
+    },
+    {
+      "@id": "relators:lit",
+      "@type": "nypl:Relators",
+      "skos:notation": "lit",
+      "skos:prefLabel": "libelant-appellant"
+    },
+    {
+      "@id": "relators:lsa",
+      "@type": "nypl:Relators",
+      "skos:notation": "lsa",
+      "skos:prefLabel": "landscape architect"
+    },
+    {
+      "@id": "relators:lso",
+      "@type": "nypl:Relators",
+      "skos:notation": "lso",
+      "skos:prefLabel": "licensor"
+    },
+    {
+      "@id": "relators:ltg",
+      "@type": "nypl:Relators",
+      "skos:notation": "ltg",
+      "skos:prefLabel": "lithographer"
+    },
+    {
+      "@id": "relators:ltr",
+      "@type": "nypl:Relators",
+      "skos:notation": "ltr",
+      "skos:prefLabel": "letterer"
+    },
+    {
+      "@id": "relators:lyr",
+      "@type": "nypl:Relators",
+      "skos:notation": "lyr",
+      "skos:prefLabel": "lyricist"
+    },
+    {
+      "@id": "relators:mcp",
+      "@type": "nypl:Relators",
+      "skos:notation": "mcp",
+      "skos:prefLabel": "music copyist"
+    },
+    {
+      "@id": "relators:mdc",
+      "@type": "nypl:Relators",
+      "skos:notation": "mdc",
+      "skos:prefLabel": "metadata contact"
+    },
+    {
+      "@id": "relators:med",
+      "@type": "nypl:Relators",
+      "skos:notation": "med",
+      "skos:prefLabel": "medium"
+    },
+    {
+      "@id": "relators:mfp",
+      "@type": "nypl:Relators",
+      "skos:notation": "mfp",
+      "skos:prefLabel": "manufacture place"
+    },
+    {
+      "@id": "relators:mfr",
+      "@type": "nypl:Relators",
+      "skos:notation": "mfr",
+      "skos:prefLabel": "manufacturer"
+    },
+    {
+      "@id": "relators:mka",
+      "@type": "nypl:Relators",
+      "skos:notation": "mka",
+      "skos:prefLabel": "makeup artist"
+    },
+    {
+      "@id": "relators:mod",
+      "@type": "nypl:Relators",
+      "skos:notation": "mod",
+      "skos:prefLabel": "moderator"
+    },
+    {
+      "@id": "relators:mon",
+      "@type": "nypl:Relators",
+      "skos:notation": "mon",
+      "skos:prefLabel": "monitor"
+    },
+    {
+      "@id": "relators:mrb",
+      "@type": "nypl:Relators",
+      "skos:notation": "mrb",
+      "skos:prefLabel": "marbler"
+    },
+    {
+      "@id": "relators:mrk",
+      "@type": "nypl:Relators",
+      "skos:notation": "mrk",
+      "skos:prefLabel": "markup editor"
+    },
+    {
+      "@id": "relators:msd",
+      "@type": "nypl:Relators",
+      "skos:notation": "msd",
+      "skos:prefLabel": "musical director"
+    },
+    {
+      "@id": "relators:mte",
+      "@type": "nypl:Relators",
+      "skos:notation": "mte",
+      "skos:prefLabel": "metal-engraver"
+    },
+    {
+      "@id": "relators:mtk",
+      "@type": "nypl:Relators",
+      "skos:notation": "mtk",
+      "skos:prefLabel": "minute taker"
+    },
+    {
+      "@id": "relators:mup",
+      "@type": "nypl:Relators",
+      "skos:notation": "mup",
+      "skos:prefLabel": "music programmer"
+    },
+    {
+      "@id": "relators:mus",
+      "@type": "nypl:Relators",
+      "skos:notation": "mus",
+      "skos:prefLabel": "musician"
+    },
+    {
+      "@id": "relators:mxe",
+      "@type": "nypl:Relators",
+      "skos:notation": "mxe",
+      "skos:prefLabel": "mixing engineer"
+    },
+    {
+      "@id": "relators:nan",
+      "@type": "nypl:Relators",
+      "skos:notation": "nan",
+      "skos:prefLabel": "news anchor"
+    },
+    {
+      "@id": "relators:nrt",
+      "@type": "nypl:Relators",
+      "skos:notation": "nrt",
+      "skos:prefLabel": "narrator"
+    },
+    {
+      "@id": "relators:onp",
+      "@type": "nypl:Relators",
+      "skos:notation": "onp",
+      "skos:prefLabel": "onscreen participant"
+    },
+    {
+      "@id": "relators:opn",
+      "@type": "nypl:Relators",
+      "skos:notation": "opn",
+      "skos:prefLabel": "opponent"
+    },
+    {
+      "@id": "relators:org",
+      "@type": "nypl:Relators",
+      "skos:notation": "org",
+      "skos:prefLabel": "originator"
+    },
+    {
+      "@id": "relators:orm",
+      "@type": "nypl:Relators",
+      "skos:notation": "orm",
+      "skos:prefLabel": "organizer"
+    },
+    {
+      "@id": "relators:osp",
+      "@type": "nypl:Relators",
+      "skos:notation": "osp",
+      "skos:prefLabel": "onscreen presenter"
+    },
+    {
+      "@id": "relators:oth",
+      "@type": "nypl:Relators",
+      "skos:notation": "oth",
+      "skos:prefLabel": "other"
+    },
+    {
+      "@id": "relators:own",
+      "@type": "nypl:Relators",
+      "skos:notation": "own",
+      "skos:prefLabel": "owner"
+    },
+    {
+      "@id": "relators:pad",
+      "@type": "nypl:Relators",
+      "skos:notation": "pad",
+      "skos:prefLabel": "place of address"
+    },
+    {
+      "@id": "relators:pan",
+      "@type": "nypl:Relators",
+      "skos:notation": "pan",
+      "skos:prefLabel": "panelist"
+    },
+    {
+      "@id": "relators:pat",
+      "@type": "nypl:Relators",
+      "skos:notation": "pat",
+      "skos:prefLabel": "patron"
+    },
+    {
+      "@id": "relators:pbd",
+      "@type": "nypl:Relators",
+      "skos:notation": "pbd",
+      "skos:prefLabel": "publishing director"
+    },
+    {
+      "@id": "relators:pbl",
+      "@type": "nypl:Relators",
+      "skos:notation": "pbl",
+      "skos:prefLabel": [
+        "(eg. [mfr]",
+        "publisher"
+      ]
+    },
+    {
+      "@id": "relators:pdr",
+      "@type": "nypl:Relators",
+      "skos:notation": "pdr",
+      "skos:prefLabel": "project director"
+    },
+    {
+      "@id": "relators:pfr",
+      "@type": "nypl:Relators",
+      "skos:notation": "pfr",
+      "skos:prefLabel": "proofreader"
+    },
+    {
+      "@id": "relators:pht",
+      "@type": "nypl:Relators",
+      "skos:notation": "pht",
+      "skos:prefLabel": "photographer"
+    },
+    {
+      "@id": "relators:plt",
+      "@type": "nypl:Relators",
+      "skos:notation": "plt",
+      "skos:prefLabel": "platemaker"
+    },
+    {
+      "@id": "relators:pma",
+      "@type": "nypl:Relators",
+      "skos:notation": "pma",
+      "skos:prefLabel": "permitting agency"
+    },
+    {
+      "@id": "relators:pmn",
+      "@type": "nypl:Relators",
+      "skos:notation": "pmn",
+      "skos:prefLabel": "production manager"
+    },
+    {
+      "@id": "relators:pnc",
+      "@type": "nypl:Relators",
+      "skos:notation": "pnc",
+      "skos:prefLabel": "penciller"
+    },
+    {
+      "@id": "relators:pop",
+      "@type": "nypl:Relators",
+      "skos:notation": "pop",
+      "skos:prefLabel": "printer of plates"
+    },
+    {
+      "@id": "relators:ppm",
+      "@type": "nypl:Relators",
+      "skos:notation": "ppm",
+      "skos:prefLabel": "papermaker"
+    },
+    {
+      "@id": "relators:ppt",
+      "@type": "nypl:Relators",
+      "skos:notation": "ppt",
+      "skos:prefLabel": "puppeteer"
+    },
+    {
+      "@id": "relators:pra",
+      "@type": "nypl:Relators",
+      "skos:notation": "pra",
+      "skos:prefLabel": "praeses"
+    },
+    {
+      "@id": "relators:prc",
+      "@type": "nypl:Relators",
+      "skos:notation": "prc",
+      "skos:prefLabel": "process contact"
+    },
+    {
+      "@id": "relators:prd",
+      "@type": "nypl:Relators",
+      "skos:notation": "prd",
+      "skos:prefLabel": "production personnel"
+    },
+    {
+      "@id": "relators:pre",
+      "@type": "nypl:Relators",
+      "skos:notation": "pre",
+      "skos:prefLabel": "presenter"
+    },
+    {
+      "@id": "relators:prf",
+      "@type": "nypl:Relators",
+      "skos:notation": "prf",
+      "skos:prefLabel": "performer"
+    },
+    {
+      "@id": "relators:prg",
+      "@type": "nypl:Relators",
+      "skos:notation": "prg",
+      "skos:prefLabel": "programmer"
+    },
+    {
+      "@id": "relators:prm",
+      "@type": "nypl:Relators",
+      "skos:notation": "prm",
+      "skos:prefLabel": "printmaker"
+    },
+    {
+      "@id": "relators:prn",
+      "@type": "nypl:Relators",
+      "skos:notation": "prn",
+      "skos:prefLabel": "production company"
+    },
+    {
+      "@id": "relators:pro",
+      "@type": "nypl:Relators",
+      "skos:notation": "pro",
+      "skos:prefLabel": "producer"
+    },
+    {
+      "@id": "relators:prp",
+      "@type": "nypl:Relators",
+      "skos:notation": "prp",
+      "skos:prefLabel": "production place"
+    },
+    {
+      "@id": "relators:prs",
+      "@type": "nypl:Relators",
+      "skos:notation": "prs",
+      "skos:prefLabel": "production designer"
+    },
+    {
+      "@id": "relators:prt",
+      "@type": "nypl:Relators",
+      "skos:notation": "prt",
+      "skos:prefLabel": "printer"
+    },
+    {
+      "@id": "relators:prv",
+      "@type": "nypl:Relators",
+      "skos:notation": "prv",
+      "skos:prefLabel": "provider"
+    },
+    {
+      "@id": "relators:pta",
+      "@type": "nypl:Relators",
+      "skos:notation": "pta",
+      "skos:prefLabel": "patent applicant"
+    },
+    {
+      "@id": "relators:pte",
+      "@type": "nypl:Relators",
+      "skos:notation": "pte",
+      "skos:prefLabel": "plaintiff-appellee"
+    },
+    {
+      "@id": "relators:ptf",
+      "@type": "nypl:Relators",
+      "skos:notation": "ptf",
+      "skos:prefLabel": "plaintiff"
+    },
+    {
+      "@id": "relators:pth",
+      "@type": "nypl:Relators",
+      "skos:notation": "pth",
+      "skos:prefLabel": "patent holder"
+    },
+    {
+      "@id": "relators:ptt",
+      "@type": "nypl:Relators",
+      "skos:notation": "ptt",
+      "skos:prefLabel": "plaintiff-appellant"
+    },
+    {
+      "@id": "relators:pup",
+      "@type": "nypl:Relators",
+      "skos:notation": "pup",
+      "skos:prefLabel": "publication place"
+    },
+    {
+      "@id": "relators:rap",
+      "@type": "nypl:Relators",
+      "skos:notation": "rap",
+      "skos:prefLabel": "rapporteur"
+    },
+    {
+      "@id": "relators:rbr",
+      "@type": "nypl:Relators",
+      "skos:notation": "rbr",
+      "skos:prefLabel": "rubricator"
+    },
+    {
+      "@id": "relators:rcd",
+      "@type": "nypl:Relators",
+      "skos:notation": "rcd",
+      "skos:prefLabel": "recordist"
+    },
+    {
+      "@id": "relators:rce",
+      "@type": "nypl:Relators",
+      "skos:notation": "rce",
+      "skos:prefLabel": "recording engineer"
+    },
+    {
+      "@id": "relators:rdd",
+      "@type": "nypl:Relators",
+      "skos:notation": "rdd",
+      "skos:prefLabel": "radio director"
+    },
+    {
+      "@id": "relators:red",
+      "@type": "nypl:Relators",
+      "skos:notation": "red",
+      "skos:prefLabel": "redaktor"
+    },
+    {
+      "@id": "relators:ren",
+      "@type": "nypl:Relators",
+      "skos:notation": "ren",
+      "skos:prefLabel": "renderer"
+    },
+    {
+      "@id": "relators:res",
+      "@type": "nypl:Relators",
+      "skos:notation": "res",
+      "skos:prefLabel": "researcher"
+    },
+    {
+      "@id": "relators:rev",
+      "@type": "nypl:Relators",
+      "skos:notation": "rev",
+      "skos:prefLabel": "reviewer"
+    },
+    {
+      "@id": "relators:rpc",
+      "@type": "nypl:Relators",
+      "skos:notation": "rpc",
+      "skos:prefLabel": "radio producer"
+    },
+    {
+      "@id": "relators:rps",
+      "@type": "nypl:Relators",
+      "skos:notation": "rps",
+      "skos:prefLabel": "repository"
+    },
+    {
+      "@id": "relators:rpt",
+      "@type": "nypl:Relators",
+      "skos:notation": "rpt",
+      "skos:prefLabel": "reporter"
+    },
+    {
+      "@id": "relators:rpy",
+      "@type": "nypl:Relators",
+      "skos:notation": "rpy",
+      "skos:prefLabel": "responsible party"
+    },
+    {
+      "@id": "relators:rse",
+      "@type": "nypl:Relators",
+      "skos:notation": "rse",
+      "skos:prefLabel": "respondent-appellee"
+    },
+    {
+      "@id": "relators:rsg",
+      "@type": "nypl:Relators",
+      "skos:notation": "rsg",
+      "skos:prefLabel": "restager"
+    },
+    {
+      "@id": "relators:rsp",
+      "@type": "nypl:Relators",
+      "skos:notation": "rsp",
+      "skos:prefLabel": "respondent"
+    },
+    {
+      "@id": "relators:rsr",
+      "@type": "nypl:Relators",
+      "skos:notation": "rsr",
+      "skos:prefLabel": "restorationist"
+    },
+    {
+      "@id": "relators:rst",
+      "@type": "nypl:Relators",
+      "skos:notation": "rst",
+      "skos:prefLabel": "respondent-appellant"
+    },
+    {
+      "@id": "relators:rth",
+      "@type": "nypl:Relators",
+      "skos:notation": "rth",
+      "skos:prefLabel": "research team head"
+    },
+    {
+      "@id": "relators:rtm",
+      "@type": "nypl:Relators",
+      "skos:notation": "rtm",
+      "skos:prefLabel": "research team member"
+    },
+    {
+      "@id": "relators:rxa",
+      "@type": "nypl:Relators",
+      "skos:notation": "rxa",
+      "skos:prefLabel": "remix artist"
+    },
+    {
+      "@id": "relators:sad",
+      "@type": "nypl:Relators",
+      "skos:notation": "sad",
+      "skos:prefLabel": "scientific advisor"
+    },
+    {
+      "@id": "relators:sce",
+      "@type": "nypl:Relators",
+      "skos:notation": "sce",
+      "skos:prefLabel": "scenarist"
+    },
+    {
+      "@id": "relators:scl",
+      "@type": "nypl:Relators",
+      "skos:notation": "scl",
+      "skos:prefLabel": "sculptor"
+    },
+    {
+      "@id": "relators:scr",
+      "@type": "nypl:Relators",
+      "skos:notation": "scr",
+      "skos:prefLabel": "scribe"
+    },
+    {
+      "@id": "relators:sde",
+      "@type": "nypl:Relators",
+      "skos:notation": "sde",
+      "skos:prefLabel": "sound engineer"
+    },
+    {
+      "@id": "relators:sds",
+      "@type": "nypl:Relators",
+      "skos:notation": "sds",
+      "skos:prefLabel": "sound designer"
+    },
+    {
+      "@id": "relators:sec",
+      "@type": "nypl:Relators",
+      "skos:notation": "sec",
+      "skos:prefLabel": "secretary"
+    },
+    {
+      "@id": "relators:sfx",
+      "@type": "nypl:Relators",
+      "skos:notation": "sfx",
+      "skos:prefLabel": "special effects provider"
+    },
+    {
+      "@id": "relators:sgd",
+      "@type": "nypl:Relators",
+      "skos:notation": "sgd",
+      "skos:prefLabel": "stage director"
+    },
+    {
+      "@id": "relators:sgn",
+      "@type": "nypl:Relators",
+      "skos:notation": "sgn",
+      "skos:prefLabel": "signer"
+    },
+    {
+      "@id": "relators:sht",
+      "@type": "nypl:Relators",
+      "skos:notation": "sht",
+      "skos:prefLabel": "supporting host"
+    },
+    {
+      "@id": "relators:sll",
+      "@type": "nypl:Relators",
+      "skos:notation": "sll",
+      "skos:prefLabel": "seller"
+    },
+    {
+      "@id": "relators:sng",
+      "@type": "nypl:Relators",
+      "skos:notation": "sng",
+      "skos:prefLabel": "singer"
+    },
+    {
+      "@id": "relators:spk",
+      "@type": "nypl:Relators",
+      "skos:notation": "spk",
+      "skos:prefLabel": "speaker"
+    },
+    {
+      "@id": "relators:spn",
+      "@type": "nypl:Relators",
+      "skos:notation": "spn",
+      "skos:prefLabel": "sponsor"
+    },
+    {
+      "@id": "relators:spy",
+      "@type": "nypl:Relators",
+      "skos:notation": "spy",
+      "skos:prefLabel": "second party"
+    },
+    {
+      "@id": "relators:srv",
+      "@type": "nypl:Relators",
+      "skos:notation": "srv",
+      "skos:prefLabel": "surveyor"
+    },
+    {
+      "@id": "relators:std",
+      "@type": "nypl:Relators",
+      "skos:notation": "std",
+      "skos:prefLabel": "set designer"
+    },
+    {
+      "@id": "relators:stg",
+      "@type": "nypl:Relators",
+      "skos:notation": "stg",
+      "skos:prefLabel": "setting"
+    },
+    {
+      "@id": "relators:stl",
+      "@type": "nypl:Relators",
+      "skos:notation": "stl",
+      "skos:prefLabel": "storyteller"
+    },
+    {
+      "@id": "relators:stm",
+      "@type": "nypl:Relators",
+      "skos:notation": "stm",
+      "skos:prefLabel": "stage manager"
+    },
+    {
+      "@id": "relators:stn",
+      "@type": "nypl:Relators",
+      "skos:notation": "stn",
+      "skos:prefLabel": "standards body"
+    },
+    {
+      "@id": "relators:str",
+      "@type": "nypl:Relators",
+      "skos:notation": "str",
+      "skos:prefLabel": "stereotyper"
+    },
+    {
+      "@id": "relators:swd",
+      "@type": "nypl:Relators",
+      "skos:notation": "swd",
+      "skos:prefLabel": "software developer"
+    },
+    {
+      "@id": "relators:tad",
+      "@type": "nypl:Relators",
+      "skos:notation": "tad",
+      "skos:prefLabel": "technical advisor"
+    },
+    {
+      "@id": "relators:tau",
+      "@type": "nypl:Relators",
+      "skos:notation": "tau",
+      "skos:prefLabel": "television writer"
+    },
+    {
+      "@id": "relators:tcd",
+      "@type": "nypl:Relators",
+      "skos:notation": "tcd",
+      "skos:prefLabel": "technical director"
+    },
+    {
+      "@id": "relators:tch",
+      "@type": "nypl:Relators",
+      "skos:notation": "tch",
+      "skos:prefLabel": "teacher"
+    },
+    {
+      "@id": "relators:ths",
+      "@type": "nypl:Relators",
+      "skos:notation": "ths",
+      "skos:prefLabel": "thesis advisor"
+    },
+    {
+      "@id": "relators:tld",
+      "@type": "nypl:Relators",
+      "skos:notation": "tld",
+      "skos:prefLabel": "television director"
+    },
+    {
+      "@id": "relators:tlg",
+      "@type": "nypl:Relators",
+      "skos:notation": "tlg",
+      "skos:prefLabel": "television guest"
+    },
+    {
+      "@id": "relators:tlh",
+      "@type": "nypl:Relators",
+      "skos:notation": "tlh",
+      "skos:prefLabel": "television host"
+    },
+    {
+      "@id": "relators:tlp",
+      "@type": "nypl:Relators",
+      "skos:notation": "tlp",
+      "skos:prefLabel": "television producer"
+    },
+    {
+      "@id": "relators:trc",
+      "@type": "nypl:Relators",
+      "skos:notation": "trc",
+      "skos:prefLabel": "transcriber"
+    },
+    {
+      "@id": "relators:trl",
+      "@type": "nypl:Relators",
+      "skos:notation": "trl",
+      "skos:prefLabel": "translator"
+    },
+    {
+      "@id": "relators:tyd",
+      "@type": "nypl:Relators",
+      "skos:notation": "tyd",
+      "skos:prefLabel": "type designer"
+    },
+    {
+      "@id": "relators:tyg",
+      "@type": "nypl:Relators",
+      "skos:notation": "tyg",
+      "skos:prefLabel": "typographer"
+    },
+    {
+      "@id": "relators:uvp",
+      "@type": "nypl:Relators",
+      "skos:notation": "uvp",
+      "skos:prefLabel": "university place"
+    },
+    {
+      "@id": "relators:vac",
+      "@type": "nypl:Relators",
+      "skos:notation": "vac",
+      "skos:prefLabel": "voice actor"
+    },
+    {
+      "@id": "relators:vdg",
+      "@type": "nypl:Relators",
+      "skos:notation": "vdg",
+      "skos:prefLabel": "videographer"
+    },
+    {
+      "@id": "relators:vfx",
+      "@type": "nypl:Relators",
+      "skos:notation": "vfx",
+      "skos:prefLabel": "visual effects provider"
+    },
+    {
+      "@id": "relators:wac",
+      "@type": "nypl:Relators",
+      "skos:notation": "wac",
+      "skos:prefLabel": "writer of added commentary"
+    },
+    {
+      "@id": "relators:wal",
+      "@type": "nypl:Relators",
+      "skos:notation": "wal",
+      "skos:prefLabel": "writer of added lyrics"
+    },
+    {
+      "@id": "relators:wam",
+      "@type": "nypl:Relators",
+      "skos:notation": "wam",
+      "skos:prefLabel": "writer of accompanying material"
+    },
+    {
+      "@id": "relators:wat",
+      "@type": "nypl:Relators",
+      "skos:notation": "wat",
+      "skos:prefLabel": "writer of added text"
+    },
+    {
+      "@id": "relators:waw",
+      "@type": "nypl:Relators",
+      "skos:notation": "waw",
+      "skos:prefLabel": "writer of afterword"
+    },
+    {
+      "@id": "relators:wdc",
+      "@type": "nypl:Relators",
+      "skos:notation": "wdc",
+      "skos:prefLabel": "woodcutter"
+    },
+    {
+      "@id": "relators:wde",
+      "@type": "nypl:Relators",
+      "skos:notation": "wde",
+      "skos:prefLabel": "wood engraver"
+    },
+    {
+      "@id": "relators:wfs",
+      "@type": "nypl:Relators",
+      "skos:notation": "wfs",
+      "skos:prefLabel": "writer of film story"
+    },
+    {
+      "@id": "relators:wft",
+      "@type": "nypl:Relators",
+      "skos:notation": "wft",
+      "skos:prefLabel": "writer of intertitles"
+    },
+    {
+      "@id": "relators:wfw",
+      "@type": "nypl:Relators",
+      "skos:notation": "wfw",
+      "skos:prefLabel": "writer of foreword"
+    },
+    {
+      "@id": "relators:win",
+      "@type": "nypl:Relators",
+      "skos:notation": "win",
+      "skos:prefLabel": "writer of introduction"
+    },
+    {
+      "@id": "relators:wit",
+      "@type": "nypl:Relators",
+      "skos:notation": "wit",
+      "skos:prefLabel": "witness"
+    },
+    {
+      "@id": "relators:wpr",
+      "@type": "nypl:Relators",
+      "skos:notation": "wpr",
+      "skos:prefLabel": "writer of preface"
+    },
+    {
+      "@id": "relators:wst",
+      "@type": "nypl:Relators",
+      "skos:notation": "wst",
+      "skos:prefLabel": "writer of supplementary textual content"
+    },
+    {
+      "@id": "relators:wts",
+      "@type": "nypl:Relators",
+      "skos:notation": "wts",
+      "skos:prefLabel": "writer of television story "
+    }
+  ]
+}
