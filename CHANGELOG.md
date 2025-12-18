@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.37
+- fix rcpm2 deliverableTo
+
 ### v2.36
 
 - add checkin card status vocabulary and script
