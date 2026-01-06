@@ -52157,6 +52157,7 @@
         "@value": "true"
       },
       "nypl:collectionType": "Research",
+      "nypl:deliverableToResolution": "recap-customer-code",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1002"
       },

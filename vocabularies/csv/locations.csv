@@ -2664,7 +2664,7 @@ rcml2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Room 217
 rcml8,Offsite,OFFSITE - Request in Advance at SASB - Rose Main Reading Room,Research,,,rc,1000,false,,,true,,recap-customer-code,,
 rcmo2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg -,Research,,,rc,1000,false,,,true,,recap-customer-code,special,
 rcmp2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Maps Division Rm 117,Research,,,rc,1106,true,,,true,,recap-customer-code,,
-rcmp8,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg. - Map Division,Research,,,rc,1106,false,,,true,,recap-customer-code,special
+rcmp8,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg. - Map Division,Research,,,rc,1106,false,,,true,,recap-customer-code,special,
 rcmp9,Offsite,OFFSITE - Restricted - Map Division,Research,,,rc,1106,false,,,true,,recap-customer-code,special
 rcmq2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg -,Research,,,rc,1000,false,,,true,,recap-customer-code,special,
 rcmr2,Offsite,OFFSITE - Request in Advance for use at Schwarzman Bldg - Rare Books,Research,,,rc,1108,false,,,true,,recap-customer-code,special,
@@ -2678,7 +2678,7 @@ rcpf9,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,
 rcph2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,recap-customer-code,,
 rcph8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1124,false,,,false,,recap-customer-code,special,
 rcph9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1124,false,,,false,,,special,
-rcpm2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,,,
+rcpm2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,,,true,,recap-customer-code,,
 rcpm8,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1123,false,,,false,,recap-customer-code,special,
 rcpm9,Offsite,OFFSITE - Performing Arts--Offsite--Restricted Use,Research,,,rc,1123,false,,,false,,,special,
 rcpr2,Offsite,OFFSITE - Request in Advance for use at Performing Arts,Research,,,rc,1002,true,par,,true,,recap-customer-code,,
