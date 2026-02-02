@@ -35353,10 +35353,6 @@
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1104"
       },
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "skos:altLabel": "SASB - Berg Collection Rm 320",
       "skos:notation": "maee2",
       "skos:prefLabel": "Schwarzman Building - Berg Collection Room 320"
@@ -37017,10 +37013,6 @@
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1106"
       },
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "skos:altLabel": "SASB - Map Division - Room 117",
       "skos:notation": "mapp2",
       "skos:prefLabel": "Schwarzman Building - Map Division Room 117"
@@ -37151,10 +37143,6 @@
       },
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1102"
-      },
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
       },
       "skos:altLabel": "SASB - Pforzheimer Collection Rm 319",
       "skos:notation": "maqq2",
@@ -37287,10 +37275,6 @@
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1108"
       },
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "skos:altLabel": "SASB - Rare Book Collection Rm 328",
       "skos:notation": "marr2",
       "skos:prefLabel": "Schwarzman Building - Rare Book Collection Room 328"
@@ -37410,10 +37394,6 @@
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1111"
       },
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "skos:altLabel": "SASB - Photography Collection Rm 308",
       "skos:notation": "mass2",
       "skos:prefLabel": "Schwarzman Building - Photography Collection Room 308"
@@ -37509,10 +37489,6 @@
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1112"
       },
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "skos:altLabel": "SASB - Print Collection Reference Rm 308",
       "skos:notation": "mauu1",
       "skos:prefLabel": "Schwarzman Building - Print Collection Reference Room 308"
@@ -37534,10 +37510,6 @@
       },
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1112"
-      },
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
       },
       "skos:altLabel": "SASB - Print Collection Rm 308",
       "skos:notation": "mauu2",
@@ -57177,10 +57149,6 @@
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1115"
       },
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
       "skos:altLabel": "Schomburg Center - Art & Artifacts - Desk",
       "skos:notation": "sccc3",
       "skos:prefLabel": "Schomburg Center - Art & Artifacts - Desk"
@@ -57232,10 +57200,6 @@
       },
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1116"
-      },
-      "nypl:requestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
       },
       "skos:altLabel": "Schomburg Center - Manuscripts & Archives Reference",
       "skos:notation": "scdd1",
