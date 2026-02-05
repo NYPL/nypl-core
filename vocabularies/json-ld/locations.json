@@ -35578,6 +35578,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:maf"
@@ -35603,6 +35604,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:maf"
@@ -35769,6 +35771,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": [
         {
@@ -35799,6 +35802,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": [
         {
@@ -35829,6 +35833,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": [
         {
@@ -36049,6 +36054,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mak"
@@ -36346,6 +36352,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mala"
@@ -36404,6 +36411,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mal"
@@ -36429,6 +36437,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": [
         {
@@ -36519,6 +36528,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:maln"
@@ -36544,6 +36554,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mal"
@@ -36602,6 +36613,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:malw"
@@ -36708,7 +36720,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
-      "nypl:collectionAccessType": "special",
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mao"
@@ -36971,6 +36983,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:map"
@@ -36996,6 +37009,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:map"
@@ -37021,6 +37035,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:map"
@@ -37046,7 +37061,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
-      "nypl:collectionAccessType": "special",
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:map"
@@ -37072,7 +37087,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
-      "nypl:collectionAccessType": "special",
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:map"
@@ -47866,6 +47881,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:par"
@@ -48144,6 +48160,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:par"
@@ -48294,6 +48311,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:par"
@@ -48519,6 +48537,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:par"
@@ -57206,6 +57225,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
@@ -57357,6 +57377,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
@@ -57407,6 +57428,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
