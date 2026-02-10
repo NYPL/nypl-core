@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.38
+- add desk and shelf collection access types
+
 ### v2.37
 - fix rcpm2 deliverableTo
 
