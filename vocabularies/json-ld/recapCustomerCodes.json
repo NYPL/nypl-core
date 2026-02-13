@@ -262,7 +262,7 @@
         }
       ],
       "nypl:owner": {
-        "@id": "nyplOrg:COLUMBIA"
+        "@id": "nyplOrg:0002"
       },
       "skos:notation": "AR",
       "skos:prefLabel": "Avery Library"
@@ -345,6 +345,96 @@
       "skos:prefLabel": "GORDON MCKAY LIBRARY"
     },
     {
+      "@id": "http://data.nypl.org/recapCustomerCodes/AV",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "AV",
+      "skos:prefLabel": "Avery Classics"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/BC",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "BC",
+      "skos:prefLabel": "Bibliographic Control (CAMS)"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/BL",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "BL",
+      "skos:prefLabel": "Barnard Library"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/BS",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "BS",
+      "skos:prefLabel": "Business/Manhattanville"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/BT",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "BT",
+      "skos:prefLabel": "Butler Preservation"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/BU",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "BU",
+      "skos:prefLabel": "Butler Library"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/BZ",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "BZ",
+      "skos:prefLabel": "Preservation Project"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/CA",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "CA",
+      "skos:prefLabel": "Science & Engineering Lib (NWC)"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/CF",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "CF",
+      "skos:prefLabel": "401 Butler Library (Microforms Reading Room)"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/CH",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "CH",
+      "skos:prefLabel": "Business/Uris Hall"
+    },
+    {
       "@id": "http://data.nypl.org/recapCustomerCodes/CI",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
@@ -422,6 +512,15 @@
       "skos:prefLabel": "CFIA LIBRARY"
     },
     {
+      "@id": "http://data.nypl.org/recapCustomerCodes/CJ",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "CJ",
+      "skos:prefLabel": "Journalism Library"
+    },
+    {
       "@id": "http://data.nypl.org/recapCustomerCodes/CL",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
@@ -497,6 +596,15 @@
       },
       "skos:notation": "CL",
       "skos:prefLabel": "CHEMISTRY LIBRARY"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/CM",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "CM",
+      "skos:prefLabel": "Master Microfilm"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/CR",
@@ -597,10 +705,19 @@
         }
       ],
       "nypl:owner": {
-        "@id": "nyplOrg:COLUMBIA"
+        "@id": "nyplOrg:0002"
       },
       "skos:notation": "CR",
       "skos:prefLabel": ""
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/CS",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "CS",
+      "skos:prefLabel": "Shipping & Receiving"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/CU",
@@ -701,10 +818,19 @@
         }
       ],
       "nypl:owner": {
-        "@id": "nyplOrg:COLUMBIA"
+        "@id": "nyplOrg:0002"
       },
       "skos:notation": "CU",
       "skos:prefLabel": ""
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/CV",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "CV",
+      "skos:prefLabel": "Butler Media Collection"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/DL",
@@ -788,6 +914,15 @@
       },
       "skos:notation": "DL",
       "skos:prefLabel": "GSD LOEB LIBRARY"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/EA",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "EA",
+      "skos:prefLabel": "East Asian Library"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/EB",
@@ -956,6 +1091,15 @@
       "skos:prefLabel": "FINE ARTS LIBRARY"
     },
     {
+      "@id": "http://data.nypl.org/recapCustomerCodes/FV",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0004"
+      },
+      "skos:notation": "FV",
+      "skos:prefLabel": "FINE ARTS LIBRARY VISUAL"
+    },
+    {
       "@id": "http://data.nypl.org/recapCustomerCodes/GC",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
@@ -1054,10 +1198,19 @@
         }
       ],
       "nypl:owner": {
-        "@id": "nyplOrg:COLUMBIA"
+        "@id": "nyplOrg:0002"
       },
       "skos:notation": "GC",
       "skos:prefLabel": ""
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/GE",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "GE",
+      "skos:prefLabel": "Geology Library"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/GN",
@@ -1271,10 +1424,19 @@
         }
       ],
       "nypl:owner": {
-        "@id": "nyplOrg:PRINCETON"
+        "@id": "nyplOrg:0003"
       },
       "skos:notation": "GP",
       "skos:prefLabel": ""
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/GS",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "GS",
+      "skos:prefLabel": "Lamont-Doherty Earth Observatory"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/GUT",
@@ -1784,7 +1946,7 @@
         "@id": "nyplOrg:0004"
       },
       "skos:notation": "HL",
-      "skos:prefLabel": "0004 LAW LIBRARY"
+      "skos:prefLabel": "HARVARD LAW LIBRARY"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/HR",
@@ -1885,7 +2047,7 @@
         }
       ],
       "nypl:owner": {
-        "@id": "nyplOrg:COLUMBIA"
+        "@id": "nyplOrg:0002"
       },
       "skos:notation": "HR",
       "skos:prefLabel": "HSL Restricted"
@@ -2131,7 +2293,7 @@
         "@id": "nyplOrg:0004"
       },
       "skos:notation": "HV",
-      "skos:prefLabel": "0004 ReCAP Items"
+      "skos:prefLabel": "Harvard ReCAP Items"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/HW",
@@ -2217,6 +2379,15 @@
       "skos:prefLabel": "WIDENER LIBRARY"
     },
     {
+      "@id": "http://data.nypl.org/recapCustomerCodes/HX",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "HX",
+      "skos:prefLabel": ""
+    },
+    {
       "@id": "http://data.nypl.org/recapCustomerCodes/HY",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
@@ -2298,6 +2469,15 @@
       },
       "skos:notation": "HY",
       "skos:prefLabel": "HARVARD YENCHING LIBRARY"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/ID",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "ID",
+      "skos:prefLabel": "NYPL Interlibrary Loan"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/JC",
@@ -2763,6 +2943,15 @@
       "skos:prefLabel": "JSTOR Restricted"
     },
     {
+      "@id": "http://data.nypl.org/recapCustomerCodes/JQ",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "JQ",
+      "skos:prefLabel": "Princeton Dark Storage"
+    },
+    {
       "@id": "http://data.nypl.org/recapCustomerCodes/JS",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
@@ -2956,6 +3145,15 @@
       "skos:prefLabel": "KSG VIDEOTAPE DVD COLLECT"
     },
     {
+      "@id": "http://data.nypl.org/recapCustomerCodes/LE",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "LE",
+      "skos:prefLabel": "Lehman Library"
+    },
+    {
       "@id": "http://data.nypl.org/recapCustomerCodes/MCZ",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
@@ -3122,16 +3320,34 @@
       "skos:prefLabel": "LOEB MUSIC LIBRARY"
     },
     {
+      "@id": "http://data.nypl.org/recapCustomerCodes/MP",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "MP",
+      "skos:prefLabel": "Monographic Processing"
+    },
+    {
       "@id": "http://data.nypl.org/recapCustomerCodes/MR",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": {
         "@id": "http://data.nypl.org/recapCustomerCodes/NP"
       },
       "nypl:owner": {
-        "@id": "nyplOrg:COLUMBIA"
+        "@id": "nyplOrg:0002"
       },
       "skos:notation": "MR",
       "skos:prefLabel": "Music & Arts Library"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/MZ",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "MZ",
+      "skos:prefLabel": "Delivery Services"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/NA",
@@ -3372,6 +3588,15 @@
       "skos:prefLabel": "SIBL"
     },
     {
+      "@id": "http://data.nypl.org/recapCustomerCodes/NC",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "NC",
+      "skos:prefLabel": "LSC BookOps Cataloging"
+    },
+    {
       "@id": "http://data.nypl.org/recapCustomerCodes/ND",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
@@ -3408,6 +3633,15 @@
       },
       "skos:notation": "ND",
       "skos:prefLabel": "SASB Map Division"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/NE",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "NE",
+      "skos:prefLabel": "ILL"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/NF",
@@ -3683,6 +3917,33 @@
       "skos:prefLabel": "SASB Rose Main Reading Room"
     },
     {
+      "@id": "http://data.nypl.org/recapCustomerCodes/NI",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "NI",
+      "skos:prefLabel": "LSC Special Formats Processing"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/NJ",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "NJ",
+      "skos:prefLabel": "SASB Jewish Division"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/NK",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "NK",
+      "skos:prefLabel": "BKOPS Barcoding/Special Projects"
+    },
+    {
       "@id": "http://data.nypl.org/recapCustomerCodes/NL",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
@@ -3800,6 +4061,15 @@
       },
       "skos:notation": "NL",
       "skos:prefLabel": "SASB Restricted"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/NM",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "NM",
+      "skos:prefLabel": "SASB Milstein Division"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/NN",
@@ -3996,6 +4266,15 @@
       "skos:prefLabel": "SASB Restricted"
     },
     {
+      "@id": "http://data.nypl.org/recapCustomerCodes/NR",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "NR",
+      "skos:prefLabel": "SASB Rare Book Division"
+    },
+    {
       "@id": "http://data.nypl.org/recapCustomerCodes/NS",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
@@ -4044,6 +4323,15 @@
       },
       "skos:notation": "NS",
       "skos:prefLabel": "Schomburg Center MARBI"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/NT",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "NT",
+      "skos:prefLabel": "Photo Services and Permissions"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/NU",
@@ -4249,6 +4537,141 @@
       "skos:prefLabel": "LSC Preservation Restricted"
     },
     {
+      "@id": "http://data.nypl.org/recapCustomerCodes/NY",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "NY",
+      "skos:prefLabel": "LSC ARCHV"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/NZ",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "NZ",
+      "skos:prefLabel": "SASB Pforzheimer"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/OA",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "OA",
+      "skos:prefLabel": "SASB Allen Room"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/OB",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "OB",
+      "skos:prefLabel": "SIBL no Sierra holds"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/OC",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "OC",
+      "skos:prefLabel": "SASB Cullman Center"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/OD",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "OD",
+      "skos:prefLabel": "SASB Scholar Room 217"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/OE",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "OE",
+      "skos:prefLabel": "SASB Scholar Room 223"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/OH",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "OH",
+      "skos:prefLabel": "Oral History"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/OI",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "OI",
+      "skos:prefLabel": "LSC DIU no Sierra holds"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/OL",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "OL",
+      "skos:prefLabel": "LPA Media Preservation Labs"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/OM",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "OM",
+      "skos:prefLabel": "Schomburg Gen. no Sierra holds"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/ON",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "ON",
+      "skos:prefLabel": "SASB Noma Scholar Room"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/OP",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "OP",
+      "skos:prefLabel": "LPA no Sierra holds"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/OW",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "OW",
+      "skos:prefLabel": "SASB Wertheim Study"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/OZ",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "OZ",
+      "skos:prefLabel": "SASB no Sierra holds"
+    },
+    {
       "@id": "http://data.nypl.org/recapCustomerCodes/PA",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
@@ -4347,10 +4770,28 @@
         }
       ],
       "nypl:owner": {
-        "@id": "nyplOrg:PRINCETON"
+        "@id": "nyplOrg:0003"
       },
       "skos:notation": "PA",
       "skos:prefLabel": "Firestone Library"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/PB",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "PB",
+      "skos:prefLabel": "Library Use Only"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/PE",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "PE",
+      "skos:prefLabel": "Princeton Dark Storage"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/PF",
@@ -4451,10 +4892,28 @@
         }
       ],
       "nypl:owner": {
-        "@id": "nyplOrg:PRINCETON"
+        "@id": "nyplOrg:0003"
       },
       "skos:notation": "PF",
       "skos:prefLabel": "Firestone Circulation"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/PG",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "PG",
+      "skos:prefLabel": "Special Collections"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/PH",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "PH",
+      "skos:prefLabel": "Mudd Manuscript Library"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/PJ",
@@ -4463,10 +4922,73 @@
         "@id": "http://data.nypl.org/recapCustomerCodes/NG"
       },
       "nypl:owner": {
-        "@id": "nyplOrg:PRINCETON"
+        "@id": "nyplOrg:0003"
       },
       "skos:notation": "PJ",
       "skos:prefLabel": "Marquand Library"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/PK",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "PK",
+      "skos:prefLabel": "Mendel Music Library"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/PL",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "PL",
+      "skos:prefLabel": "East Asian Library"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/PM",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "PM",
+      "skos:prefLabel": "Stokes Library"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/PN",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "PN",
+      "skos:prefLabel": "Lewis Library"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/PQ",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "PQ",
+      "skos:prefLabel": "Plasma Physics Library"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/PS",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "PS",
+      "skos:prefLabel": "Lewis Library Rare"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/PT",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "PT",
+      "skos:prefLabel": "Engineering Library"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/PV",
@@ -4475,10 +4997,52 @@
         "@id": "http://data.nypl.org/recapCustomerCodes/NG"
       },
       "nypl:owner": {
-        "@id": "nyplOrg:PRINCETON"
+        "@id": "nyplOrg:0003"
       },
       "skos:notation": "PV",
       "skos:prefLabel": "Marquand Library Shared"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/PW",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "PW",
+      "skos:prefLabel": "Architecture Library"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/PZ",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "PZ",
+      "skos:prefLabel": "Marquand Library Rare"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/QA",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "QA",
+      "skos:prefLabel": "Firestone Library Resource Sharing (Staff only)"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/QC",
+      "@type": "nypl:RecapCustomerCode",
+      "skos:notation": "QC",
+      "skos:prefLabel": "Technical Services"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/QD",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "QD",
+      "skos:prefLabel": "(obsolete)"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/QK",
@@ -4487,10 +5051,64 @@
         "@id": "http://data.nypl.org/recapCustomerCodes/NP"
       },
       "nypl:owner": {
-        "@id": "nyplOrg:PRINCETON"
+        "@id": "nyplOrg:0003"
       },
       "skos:notation": "QK",
       "skos:prefLabel": ""
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/QL",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "QL",
+      "skos:prefLabel": ""
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/QP",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "QP",
+      "skos:prefLabel": "Preservation"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/QT",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "QT",
+      "skos:prefLabel": "Technical Services. 693 (Staff Only)"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/QV",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "QV",
+      "skos:prefLabel": "Video Collection"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/QX",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0003"
+      },
+      "skos:notation": "QX",
+      "skos:prefLabel": "Firestone Library. Shared"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/RH",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "RH",
+      "skos:prefLabel": "Human Rights Watch"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/ROB",
@@ -4568,6 +5186,60 @@
       },
       "skos:notation": "ROB",
       "skos:prefLabel": "ROBBINS LIBRARY"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/RS",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "RS",
+      "skos:prefLabel": "Rare Books & Manuscripts"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/SA",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "SA",
+      "skos:prefLabel": "Schomburg Art & Artifacts"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/SM",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "SM",
+      "skos:prefLabel": "Schomburg MIRS"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/SP",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "SP",
+      "skos:prefLabel": "Schomburg Prints & Photographs"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/SR",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0001"
+      },
+      "skos:notation": "SR",
+      "skos:prefLabel": "Schomburg General Research"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/SW",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "SW",
+      "skos:prefLabel": "Social Work Library"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/TZ",
@@ -4651,6 +5323,24 @@
       },
       "skos:notation": "TZ",
       "skos:prefLabel": "TOZZER LIBRARY"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/UA",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "UA",
+      "skos:prefLabel": ""
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/UT",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:owner": {
+        "@id": "nyplOrg:0002"
+      },
+      "skos:notation": "UT",
+      "skos:prefLabel": "Burke Library (UTS)"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/XL",
