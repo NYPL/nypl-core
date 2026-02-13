@@ -73,7 +73,7 @@ def get_updated_vocabulary(target, new):
                 update_data_row[property] = update_data_row[property].lower()
             if target.get(key) is not None:
                 target[key][property] = update_data_row[property]
-            
+
     return dict(sorted(target.items()))
 
 
@@ -84,9 +84,8 @@ def main():
     vocabulary_dict = csv_to_dict(vocabulary_file_path)
     update_dict = csv_to_dict(update_filepath)
     new_dict = dict(vocabulary_dict)
-    
-    sorted_new_dict = get_updated_vocabulary(new_dict, update_dict)
 
+    sorted_new_dict = get_updated_vocabulary(new_dict, update_dict)
     with open(vocabulary_file_path, 'r') as f:
         header = csv.DictReader(f).fieldnames
 
@@ -95,7 +94,11 @@ def main():
         writer.writeheader()
 
         for _, value in sorted_new_dict.items():
-            writer.writerow(value)
+            # Filter out any keys not present in the original header.
+            # This prevents ValueError when update rows contain extra
+            # empty keys (eg. '' or None) from malformed CSV input.
+            clean_value = {k: v for k, v in value.items() if k in header}
+            writer.writerow(clean_value)
 
 
 if __name__ == '__main__':
