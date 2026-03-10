@@ -5760,7 +5760,7 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
-        "@value": "0003"
+        "@value": "false"
       },
       "nypl:owner": {
         "@id": "nyplOrg:0003"
