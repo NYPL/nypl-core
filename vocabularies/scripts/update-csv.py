@@ -57,10 +57,15 @@ def csv_to_dict(file_name: str) -> dict:
 def get_updated_vocabulary(target, new):
     for key, update_data_row in new.items():
         for property in update_data_row:
+            if target.get(key) is None:
+                # If we are adding a new key to the csv, we assume it has all
+                # of the fields included in the header row, in the expected
+                # order.
+                target[key] = update_data_row
             if update_data_row[property] == '':
                 # don't overwrite values that are not provided
                 continue
-            if target.get(key)[property] == "REMOVE_VALUE":
+            if target.get(key).get(property) == "REMOVE_VALUE":
                 update_data_row[property] = ''
             # spreadsheets automatically convert booleans to all caps. Let's
             # make the transistion painless for all.
@@ -68,11 +73,7 @@ def get_updated_vocabulary(target, new):
                 update_data_row[property] = update_data_row[property].lower()
             if target.get(key) is not None:
                 target[key][property] = update_data_row[property]
-            else:
-                # If we are adding a new key to the csv, we assume it has all
-                # of the fields included in the header row, in the expected
-                # order.
-                target[key] = update_data_row
+
     return dict(sorted(target.items()))
 
 
@@ -83,9 +84,8 @@ def main():
     vocabulary_dict = csv_to_dict(vocabulary_file_path)
     update_dict = csv_to_dict(update_filepath)
     new_dict = dict(vocabulary_dict)
-    
-    sorted_new_dict = get_updated_vocabulary(new_dict, update_dict)
 
+    sorted_new_dict = get_updated_vocabulary(new_dict, update_dict)
     with open(vocabulary_file_path, 'r') as f:
         header = csv.DictReader(f).fieldnames
 
@@ -94,7 +94,11 @@ def main():
         writer.writeheader()
 
         for _, value in sorted_new_dict.items():
-            writer.writerow(value)
+            # Filter out any keys not present in the original header.
+            # This prevents ValueError when update rows contain extra
+            # empty keys (eg. '' or None) from malformed CSV input.
+            clean_value = {k: v for k, v in value.items() if k in header}
+            writer.writerow(clean_value)
 
 
 if __name__ == '__main__':
