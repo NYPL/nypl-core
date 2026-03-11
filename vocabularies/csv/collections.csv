@@ -1,5 +1,5 @@
-skos:notation,skos:prefLabel,nypl:holdingLocations,URL
-bur,Yoseloff Business Center,bur51,https://www.nypl.org/locations/snfl/yoseloff-business 
+skos:notation,skos:prefLabel,nypl:holdingLocations,nypl:URL
+bur,Yoseloff Business Center,bur51,https://www.nypl.org/locations/snfl/yoseloff-business
 mab,Art & Architecture Collection,mab01;mab0v;mab82;mab88;mab89;mab92;mab98;mab99;mabb1;mabb2;mabb3;mabm2;rcmb2;rcmb8;rcmb9,https://www.nypl.org/locations/schwarzman/wallach-division/art-architecture-collection
 mac,Arents Collection,mac82;macc2,https://www.nypl.org/locations/schwarzman/rare-books-division/arents-collection
 mae,Berg Collection,mae82;mae92;maee2,https://www.nypl.org/locations/schwarzman/berg-collection-english-and-american-literature
