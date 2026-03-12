@@ -3,7 +3,7 @@
 # requires libraries/plugins: rdflib, rdflib-jsonld
 
 from rdflib.namespace import SKOS
-from rdflib import Namespace, Graph
+from rdflib import Namespace, Graph, Literal
 import rdflib
 import csv
 from utils import sort_and_write_graph_to_file
@@ -24,6 +24,7 @@ for r in reader:
     type = 'nypl:Collection'
     preflabel = rdflib.Literal(r['skos:prefLabel'])
     notation = rdflib.Literal(r['skos:notation'])
+    collectionPath = Literal(r['nypl:locationsPath'])
 
     holdingLocations = [loc.strip() for loc in r['nypl:holdingLocations'].split(';') if loc.strip()]
 
@@ -33,6 +34,7 @@ for r in reader:
     g.add((collection, SKOS.prefLabel, preflabel))
     for loc in holdingLocations:
         g.add((collection, nyplLocation, nyplLocation + str(loc)))
+    g.add((collection, nypl.locationsPath, collectionPath))
  
 
  
