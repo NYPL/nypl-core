@@ -24,7 +24,7 @@ for r in reader:
     type = 'nypl:Collection'
     preflabel = rdflib.Literal(r['skos:prefLabel'])
     notation = rdflib.Literal(r['skos:notation'])
-    collectionURL = Literal(r['nypl:URL'])
+    collectionURL = Literal(r['nypl:locationsPath'])
 
     holdingLocations = [loc.strip() for loc in r['nypl:holdingLocations'].split(';') if loc.strip()]
 
@@ -34,7 +34,7 @@ for r in reader:
     g.add((collection, SKOS.prefLabel, preflabel))
     for loc in holdingLocations:
         g.add((collection, nyplLocation, nyplLocation + str(loc)))
-    g.add((collection, nypl.URL, collectionURL))
+    g.add((collection, nypl.locationsPath, collectionURL))
  
 
  
