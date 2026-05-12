@@ -34617,6 +34617,7 @@
         "@value": "true"
       },
       "nypl:collectionType": "Research",
+      "nypl:deliveryLocationType": "Staff",
       "nypl:recapCustomerCode": {
         "@id": "http://data.nypl.org/recapCustomerCodes/NX"
       },
@@ -34699,7 +34700,7 @@
       "nypl:deliverableTo": {
         "@id": "nyplLocation:lsdd2"
       },
-      "nypl:deliveryLocationType": "Research",
+      "nypl:deliveryLocationType": "Staff",
       "nypl:recapCustomerCode": {
         "@id": "http://data.nypl.org/recapCustomerCodes/NI"
       },
@@ -72822,7 +72823,7 @@
         "@value": "false"
       },
       "nypl:collectionType": "Research",
-      "nypl:deliveryLocationType": "Research",
+      "nypl:deliveryLocationType": "Staff",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1000"
       },
@@ -72851,7 +72852,7 @@
       "nypl:deliverableTo": {
         "@id": "nyplLocation:xfill"
       },
-      "nypl:deliveryLocationType": "Research",
+      "nypl:deliveryLocationType": "Staff",
       "nypl:recapCustomerCode": {
         "@id": "http://data.nypl.org/recapCustomerCodes/NE"
       },
