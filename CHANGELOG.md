@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.40
+- Set some locations as having delivery-location-type "Staff"
+
 ### v2.39
 - add collection/division urls
 
