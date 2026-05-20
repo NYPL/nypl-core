@@ -54,13 +54,15 @@ def csv_to_dict(file_name: str) -> dict:
     # 'map32': {'skos:notation': 'map32', 'skos:prefLabel': 'Map room',
     # 'skos:altLabel': 'Map room 123,'...}
     # ...}
-def get_updated_vocabulary(target, new):
+def get_updated_vocabulary(target, new, all_fields):
+    new_ids = []
+
     for key, update_data_row in new.items():
         for property in update_data_row:
             if update_data_row[property] == '':
                 # don't overwrite values that are not provided
                 continue
-            if target.get(key)[property] == "REMOVE_VALUE":
+            if target.get(key, {}).get(property) == "REMOVE_VALUE":
                 update_data_row[property] = ''
             # spreadsheets automatically convert booleans to all caps. Let's
             # make the transistion painless for all.
@@ -73,24 +75,31 @@ def get_updated_vocabulary(target, new):
                 # of the fields included in the header row, in the expected
                 # order.
                 target[key] = update_data_row
+                new_ids.append(key)
+
+    if len(new_ids) > 0:
+        missing_fields = [f for f in all_fields if f not in list(update_data_row.keys())]
+        print(f"Warning:\n  The update CSV does not give values for:\n    {', '.join(missing_fields)},\n  so the following new entries will have empty field values for those columns:")
+        print(f"    {', '.join(new_ids)}")
+        print(f"  Maybe manually add the missing values?")
     return dict(sorted(target.items()))
 
 
 def main():
-    vocabulary_file_path = '../csv/' + sys.argv[1] + ".csv"
+    vocabulary_file_path = f'../csv/{sys.argv[1]}.csv'
     update_filepath = sys.argv[2]
 
     vocabulary_dict = csv_to_dict(vocabulary_file_path)
     update_dict = csv_to_dict(update_filepath)
     new_dict = dict(vocabulary_dict)
-    
-    sorted_new_dict = get_updated_vocabulary(new_dict, update_dict)
 
     with open(vocabulary_file_path, 'r') as f:
         header = csv.DictReader(f).fieldnames
 
-    with open(vocabulary_file_path, 'w', newline='') as f:
-        writer = csv.DictWriter(f, header)
+    sorted_new_dict = get_updated_vocabulary(new_dict, update_dict, header)
+
+    with open(vocabulary_file_path, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, header, lineterminator='\n')
         writer.writeheader()
 
         for _, value in sorted_new_dict.items():
