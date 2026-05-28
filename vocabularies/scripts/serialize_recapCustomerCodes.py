@@ -15,7 +15,7 @@ custCode = rdflib.URIRef('http://data.nypl.org/recapCustomerCodes/')
 g = Graph()
 
 for r in reader:
-    id = r['skos:notation']
+    id = r['id']
     type = 'nypl:RecapCustomerCode'
     preflabel = rdflib.Literal(r['skos:prefLabel'])
     notation = rdflib.Literal(r['skos:notation'])
