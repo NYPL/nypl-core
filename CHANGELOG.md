@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.41
+- Add hd: prefixes to Harvard HD customer codes
+
 ### v2.40
 - Set some locations as having delivery-location-type "Staff"
 
