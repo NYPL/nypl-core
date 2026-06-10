@@ -55,12 +55,13 @@ def csv_to_dict(file_name: str) -> dict:
     # 'skos:altLabel': 'Map room 123,'...}
     # ...}
 def get_updated_vocabulary(target, new):
+    new_keys = []
     for key, update_data_row in new.items():
         for property in update_data_row:
             if update_data_row[property] == '':
                 # don't overwrite values that are not provided
                 continue
-            if target.get(key)[property] == "REMOVE_VALUE":
+            if target.get(key, {}).get(property) == "REMOVE_VALUE":
                 update_data_row[property] = ''
             # spreadsheets automatically convert booleans to all caps. Let's
             # make the transistion painless for all.
@@ -72,7 +73,13 @@ def get_updated_vocabulary(target, new):
                 # If we are adding a new key to the csv, we assume it has all
                 # of the fields included in the header row, in the expected
                 # order.
+                new_keys.append(key)
                 target[key] = update_data_row
+
+    if len(new_keys):
+        print(f'Note that the following keys are new. You may need to fill in missing values manually')
+        print(f'  {", ".join(new_keys)}')
+
     return dict(sorted(target.items()))
 
 
@@ -90,7 +97,7 @@ def main():
         header = csv.DictReader(f).fieldnames
 
     with open(vocabulary_file_path, 'w', newline='') as f:
-        writer = csv.DictWriter(f, header)
+        writer = csv.DictWriter(f, header, lineterminator='\n')
         writer.writeheader()
 
         for _, value in sorted_new_dict.items():
