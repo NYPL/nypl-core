@@ -80,11 +80,20 @@ def get_updated_vocabulary(target, new):
         print(f'Note that the following keys are new. You may need to fill in missing values manually')
         print(f'  {", ".join(new_keys)}')
 
+    # If majority of entries are updated (say, 80%), let's assume it's a
+    # comprehensive update and warn about keys that were _not_ updated, since
+    # those may be stale and should be manually removedc.
+    percentage_updated = len(new.keys()) / len(target.keys())
+    if 0.90 < percentage_updated < 1:
+        missing_keys = [code for code in target.keys() if code not in new.keys()]
+        print(f'Found {len(missing_keys)} entries in target not found in update csv. Should they be removed from target?')
+        print('  ' + ', '.join(missing_keys))
+
     return dict(sorted(target.items()))
 
 
 def main():
-    vocabulary_file_path = '../csv/' + sys.argv[1] + ".csv"
+    vocabulary_file_path = f'../csv/{sys.argv[1]}.csv'
     update_filepath = sys.argv[2]
 
     vocabulary_dict = csv_to_dict(vocabulary_file_path)

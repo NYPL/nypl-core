@@ -4,34 +4,29 @@ AD,AD,Avery Drawings & Archives,,false,0002
 AR,AR,Avery Library,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;OA;OC;OL;ON;OW;OD;OE,true,0002
 AV,AV,Avery Classics,,false,0002
 BC,BC,Bibliographic Control Division,,false,0002
-BD,BD,ReCAP BorrowDirect,,false,0003
 BL,BL,Barnard Library,,false,0002
-BR,BR,BR,,false,0002
 BS,BS,Business/Econ Library,,false,0002
 BT,BT,Butler Preservation,,false,0002
 BU,BU,Butler Library,,false,0002
 BZ,BZ,Preservation Project,,false,0002
 CA,CA,Science & Engineering Lib (NWC),,false,0002
-CD,CD,CD,,false,0002
+CD,CD,CD,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;OA;OC;OL;ON;OW;OD;OE,false,0002
 CF,CF,Cold Storage Film,,false,0002
 CH,CH,CH,,false,0002
 CI,CI,Interlibary Loan,,false,0002
 CJ,CJ,Journalism Library,,false,0002
-CL,CL,CL,,false,0002
+CL,CL,CL,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;OA;OC;OL;ON;OW;OD;OE,false,0002
 CM,CM,Master Microfilm,,false,0002
-CP,CP,CP,,false,0002
 CR,CR,Columbia Restricted,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;OA;OC;OL;ON;OW;OD;OE,true,0002
 CS,CS,Shipping & Receiving,,false,0002
 CU,CU,CU Standard,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;OA;OC;OL;ON;OW;OD;OE,true,0002
 CV,CV,Butler Media Collection,,false,0002
 CX,CX,CX,,false,0002
 EA,EA,East Asian Library,,false,0002
-EN,EN,EN,,false,0002
 EV,EV,East Asian Vernacular,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;OA;OC;OL;ON;OW;OD;OE,true,0002
 GC,GC,Government Documents,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;OA;OC;OL;ON;OW;OD;OE,true,0002
 GE,GE,Geology Library,,false,0002
 GN,GN,Government Documents,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;IN;OA;OC;OL;ON;OW;OZ;OP;OM;OD,true,0001
-GO,GO,Google Project (deprecated),,false,0001
 GP,GP,GP,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;OA;OC;OL;ON;OW;OD;OE,true,0003
 GS,GS,Geoscience Library ,,false,0002
 HR,HR,HSL Restricted,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;OA;OC;OL;ON;OW;OD;OE,true,0002
@@ -39,17 +34,10 @@ HS,HS,Health Sciences Library,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV
 HV,HV,Harvard ReCAP Items,ID;NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NP;NZ;SR;OA;OC;OD;OE;OL;OM;ON;OP;OW;OZ,true,0004
 HX,HX,HX,,false,0002
 ID,ID,Inter-Library Loan (deprecated),,false,0001
-IN,IN,ReCAP Inter-Library Loan,,false,0003
-JC,JC,JC,,false,0002
-JD,JD,JD,,false,0002
-JL,JL,JL,,false,0002
-JM,JM,JM,,false,0002
 JN,JN,JSTOR Standard,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;IN;OA;OC;OL;ON;OW;OZ;OP;OM;OI;OD,true,0001
 JO,JO,JSTOR Restricted,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;IN;OA;OC;OL;ON;OW;OZ;OP;OM;OI;OD,true,0001
-JP,JP,JP,,false,0003
 JQ,JQ,Princeton Dark Storage,,true,0003
 JS,JS,SIBL De-duping candidates,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;IN;OA;OC;OL;ON;OW;OZ;OP;OM;OI;OD,true,0001
-LD,LD,LD,,false,0002
 LE,LE,Lehman Library,,false,0002
 ML,ML,Mathematics Library,,false,0002
 MP,MP,Monographic Processing,,false,0002
@@ -92,7 +80,6 @@ OL,OL,Media Preservation Lab,,false,0001
 OM,OM,Schomburg Gen. no Sierra holds,,false,0001
 ON,ON,SASB Shoichi Noma Scholar Room,,false,0001
 OP,OP,LPA no Sierra holds,,false,0001
-OS,OS,SASB no Sierra holds (discontinued),,false,0001
 OW,OW,SASB Wertheim Study,,false,0001
 OZ,OZ,SASB no Sierra holds,,false,0001
 PA,PA,Firestone LIbrary,NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NN;NO;NP;NR;NS;NT;NV;NX;NY;NZ;SA;SM;SP;SR;OA;OC;OL;ON;OW;OD;OE,true,0003
@@ -113,18 +100,15 @@ PV,PV,PV,NG,false,0003
 PW,PW,Architecture Library,,true,0003
 PZ,PZ,Marquand Library Rare,,false,0003
 QA,QA,Firestone Library Resource Sharing (Staff only),,false,0003
-QB,QB,QB,,false,0003
 QC,QC,"Technical Services, Holdings Management (staff only)",,false,0003
 QD,QD,QD,,false,0003
 QK,QK,Mendel Music Sound & Video Recordings,NP,false,0003
 QL,QL,East Asian Microforms,,false,0003
-QN,QN,QN,,false,0003
 QP,QP,ReCAP/Princeton Preservation,,false,0003
 QT,QT,Technical Services. 693 (Staff Only),,false,0003
 QV,QV,Video Collection,,false,0003
 QX,QX,Firestone Library. Shared,,false,0003
 RH,RH,Human Rights Watch,,false,0002
-RR,RR,ReCAP Reading Room,,false,0003
 RS,RS,Rare Books & Manuscripts,,false,0002
 SA,SA,Schomburg Art & Artifacts,,false,0001
 SM,SM,Schomburg MIRS,,false,0001
@@ -149,4 +133,4 @@ hd:HY,HY,HARVARD YENCHING LIBRARY,ID;NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NP;NZ;SR;OA;O
 hd:MCZ,MCZ,ERNST MAYR LIBRARY (MCZ),ID;NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NP;NZ;SR;OA;OC;OD;OE;OL;OM;ON;OP;OW;OZ,true,0004
 hd:ML,ML,LOEB MUSIC LIBRARY,ID;NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NP;NZ;SR;OA;OC;OD;OE;OL;OM;ON;OP;OW;OZ,true,0004
 hd:TZ,TZ,TOZZER LIBRARY,ID;NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NP;NZ;SR;OA;OC;OD;OE;OL;OM;ON;OP;OW;OZ,true,0004
-hd:WL,WL,WOLBACH LIBRARY,ND;NG;NH;NJ;NM;NP;SR;OA;OC;OE;OD;ON;OW,true,0004
+hd:WL,WL,WOLBACH LIBRARY,ID;NC;ND;NE;NF;NG;NH;NI;NJ;NK;NM;NP;NZ;SR;OA;OC;OD;OE;OL;OM;ON;OP;OW;OZ,true,0004
