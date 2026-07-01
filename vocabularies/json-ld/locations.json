@@ -37115,6 +37115,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:maq"
@@ -48054,6 +48055,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:par"
@@ -48716,6 +48718,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1002"
@@ -57058,6 +57061,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
@@ -57114,6 +57118,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
@@ -57196,6 +57201,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
@@ -57278,6 +57284,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
