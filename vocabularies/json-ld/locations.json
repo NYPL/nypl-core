@@ -37115,12 +37115,10 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
-      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:maq"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "pforzheimer-collection-shelley-and-his-circle",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1102"
@@ -48055,12 +48053,10 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
-      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:par"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "theatre-film-and-tape-archive",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1120"
@@ -48718,7 +48714,6 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
-      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1002"
@@ -57061,12 +57056,10 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
-      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "moving-image-and-recorded-sound-division",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1117"
@@ -57118,12 +57111,10 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
-      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "art-and-artifacts-division",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1115"
@@ -57201,12 +57192,10 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
-      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "manuscripts-archives-and-rare-books-division",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1116"
@@ -57284,12 +57273,10 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
-      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "photographs-and-prints-division",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1118"
