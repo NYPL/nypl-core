@@ -36645,7 +36645,6 @@
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mao"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "manuscripts-division",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1107"
@@ -37175,7 +37174,6 @@
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mar"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "rare-books-division",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1108"
