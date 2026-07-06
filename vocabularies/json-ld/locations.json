@@ -72793,9 +72793,6 @@
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1000"
       },
-      "nypl:recapCustomerCode": {
-        "@id": "http://data.nypl.org/recapCustomerCodes/OS"
-      },
       "nypl:requestable": {
         "@type": "XSD:boolean",
         "@value": "false"

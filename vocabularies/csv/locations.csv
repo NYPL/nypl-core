@@ -3756,7 +3756,7 @@ wtyr,Westchester Square Young Adult Reference,Westchester Square Young Adult Ref
 wtytl,Westchester Square Young Adult World Language College and Career Pathways Collection,Westchester Square Young Adult World Language College and Career Pathways Collection,Branch,,,wt,,false,,,true,,,,
 wtytn,Westchester Square Young Adult College and Career Pathways Collection,Westchester Square Young Adult College and Career Pathways Collection,Branch,,,wt,,false,,,true,,,,
 wtzzz,Westchester Square,Westchester Square (error code),Branch,,,wt,,false,,,true,,,,
-x006,SASB no Sierra holds (discontinued),SASB no Sierra holds,Research,Research,,ma,1000,false,,OS,false,,,,
+x006,SASB no Sierra holds (discontinued),SASB no Sierra holds,Research,Research,,ma,1000,false,,,false,,,,
 x010,SASB no Sierra holds,SASB no Sierra holds,Research,Staff,,ma,1000,false,,OZ,false,,,,
 xfill,Inter-Library Loan,Inter-Library Loan,Research,Staff,,xf,,false,xfill,NE,false,,,,
 xr,Collection Rebalancing,Collection Rebalancing,,,,xr,,false,,,true,,,,
