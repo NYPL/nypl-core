@@ -37,25 +37,73 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -67,16 +115,19 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -116,19 +167,6 @@
       "skos:prefLabel": "Bibliographic Control Division"
     },
     {
-      "@id": "http://data.nypl.org/recapCustomerCodes/BD",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0003"
-      },
-      "skos:notation": "BD",
-      "skos:prefLabel": "ReCAP BorrowDirect"
-    },
-    {
       "@id": "http://data.nypl.org/recapCustomerCodes/BL",
       "@type": "nypl:RecapCustomerCode",
       "nypl:eddRequestable": {
@@ -140,19 +178,6 @@
       },
       "skos:notation": "BL",
       "skos:prefLabel": "Barnard Library"
-    },
-    {
-      "@id": "http://data.nypl.org/recapCustomerCodes/BR",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0002"
-      },
-      "skos:notation": "BR",
-      "skos:prefLabel": "BR"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/BS",
@@ -222,6 +247,101 @@
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/CD",
       "@type": "nypl:RecapCustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NG"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NH"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OC"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ON"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+        }
+      ],
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -287,6 +407,101 @@
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/CL",
       "@type": "nypl:RecapCustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NG"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NH"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OC"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ON"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+        }
+      ],
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -311,42 +526,77 @@
       "skos:prefLabel": "Master Microfilm"
     },
     {
-      "@id": "http://data.nypl.org/recapCustomerCodes/CP",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0002"
-      },
-      "skos:notation": "CP",
-      "skos:prefLabel": "CP"
-    },
-    {
       "@id": "http://data.nypl.org/recapCustomerCodes/CR",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -358,16 +608,19 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -398,25 +651,73 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -428,16 +729,19 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -490,42 +794,77 @@
       "skos:prefLabel": "East Asian Library"
     },
     {
-      "@id": "http://data.nypl.org/recapCustomerCodes/EN",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0002"
-      },
-      "skos:notation": "EN",
-      "skos:prefLabel": "EN"
-    },
-    {
       "@id": "http://data.nypl.org/recapCustomerCodes/EV",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -537,16 +876,19 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -564,25 +906,73 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -594,16 +984,19 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -634,10 +1027,16 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -646,16 +1045,61 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/IN"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OA"
@@ -664,13 +1108,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
@@ -687,42 +1140,77 @@
       "skos:prefLabel": "Government Documents"
     },
     {
-      "@id": "http://data.nypl.org/recapCustomerCodes/GO",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0001"
-      },
-      "skos:notation": "GO",
-      "skos:prefLabel": "Google Project (deprecated)"
-    },
-    {
       "@id": "http://data.nypl.org/recapCustomerCodes/GP",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -734,16 +1222,19 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -774,25 +1265,73 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -804,16 +1343,19 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -831,25 +1373,73 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -861,16 +1451,19 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -888,7 +1481,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -897,13 +1502,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -915,16 +1529,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -964,79 +1590,20 @@
       "skos:prefLabel": "Inter-Library Loan (deprecated)"
     },
     {
-      "@id": "http://data.nypl.org/recapCustomerCodes/IN",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0003"
-      },
-      "skos:notation": "IN",
-      "skos:prefLabel": "ReCAP Inter-Library Loan"
-    },
-    {
-      "@id": "http://data.nypl.org/recapCustomerCodes/JC",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0002"
-      },
-      "skos:notation": "JC",
-      "skos:prefLabel": "JC"
-    },
-    {
-      "@id": "http://data.nypl.org/recapCustomerCodes/JD",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0002"
-      },
-      "skos:notation": "JD",
-      "skos:prefLabel": "JD"
-    },
-    {
-      "@id": "http://data.nypl.org/recapCustomerCodes/JL",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0002"
-      },
-      "skos:notation": "JL",
-      "skos:prefLabel": "JL"
-    },
-    {
-      "@id": "http://data.nypl.org/recapCustomerCodes/JM",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0002"
-      },
-      "skos:notation": "JM",
-      "skos:prefLabel": "JM"
-    },
-    {
       "@id": "http://data.nypl.org/recapCustomerCodes/JN",
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -1045,16 +1612,61 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/IN"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OA"
@@ -1063,13 +1675,25 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OI"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
@@ -1090,10 +1714,16 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -1102,16 +1732,61 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/IN"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OA"
@@ -1120,13 +1795,25 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OI"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
@@ -1141,19 +1828,6 @@
       },
       "skos:notation": "JO",
       "skos:prefLabel": "JSTOR Restricted"
-    },
-    {
-      "@id": "http://data.nypl.org/recapCustomerCodes/JP",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0003"
-      },
-      "skos:notation": "JP",
-      "skos:prefLabel": "JP"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/JQ",
@@ -1173,10 +1847,16 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -1185,16 +1865,61 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/IN"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OA"
@@ -1203,13 +1928,25 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OI"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
@@ -1224,19 +1961,6 @@
       },
       "skos:notation": "JS",
       "skos:prefLabel": "SIBL De-duping candidates"
-    },
-    {
-      "@id": "http://data.nypl.org/recapCustomerCodes/LD",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0002"
-      },
-      "skos:notation": "LD",
-      "skos:prefLabel": "LD"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/LE",
@@ -1311,10 +2035,16 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -1323,16 +2053,61 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/IN"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OA"
@@ -1341,16 +2116,31 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OI"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -1368,10 +2158,16 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -1380,16 +2176,61 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/IN"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OA"
@@ -1398,16 +2239,31 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OI"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -1436,9 +2292,35 @@
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/ND",
       "@type": "nypl:RecapCustomerCode",
-      "nypl:deliverableTo": {
-        "@id": "http://data.nypl.org/recapCustomerCodes/ND"
-      },
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        }
+      ],
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -1463,6 +2345,12 @@
       "skos:prefLabel": "NYPL Inter-Library Loan"
     },
     {
+      "@id": "http://data.nypl.org/recapCustomerCodes/NF",
+      "@type": "nypl:RecapCustomerCode",
+      "skos:notation": "",
+      "skos:prefLabel": ""
+    },
+    {
       "@id": "http://data.nypl.org/recapCustomerCodes/NG",
       "@type": "nypl:RecapCustomerCode",
       "nypl:eddRequestable": {
@@ -1480,10 +2368,16 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -1492,16 +2386,61 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/IN"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OA"
@@ -1510,16 +2449,31 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OI"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -1576,10 +2530,16 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -1588,16 +2548,61 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/IN"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OA"
@@ -1606,16 +2611,31 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OI"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -1644,9 +2664,26 @@
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/NN",
       "@type": "nypl:RecapCustomerCode",
-      "nypl:deliverableTo": {
-        "@id": "http://data.nypl.org/recapCustomerCodes/NP"
-      },
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        }
+      ],
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -1660,6 +2697,26 @@
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/NO",
       "@type": "nypl:RecapCustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        }
+      ],
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -1673,9 +2730,47 @@
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/NP",
       "@type": "nypl:RecapCustomerCode",
-      "nypl:deliverableTo": {
-        "@id": "http://data.nypl.org/recapCustomerCodes/NP"
-      },
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/IN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        }
+      ],
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -1691,7 +2786,16 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -1700,10 +2804,37 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OA"
@@ -1712,16 +2843,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OI"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -1750,9 +2887,47 @@
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/NS",
       "@type": "nypl:RecapCustomerCode",
-      "nypl:deliverableTo": {
-        "@id": "http://data.nypl.org/recapCustomerCodes/SR"
-      },
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/IN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
+        }
+      ],
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -1779,6 +2954,26 @@
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/NU",
       "@type": "nypl:RecapCustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NU"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OX"
+        }
+      ],
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -1792,9 +2987,29 @@
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/NV",
       "@type": "nypl:RecapCustomerCode",
-      "nypl:deliverableTo": {
-        "@id": "http://data.nypl.org/recapCustomerCodes/NP"
-      },
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        }
+      ],
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -1810,10 +3025,16 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -1822,16 +3043,61 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/IN"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OA"
@@ -1840,16 +3106,31 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OI"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -1865,6 +3146,20 @@
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/NX",
       "@type": "nypl:RecapCustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
+        }
+      ],
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -2042,19 +3337,6 @@
       "skos:prefLabel": "LPA no Sierra holds"
     },
     {
-      "@id": "http://data.nypl.org/recapCustomerCodes/OS",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0001"
-      },
-      "skos:notation": "OS",
-      "skos:prefLabel": "SASB no Sierra holds (discontinued)"
-    },
-    {
       "@id": "http://data.nypl.org/recapCustomerCodes/OW",
       "@type": "nypl:RecapCustomerCode",
       "nypl:eddRequestable": {
@@ -2085,25 +3367,73 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NB"
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
-        },
-        {
-          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NN"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NO"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NT"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NV"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NX"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NY"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -2115,16 +3445,19 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -2171,6 +3504,9 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NE"
         },
         {
@@ -2207,6 +3543,9 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NR"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NS"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NT"
         },
         {
@@ -2222,13 +3561,37 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OC"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ON"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OW"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         }
       ],
       "nypl:eddRequestable": {
@@ -2270,6 +3633,9 @@
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/PJ",
       "@type": "nypl:RecapCustomerCode",
+      "nypl:deliverableTo": {
+        "@id": "http://data.nypl.org/recapCustomerCodes/NG"
+      },
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
         "@value": "true"
@@ -2374,6 +3740,9 @@
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/PV",
       "@type": "nypl:RecapCustomerCode",
+      "nypl:deliverableTo": {
+        "@id": "http://data.nypl.org/recapCustomerCodes/NG"
+      },
       "nypl:eddRequestable": {
         "@type": "XSD:boolean",
         "@value": "false"
@@ -2422,19 +3791,6 @@
       },
       "skos:notation": "QA",
       "skos:prefLabel": "Firestone Library Resource Sharing (Staff only)"
-    },
-    {
-      "@id": "http://data.nypl.org/recapCustomerCodes/QB",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0003"
-      },
-      "skos:notation": "QB",
-      "skos:prefLabel": "QB"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/QC",
@@ -2490,19 +3846,6 @@
       },
       "skos:notation": "QL",
       "skos:prefLabel": "East Asian Microforms"
-    },
-    {
-      "@id": "http://data.nypl.org/recapCustomerCodes/QN",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0003"
-      },
-      "skos:notation": "QN",
-      "skos:prefLabel": "QN"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/QP",
@@ -2568,19 +3911,6 @@
       },
       "skos:notation": "RH",
       "skos:prefLabel": "Human Rights Watch"
-    },
-    {
-      "@id": "http://data.nypl.org/recapCustomerCodes/RR",
-      "@type": "nypl:RecapCustomerCode",
-      "nypl:eddRequestable": {
-        "@type": "XSD:boolean",
-        "@value": "false"
-      },
-      "nypl:owner": {
-        "@id": "nyplOrg:0003"
-      },
-      "skos:notation": "RR",
-      "skos:prefLabel": "ReCAP Reading Room"
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/RS",
@@ -2691,7 +4021,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -2700,13 +4042,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -2718,16 +4069,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -2745,7 +4108,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -2754,13 +4129,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -2772,16 +4156,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -2793,6 +4189,86 @@
       },
       "skos:notation": "DL",
       "skos:prefLabel": "GSD LOEB LIBRARY"
+    },
+    {
+      "@id": "http://data.nypl.org/recapCustomerCodes/hd:EV",
+      "@type": "nypl:RecapCustomerCode",
+      "nypl:deliverableTo": [
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NG"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NH"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/SR"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OA"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OC"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ON"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
+        }
+      ],
+      "skos:notation": "",
+      "skos:prefLabel": ""
     },
     {
       "@id": "http://data.nypl.org/recapCustomerCodes/hd:FL",
@@ -2815,7 +4291,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -2824,13 +4312,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -2842,16 +4339,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -2869,7 +4378,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -2878,13 +4399,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -2896,16 +4426,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -2923,7 +4465,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -2932,13 +4486,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -2950,16 +4513,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -2977,7 +4552,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -2986,13 +4573,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -3004,16 +4600,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -3031,7 +4639,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -3040,13 +4660,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -3058,16 +4687,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -3085,7 +4726,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -3094,13 +4747,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -3112,16 +4774,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -3139,7 +4813,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -3148,13 +4834,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -3166,16 +4861,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -3193,7 +4900,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -3202,13 +4921,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -3220,16 +4948,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -3247,7 +4987,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -3256,13 +5008,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -3274,16 +5035,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -3301,7 +5074,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -3310,13 +5095,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -3328,16 +5122,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -3355,7 +5161,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -3364,13 +5182,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -3382,16 +5209,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -3409,7 +5248,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -3418,13 +5269,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -3436,16 +5296,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
@@ -3463,7 +5335,19 @@
       "@type": "nypl:RecapCustomerCode",
       "nypl:deliverableTo": [
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/ID"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NC"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/ND"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NE"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NF"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NG"
@@ -3472,13 +5356,22 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/NH"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NI"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/NJ"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NK"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/NP"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/NZ"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/SR"
@@ -3490,16 +5383,28 @@
           "@id": "http://data.nypl.org/recapCustomerCodes/OC"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OE"
         },
         {
-          "@id": "http://data.nypl.org/recapCustomerCodes/OD"
+          "@id": "http://data.nypl.org/recapCustomerCodes/OL"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OM"
         },
         {
           "@id": "http://data.nypl.org/recapCustomerCodes/ON"
         },
         {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OP"
+        },
+        {
           "@id": "http://data.nypl.org/recapCustomerCodes/OW"
+        },
+        {
+          "@id": "http://data.nypl.org/recapCustomerCodes/OZ"
         }
       ],
       "nypl:eddRequestable": {
