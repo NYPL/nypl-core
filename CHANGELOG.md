@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.42
+- Updates some labels and collection access types in locations
+
 ### v2.41
 - Add hd: prefixes to Harvard HD customer codes
 
