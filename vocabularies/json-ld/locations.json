@@ -7733,6 +7733,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
@@ -7740,7 +7741,7 @@
       },
       "skos:altLabel": "Stavros Niarchos Foundation Library - Yoseloff Business Center - Research Reference",
       "skos:notation": "bur51",
-      "skos:prefLabel": "Stavros Niarchos Foundation Library - Yoseloff Business Center - Research Reference"
+      "skos:prefLabel": "Stavros Niarchos Foundation Library - Thomas Yoseloff Business Center - Research Reference"
     },
     {
       "@id": "nyplLocation:ccdwl",
@@ -34866,6 +34867,7 @@
         "@type": "XSD:boolean",
         "@value": "false"
       },
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
@@ -34873,7 +34875,7 @@
       },
       "skos:altLabel": "SASB - Picture Collection Reference - Rm 119",
       "skos:notation": "mab01",
-      "skos:prefLabel": "Schwarzman Building - Picture Collection Reference - Rm 119"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 119 (Shelf)"
     },
     {
       "@id": "nyplLocation:mab0v",
@@ -34885,6 +34887,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
@@ -34892,7 +34895,7 @@
       },
       "skos:altLabel": "SASB - Picture Collection Rm 119",
       "skos:notation": "mab0v",
-      "skos:prefLabel": "Schwarzman Building - Picture Collection - Rm 119"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 119 (Shelf)"
     },
     {
       "@id": "nyplLocation:mab82",
@@ -35071,6 +35074,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mab"
@@ -35084,7 +35088,7 @@
       },
       "skos:altLabel": "SASB - Art Reference Rm 300",
       "skos:notation": "mabb1",
-      "skos:prefLabel": "Schwarzman Building - Art Reference Room 300"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 300 (Shelf)"
     },
     {
       "@id": "nyplLocation:mabb2",
@@ -35096,6 +35100,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mab"
@@ -35109,7 +35114,7 @@
       },
       "skos:altLabel": "SASB - Art & Architecture Rm 300",
       "skos:notation": "mabb2",
-      "skos:prefLabel": "Schwarzman Building - Art & Architecture Room 300"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 300 (Desk)"
     },
     {
       "@id": "nyplLocation:mabb3",
@@ -35121,6 +35126,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mab"
@@ -35134,7 +35140,7 @@
       },
       "skos:altLabel": "SASB - Art - Desk Rm 300",
       "skos:notation": "mabb3",
-      "skos:prefLabel": "Schwarzman Building - Art & Architecture Desk Room 300"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 300 (Desk)"
     },
     {
       "@id": "nyplLocation:mabm2",
@@ -35146,6 +35152,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mab"
@@ -35159,7 +35166,7 @@
       },
       "skos:altLabel": "SASB - Art & Architecture Rm 300",
       "skos:notation": "mabm2",
-      "skos:prefLabel": "Schwarzman Building - Art & Architecture Room 300"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 300 (Desk)"
     },
     {
       "@id": "nyplLocation:mac",
@@ -35405,6 +35412,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1103"
@@ -35415,7 +35423,7 @@
       },
       "skos:altLabel": "SASB S3 - Dorot Jewish Division Rm 111",
       "skos:notation": "maf32",
-      "skos:prefLabel": "Schwarzman Building S3 - Dorot Jewish Division Rm 111"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 108 (Desk)"
     },
     {
       "@id": "nyplLocation:maf82",
@@ -35593,7 +35601,7 @@
       },
       "skos:altLabel": "SASB - Dorot Jewish Division Reference Rm 111",
       "skos:notation": "maff1",
-      "skos:prefLabel": "Schwarzman Building - Dorot Jewish Division Reference Room 111"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 111 (Shelf)"
     },
     {
       "@id": "nyplLocation:maff3",
@@ -35619,7 +35627,7 @@
       },
       "skos:altLabel": "SASB - Dorot Jewish Division - Desk Rm 111",
       "skos:notation": "maff3",
-      "skos:prefLabel": "Schwarzman Building - Dorot Jewish Division Desk Room 111"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 111 (Desk)"
     },
     {
       "@id": "nyplLocation:mag",
@@ -35791,7 +35799,7 @@
       },
       "skos:altLabel": "SASB - Milstein Division Reference Rm 121",
       "skos:notation": "magg1",
-      "skos:prefLabel": "Schwarzman Building - Milstein Division Reference Room 121"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 121 (Shelf)"
     },
     {
       "@id": "nyplLocation:magg2",
@@ -35822,7 +35830,7 @@
       },
       "skos:altLabel": "SASB - Milstein Division - Mezzanine",
       "skos:notation": "magg2",
-      "skos:prefLabel": "Schwarzman Building - Milstein Division Mezzanine Room 121"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 121 (Desk)"
     },
     {
       "@id": "nyplLocation:magg3",
@@ -35853,7 +35861,7 @@
       },
       "skos:altLabel": "SASB - Milstein Division - Desk Rm 121",
       "skos:notation": "magg3",
-      "skos:prefLabel": "Schwarzman Building - Milstein Division Desk Room 121"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 121 (Desk)"
     },
     {
       "@id": "nyplLocation:mai",
@@ -35991,6 +35999,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mak"
@@ -36005,7 +36014,7 @@
       },
       "skos:altLabel": "SASB - Dewitt Wallace Room 108",
       "skos:notation": "mak",
-      "skos:prefLabel": "Schwarzman Building - Dewitt Wallace Room 108"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 108 (Desk)"
     },
     {
       "@id": "nyplLocation:mak32",
@@ -36017,6 +36026,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
@@ -36024,7 +36034,7 @@
       },
       "skos:altLabel": "SASB S3 - Periodicals Rm 108",
       "skos:notation": "mak32",
-      "skos:prefLabel": "SASB S3 - Periodicals Rm 108"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 108 (Desk)"
     },
     {
       "@id": "nyplLocation:mak82",
@@ -36036,6 +36046,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
+      "nypl:collectionAccessType": "desk",
       "nypl:collectionType": "Research",
       "nypl:requestable": {
         "@type": "XSD:boolean",
@@ -36043,7 +36054,7 @@
       },
       "skos:altLabel": "SASB - Periodicals Rm 108",
       "skos:notation": "mak82",
-      "skos:prefLabel": "SASB - Periodicals Rm 108"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 108 (Desk)"
     },
     {
       "@id": "nyplLocation:makk3",
@@ -36069,7 +36080,7 @@
       },
       "skos:altLabel": "SASB - Dewitt Wallace Reference Desk Rm 108",
       "skos:notation": "makk3",
-      "skos:prefLabel": "Schwarzman Building - Dewitt Wallace Reference Desk Room 108"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 108 (Desk)"
     },
     {
       "@id": "nyplLocation:mal",
@@ -36367,7 +36378,7 @@
       },
       "skos:altLabel": "SASB - Allen Room - Reference",
       "skos:notation": "mala1",
-      "skos:prefLabel": "Schwarzman Building - Allen Room - Reference"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Frederick Lewis Allen Room 228E (Desk)"
     },
     {
       "@id": "nyplLocation:malc",
@@ -36426,7 +36437,7 @@
       },
       "skos:altLabel": "SASB - General Research - Room 315",
       "skos:notation": "mall1",
-      "skos:prefLabel": "Schwarzman Building - Main Reading Room 315 - Reference"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Rose Main Reading Room 315 (Shelf)"
     },
     {
       "@id": "nyplLocation:malm2",
@@ -36484,7 +36495,7 @@
       },
       "skos:altLabel": "SASB - General Research - Room 315",
       "skos:notation": "malm2",
-      "skos:prefLabel": "Schwarzman Building - Main Reading Room 315 - Mezzanine"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Rose Main Reading Room 315 (Desk)"
     },
     {
       "@id": "nyplLocation:maln",
@@ -36543,7 +36554,7 @@
       },
       "skos:altLabel": "SASB - Shoichi Noma Global Studies Rm 219 - Reference",
       "skos:notation": "maln1",
-      "skos:prefLabel": "Schwarzman Building - Shoichi Noma Global Studies Room 219 - Reference"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Shoichi Noma Reading Room 219 (Desk)"
     },
     {
       "@id": "nyplLocation:malv2",
@@ -36555,7 +36566,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
-      "nypl:collectionAccessType": "desk",
+      "nypl:collectionAccessType": "shelf",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mal"
@@ -36569,7 +36580,7 @@
       },
       "skos:altLabel": "SASB - General Research - Public Catalog Room 315",
       "skos:notation": "malv2",
-      "skos:prefLabel": "Schwarzman Building - Public Catalog Room 315"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Bill Blass Public Catalog Room 315 (Shelf)"
     },
     {
       "@id": "nyplLocation:malw",
@@ -36628,7 +36639,7 @@
       },
       "skos:altLabel": "SASB - Wertheim Study Rm 228W - Reference",
       "skos:notation": "malw1",
-      "skos:prefLabel": "Schwarzman Building - Wertheim Study Room 228W - Reference"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Wertheim Study Room 228W (Desk)"
     },
     {
       "@id": "nyplLocation:mao",
@@ -36721,7 +36732,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
-      "nypl:collectionAccessType": "desk",
+      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mao"
@@ -36998,7 +37009,7 @@
       },
       "skos:altLabel": "SASB - Map Division Reference - Room 117",
       "skos:notation": "mapp1",
-      "skos:prefLabel": "Schwarzman Building - Map Division Reference Room 117"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 117 (Shelf)"
     },
     {
       "@id": "nyplLocation:mapp2",
@@ -37050,7 +37061,7 @@
       },
       "skos:altLabel": "SASB - Map Division - Desk - Room 117",
       "skos:notation": "mapp3",
-      "skos:prefLabel": "Schwarzman Building - Map Division Desk Room 117"
+      "skos:prefLabel": "Stephen A. Schwarzman Building - Room 117 (Desk)"
     },
     {
       "@id": "nyplLocation:mapp8",
@@ -37062,7 +37073,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
-      "nypl:collectionAccessType": "desk",
+      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:map"
@@ -37088,7 +37099,7 @@
         "@type": "XSD:boolean",
         "@value": "true"
       },
-      "nypl:collectionAccessType": "desk",
+      "nypl:collectionAccessType": "special",
       "nypl:collectionType": "Research",
       "nypl:deliverableTo": {
         "@id": "nyplLocation:map"
@@ -47896,7 +47907,7 @@
       },
       "skos:altLabel": "Performing Arts Research Collections - Dance - Reference",
       "skos:notation": "pad11",
-      "skos:prefLabel": "Performing Arts Research Collections - Dance - Reference"
+      "skos:prefLabel": "The New York Public Library for the Performing Arts - Floor 3 - Research Collections (Shelf)"
     },
     {
       "@id": "nyplLocation:pad22",
@@ -48175,7 +48186,7 @@
       },
       "skos:altLabel": "Performing Arts Research Collections - Recorded Sound - Reference",
       "skos:notation": "pah11",
-      "skos:prefLabel": "Performing Arts Research Collections - Recorded Sound - Reference"
+      "skos:prefLabel": "The New York Public Library for the Performing Arts - Floor 3 - Research Collections (Shelf)"
     },
     {
       "@id": "nyplLocation:pah22",
@@ -48326,7 +48337,7 @@
       },
       "skos:altLabel": "Performing Arts Research Collections - Music - Reference",
       "skos:notation": "pam11",
-      "skos:prefLabel": "Performing Arts Research Collections - Music - Reference"
+      "skos:prefLabel": "The New York Public Library for the Performing Arts - Floor 3 - Research Collections (Shelf)"
     },
     {
       "@id": "nyplLocation:pam22",
@@ -48552,7 +48563,7 @@
       },
       "skos:altLabel": "Performing Arts Research Collections - Theatre - Reference",
       "skos:notation": "pat11",
-      "skos:prefLabel": "Performing Arts Research Collections - Theatre - Reference"
+      "skos:prefLabel": "The New York Public Library for the Performing Arts - Floor 3 - Research Collections (Shelf)"
     },
     {
       "@id": "nyplLocation:pat22",
@@ -57392,7 +57403,7 @@
       },
       "skos:altLabel": "Schomburg Center - Research & Reference - Open Shelf",
       "skos:notation": "scff1",
-      "skos:prefLabel": "Schomburg Center - Research & Reference - Open Shelf"
+      "skos:prefLabel": "Schomburg Center for Research in Black Culture - Research & Reference (Shelf)"
     },
     {
       "@id": "nyplLocation:scff2",
@@ -57443,7 +57454,7 @@
       },
       "skos:altLabel": "Schomburg Center - Research & Reference - Desk",
       "skos:notation": "scff3",
-      "skos:prefLabel": "Schomburg Center - Research & Reference - Desk"
+      "skos:prefLabel": "Schomburg Center for Research in Black Culture - Research & Reference (Desk)"
     },
     {
       "@id": "nyplLocation:sczzz",
