@@ -36656,7 +36656,6 @@
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mao"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "manuscripts-division",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1107"
@@ -37130,7 +37129,6 @@
       "nypl:deliverableTo": {
         "@id": "nyplLocation:maq"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "pforzheimer-collection-shelley-and-his-circle",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1102"
@@ -37187,7 +37185,6 @@
       "nypl:deliverableTo": {
         "@id": "nyplLocation:mar"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "rare-books-division",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1108"
@@ -48069,7 +48066,6 @@
       "nypl:deliverableTo": {
         "@id": "nyplLocation:par"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "theatre-film-and-tape-archive",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1120"
@@ -57073,7 +57069,6 @@
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "moving-image-and-recorded-sound-division",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1117"
@@ -57129,7 +57124,6 @@
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "art-and-artifacts-division",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1115"
@@ -57211,7 +57205,6 @@
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "manuscripts-archives-and-rare-books-division",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1116"
@@ -57293,7 +57286,6 @@
       "nypl:deliverableTo": {
         "@id": "nyplLocation:sc"
       },
-      "nypl:deliveryLocationType": "Research",
       "nypl:locationsSlug": "photographs-and-prints-division",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1118"
@@ -72811,9 +72803,6 @@
       "nypl:deliveryLocationType": "Research",
       "nypl:owner": {
         "@id": "http://data.nypl.org/orgs/1000"
-      },
-      "nypl:recapCustomerCode": {
-        "@id": "http://data.nypl.org/recapCustomerCodes/OS"
       },
       "nypl:requestable": {
         "@type": "XSD:boolean",
