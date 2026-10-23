@@ -1,5 +1,8 @@
 # CHANGELOG
 
+### v2.43
+- Update collection mapping to include own code
+
 ### v2.42
 - Updates some labels and collection access types in locations
 
