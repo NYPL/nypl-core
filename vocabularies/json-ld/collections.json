@@ -9,9 +9,14 @@
     {
       "@id": "nyplCollection:bur",
       "nypl:locationsPath": "locations/snfl/yoseloff-business",
-      "nyplLocation": {
-        "@id": "nyplLocation:bur51"
-      },
+      "nyplLocation": [
+        {
+          "@id": "nyplLocation:bur"
+        },
+        {
+          "@id": "nyplLocation:bur51"
+        }
+      ],
       "skos:notation": "bur",
       "skos:prefLabel": "Yoseloff Business Center"
     },
@@ -19,6 +24,9 @@
       "@id": "nyplCollection:mab",
       "nypl:locationsPath": "locations/schwarzman/wallach-division/art-architecture-collection",
       "nyplLocation": [
+        {
+          "@id": "nyplLocation:mab"
+        },
         {
           "@id": "nyplLocation:mab01"
         },
@@ -73,6 +81,9 @@
       "nypl:locationsPath": "locations/schwarzman/rare-books-division/arents-collection",
       "nyplLocation": [
         {
+          "@id": "nyplLocation:mab"
+        },
+        {
           "@id": "nyplLocation:mac82"
         },
         {
@@ -86,6 +97,9 @@
       "@id": "nyplCollection:mae",
       "nypl:locationsPath": "locations/schwarzman/berg-collection-english-and-american-literature",
       "nyplLocation": [
+        {
+          "@id": "nyplLocation:mae"
+        },
         {
           "@id": "nyplLocation:mae82"
         },
@@ -103,6 +117,9 @@
       "@id": "nyplCollection:maf",
       "nypl:locationsPath": "locations/schwarzman/jewish-division",
       "nyplLocation": [
+        {
+          "@id": "nyplLocation:maf"
+        },
         {
           "@id": "nyplLocation:maf32"
         },
@@ -145,6 +162,9 @@
       "nypl:locationsPath": "locations/schwarzman/milstein",
       "nyplLocation": [
         {
+          "@id": "nyplLocation:mag"
+        },
+        {
           "@id": "nyplLocation:mag82"
         },
         {
@@ -180,6 +200,9 @@
       "nypl:locationsPath": "locations/schwarzman/general-research-division/periodicals-room",
       "nyplLocation": [
         {
+          "@id": "nyplLocation:mak"
+        },
+        {
           "@id": "nyplLocation:mak32"
         },
         {
@@ -196,6 +219,9 @@
       "@id": "nyplCollection:mal",
       "nypl:locationsPath": "locations/schwarzman/general-research-division",
       "nyplLocation": [
+        {
+          "@id": "nyplLocation:mai"
+        },
         {
           "@id": "nyplLocation:mai32"
         },
@@ -283,6 +309,9 @@
       "nypl:locationsPath": "locations/schwarzman/manuscripts-division",
       "nyplLocation": [
         {
+          "@id": "nyplLocation:mai"
+        },
+        {
           "@id": "nyplLocation:mao82"
         },
         {
@@ -302,6 +331,9 @@
       "@id": "nyplCollection:map",
       "nypl:locationsPath": "locations/schwarzman/map-division",
       "nyplLocation": [
+        {
+          "@id": "nyplLocation:map"
+        },
         {
           "@id": "nyplLocation:map08"
         },
@@ -356,6 +388,9 @@
       "nypl:locationsPath": "locations/schwarzman/pforzheimer-collection-shelley-and-his-circle",
       "nyplLocation": [
         {
+          "@id": "nyplLocation:maq"
+        },
+        {
           "@id": "nyplLocation:maqq2"
         },
         {
@@ -369,6 +404,9 @@
       "@id": "nyplCollection:mar",
       "nypl:locationsPath": "locations/schwarzman/rare-books-division",
       "nyplLocation": [
+        {
+          "@id": "nyplLocation:mar"
+        },
         {
           "@id": "nyplLocation:mar82"
         },
@@ -392,6 +430,9 @@
       "@id": "nyplCollection:mas",
       "nypl:locationsPath": "locations/schwarzman/wallach-division/photography-collection",
       "nyplLocation": [
+        {
+          "@id": "nyplLocation:mas"
+        },
         {
           "@id": "nyplLocation:mas82"
         },
@@ -419,6 +460,9 @@
       "nypl:locationsPath": "locations/schwarzman/wallach-division/print-collection",
       "nyplLocation": [
         {
+          "@id": "nyplLocation:mau"
+        },
+        {
           "@id": "nyplLocation:mauu1"
         },
         {
@@ -432,6 +476,9 @@
       "@id": "nyplCollection:pad",
       "nypl:locationsPath": "locations/lpa/jerome-robbins-dance-division",
       "nyplLocation": [
+        {
+          "@id": "nyplLocation:pad"
+        },
         {
           "@id": "nyplLocation:pad11"
         },
@@ -468,6 +515,9 @@
       "nypl:locationsPath": "locations/lpa/theatre-film-and-tape-archive",
       "nyplLocation": [
         {
+          "@id": "nyplLocation:paf"
+        },
+        {
           "@id": "nyplLocation:paf28"
         },
         {
@@ -490,6 +540,9 @@
       "@id": "nyplCollection:pah",
       "nypl:locationsPath": "locations/lpa/rodgers-and-hammerstein-archives-recorded-sound",
       "nyplLocation": [
+        {
+          "@id": "nyplLocation:pah"
+        },
         {
           "@id": "nyplLocation:pah11"
         },
@@ -522,6 +575,9 @@
       "@id": "nyplCollection:pam",
       "nypl:locationsPath": "locations/lpa/music-division",
       "nyplLocation": [
+        {
+          "@id": "nyplLocation:pam"
+        },
         {
           "@id": "nyplLocation:pam11"
         },
@@ -557,6 +613,9 @@
       "@id": "nyplCollection:pat",
       "nypl:locationsPath": "locations/lpa/billy-rose-theatre-division",
       "nyplLocation": [
+        {
+          "@id": "nyplLocation:pat"
+        },
         {
           "@id": "nyplLocation:pat11"
         },
@@ -596,6 +655,9 @@
       "nypl:locationsPath": "about/locations/lpa/circulating-collections/reserve-film",
       "nyplLocation": [
         {
+          "@id": "nyplLocation:pav"
+        },
+        {
           "@id": "nyplLocation:pav22"
         },
         {
@@ -625,6 +687,9 @@
       "nypl:locationsPath": "locations/schomburg/moving-image-and-recorded-sound-division",
       "nyplLocation": [
         {
+          "@id": "nyplLocation:scb"
+        },
+        {
           "@id": "nyplLocation:scbb2"
         },
         {
@@ -645,6 +710,9 @@
       "nypl:locationsPath": "locations/schomburg/art-and-artifacts-division",
       "nyplLocation": [
         {
+          "@id": "nyplLocation:scc"
+        },
+        {
           "@id": "nyplLocation:sccc2"
         },
         {
@@ -661,6 +729,9 @@
       "@id": "nyplCollection:scd",
       "nypl:locationsPath": "locations/schomburg/manuscripts-archives-and-rare-books-division",
       "nyplLocation": [
+        {
+          "@id": "nyplLocation:scd"
+        },
         {
           "@id": "nyplLocation:scdd1"
         },
@@ -685,6 +756,9 @@
       "nypl:locationsPath": "locations/schomburg/photographs-and-prints-division",
       "nyplLocation": [
         {
+          "@id": "nyplLocation:sce"
+        },
+        {
           "@id": "nyplLocation:scedd"
         },
         {
@@ -707,6 +781,9 @@
       "@id": "nyplCollection:scf",
       "nypl:locationsPath": "locations/schomburg/jbh-research-and-reference-division",
       "nyplLocation": [
+        {
+          "@id": "nyplLocation:scf"
+        },
         {
           "@id": "nyplLocation:scff1"
         },
